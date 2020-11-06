@@ -267,7 +267,7 @@ h6 {
 
 /* line 180, src/sass/style.sass */
 h1.nj-hero-title {
-  font-size: 6rem;
+  font-size: 5.5rem;
   cursor: default;
 }
 
@@ -515,7 +515,8 @@ ul.nj-inline-list li {
   z-index: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../img/bg.png");
+  background-image: url("../img/SwitchedOnPop_AppleCoverArt.jpg");
+  opacity: 0.4;
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -874,6 +875,7 @@ body.nj-mobile-three-before #nj-mobile-menu .nj-mobile-menu-content .nj-mobile-m
 /* line 569, src/sass/style.sass */
 .nj-navbar {
   background-color: black;
+  z-index: 1;
 }
 
 /* line 571, src/sass/style.sass */
@@ -882,6 +884,11 @@ body.nj-mobile-three-before #nj-mobile-menu .nj-mobile-menu-content .nj-mobile-m
   line-height: 65px;
   color: white;
   font-weight: 900;
+  
+}
+
+.nj-navbar .nj-navbar-logo > img {
+  height: 60px;
 }
 
 /* line 576, src/sass/style.sass */
@@ -1062,7 +1069,7 @@ body.nj-mobile-three-before #nj-mobile-menu .nj-mobile-menu-content .nj-mobile-m
   align-content: stretch;
   align-items: center;
   background-color: #F3F3F3;
-  padding: 80px 40px 60px 40px;
+  padding: 40px;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.25);
   transition: all .3s ease;
 }
@@ -1077,6 +1084,9 @@ body.nj-mobile-three-before #nj-mobile-menu .nj-mobile-menu-content .nj-mobile-m
   order: 0;
   flex: 0 1 auto;
   align-self: auto;
+}
+.nj-simple-card-icon > img {
+  width: 290px;
 }
 
 /* line 700, src/sass/style.sass */
@@ -1501,6 +1511,8 @@ main {
 /* line 949, src/sass/style.sass */
 .nj-crew-slider-wrapper .nj-crew-slider .nj-crew-item .nj-crew-item-img-wrapper .nj-crew-item-socials > ul {
   padding-left: 0;
+  background-color: #000;
+  padding: 10px;
 }
 
 /* line 951, src/sass/style.sass */
@@ -1692,14 +1704,14 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  transform: translate3d(42%, -120%, 0);
+  transform: translate3d(70%, -120%, 0);
   max-width: 300px;
 }
 
 @media only screen and (max-width: 1240px) {
   /* line 1054, src/sass/style.sass */
   .nj-news-wrapper .nj-news-image-wrapper .nj-author-wrapper {
-    transform: translate3d(52%, -120%, 0);
+    transform: translate3d(70%, -120%, 0);
   }
 }
 
@@ -2511,3 +2523,16 @@ footer .container {
 }
 
 /*# sourceMappingURL=../../sass */
+
+.custom-button {
+  cursor: pointer; 
+            border: 1px solid #FFF; 
+            background-color: transparent; 
+            height: 60px; 
+            width: 300px; 
+            color: #FFF; 
+            font-size: 1.5em; 
+            font-weight: bold;
+            text-transform: uppercase;
+            box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); 
+}
