@@ -645,7 +645,7 @@ body.nj-mobile-three.nj-page-has-three #nj-three-block {
   top: 50%;
   right: 0;
   transform: rotate(-90deg) translateY(600%);
-  z-index: 5;
+  z-index: 500;
 }
 
 /* line 423, src/sass/style.sass */
@@ -667,7 +667,7 @@ body.nj-mobile-three.nj-page-has-three #nj-three-block {
   color: white !important;
   font-size: 1rem;
   position: relative;
-  z-index: 5;
+  z-index: 500;
 }
 
 /* line 437, src/sass/style.sass */
@@ -875,7 +875,7 @@ body.nj-mobile-three-before #nj-mobile-menu .nj-mobile-menu-content .nj-mobile-m
 /* line 569, src/sass/style.sass */
 .nj-navbar {
   background-color: black;
-  z-index: 1;
+  z-index: 100;
 }
 
 /* line 571, src/sass/style.sass */
