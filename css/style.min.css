@@ -1813,6 +1813,10 @@ footer .container {
   line-height: 65px;
   color: #fff;
   font-weight: 900;
+ 
+}
+.nj-footer .nj-footer-logo-wraper .nj-footer-logo > img {
+  height: 160px;
 }
 
 /* line 1118, src/sass/style.sass */
