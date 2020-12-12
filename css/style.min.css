@@ -1198,6 +1198,10 @@ main {
 /* */
 /* line 764, src/sass/style.sass */
 .section#nj-who-we-are {
+  background-color: black;
+}
+
+.section#nj-sponsors {
   background-color: transparent;
 }
 
@@ -1511,7 +1515,7 @@ main {
 /* line 949, src/sass/style.sass */
 .nj-crew-slider-wrapper .nj-crew-slider .nj-crew-item .nj-crew-item-img-wrapper .nj-crew-item-socials > ul {
   padding-left: 0;
-  background-color: #000;
+  background-color: transparent;
   padding: 10px;
 }
 
@@ -2539,4 +2543,8 @@ footer .container {
             font-weight: bold;
             text-transform: uppercase;
             box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); 
+}
+
+.sponsor-img {
+  width: 100%;
 }
