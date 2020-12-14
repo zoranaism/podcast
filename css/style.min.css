@@ -2555,6 +2555,10 @@ footer .container {
   width: 100%;
 }
 
+.socials-icons {
+  margin-bottom: 20px;
+}
+
 .socials-icons > ul {
   display: inline-block;
   margin: 0 10px 0 0;
