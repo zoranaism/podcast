@@ -670,6 +670,11 @@ body.nj-mobile-three.nj-page-has-three #nj-three-block {
   z-index: 500;
 }
 
+.social-img {
+  height: 50px;
+  width: 50px;
+}
+
 /* line 437, src/sass/style.sass */
 .nj-hero-social-buttons > ul > li > a:after {
   content: "";
@@ -1843,6 +1848,7 @@ footer .container {
 .nj-footer .nj-footer-socials-wrapper .nj-footer-socials > ul {
   text-align: center;
   margin-top: 30px;
+  padding: 0;
 }
 
 /* line 1132, src/sass/style.sass */
@@ -2547,4 +2553,28 @@ footer .container {
 
 .sponsor-img {
   width: 100%;
+}
+
+.socials-icons > ul {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  list-style: none;
+}
+
+.socials-icons > ul > li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.socials-icons > ul > li:first-child {
+  padding: 0 15px 0 0;
+}
+
+.discort-icon img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.discort-icon a {
+  display: inline-block !important;
 }
