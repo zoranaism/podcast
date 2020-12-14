@@ -893,7 +893,7 @@ body.nj-mobile-three-before #nj-mobile-menu .nj-mobile-menu-content .nj-mobile-m
 }
 
 .nj-navbar .nj-navbar-logo > img {
-  height: 60px;
+  height: 75px;
 }
 
 /* line 576, src/sass/style.sass */
@@ -1826,6 +1826,11 @@ footer .container {
 }
 .nj-footer .nj-footer-logo-wraper .nj-footer-logo > img {
   height: 160px;
+  }
+
+.nj-footer-logo-text img {
+  width: 100%;
+  margin-top: 30px;
 }
 
 /* line 1118, src/sass/style.sass */
@@ -2581,4 +2586,10 @@ footer .container {
 
 .discort-icon a {
   display: inline-block !important;
+}
+
+img#logo-text  {
+  max-width: 220px;
+  height: auto;
+  margin-left: 20px;
 }
