@@ -1090,8 +1090,10 @@ body.nj-mobile-three-before #nj-mobile-menu .nj-mobile-menu-content .nj-mobile-m
   flex: 0 1 auto;
   align-self: auto;
 }
-.nj-simple-card-icon > img {
-  width: 290px;
+.nj-simple-card-icon > i {
+  width: 100%;
+  font-size: 50px;
+  color: black;
 }
 
 /* line 700, src/sass/style.sass */
@@ -2592,4 +2594,11 @@ img#logo-text  {
   max-width: 220px;
   height: auto;
   margin-left: 20px;
+}
+
+h4.vision-header {
+  color: black;
+  text-decoration: uppercase;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
 }
