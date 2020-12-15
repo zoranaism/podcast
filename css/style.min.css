@@ -1824,15 +1824,15 @@ footer .container {
   line-height: 65px;
   color: #fff;
   font-weight: 900;
- 
 }
-.nj-footer .nj-footer-logo-wraper .nj-footer-logo > img {
-  height: 160px;
-  }
+img.nj-footer-logo {
+  width: 125px;
+}
 
-.nj-footer-logo-text img {
-  width: 100%;
-  margin-top: 30px;
+img.nj-footer-logo-text {
+  width: 400px;
+  height: fit-content;
+  margin-left: 15px;
 }
 
 /* line 1118, src/sass/style.sass */
@@ -1842,6 +1842,7 @@ footer .container {
   max-width: 260px;
   min-width: 45px;
   font-size: 1.25rem;
+  text-align: left;
 }
 
 /* line 1124, src/sass/style.sass */
@@ -2601,4 +2602,10 @@ h4.vision-header {
   text-decoration: uppercase;
   text-align: center;
   font-family: 'Roboto Mono', monospace;
+}
+
+.footer-logo-section {
+  display: flex;
+  width: 100%;
+  align-items: center;
 }

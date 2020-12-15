@@ -35,12 +35,12 @@
         <div class="nj-navbar-flex-wrapper">
           <div class="nj-navbar-flex-item">
             <div class="navbar-brand"><a class="navbar-item nj-navbar-logo-wrapper" href="index.html">
-                <div class="nj-navbar-logo"><img src="img/logo-hex.png"/><img id="logo-text" src="img/logo-text.png" alt="logo" /></div></a></div>
+                <div class="nj-navbar-logo" ><img src="img/logo-hex.png"/><img id="logo-text" src="img/logo-text.png" alt="logo" /></div></a></div>
           </div>
           <div class="nj-navbar-flex-item">
             <div class="navbar-menu" id="nj-navbar_basic">
               <div class="navbar-start">
-                <a class="navbar-item" href="#nj-hero" data-cursor-effect="hover">home</a>
+                <a class="navbar-item" href="index.html" data-cursor-effect="hover">home</a>
                 <a class="navbar-item" href="episode-1.html" data-cursor-effect="hover">episodes</a>
                 <!-- <a class="navbar-item" href="blog-catalog.html" data-cursor-effect="hover">blog</a></div> -->
               </div>
@@ -84,16 +84,16 @@
             </div>
             <div class="row socials-icons">
               <ul>
-                <li data-anim-queue="4" data-anim-type="fade_in_up"><a target="_blank" href="#" data-cursor-effect="hover"><img class="social-img" src="img/Spotify.png" alt="spotify" /></a></li>
-                <!-- <li data-anim-queue="4" data-anim-type="fade_in_up"><a href="#" data-cursor-effect="hover">overcast</a></li> -->
-                <!-- <li data-anim-queue="3" data-anim-type="fade_in_up"><a href="#" data-cursor-effect="hover">apple podcasts</a></li> -->
-                <li data-anim-queue="1" data-anim-type="fade_in_up">
+                <li data-anim-queue="1" data-anim-type="fade_in_up"><a target="_blank" href="#" data-cursor-effect="hover"><img class="social-img" src="img/Spotify.png" alt="spotify" /></a></li>
+                <li data-anim-queue="2" data-anim-type="fade_in_up">
                   <a target="_blank" href="https://www.facebook.com/Stellar-Sound-Podcast-119521773289334" data-cursor-effect="hover"><img class="social-img" src="img/fb.png" alt="facebook" /></a>
                 </li>
-                <li data-anim-queue="2" data-anim-type="fade_in_up">
+                <li data-anim-queue="3" data-anim-type="fade_in_up">
                   <a target="_blank" href="https://www.instagram.com/stellarsoundpodcast/" data-cursor-effect="hover"><img class="social-img" src="img/insta.png" alt="instagram" /></a>
                 </li>
-                <!-- <li data-anim-queue="4" data-anim-type="fade_in_up"><a href="#" data-cursor-effect="hover">youtube</a></li> -->
+                <li data-anim-queue="4" data-anim-type="fade_in_up">
+                  <a target="_blank" href="#" data-cursor-effect="hover"><img class="social-img" src="img/youtube.png" alt="YouTube" /></a>
+                </li>
               </ul>
             </div>
           </div>
@@ -129,7 +129,7 @@
             <div class="nj-news-wrapper">
               <div class="row">
                 <div class="col-lg-6" data-anim-queue="1" data-anim-type="fade_in_up">
-                  <div class="nj-news-image-wrapper"><img src="img/JustLeo.png" data-cursor-effect="blend" alt="Blog post image">
+                  <div class="nj-news-image-wrapper"><img src="img/JustLeo.png" data-cursor-effect="blend" alt="Episode 1:JustLeo">
                     <div class="nj-month-wrapper"><span class="nj-month">january</span></div>
                     <div class="nj-date-wrapper"><span class="nj-date">10</span></div>
                     <div class="nj-author-wrapper"><span class="nj-author"><b>Leo,</b>&nbsp;from Just Leo</span></div>
@@ -141,7 +141,7 @@
                       <h3 class="nj-news-header">Episode 1</h3>
                       <p class="nj-news-body-text">Some text here.</p>
                     </div>
-                    <div class="nj-read-more-button-wrapper"><a class="nj-button nj-button-black" href="episode-1.html" data-cursor-effect="hover">CHECK IT OUT NOW</a></div>
+                    <div class="nj-read-more-button-wrapper"><a class="nj-button nj-button-black" href="episode-1.html" data-cursor-effect="exclusion">CHECK IT OUT NOW</a></div>
                   </div>
                 </div>
               </div>
@@ -406,9 +406,11 @@
         </div>
         <div class="row">
           <div class="col-12 col-lg-3">
-            <a target="_blank" href="https://www.faegames.com/" data-cursor-effect="hover">
-              <img class="sponsor-img" src="img/fae-games.jpg" alt="FAE Games"/>
-            </a>
+            <div data-anim-queue="1" data-anim-type="fade_in_up">
+              <a  target="_blank" href="https://www.faegames.com/" data-cursor-effect="hover">
+                <img class="sponsor-img" src="img/fae-games.jpg" alt="FAE Games"/>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -419,7 +421,17 @@
     <footer class="footer nj-footer nj-animated-section" id="nj-contact" data-scroll-to-top-style="light">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-4">
+
+          <div class="col-12 col-lg-8">
+              <div class="footer-logo-section">
+                <a href="index.html" data-cursor-effect="hover">
+                  <img class="nj-footer-logo" src="img/logo-hex.png" alt="logo" />
+                  <img class="nj-footer-logo-text" src="img/logo-text.png" alt="logo" />
+                </a>
+              </div>
+          </div>
+
+          <div class="col-12 col-lg-4 text-center">
             <div class="nj-footer-contacts-wrapper">
               <div class="nj-footer-contacts">
                 <table>
@@ -438,19 +450,7 @@
                 </table>
               </div>
             </div>
-            
           </div>
-          <div class="col-12 col-lg-4 text-center">
-            <div class="nj-footer-logo-wraper">
-              <div class="nj-footer-logo"><img src="img/logo-hex.png"/></div>
-              <div class="nj-footer-logo-text"><img src="img/logo-text.png" alt="logo" /></div>
-            </div>
-          </div>
-          
-          <div class="col-12 col-lg-4">
-            
-          </div>
-          
 
         </div>
             
@@ -458,16 +458,19 @@
         <div class="nj-footer-socials-wrapper">
           <div class="nj-footer-socials">
             <ul>
-              <li data-anim-queue="4" data-anim-type="fade_in_up"><a target="_blank" href="#" data-cursor-effect="hover"><img class="social-img" src="img/Spotify.png" alt="spotify" /></a></li>
-              <!-- <li data-anim-queue="4" data-anim-type="fade_in_up"><a href="#" data-cursor-effect="hover">overcast</a></li> -->
-              <!-- <li data-anim-queue="3" data-anim-type="fade_in_up"><a href="#" data-cursor-effect="hover">apple podcasts</a></li> -->
-              <li data-anim-queue="1" data-anim-type="fade_in_up">
+              <li data-anim-queue="1" data-anim-type="fade_in_up"><a target="_blank" href="#" data-cursor-effect="hover"><img class="social-img" src="img/Spotify.png" alt="spotify" /></a></li>
+              <li data-anim-queue="2" data-anim-type="fade_in_up">
                 <a target="_blank" href="https://www.facebook.com/Stellar-Sound-Podcast-119521773289334" data-cursor-effect="hover"><img class="social-img" src="img/fb.png" alt="facebook" /></a>
               </li>
-              <li data-anim-queue="2" data-anim-type="fade_in_up">
+              <li data-anim-queue="3" data-anim-type="fade_in_up">
                 <a target="_blank" href="https://www.instagram.com/stellarsoundpodcast/" data-cursor-effect="hover"><img class="social-img" src="img/insta.png" alt="instagram" /></a>
               </li>
-              <!-- <li data-anim-queue="4" data-anim-type="fade_in_up"><a href="#" data-cursor-effect="hover">youtube</a></li> -->
+              <li data-anim-queue="4" data-anim-type="fade_in_up">
+                <a target="_blank" href="#" data-cursor-effect="hover"><img class="social-img" src="img/discord.png" alt="Discort" /></a>
+              </li>
+              <li data-anim-queue="5" data-anim-type="fade_in_up">
+                <a target="_blank" href="#" data-cursor-effect="hover"><img class="social-img" src="img/youtube.png" alt="YouTube" /></a>
+              </li>
             </ul>
           </div>
         </div>
