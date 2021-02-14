@@ -1834,10 +1834,11 @@ img.nj-footer-logo {
   width: 125px;
 }
 
-img.nj-footer-logo-text {
-  width: 400px;
-  height: fit-content;
+.nj-footer-logo-text {
+  font-size: 35px;
   margin-left: 15px;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
 }
 
 /* line 1118, src/sass/style.sass */
@@ -2596,10 +2597,10 @@ img.nj-footer-logo-text {
   display: inline-block !important;
 }
 
-img#logo-text  {
-  max-width: 220px;
-  height: auto;
+span#logo-text  {
   margin-left: 20px;
+  font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
 }
 
 h4.vision-header {
