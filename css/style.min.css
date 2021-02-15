@@ -2614,3 +2614,26 @@ h4.vision-header {
   width: 100%;
   align-items: center;
 }
+
+.socials-icons > ul {
+  padding-left: 10px;
+}
+.nj-footer-contacts {
+  overflow-wrap: anywhere;
+}
+.footer-logo-section {
+  margin-bottom: 20px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 0) and (max-device-width : 480px) {
+    #logo-text, #logo-text-footer {
+      display: none;
+    }
+    .nj-footer-socials > ul > li {
+      margin: 0 !important;
+    }
+    .socials-icons > ui > li {
+      padding: 0 !important;
+    }
+  }
