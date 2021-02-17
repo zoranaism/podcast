@@ -889,7 +889,6 @@ body.nj-mobile-three-before #nj-mobile-menu .nj-mobile-menu-content .nj-mobile-m
   line-height: 65px;
   color: white;
   font-weight: 900;
-  
 }
 
 .nj-navbar .nj-navbar-logo > img {
@@ -1838,7 +1837,8 @@ img.nj-footer-logo {
   font-size: 35px;
   margin-left: 15px;
   color: white;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Inconsolata', monospace;
+  text-transform: capitalize;
 }
 
 /* line 1118, src/sass/style.sass */
@@ -2599,8 +2599,12 @@ img.nj-footer-logo {
 
 span#logo-text  {
   margin-left: 20px;
-  font-size: 20px;
-  font-family: 'Roboto Mono', monospace;
+  margin-bottom: 10px;
+  font-size: 21px;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 100;
+  text-transform: capitalize;
+  justify-content: center;
 }
 
 h4.vision-header {
@@ -2614,4 +2618,8 @@ h4.vision-header {
   display: flex;
   width: 100%;
   align-items: center;
+}
+
+span#logo-text{
+  margin-bottom: 100px;
 }
