@@ -515,9 +515,9 @@ ul.nj-inline-list li {
   z-index: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../img/background3.jpg");
+  background-image: url("../img/background5.png");
   opacity: 0.4;
-  background-position: bottom right;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
