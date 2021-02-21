@@ -51,6 +51,9 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: white;
 }
+*{
+  box-sizing: border-box;
+}
 
 /* */
 /* ---------------------------
@@ -289,6 +292,14 @@ h2.nj-section-header-title {
   text-transform: lowercase;
   font-size: 3rem;
   text-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 80px;
+}
+.nj-section-header-crew{
+  font-weight: 900;
+  text-transform: lowercase;
+  font-size: 4rem;
+  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 100px;
 }
 
 @media (min-width: 992px) {
@@ -889,7 +900,6 @@ body.nj-mobile-three-before #nj-mobile-menu .nj-mobile-menu-content .nj-mobile-m
   line-height: 65px;
   color: white;
   font-weight: 900;
-  
 }
 
 .nj-navbar .nj-navbar-logo > img {
@@ -1838,6 +1848,9 @@ img.nj-footer-logo-text {
   width: 400px;
   height: fit-content;
   margin-left: 15px;
+  color: white;
+  font-family: 'Inconsolata', monospace;
+  text-transform: capitalize;
 }
 
 /* line 1118, src/sass/style.sass */
@@ -2600,6 +2613,11 @@ img#logo-text  {
   max-width: 220px;
   height: auto;
   margin-left: 20px;
+  margin-bottom: 10px;
+  font-size: 21px;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 100;
+  text-transform: capitalize;
 }
 
 h4.vision-header {
@@ -2637,3 +2655,77 @@ h4.vision-header {
       padding: 0 !important;
     }
   }
+span#logo-text{
+  margin-bottom: 100px;
+}
+section .nj-dark-section .nj-animated-section .container{
+  margin: auto;
+}
+.card-text{
+  color: #fff;
+  font-weight: bold;
+  text-align: left;
+}
+.card-description{
+  font-size: medium;
+  margin-top: -15px;
+  text-align: left;
+}
+.card-body{
+  background: #000;
+}
+.card{
+  border-style: none;
+  margin-top: 25px;
+}
+.card .img-box{
+  opacity: 1;
+  display: block;
+  position: relative;
+}
+.img-box::after{
+  content: '';
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.img-box ul{
+  margin: 0;
+  padding: 20px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  list-style-type: none;
+}
+img-box ul li{
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  color: #FFF;
+  border-radius: 50%;
+  margin: 0 20px;
+  display: inline-block;
+}
+.img-box:hover::after{
+  opacity: 1;
+}
+.img-box:hover ul{
+  opacity: 1;
+}
+.fab{
+  margin: 0 15px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+}
