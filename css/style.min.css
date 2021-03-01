@@ -1139,8 +1139,8 @@ main {
 
 /* line 718, src/sass/style.sass */
 .section:not(.nj-hero) {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 25px;
+  padding-bottom: 50px;
 }
 
 /* line 721, src/sass/style.sass */
@@ -2685,7 +2685,6 @@ img-box ul li{
   width: 50px;
   height: 50px;
   border: 1px solid #fff;
-  color: #FFF;
   border-radius: 50%;
   margin: 0 20px;
   display: inline-block;
