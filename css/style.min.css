@@ -1142,8 +1142,6 @@ main {
 
 /* line 718, src/sass/style.sass */
 .section:not(.nj-hero) {
-  padding-top: 25px;
-  padding-bottom: 50px;
   padding-top: 40px;
   padding-bottom: 120px;
 }
@@ -2812,5 +2810,5 @@ ul.nj-mobile-menu-socials {
 }
 .parallax {
   background: transparent;
-  background-image: ;
+  background-image: url("../img/Background.png");
 }
