@@ -2775,6 +2775,16 @@ img#logo-text-footer {
   text-transform: uppercase;
   font-weight: 600;
 }
+.blue-button {
+  padding: 11px 40px;
+  background-color: #077d90;
+  color: white;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 20px;
+  
+}
 .episodes-link:hover, .episodes-link:active {
   color: white;
 }
@@ -2809,5 +2819,5 @@ ul.nj-mobile-menu-socials {
 }
 .parallax {
   background: transparent;
-  background-image: ;
+  background-image: 
 }
