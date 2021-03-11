@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="zxx">
 
 <head>
@@ -21,106 +20,112 @@
 
 </head>
 
-<body>
+<body style="overflow: hidden;">
+  <div id="nj-responsive-indicator"></div>
   <!-- Preloader-->
   <div id="nj-preloader-wrapper">
     <div class="nj-preloader-inner">
-      <div class="nj-preloader-percentage">0</div>
+        <div class="nj-preloader-percentage">0</div>
     </div>
-  </div>
+</div>
   <!-- End preloader-->
   <!-- Custom cursor-->
-  <div id="nj-cursor-follower"></div>
+  <div id="nj-cursor-follower" style="transform: translate(-50%, -50%) scale(1); top: 224px; left: 1230px; opacity: 0;">
+  </div>
   <!-- Tropical composition-->
   <div id="nj-tropical-image"></div>
 
-   <!-- Navbar-->
-    <nav class="navbar nj-navbar fixed-top" aria-label="main navigation">
-      <div class="container">
-        <div class="nj-navbar-flex-wrapper">
-          <div class="nj-navbar-flex-item">
-            <div class="navbar-brand">
-              <a class="navbar-item nj-navbar-logo-wrapper" href="index.html">
-                <div class="nj-navbar-logo" >
-                  <img src="img/Stellar_Logo_Transparent.png"/>
-                  <!-- <img id="logo-text" src="img/Font Name Light Gray.png" alt="logo" /> -->
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="nj-navbar-flex-item">
-            <div class="navbar-menu" id="nj-navbar_basic">
-              <div class="navbar-start">
-                <a class="navbar-item" href="index.html" data-cursor-effect="hover">home</a>
-                <!-- <a class="navbar-item" href="episode-1.html" data-cursor-effect="hover">episodes</a> -->
-                <a class="navbar-item" href="about.html" data-cursor-effect="hover">about</a>
+  <!-- Navbar-->
+  <nav class="navbar nj-navbar fixed-top" aria-label="main navigation">
+    <div class="container">
+      <div class="nj-navbar-flex-wrapper">
+        <div class="nj-navbar-flex-item">
+          <div class="navbar-brand">
+            <a class="navbar-item nj-navbar-logo-wrapper" href="index.html">
+              <div class="nj-navbar-logo">
+                <img src="img/Stellar_Logo_Transparent.png">
+                <!-- <img id="logo-text" src="img/Font Name Light Gray.png" alt="logo" /> -->
               </div>
-             
-            </div>
-            <div class="nj-show-menu-button" id="nj-show-menu-button">
-              <div class="nj-lines"></div>
-            </div>
+            </a>
           </div>
-          <div class="nj-navbar-flex-item justify-content-end">
-            <div class="navbar-menu justify-content-end align-items-center" id="nj-navbar_socials">
-              <div class="socials-navigation justify-content-end align-items-center">
-                <a target="_blank" class="socials-link" href="https://www.instagram.com/stellarsoundpodcast/" data-cursor-effect="hover">
-                  <i class="fab fa-instagram"></i></a>
-                <a target="_blank" class="socials-link" href="https://www.facebook.com/Stellar-Sound-Podcast-119521773289334" data-cursor-effect="hover">
-                  <i class="fab fa-facebook"></i></a>
-                <a target="_blank" class="socials-link" href="www.linkedin.com/in/stellar-sound-podcast" data-cursor-effect="hover">
-                  <i class="fab fa-linkedin"></i></a>
-                <!-- <a class="" href="https://discord.gg/9qE3FhVw" data-cursor-effect="hover"><i class="fab fa-discord"></i></a> -->
-                <a target="_blank" class="socials-link" href="https://twitter.com/SoundStellar" data-cursor-effect="hover">
-                  <i class="fab fa-twitter"></i></a>
-                <a class="episodes-link" href="episode-1.html" data-cursor-effect="exclusion">Episodes</a>
-              </div>
-              </div>
-          </div>
-          <div class="nj-navbar-flex-item"></div>
         </div>
+        <div class="nj-navbar-flex-item">
+          <div class="navbar-menu" id="nj-navbar_basic">
+            <div class="navbar-start">
+              <a class="navbar-item" href="index.html" data-cursor-effect="hover">home</a>
+              <!-- <a class="navbar-item" href="episode-1.html" data-cursor-effect="hover">episodes</a> -->
+              <a class="navbar-item" href="about.html" data-cursor-effect="hover">about</a>
+            </div>
+
+          </div>
+          <div class="nj-show-menu-button" id="nj-show-menu-button">
+            <div class="nj-lines"></div>
+          </div>
+        </div>
+        <div class="nj-navbar-flex-item justify-content-end">
+          <div class="navbar-menu justify-content-end align-items-center" id="nj-navbar_socials">
+            <div class="socials-navigation justify-content-end align-items-center">
+              <a target="_blank" class="socials-link" href="https://www.instagram.com/stellarsoundpodcast/"
+                data-cursor-effect="hover">
+                <i class="fab fa-instagram"></i></a>
+              <a target="_blank" class="socials-link"
+                href="https://www.facebook.com/Stellar-Sound-Podcast-119521773289334" data-cursor-effect="hover">
+                <i class="fab fa-facebook"></i></a>
+              <a target="_blank" class="socials-link" href="www.linkedin.com/in/stellar-sound-podcast"
+                data-cursor-effect="hover">
+                <i class="fab fa-linkedin"></i></a>
+              <!-- <a class="" href="https://discord.gg/9qE3FhVw" data-cursor-effect="hover"><i class="fab fa-discord"></i></a> -->
+              <a target="_blank" class="socials-link" href="https://twitter.com/SoundStellar"
+                data-cursor-effect="hover">
+                <i class="fab fa-twitter"></i></a>
+              <a class="episodes-link" href="episodes.html" data-cursor-effect="exclusion">Episodes</a>
+            </div>
+          </div>
+        </div>
+        <div class="nj-navbar-flex-item"></div>
       </div>
-    </nav>
-    <div id="nj-mobile-menu">
-      <div class="nj-mobile-menu-content">
-        <div class="nj-mobile-menu-item-wrapper">
-          <a class="nj-mobile-menu-item is-active" href="/#nj-hero">home</a>
-          <!-- <a class="nj-mobile-menu-item" href="episode-1.html">episodes</a> -->
-          <a class="nj-mobile-menu-item" href="about.html">about</a>
-        </div>
-         <ul class="nj-mobile-menu-socials">
-              <li data-anim-queue="1" data-anim-type="fade_in_up">
-                <a target="_blank"  href="" data-cursor-effect="hover">
-                  <i class="fab fa-instagram"></i>
-                </a>
-              </li>
-              <li data-anim-queue="2" data-anim-type="fade_in_up">
-                <a target="_blank"  href="" data-cursor-effect="hover">
-                  <i class="fab fa-facebook"></i>
-                </a>
-              </li>
-              <li data-anim-queue="3" data-anim-type="fade_in_up">
-                <a target="_blank"  href="www.linkedin.com/in/stellar-sound-podcast" data-cursor-effect="hover">
-                  <i class="fab fa-linkedin"></i>
-                </a>
-              </li>
-              <!-- <li data-anim-queue="4" data-anim-type="fade_in_up">
+    </div>
+  </nav>
+  <div id="nj-mobile-menu">
+    <div class="nj-mobile-menu-content">
+      <div class="nj-mobile-menu-item-wrapper">
+        <a class="nj-mobile-menu-item is-active" href="/#nj-hero">home</a>
+        <!-- <a class="nj-mobile-menu-item" href="episode-1.html">episodes</a> -->
+        <a class="nj-mobile-menu-item" href="about.html">about</a>
+      </div>
+      <ul class="nj-mobile-menu-socials">
+        <li data-anim-queue="1" data-anim-type="fade_in_up">
+          <a target="_blank" href="" data-cursor-effect="hover">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li data-anim-queue="2" data-anim-type="fade_in_up">
+          <a target="_blank" href="" data-cursor-effect="hover">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li data-anim-queue="3" data-anim-type="fade_in_up">
+          <a target="_blank" href="www.linkedin.com/in/stellar-sound-podcast" data-cursor-effect="hover">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <!-- <li data-anim-queue="4" data-anim-type="fade_in_up">
                 <a target="_blank"  href="" data-cursor-effect="hover">
                   <img class="social-img" src="img/discord.png" alt="Discort" />
                 </a>
               </li> -->
-              <li data-anim-queue="4" data-anim-type="fade_in_up">
-                <a target="_blank"  href="" data-cursor-effect="hover">
-                   <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li data-anim-queue="5" data-anim-type="fade_in_up">
-                <a class="episodes-link" href="episode-1.html" data-cursor-effect="exclusion">Episodes</a>
-              </li>
-            </ul>
-      </div>
+        <li data-anim-queue="4" data-anim-type="fade_in_up">
+          <a target="_blank" href="" data-cursor-effect="hover">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li data-anim-queue="5" data-anim-type="fade_in_up">
+          <a class="episodes-link" href="episodes.html" data-cursor-effect="exclusion">Episodes</a>
+        </li>
+      </ul>
     </div>
-    <!-- End Navbar-->
+  </div>
+  <!-- End Navbar-->
 
 
   <!-- "Who we are" section-->
@@ -129,18 +134,34 @@
       <div class="nj-section-header">
         <h2 class="nj-section-header-title">who we are</h2>
       </div>
+      <div class="row mb-5">
+        <div class="col-12">
+          <h3 class="mb-3">What Is Stellar Sound Podcast?</h3>
+          <p class="nj-section-content">
+            The Stellar Sound Podcast is a podcast in English hosting guests from the European music industry.
+          </p>
+          <p class="nj-section-content">
+            The Stellar Sound Podcast brings you inspiration by interviewing the most creative, innovative, unique,
+            eccentric, and ground-breaking musicians.
+          </p>
+          <p class="nj-section-content">
+            This is a never-stop-growing universe that encourages today's scene disruptors to grant their unique voice
+            and enrich the music industry.
+          </p>
+        </div>
+      </div>
       <div class="row">
-        <div class="col-12 col-md-8">
+        <div class="col-12">
+          <h3 class="mb-3">Vision</h3>
           <p class="nj-section-content">
-            Stellar Sound Podcast is a podcast in English, connecting you to musicians, artists and other creatives,
-            dedicated to inspire you.
+            Our vision is a world that understands and appreciates true musicianship, innovation and diversity.
           </p>
           <p class="nj-section-content">
-            We are an international group of music enthusiasts ourselves, with a mission to challenge each other and
-            solve obstacles for creatives through our discussions and research... while having fun!
+            True creativity comes from authenticity and a time-perfected craft. With modern technology and
+            accessibility, there is no better time to be a music artist.
           </p>
           <p class="nj-section-content">
-            Based all over the globe; recording in the Netherlands.
+            Our final aim is uncovering special gems and making them accessible to anyone, no matter who you are.
           </p>
         </div>
       </div>
@@ -148,7 +169,8 @@
   </div>
   <!-- End "who we are" section-->
   <!-- "What we do" section-->
-  <div class="section nj-dark-section nj-animated-section" id="nj-what-we-do" data-scroll-to-top-style="dark">
+  <div class="section nj-dark-section nj-animated-section nj_animated" id="nj-what-we-do"
+    data-scroll-to-top-style="dark">
     <div class="container">
       <div class="nj-section-header">
         <h2 class="nj-section-header-title">what we do</h2>
@@ -161,18 +183,20 @@
           <div class="row" data-cursor-style="dark">
             <!-- Card-->
             <div class="col-12 col-lg-4">
-              <div class="nj-simple-card-wrapper" data-anim-queue="1" data-anim-type="fade_in_up">
+              <div class="nj-simple-card-wrapper nj_animated fade_in_up" data-anim-queue="1" data-anim-type="fade_in_up"
+                style="opacity: 0;">
                 <div class="nj-simple-card">
                   <div class="nj-simple-card-icon-wrapper">
                     <div class="nj-simple-card-icon">
-                      <img src="img/serious.png" alt="Serious" />
+                      <img src="img/serious.png" alt="Serious">
                     </div>
                   </div>
                   <div class="nj-simple-card-text-wrapper">
-                    <h4 class="vision-header">The Serious Stuff</h4>
-                    <p class="nj-simple-card-text">We poke and delve deeper into the artists’ journeys and their
-                      creations. At times we may get very personal and showcase just how many roadblocks our guests have
-                      had to overcome in pursuit of their realization.</p>
+                    <h4 class="vision-header">Promote</h4>
+                    <p class="nj-simple-card-text">It seems like today’s music industry’s focus is strictly on the
+                      mainstream. We are aware of the fact that there are many unknown artists and musicians out there
+                      that should be heard of. That’s why our goal is to put a spotlight on them and make sure they
+                      reach as large an audience as possible.</p>
                   </div>
                 </div>
               </div>
@@ -180,17 +204,19 @@
             <!-- End card-->
             <!-- Card-->
             <div class="col-12 col-lg-4">
-              <div class="nj-simple-card-wrapper" data-anim-queue="2" data-anim-type="fade_in_up">
+              <div class="nj-simple-card-wrapper nj_animated fade_in_up" data-anim-queue="2" data-anim-type="fade_in_up"
+                style="opacity: 0;">
                 <div class="nj-simple-card">
                   <div class="nj-simple-card-icon-wrapper">
                     <div class="nj-simple-card-icon">
-                      <img src="img/silly.png" alt="Silly" />
+                      <img src="img/silly.png" alt="Silly">
                     </div>
                   </div>
                   <div class="nj-simple-card-text-wrapper">
-                    <h4 class="vision-header">The Silly Stuff</h4>
-                    <p class="nj-simple-card-text">all the while we exchange witty insights (if lucky :)), create
-                      spontaneous bloopers and make something out of tiny failures along the way.</p>
+                    <h4 class="vision-header">Educate</h4>
+                    <p class="nj-simple-card-text">Every single artist we introduce in the podcast has a story to tell.
+                      We find it important that the audience has the opportunity to acquire new knowledge and broaden
+                      their horizons with every interview released.</p>
                   </div>
                 </div>
               </div>
@@ -198,18 +224,20 @@
             <!-- End card-->
             <!-- Card-->
             <div class="col-12 col-lg-4">
-              <div class="nj-simple-card-wrapper" data-anim-queue="3" data-anim-type="fade_in_up">
+              <div class="nj-simple-card-wrapper nj_animated fade_in_up" data-anim-queue="3" data-anim-type="fade_in_up"
+                style="opacity: 0;">
                 <div class="nj-simple-card">
                   <div class="nj-simple-card-icon-wrapper">
                     <div class="nj-simple-card-icon">
-                      <img src="img/shinny.png" alt="Shinny" />
+                      <img src="img/shinny.png" alt="Shinny">
                     </div>
                   </div>
                   <div class="nj-simple-card-text-wrapper">
-                    <h4 class="vision-header">The Shiny Stuff</h4>
-                    <p class="nj-simple-card-text">We are here to give our guests a humble share of the spotlight. Or
-                      the pod-light. Whatever a podcast-attention is called these days! We believe that art is worthy of
-                      more shares, and worthy of more heartbeats. <3< /p>
+                    <h4 class="vision-header">Entertain</h4>
+                    <p class="nj-simple-card-text">Our interviews are not just a bunch of serious story-telling moments.
+                      What’s more, you’ll have a lot of fun hearing witty remarks and comments, as well as spontaneous
+                      bloopers and jokes within different topics.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -228,66 +256,72 @@
         <h2 class="nj-section-header-title">stellar team</h2>
       </div>
     </div>
-    
+
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-4" data-anim-queue="1" data-anim-type="fade_in_up">
+        <div class="col-12">
+          <p class="nj-section-content">
+            The magic we find in other people's originality is the spark that is driving our team.
+          </p>
+          <p class="nj-section-content">
+            We are a group of musicians and music enthusiasts with a strong mission, having fun in the process.
+          </p>
+          <p class="nj-section-content">
+            We are based in Den Bosch, Utrecht, Niš, San Juan, Amsterdam, and Belgrade; working from home, connected by
+            a universal mind.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row first">
+        <div class="col-12 col-lg-3 col-md-6" data-anim-queue="3" data-anim-type="fade_in_up">
           <div class="card" style="width: 18rem;">
             <div class="img-box">
-            <img class="card-img-top" src="img/Zorana.jpg" alt="Zorana">
-            <ul>
-              <li>
+              <img class="card-img-top" src="img/Zorana.jpg" alt="Zorana">
+              <ul>
                 <a target="_blank" href="http://instagram.com/zoranaism/" data-cursor-effect="hover">
-                  <i class="fab fa-instagram"></i>
+                  <li><i class="fab fa-instagram"></i></li>
                 </a>
-              </li>
-              <li>
-                <a target="_blank" href="https://www.youtube.com/channel/UCYsdN8EO29Ft-y8mpvBX0TA" data-cursor-effect="hover">
-                  <i class="fab fa-youtube"></i>
+                <a target="_blank" href="https://www.youtube.com/channel/UCYsdN8EO29Ft-y8mpvBX0TA"
+                  data-cursor-effect="hover">
+                  <li><i class="fab fa-youtube"></i></li>
                 </a>
-              </li>
-              <li>
                 <a target="_blank" href="https://github.com/zoranaism/" data-cursor-effect="hover">
-                  <i class="fab fa-github"></i>
+                  <li><i class="fab fa-github"></i></li>
                 </a>
-              </li>
-            </ul>
+              </ul>
             </div>
             <div class="card-body">
               <p class="card-text">Zorana</p>
-              <p class="card-description">Management</p>
+              <p class="card-description">Menagement</p>
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-4" data-anim-queue="2" data-anim-type="fade_in_up">
+        <div class="col-12 col-lg-3 col-md-6" data-anim-queue="3" data-anim-type="fade_in_up">
           <div class="card" style="width: 18rem;">
             <div class="img-box">
               <img class="card-img-top" src="img/Radina.jpg" alt="Radina">
               <ul>
-                <li>
-                  <a target="_blank" href="https://www.facebook.com/RadinaTheTheaterEquation" data-cursor-effect="hover">
-                    <i class="fab fa-facebook"></i>
-                  </a>
-                </li>
-                <li>
-                  <a target="_blank" href="https://www.youtube.com/user/kukundrela" data-cursor-effect="hover">
-                    <i class="fab fa-youtube"></i>
-                  </a>
-                </li>
-                <li>
-                  <a target="_blank" href="https://www.instagram.com/radina_artsy_chameleon/" data-cursor-effect="hover">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </li>
+                <a target="_blank" href="https://www.facebook.com/RadinaTheTheaterEquation" data-cursor-effect="hover">
+                  <li><i class="fab fa-facebook"></i></li>
+                </a>
+                <a target="_blank" href="https://www.youtube.com/user/kukundrela" data-cursor-effect="hover">
+                  <li><i class="fab fa-youtube"></i></li>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/radina_artsy_chameleon/" data-cursor-effect="hover">
+                  <li><i class="fab fa-instagram"></i></li>
+                </a>
               </ul>
-              </div>
+            </div>
             <div class="card-body">
               <p class="card-text">Radina</p>
               <p class="card-description">Interviews</p>
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-4" data-anim-queue="3" data-anim-type="fade_in_up">
+        <div class="col-12 col-lg-3 col-md-6" data-anim-queue="3" data-anim-type="fade_in_up">
           <div class="card" style="width: 18rem;">
             <div class="img-box">
               <img class="card-img-top" src="img/Jana.jpg" alt="Jana">
@@ -295,36 +329,36 @@
                 <a target="_blank" href="https://m.facebook.com/uiohio.koko.9?ref=bookmarks" data-cursor-effect="hover">
                   <li><i class="fab fa-facebook"></i></li>
                 </a>
-                <a target="_blank" href="https://www.youtube.com/channel/UCWaDTSviOdmdsap_JVeIJhA" data-cursor-effect="hover">
+                <a target="_blank" href="https://www.youtube.com/channel/UCWaDTSviOdmdsap_JVeIJhA"
+                  data-cursor-effect="hover">
                   <li><i class="fab fa-youtube"></i></li>
                 </a>
-                <a target="_blank" href="https://www.instagram.com/missynaestheticwanderlust/?hl=en" data-cursor-effect="hover">
+                <a target="_blank" href="https://www.instagram.com/missynaestheticwanderlust/?hl=en"
+                  data-cursor-effect="hover">
                   <li><i class="fab fa-instagram"></i></li>
                 </a>
               </ul>
-              </div>
+            </div>
             <div class="card-body">
               <p class="card-text">Jana</p>
               <p class="card-description">Research</p>
             </div>
           </div>
         </div>
-      </div>
-      <br>
-      <div class="row">
-        <div class="col-12 col-lg-4" data-anim-queue="4" data-anim-type="fade_in_up">
+        <div class="col-12 col-lg-3 col-md-6" data-anim-queue="4" data-anim-type="fade_in_up">
           <div class="card" style="width: 18rem;">
             <div class="img-box">
               <img class="card-img-top" src="img/Stephie.jpg " alt="Stephie">
-   
-              </div>
+            </div>
             <div class="card-body">
               <p class="card-text">Stephie</p>
               <p class="card-description">Illustrations</p>
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-4" data-anim-queue="5" data-anim-type="fade_in_up">
+      </div>
+      <div class="row second">
+        <div class="col-12 col-lg-3 col-md-6" data-anim-queue="5" data-anim-type="fade_in_up">
           <div class="card" style="width: 18rem;">
             <div class="img-box">
               <img class="card-img-top" src="img/miona.jpg" alt="Miona">
@@ -336,14 +370,14 @@
                   <li><i class="fab fa-instagram"></i></li>
                 </a>
               </ul>
-              </div>
+            </div>
             <div class="card-body">
               <p class="card-text">Miona</p>
               <p class="card-description">Copywriting</p>
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-4" data-anim-queue="6" data-anim-type="fade_in_up">
+        <div class="col-12 col-lg-3 col-md-6" data-anim-queue="6" data-anim-type="fade_in_up">
           <div class="card" style="width: 18rem;">
             <div class="img-box">
               <img class="card-img-top" src="img/tamara.jpg" alt="Tamara">
@@ -352,17 +386,14 @@
                   <li><i class="fab fa-instagram"></i></li>
                 </a>
               </ul>
-              </div>
+            </div>
             <div class="card-body">
               <p class="card-text">Tamara</p>
               <p class="card-description">Marketing</p>
             </div>
           </div>
         </div>
-      </div>
-      <br>
-      <div class="row">
-        <div class="col-12 col-lg-4" data-anim-queue="7" data-anim-type="fade_in_up">
+        <div class="col-12 col-lg-3 col-md-6" data-anim-queue="7" data-anim-type="fade_in_up">
           <div class="card" style="width: 18rem;">
             <div class="img-box">
               <img class="card-img-top" src="img/nadja.JPG" alt="Nadja">
@@ -377,14 +408,14 @@
                   <li><i class="fab fa-instagram"></i></li>
                 </a>
               </ul>
-              </div>
+            </div>
             <div class="card-body">
               <p class="card-text">Nadja</p>
               <p class="card-description">Content</p>
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-4" data-anim-queue="8" data-anim-type="fade_in_up">
+        <div class="col-12 col-lg-3 col-md-6" data-anim-queue="8" data-anim-type="fade_in_up">
           <div class="card" style="width: 18rem;">
             <div class="img-box">
               <img class="card-img-top" src="img/andjela.png" alt="Andjela">
@@ -392,21 +423,24 @@
                 <a target="_blank" href="https://www.facebook.com/melekmilow/" data-cursor-effect="hover">
                   <li><i class="fab fa-facebook"></i></li>
                 </a>
-                <a target="_blank" href="https://www.linkedin.com/in/andjela-milovanovic-71161014b/" data-cursor-effect="hover">
+                <a target="_blank" href="https://www.linkedin.com/in/andjela-milovanovic-71161014b/"
+                  data-cursor-effect="hover">
                   <li><i class="fab fa-linkedin-in"></i></li>
                 </a>
               </ul>
-              </div>
+            </div>
             <div class="card-body">
               <p class="card-text">Andjela</p>
               <p class="card-description">Audience</p>
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-4" data-anim-queue="9" data-anim-type="fade_in_up">
+      </div>
+      <div class="row third">
+        <div class="col-12 col-lg-3 col-md-6" data-anim-queue="9" data-anim-type="fade_in_up">
           <div class="card" style="width: 18rem;">
             <div class="img-box">
-              <img class="card-img-top" src="img/bojana.jpg" alt="Bojana">
+              <img class="card-img-top" src="img/bojana1.JPG" alt="Bojana">
               <ul>
                 <a target="_blank" href="https://www.facebook.com/bojana.marinkov/" data-cursor-effect="hover">
                   <li><i class="fab fa-facebook"></i></li>
@@ -415,10 +449,51 @@
                   <li><i class="fab fa-instagram"></i></li>
                 </a>
               </ul>
-              </div>
+            </div>
             <div class="card-body">
               <p class="card-text">Bojana</p>
               <p class="card-description">Programming</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-6" data-anim-queue="10" data-anim-type="fade_in_up">
+          <div class="card" style="width: 18rem;">
+            <div class="img-box">
+              <img class="card-img-top" src="img/Julija.jpg" alt="Julija">
+              <ul>
+                <a target="_blank" href="https://www.facebook.com/julija.milic.3/" data-cursor-effect="hover">
+                  <li><i class="fab fa-facebook"></i></li>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/milic_julija/" data-cursor-effect="hover">
+                  <li><i class="fab fa-instagram"></i></li>
+                </a>
+              </ul>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Julija</p>
+              <p class="card-description">Copywriting</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-6" data-anim-queue="11" data-anim-type="fade_in_up">
+          <div class="card" style="width: 18rem;">
+            <div class="img-box">
+              <img class="card-img-top" src="img/Photo Jorn.jpg" alt="Julija">
+              <ul>
+                <a target="_blank" href="https://www.facebook.com/jorn.kortooms/" data-cursor-effect="hover">
+                  <li><i class="fab fa-facebook"></i></li>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/jorn_kortooms/" data-cursor-effect="hover">
+                  <li><i class="fab fa-instagram"></i></li>
+                </a>
+                <a target="_blank" href="http://www.youtube.com/dedrumdokter" data-cursor-effect="hover">
+                  <li><i class="fab fa-youtube"></i></li>
+                </a>
+              </ul>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Jorn</p>
+              <p class="card-description">Audio</p>
             </div>
           </div>
         </div>
@@ -426,8 +501,42 @@
     </div>
   </div>
 
+
+  <div class="section nj-light-section nj-pdt-60" id="nj-single-project-section" data-scroll-to-top-style="dark"
+    data-cursor-style="dark">
+    <div class="container">
+      <!-- Single project section header-->
+      <div class="nj-single-project-title-wrapper">
+        <h1 class="nj-single-project-header">Join Stellar Team</h1>
+      </div>
+
+
+      <!-- <div class="nj-section-header">
+      <h2 class="nj-section-header-title">Join Stellar Team</h2>
+    </div> -->
+      <div class="row">
+        <div class="col-12">
+          <p class="nj-section-content">
+            We are always open for applications. All passionate, like-minded souls should take the opportunity of
+            joining the Stellar Team.
+          </p>
+        </div>
+      </div>
+      <div class="row justify-content-md-center mt-5">
+        <a target="_blank" class="blue-button" href="mailto:stellarsoundpodcast@gmail.com"
+          data-cursor-effect="exclusion">Join the team</a>
+      </div>
+
+    </div>
   </div>
+
+
+
+
   </div>
+
+
+
   <!-- End "Our crew" section-->
 
 
@@ -438,32 +547,36 @@
 
 
         <div class="col-10 col-md-3">
-          <div class="col-12 footer-podcasts" data-anim-queue="1" data-anim-type="fade_in_up">
-            <a target="_blank"  href="https://open.spotify.com/show/4b4Nokn6zf9wWcZkDikazp" data-cursor-effect="exclusion">
-              <img src="img/spotifyPodcasts.png" alt="Spotify" />
+          <div class="col-12 footer-podcasts" data-anim-queue="1" data-anim-type="fade_in_up" style="opacity: 0;">
+            <a target="_blank" href="https://open.spotify.com/show/4b4Nokn6zf9wWcZkDikazp"
+              data-cursor-effect="exclusion">
+              <img src="img/spotifyPodcasts.png" alt="Spotify">
             </a>
           </div>
-          <div class="col-12 footer-podcasts" data-anim-queue="2" data-anim-type="fade_in_up">
-            <a target="_blank"  href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3N0ZWxsYXJzb3VuZHBvZGNhc3QvZmVlZC54bWw" data-cursor-effect="exclusion">
-              <img src="img/googlePodcasts.png" alt="Google Podcasts" />
+          <div class="col-12 footer-podcasts" data-anim-queue="2" data-anim-type="fade_in_up" style="opacity: 0;">
+            <a target="_blank"
+              href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3N0ZWxsYXJzb3VuZHBvZGNhc3QvZmVlZC54bWw"
+              data-cursor-effect="exclusion">
+              <img src="img/googlePodcasts.png" alt="Google Podcasts">
             </a>
           </div>
-          <div class="col-12 footer-podcasts" data-anim-queue="3" data-anim-type="fade_in_up">
-            <a target="_blank"  href="https://stellarsoundpodcast.podbean.com/" data-cursor-effect="exclusion">
-              <img src="img/podbean1.png" alt="PodBean" />
+          <div class="col-12 footer-podcasts" data-anim-queue="3" data-anim-type="fade_in_up" style="opacity: 0;">
+            <a target="_blank" href="https://podcasts.apple.com/rs/podcast/stellar-sound-podcast/id1556200413" data-cursor-effect="exclusion">
+              <img src="img/apple1.jpeg" alt="apple">
             </a>
           </div>
         </div>
 
         <div class="col-10 col-md-3">
-          <div class="col-12 footer-podcasts" data-anim-queue="1" data-anim-type="fade_in_up">
-            <a target="_blank"  href="https://www.youtube.com/channel/UCXnT7Ih32dLtFhGAtYtsR2g" data-cursor-effect="exclusion">
-              <img src="img/YouTube2.png" alt="YouTube" />
+          <div class="col-12 footer-podcasts" data-anim-queue="1" data-anim-type="fade_in_up" style="opacity: 0;">
+            <a target="_blank" href="https://www.youtube.com/channel/UCXnT7Ih32dLtFhGAtYtsR2g"
+              data-cursor-effect="exclusion">
+              <img src="img/YouTube2.png" alt="YouTube">
             </a>
           </div>
-          <div class="col-12 footer-podcasts" data-anim-queue="2" data-anim-type="fade_in_up">
-            <a target="_blank"  href="https://discord.gg/9qE3FhVw" data-cursor-effect="exclusion">
-              <img src="img/discort1.png" alt="Discord" />
+          <div class="col-12 footer-podcasts" data-anim-queue="2" data-anim-type="fade_in_up" style="opacity: 0;">
+            <a target="_blank" href="https://discord.gg/dfaAshmwP4" data-cursor-effect="exclusion">
+              <img src="img/discort1.png" alt="Discord">
             </a>
           </div>
         </div>
@@ -472,29 +585,32 @@
           <div class="nj-footer-contacts-wrapper">
             <div class="nj-footer-contacts">
               <table>
-                <tr data-anim-queue="1" data-anim-type="fade_in_up">
-                  <td><i class="fa fa-phone-alt"></i></td>
-                  <td>+31684359770</td>
-                </tr>
-                <tr data-anim-queue="2" data-anim-type="fade_in_up">
-                  <td><i class="fa fa-envelope"></i></td>
-                  <td>stellarsoundpodcast@gmail.com</td>
-                </tr>
-                <tr data-anim-queue="3" data-anim-type="fade_in_up">
-                  <td><i class="fa fa-location-arrow"></i></td>
-                  <td>Het Klokkediep 119, 5231WZ Den Bosch, Netherlands</td>
-                </tr>
+                <tbody>
+                  <tr data-anim-queue="1" data-anim-type="fade_in_up" style="opacity: 0;">
+                    <td><i class="fa fa-phone-alt"></i></td>
+                    <td>+31684359770</td>
+                  </tr>
+                  <tr data-anim-queue="2" data-anim-type="fade_in_up" style="opacity: 0;">
+                    <td><i class="fa fa-envelope"></i></td>
+                    <td>stellarsoundpodcast@gmail.com</td>
+                  </tr>
+                  <tr data-anim-queue="3" data-anim-type="fade_in_up" style="opacity: 0;">
+                    <td><i class="fa fa-location-arrow"></i></td>
+                    <td>Het Klokkediep 119, 5231WZ Den Bosch, Netherlands</td>
+                  </tr>
+                </tbody>
               </table>
             </div>
           </div>
         </div>
-       
-        
+
+
       </div>
 
       <div class="nj-footer-socials-wrapper">
         <div class="nj-footer-socials">
-          <span class="text-center d-flex justify-content-center align-items-center mt-2"><i class="fa fa-copyright mr-1"></i>2021 Stellar Sound Podcast</span>
+          <span class="text-center d-flex justify-content-center align-items-center mt-2"><i
+              class="fa fa-copyright mr-1"></i>2021 Stellar Sound Podcast</span>
         </div>
       </div>
     </div>
@@ -503,11 +619,13 @@
 
   <!-- Scroll to top-->
   <div class="nj-scroll-to-top-holder" data-cursor-style="dark"><a href="#" data-cursor-effect="hover"
-      id="nj-scroll-to-top">Scroll to top</a></div>
+      id="nj-scroll-to-top" class="nj-dark">Scroll to top</a></div>
   <!-- End scroll to top-->
   <!-- Include Js Files-->
   <script src="js/assets.min.js"></script>
   <script src="js/app.min.js"></script>
+
+
 </body>
 
 </html>

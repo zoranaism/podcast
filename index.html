@@ -1,329 +1,370 @@
 <!DOCTYPE html>
 <html lang="zxx">
-  <head>
-    <meta charset="UTF-8">
-    <title>Stellar Sound Podcast</title>
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="">
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&amp;display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&amp;display=swap" rel="stylesheet">
-    <!-- Ico fonts-->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-    <!-- CSS-->
-    <link rel="stylesheet" href="css/assets.min.css">
-    <link rel="stylesheet" href="css/style.min.css">
-  </head>
-  <body>
-    <!-- Preloader-->
-    <div id="nj-preloader-wrapper">
-      <div class="nj-preloader-inner">
-        <div class="nj-preloader-percentage">0</div>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Stellar Sound Podcast</title>
+  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="">
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&amp;display=swap" rel="stylesheet">
+  <!-- Ico fonts-->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+  <!-- CSS-->
+  <link rel="stylesheet" href="css/assets.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <!-- Preloader-->
+  <div id="nj-preloader-wrapper">
+    <div class="nj-preloader-inner">
+      <div class="nj-preloader-percentage">0</div>
+    </div>
+  </div>
+  <!-- End preloader-->
+  <!-- Custom cursor-->
+  <div id="nj-cursor-follower"></div>
+  <!-- Tropical composition-->
+  <div id="nj-tropical-image"></div>
+
+  <!-- Navbar-->
+  <nav class="navbar nj-navbar fixed-top" aria-label="main navigation">
+    <div class="container">
+      <div class="nj-navbar-flex-wrapper">
+        <div class="nj-navbar-flex-item">
+          <div class="navbar-brand">
+            <a class="navbar-item nj-navbar-logo-wrapper" href="index.html">
+              <div class="nj-navbar-logo">
+                <img src="img/Stellar_Logo_Transparent.png" />
+                <!-- <img id="logo-text" src="img/Font Name Light Gray.png" alt="logo" /> -->
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="nj-navbar-flex-item">
+          <div class="navbar-menu" id="nj-navbar_basic">
+            <div class="navbar-start">
+              <a class="navbar-item" href="index.html" data-cursor-effect="hover">home</a>
+              <!-- <a class="navbar-item" href="episode-1.html" data-cursor-effect="hover">episodes</a> -->
+              <a class="navbar-item" href="about.html" data-cursor-effect="hover">about</a>
+            </div>
+
+          </div>
+          <div class="nj-show-menu-button" id="nj-show-menu-button">
+            <div class="nj-lines"></div>
+          </div>
+        </div>
+        <div class="nj-navbar-flex-item justify-content-end">
+          <div class="navbar-menu justify-content-end align-items-center" id="nj-navbar_socials">
+            <div class="socials-navigation justify-content-end align-items-center">
+              <a target="_blank" class="socials-link" href="https://www.instagram.com/stellarsoundpodcast/"
+                data-cursor-effect="hover">
+                <i class="fab fa-instagram"></i></a>
+              <a target="_blank" class="socials-link"
+                href="https://www.facebook.com/Stellar-Sound-Podcast-119521773289334" data-cursor-effect="hover">
+                <i class="fab fa-facebook"></i></a>
+              <a target="_blank" class="socials-link" href="www.linkedin.com/in/stellar-sound-podcast"
+                data-cursor-effect="hover">
+                <i class="fab fa-linkedin"></i></a>
+              <!-- <a class="" href="https://discord.gg/9qE3FhVw" data-cursor-effect="hover"><i class="fab fa-discord"></i></a> -->
+              <a target="_blank" class="socials-link" href="https://twitter.com/SoundStellar"
+                data-cursor-effect="hover">
+                <i class="fab fa-twitter"></i></a>
+              <a class="episodes-link" href="episodes.html" data-cursor-effect="exclusion">Episodes</a>
+            </div>
+          </div>
+        </div>
+        <div class="nj-navbar-flex-item"></div>
       </div>
     </div>
-    <!-- End preloader-->
-    <!-- Custom cursor-->
-    <div id="nj-cursor-follower"></div>
-    <!-- Tropical composition-->
-    <div id="nj-tropical-image"></div>
-    
-    <!-- Navbar-->
-    <nav class="navbar nj-navbar fixed-top" aria-label="main navigation">
-      <div class="container">
-        <div class="nj-navbar-flex-wrapper">
-          <div class="nj-navbar-flex-item">
-            <div class="navbar-brand">
-              <a class="navbar-item nj-navbar-logo-wrapper" href="index.html">
-                <div class="nj-navbar-logo" >
-                  <img src="img/Stellar_Logo_Transparent.png"/>
-                  <!-- <img id="logo-text" src="img/Font Name Light Gray.png" alt="logo" /> -->
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="nj-navbar-flex-item">
-            <div class="navbar-menu" id="nj-navbar_basic">
-              <div class="navbar-start">
-                <a class="navbar-item" href="index.html" data-cursor-effect="hover">home</a>
-                <!-- <a class="navbar-item" href="episode-1.html" data-cursor-effect="hover">episodes</a> -->
-                <a class="navbar-item" href="about.html" data-cursor-effect="hover">about</a>
-              </div>
-             
-            </div>
-            <div class="nj-show-menu-button" id="nj-show-menu-button">
-              <div class="nj-lines"></div>
-            </div>
-          </div>
-          <div class="nj-navbar-flex-item justify-content-end">
-            <div class="navbar-menu justify-content-end align-items-center" id="nj-navbar_socials">
-              <div class="socials-navigation justify-content-end align-items-center">
-                <a target="_blank"class="socials-link" href="https://www.instagram.com/stellarsoundpodcast/" data-cursor-effect="hover">
-                  <i class="fab fa-instagram"></i></a>
-                <a target="_blank"class="socials-link" href="https://www.facebook.com/Stellar-Sound-Podcast-119521773289334" data-cursor-effect="hover">
-                  <i class="fab fa-facebook"></i></a>
-                <a target="_blank"class="socials-link" href="www.linkedin.com/in/stellar-sound-podcast" data-cursor-effect="hover">
-                  <i class="fab fa-linkedin"></i></a>
-                <!-- <a class="" href="https://discord.gg/9qE3FhVw" data-cursor-effect="hover"><i class="fab fa-discord"></i></a> -->
-                <a target="_blank"class="socials-link" href="https://twitter.com/SoundStellar" data-cursor-effect="hover">
-                  <i class="fab fa-twitter"></i></a>
-                <a class="episodes-link" href="episode-1.html" data-cursor-effect="exclusion">Episodes</a>
-              </div>
-              </div>
-          </div>
-          <div class="nj-navbar-flex-item"></div>
-        </div>
+  </nav>
+  <div id="nj-mobile-menu">
+    <div class="nj-mobile-menu-content">
+      <div class="nj-mobile-menu-item-wrapper">
+        <a class="nj-mobile-menu-item is-active" href="/#nj-hero">home</a>
+        <!-- <a class="nj-mobile-menu-item" href="episode-1.html">episodes</a> -->
+        <a class="nj-mobile-menu-item" href="about.html">about</a>
       </div>
-    </nav>
-    <div id="nj-mobile-menu">
-      <div class="nj-mobile-menu-content">
-        <div class="nj-mobile-menu-item-wrapper">
-          <a class="nj-mobile-menu-item is-active" href="/#nj-hero">home</a>
-          <!-- <a class="nj-mobile-menu-item" href="episode-1.html">episodes</a> -->
-          <a class="nj-mobile-menu-item" href="about.html">about</a>
-        </div>
-         <ul class="nj-mobile-menu-socials">
-              <li data-anim-queue="1" data-anim-type="fade_in_up">
-                <a target="_blank" href="" data-cursor-effect="hover">
-                  <i class="fab fa-instagram"></i>
-                </a>
-              </li>
-              <li data-anim-queue="2" data-anim-type="fade_in_up">
-                <a target="_blank" href="" data-cursor-effect="hover">
-                  <i class="fab fa-facebook"></i>
-                </a>
-              </li>
-              <li data-anim-queue="3" data-anim-type="fade_in_up">
-                <a target="_blank" href="www.linkedin.com/in/stellar-sound-podcast" data-cursor-effect="hover">
-                  <i class="fab fa-linkedin"></i>
-                </a>
-              </li>
-              <!-- <li data-anim-queue="4" data-anim-type="fade_in_up">
+      <ul class="nj-mobile-menu-socials">
+        <li data-anim-queue="1" data-anim-type="fade_in_up">
+          <a target="_blank" href="" data-cursor-effect="hover">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li data-anim-queue="2" data-anim-type="fade_in_up">
+          <a target="_blank" href="" data-cursor-effect="hover">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li data-anim-queue="3" data-anim-type="fade_in_up">
+          <a target="_blank" href="www.linkedin.com/in/stellar-sound-podcast" data-cursor-effect="hover">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <!-- <li data-anim-queue="4" data-anim-type="fade_in_up">
                 <a target="_blank" href="" data-cursor-effect="hover">
                   <img class="social-img" src="img/discord.png" alt="Discort" />
                 </a>
               </li> -->
-              <li data-anim-queue="4" data-anim-type="fade_in_up">
-                <a target="_blank" href="" data-cursor-effect="hover">
-                   <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li data-anim-quefade_in_up">
-                <a class="episodes-link" href="episode-1.html" data-cursor-effect="exclusion">Episodes</a>
-              </li>
-            </ul>
-      </div>
+        <li data-anim-queue="4" data-anim-type="fade_in_up">
+          <a target="_blank" href="" data-cursor-effect="hover">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li data-anim-quefade_in_up">
+          <a class="episodes-link" href="episodes.html" data-cursor-effect="exclusion">Episodes</a>
+        </li>
+      </ul>
     </div>
-    <!-- End Navbar-->
+  </div>
+  <!-- End Navbar-->
 
-    <!-- Hero section-->
-    <div class="section nj-hero" id="nj-hero">
-      <div class="nj-hero-body">
-        <div class="container">
-          <div class="nj-hero-title-wrapper">
-            <!-- <h1 class="nj-hero-title">Stellar Sound Podcast</h1> -->
-            <div class="row d-flex flex-column justify-content-center logo-landing-page mb-4" >
-              <!-- <div class=" "> -->
-                <img src="img/Stellar_Logo_Transparent.png" alt="Stellar Sound Podcast Logo" />
-                <img src="img/Font Name Light Gray.png" alt="Stellar Sound Podcast Logo Text" />
-              <!-- </div> -->
-            </div>
-            
-            <div class="row discort-icon justify-content-md-center">
-                <div class="col-12 col-md-3" data-anim-queue="1" data-anim-type="fade_in_up">
-                  <a target="_blank" href="https://open.spotify.com/show/4b4Nokn6zf9wWcZkDikazp" data-cursor-effect="exclusion"><img src="img/spotifyPodcasts.png" alt="Spotify" /></a>
-                </div>
-                <div class="col-12 col-md-3" data-anim-queue="2" data-anim-type="fade_in_up">
-                  <a target="_blank" href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3N0ZWxsYXJzb3VuZHBvZGNhc3QvZmVlZC54bWw" data-cursor-effect="exclusion"><img src="img/googlePodcasts.png" alt="Google Podcasts" /></a>
-                </div>
-                <div class="col-12 col-md-3" data-anim-queue="3" data-anim-type="fade_in_up">
-                  <a target="_blank" href="https://stellarsoundpodcast.podbean.com/" data-cursor-effect="exclusion"><img src="img/podbean1.png" alt="PodBean" /></a>
-                </div>
-            </div>
-            <div class="row discort-icon justify-content-md-center">
-                <div class="col-12 col-md-2" data-anim-queue="5" data-anim-type="fade_in_up">
-                  <a target="_blank" href="https://www.youtube.com/channel/UCXnT7Ih32dLtFhGAtYtsR2g" data-cursor-effect="exclusion"><img src="img/YouTube1.png" alt="YouTube" /></a>
-                </div>
-                <div class="col-12 col-md-2" data-anim-queue="4" data-anim-type="fade_in_up">
-                  <a target="_blank" href="https://discord.gg/9qE3FhVw" data-cursor-effect="exclusion"><img src="img/discort1.png" alt="Discort" /></a>
-                </div>
-            </div>
-            <div class="row discort-icon justify-content-md-center">
-              <div class="col-12 col-md-4" data-anim-queue="6" data-anim-type="fade_in_up">
-                <a target="_blank" href="" data-cursor-effect="exclusion">
-                  <img src="img/Go_Stellar_Transparent_Text.png" alt="Go Stellar" />
-                </a>
-              </div>
-          </div>
-          </div>
-        </div>
-      </div>
-      <!-- Hero social buttons-->
-      <div class="nj-hero-social-buttons-wrapper">
-        <div class="nj-hero-social-buttons">
-          <ul>
-            <li><a href="https://open.spotify.com/show/4b4Nokn6zf9wWcZkDikazp" data-cursor-effect="hover"><img class="social-img" src="img/Spotify.png" alt="spotify" /></a></li>
-            <li>
-              <a href="https://www.facebook.com/Stellar-Sound-Podcast-119521773289334" data-cursor-effect="hover"><img  class="social-img" src="img/fb.png" alt="facebook" /></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/stellarsoundpodcast/" data-cursor-effect="hover"><img  class="social-img" src="img/insta.png" alt="instagram" /></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <!-- End hero social buttons-->
-    </div>
-    <!-- End hero-->
-
-        <!-- "new episodes" section-->
-        <div class="section nj-light-section nj-animated-section" id="nj-news" data-scroll-to-top-style="dark" data-cursor-style="dark">
-          <div class="container">
-            <div class="nj-section-header">
-              <h2 class="nj-section-header-title">new episodes</h2>
-            </div>
-            <div class="nj-news-wrapper">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="nj-news-image-wrapper">
-                    <img src="img/Episode-1-cover.png" data-cursor-effect="blend" alt="Episode 1:JustLeo" />
-                    <!-- <div class="nj-month-wrapper"><span class="nj-month">Episode 1</span></div> -->
-                    <div class="nj-date-wrapper"><span class="nj-date">1</span></div>
-                    <div class="nj-author-wrapper"><span class="nj-author">EPISODE</span></div>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="nj-news-body-wrapper">
-                    <div class="nj-news-body">
-                      <h3 class="nj-news-header">Leo from Just Leo</h3>
-                      <p class="nj-news-body-text">Leo or "Just Leo" is a bassist, singer-songwriter and a multi-instrumentalist... <br/>Click on the icon to listen to the episode right now or find our more.</p>
-                      <div class="row socials-icons">
-                        <ul>
-                          <li data-anim-queue="1" data-anim-type="fade_in_up"><a target="_blank" href="https://stellarsoundpodcast.podbean.com/e/episode-1-leo" data-cursor-effect="hover"><img class="social-img" src="img/podbean.png" alt="PodBean" /></a></li>
-      
-                          <li data-anim-queue="2" data-anim-type="fade_in_up"><a target="_blank" href="https://open.spotify.com/episode/5fzmLikjxvphHwHvFK3tZp" data-cursor-effect="hover"><img class="social-img" src="img/Spotify.png" alt="spotify" /></a></li>
-
-                          <li data-anim-queue="3" data-anim-type="fade_in_up">
-                            <a target="_blank" href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3N0ZWxsYXJzb3VuZHBvZGNhc3QvZmVlZC54bWw" data-cursor-effect="hover">
-                              <img class="social-img" src="img/googlePodcasts2.png" alt="Google Podcast" />
-                            </a>
-                          </li>
-
-                          <li data-anim-queue="4" data-anim-type="fade_in_up">
-                            <a target="_blank" href="https://www.youtube.com/channel/UCXnT7Ih32dLtFhGAtYtsR2g" data-cursor-effect="hover">
-                              <img class="social-img" src="img/youtube.png" alt="YouTube" />
-                            </a>
-                          </li>
-        
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="nj-read-more-button-wrapper"><a class="nj-button nj-button-black" href="episode-1.html" data-cursor-effect="exclusion">FIND OUT MORE</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End "new episodes" section-->
-
-     <!-- "Sponsors" section-->
-     <div class="section nj-dark-section" id="nj-sponsors">
+  <!-- Hero section-->
+  <div class="section nj-hero" id="nj-hero">
+    <div class="nj-hero-body">
       <div class="container">
-        <div class="nj-section-header">
-          <h2 class="nj-section-header-title">stellar sponsors</h2>
-        </div>
-        <div class="row">
-          <div class="col-12 col-lg-3">
-            <div data-anim-queue="1" data-anim-type="fade_in_up">
-              <a  target="_blank" href="https://www.faegames.com/" data-cursor-effect="hover">
-                <img class="sponsor-img" src="img/fae-games.jpg" alt="FAE Games"/>
+        <div class="nj-hero-title-wrapper">
+          <!-- <h1 class="nj-hero-title">Stellar Sound Podcast</h1> -->
+          <div class="row d-flex flex-column justify-content-center logo-landing-page mb-4">
+            <!-- <div class=" "> -->
+            <img src="img/Stellar_Logo_Transparent.png" alt="Stellar Sound Podcast Logo" />
+            <img src="img/Font Name Light Gray.png" alt="Stellar Sound Podcast Logo Text" />
+            <!-- </div> -->
+          </div>
+
+          <div class="row discort-icon justify-content-md-center">
+            <div class="col-12 col-md-3" data-anim-queue="1" data-anim-type="fade_in_up">
+              <a target="_blank" href="https://open.spotify.com/show/4b4Nokn6zf9wWcZkDikazp"
+                data-cursor-effect="exclusion"><img src="img/spotifyPodcasts.png" alt="Spotify" /></a>
+            </div>
+            <div class="col-12 col-md-3" data-anim-queue="2" data-anim-type="fade_in_up">
+              <a target="_blank"
+                href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3N0ZWxsYXJzb3VuZHBvZGNhc3QvZmVlZC54bWw"
+                data-cursor-effect="exclusion"><img src="img/googlePodcasts.png" alt="Google Podcasts" /></a>
+            </div>
+            <div class="col-12 col-md-3" data-anim-queue="3" data-anim-type="fade_in_up">
+              <a target="_blank" href="https://podcasts.apple.com/rs/podcast/stellar-sound-podcast/id1556200413"
+                data-cursor-effect="exclusion"><img src="img/apple1.jpeg" alt="apple" /></a>
+            </div>
+          </div>
+          <div class="row discort-icon justify-content-md-center">
+            <div class="col-12 col-md-2" data-anim-queue="5" data-anim-type="fade_in_up">
+              <a target="_blank" href="https://www.youtube.com/channel/UCXnT7Ih32dLtFhGAtYtsR2g"
+                data-cursor-effect="exclusion"><img src="img/YouTube1.png" alt="YouTube" /></a>
+            </div>
+            <div class="col-12 col-md-2" data-anim-queue="4" data-anim-type="fade_in_up">
+              <a target="_blank" href="https://discord.gg/dfaAshmwP4" data-cursor-effect="exclusion"><img
+                  src="img/discort1.png" alt="Discort" /></a>
+            </div>
+          </div>
+          <div class="row discort-icon justify-content-md-center">
+            <div class="col-12 col-md-4" data-anim-queue="6" data-anim-type="fade_in_up">
+              <a target="_blank" href="" data-cursor-effect="exclusion">
+                <img src="img/Go_Stellar_Transparent_Text.png" alt="Go Stellar" />
               </a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- End "Stellar Sponsors" section-->
+    <!-- Hero social buttons-->
+    <div class="nj-hero-social-buttons-wrapper">
+      <div class="nj-hero-social-buttons">
+        <ul>
+          <li><a href="https://open.spotify.com/show/4b4Nokn6zf9wWcZkDikazp" data-cursor-effect="hover"><img
+                class="social-img" src="img/Spotify.png" alt="spotify" /></a></li>
+          <li>
+            <a href="https://www.facebook.com/Stellar-Sound-Podcast-119521773289334" data-cursor-effect="hover"><img
+                class="social-img" src="img/fb.png" alt="facebook" /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/stellarsoundpodcast/" data-cursor-effect="hover"><img class="social-img"
+                src="img/insta.png" alt="instagram" /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- End hero social buttons-->
+  </div>
+  <!-- End hero-->
 
-    <!-- Footer-->
-    <footer class="footer nj-footer nj-animated-section" id="nj-contact" data-scroll-to-top-style="light">
-      <div class="container">
+  <!-- "new episodes" section-->
+  <div class="section nj-light-section nj-animated-section" id="nj-news" data-scroll-to-top-style="dark"
+    data-cursor-style="dark">
+    <div class="container">
+      <div class="nj-section-header">
+        <h2 class="nj-section-header-title">new episode</h2>
+      </div>
+      <div class="nj-news-wrapper">
         <div class="row">
-
-
-          <div class="col-10 col-md-3">
-            <div class="col-12 footer-podcasts" data-anim-queue="1" data-anim-type="fade_in_up">
-              <a target="_blank" href="https://open.spotify.com/show/4b4Nokn6zf9wWcZkDikazp" data-cursor-effect="exclusion">
-                <img src="img/spotifyPodcasts.png" alt="Spotify" />
-              </a>
-            </div>
-            <div class="col-12 footer-podcasts" data-anim-queue="2" data-anim-type="fade_in_up">
-              <a target="_blank" href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3N0ZWxsYXJzb3VuZHBvZGNhc3QvZmVlZC54bWw" data-cursor-effect="exclusion">
-                <img src="img/googlePodcasts.png" alt="Google Podcasts" />
-              </a>
-            </div>
-            <div class="col-12 footer-podcasts" data-anim-queue="3" data-anim-type="fade_in_up">
-              <a target="_blank" href="https://stellarsoundpodcast.podbean.com/" data-cursor-effect="exclusion">
-                <img src="img/podbean1.png" alt="PodBean" />
-              </a>
+          <div class="col-lg-6">
+            <div class="nj-news-image-wrapper">
+              <img src="img/Episode-1-cover.png" data-cursor-effect="blend" alt="Episode 1:JustLeo" />
+              <!-- <div class="nj-month-wrapper"><span class="nj-month">Episode 1</span></div> -->
+              <div class="nj-date-wrapper"><span class="nj-date">1</span></div>
+              <div class="nj-author-wrapper"><span class="nj-author">EPISODE</span></div>
             </div>
           </div>
+          <div class="col-lg-6">
+            <div class="nj-news-body-wrapper">
+              <div class="nj-news-body">
+                <h3 class="nj-news-header">Leo from Just Leo</h3>
+                <p class="nj-news-body-text">Leo or "Just Leo" is a bassist, singer-songwriter and a
+                  multi-instrumentalist... <br />Click on the icon to listen to the episode right now or find our more.
+                </p>
+                <div class="row socials-icons">
+                  <ul>
+                    <li data-anim-queue="1" data-anim-type="fade_in_up"><a target="_blank"
+                        href="https://stellarsoundpodcast.podbean.com/e/episode-1-leo" data-cursor-effect="hover"><img
+                          class="social-img" src="img/podbean.png" alt="PodBean" /></a></li>
 
-          <div class="col-10 col-md-3">
-            <div class="col-12 footer-podcasts" data-anim-queue="1" data-anim-type="fade_in_up">
-              <a target="_blank" href="https://www.youtube.com/channel/UCXnT7Ih32dLtFhGAtYtsR2g" data-cursor-effect="exclusion">
-                <img src="img/YouTube2.png" alt="YouTube" />
-              </a>
-            </div>
-            <div class="col-12 footer-podcasts" data-anim-queue="2" data-anim-type="fade_in_up">
-              <a target="_blank" href="https://discord.gg/9qE3FhVw" data-cursor-effect="exclusion">
-                <img src="img/discort1.png" alt="Discord" />
-              </a>
-            </div>
-          </div>
-          <div class="col-12 col-md-2"></div>
-          <div class="col-12 col-md-4">
-            <div class="nj-footer-contacts-wrapper">
-              <div class="nj-footer-contacts">
-                <table>
-                  <tr data-anim-queue="1" data-anim-type="fade_in_up">
-                    <td><i class="fa fa-phone-alt"></i></td>
-                    <td>+31684359770</td>
-                  </tr>
-                  <tr data-anim-queue="2" data-anim-type="fade_in_up">
-                    <td><i class="fa fa-envelope"></i></td>
-                    <td>stellarsoundpodcast@gmail.com</td>
-                  </tr>
-                  <tr data-anim-queue="3" data-anim-type="fade_in_up">
-                    <td><i class="fa fa-location-arrow"></i></td>
-                    <td>Het Klokkediep 119, 5231WZ Den Bosch, Netherlands</td>
-                  </tr>
-                </table>
+                    <li data-anim-queue="2" data-anim-type="fade_in_up"><a target="_blank"
+                        href="https://open.spotify.com/episode/5fzmLikjxvphHwHvFK3tZp" data-cursor-effect="hover"><img
+                          class="social-img" src="img/Spotify.png" alt="spotify" /></a></li>
+
+                    <li data-anim-queue="3" data-anim-type="fade_in_up">
+                      <a target="_blank"
+                        href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3N0ZWxsYXJzb3VuZHBvZGNhc3QvZmVlZC54bWw"
+                        data-cursor-effect="hover">
+                        <img class="social-img" src="img/googlePodcasts2.png" alt="Google Podcast" />
+                      </a>
+                    </li>
+
+                    <li data-anim-queue="4" data-anim-type="fade_in_up">
+                      <a target="_blank" href="https://www.youtube.com/channel/UCXnT7Ih32dLtFhGAtYtsR2g"
+                        data-cursor-effect="hover">
+                        <img class="social-img" src="img/youtube.png" alt="YouTube" />
+                      </a>
+                    </li>
+
+                    <li data-anim-queue="5" data-anim-type="fade_in_up">
+                      <a target="_blank" href="https://podcasts.apple.com/rs/podcast/stellar-sound-podcast/id1556200413?i=1000511246446"
+                        data-cursor-effect="hover">
+                        <img class="social-img" src="img/1200px-Podcasts_(iOS).svg.png" alt="apple" />
+                      </a>
+                    </li>
+
+                  </ul>
+                </div>
               </div>
+              <div class="nj-read-more-button-wrapper"><a class="nj-button nj-button-black" href="episode-1.html"
+                  data-cursor-effect="exclusion">FIND OUT MORE</a></div>
             </div>
-          </div>
-         
-          
-        </div>
-
-        <div class="nj-footer-socials-wrapper">
-          <div class="nj-footer-socials">
-            <span class="text-center d-flex justify-content-center align-items-center mt-2"><i class="fa fa-copyright mr-1"></i>2021 Stellar Sound Podcast</span>
-           
           </div>
         </div>
       </div>
-    </footer>
-    <!-- End footer-->
+    </div>
+  </div>
+  <!-- End "new episodes" section-->
 
-    <!-- Scroll to top-->
-    <div class="nj-scroll-to-top-holder" data-cursor-style="dark"><a href="#" data-cursor-effect="hover" id="nj-scroll-to-top">Scroll to top</a></div>
-    <!-- End scroll to top-->
-    <!-- Include Js Files-->
-    <script src="js/assets.min.js"></script>
-    <script src="js/app.min.js"></script>
-  </body>
+  <!-- "Sponsors" section-->
+  <div class="section nj-dark-section" id="nj-sponsors">
+    <div class="container">
+      <div class="nj-section-header">
+        <h2 class="nj-section-header-title">stellar sponsors</h2>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-3">
+          <div data-anim-queue="1" data-anim-type="fade_in_up">
+            <a target="_blank" href="https://www.faegames.com/" data-cursor-effect="hover">
+              <img class="sponsor-img" src="img/fae-games.jpg" alt="FAE Games" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End "Stellar Sponsors" section-->
+
+  <!-- Footer-->
+  <footer class="footer nj-footer nj-animated-section" id="nj-contact" data-scroll-to-top-style="light">
+    <div class="container">
+      <div class="row">
+
+
+        <div class="col-10 col-md-3">
+          <div class="col-12 footer-podcasts" data-anim-queue="1" data-anim-type="fade_in_up">
+            <a target="_blank" href="https://open.spotify.com/show/4b4Nokn6zf9wWcZkDikazp"
+              data-cursor-effect="exclusion">
+              <img src="img/spotifyPodcasts.png" alt="Spotify" />
+            </a>
+          </div>
+          <div class="col-12 footer-podcasts" data-anim-queue="2" data-anim-type="fade_in_up">
+            <a target="_blank"
+              href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3N0ZWxsYXJzb3VuZHBvZGNhc3QvZmVlZC54bWw"
+              data-cursor-effect="exclusion">
+              <img src="img/googlePodcasts.png" alt="Google Podcasts" />
+            </a>
+          </div>
+          <div class="col-12 footer-podcasts" data-anim-queue="3" data-anim-type="fade_in_up">
+            <a target="_blank" href="https://podcasts.apple.com/rs/podcast/stellar-sound-podcast/id1556200413"
+              data-cursor-effect="exclusion">
+              <img src="img/apple1.jpeg" alt="apple" />
+            </a>
+          </div>
+        </div>
+
+        <div class="col-10 col-md-3">
+          <div class="col-12 footer-podcasts" data-anim-queue="1" data-anim-type="fade_in_up">
+            <a target="_blank" href="https://www.youtube.com/channel/UCXnT7Ih32dLtFhGAtYtsR2g"
+              data-cursor-effect="exclusion">
+              <img src="img/YouTube2.png" alt="YouTube" />
+            </a>
+          </div>
+          <div class="col-12 footer-podcasts" data-anim-queue="2" data-anim-type="fade_in_up">
+            <a target="_blank" href="https://discord.gg/dfaAshmwP4" data-cursor-effect="exclusion">
+              <img src="img/discort1.png" alt="Discord" />
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-2"></div>
+        <div class="col-12 col-md-4">
+          <div class="nj-footer-contacts-wrapper">
+            <div class="nj-footer-contacts">
+              <table>
+                <tr data-anim-queue="1" data-anim-type="fade_in_up">
+                  <td><i class="fa fa-phone-alt"></i></td>
+                  <td>+31684359770</td>
+                </tr>
+                <tr data-anim-queue="2" data-anim-type="fade_in_up">
+                  <td><i class="fa fa-envelope"></i></td>
+                  <td>stellarsoundpodcast@gmail.com</td>
+                </tr>
+                <tr data-anim-queue="3" data-anim-type="fade_in_up">
+                  <td><i class="fa fa-location-arrow"></i></td>
+                  <td>Het Klokkediep 119, 5231WZ Den Bosch, Netherlands</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="nj-footer-socials-wrapper">
+        <div class="nj-footer-socials">
+          <span class="text-center d-flex justify-content-center align-items-center mt-2"><i
+              class="fa fa-copyright mr-1"></i>2021 Stellar Sound Podcast</span>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End footer-->
+
+  <!-- Scroll to top-->
+  <div class="nj-scroll-to-top-holder" data-cursor-style="dark"><a href="#" data-cursor-effect="hover"
+      id="nj-scroll-to-top">Scroll to top</a></div>
+  <!-- End scroll to top-->
+  <!-- Include Js Files-->
+  <script src="js/assets.min.js"></script>
+  <script src="js/app.min.js"></script>
+</body>
+
 </html>
