@@ -2766,6 +2766,8 @@ h4.vision-header {
   text-decoration: uppercase;
   text-align: center;
   font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
 .footer-logo-section {
