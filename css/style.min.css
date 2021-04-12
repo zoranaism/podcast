@@ -1188,7 +1188,7 @@ main {
 /* line 718, src/sass/style.sass */
 .section:not(.nj-hero) {
   padding-top: 40px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 /* line 721, src/sass/style.sass */
@@ -3009,7 +3009,6 @@ h2.nj-section-header-title-episodes {
 .episodes-parallax{
   background: transparent;
   background-image: url(../img/Background.png);
-  opacity:
 }
 
 .nj-portfolio-item{
