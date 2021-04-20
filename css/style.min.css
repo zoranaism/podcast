@@ -2726,7 +2726,16 @@ only screen and (max-device-width: 740px) {
 }
 
 .sponsor-img {
+  height: 100%;
+}
+.sponsor-img > a {
+  display: flex;
+  background-color: #fff;
+  height: 100%;
+}
+.sponsor-img > a > img {
   width: 100%;
+  align-self: center
 }
 
 .socials-icons {
@@ -2879,11 +2888,11 @@ section .nj-dark-section .nj-animated-section .container {
   display: inline-block;
   font-size: 20px;
 }
-.img-box ul li:hover{
+/* .img-box ul li:hover{
   color: yellow;
   transform: scale(1.5);
   transition: .2s linear;
-}
+} */
 .img-box ul li a {
   color: white;
 }
@@ -2899,6 +2908,13 @@ section .nj-dark-section .nj-animated-section .container {
 .fab {
   margin: 0 15px;
   border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+}
+.fa-blog-icon {
+  color: #000;
   width: 30px;
   height: 30px;
   text-align: center;
@@ -3076,4 +3092,10 @@ padding: 40px;
 .arrow-right{
   height: 80px;
   width: 40px;
+}
+#author-social-icons > li > a > i {
+  margin: 0;
+}
+#author-social-icons > li {
+  margin-right: 10px;
 }
