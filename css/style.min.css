@@ -3201,3 +3201,10 @@ h1#animated-txt span {
     text-indent: 0;
   }
 }
+.blog-links > a > i {
+  font-size: 30px;
+}
+
+.blog-links {
+  margin-top: 20px;
+}
