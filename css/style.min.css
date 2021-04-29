@@ -1025,7 +1025,7 @@ only screen and (max-device-width: 1024px) {
 .nj-button {
   font-family: 'Open Sans', sans-serif;
   font-weight: 900;
-  text-transform: uppercase;
+  text-transform: inherit;
   font-size: 1.25rem;
   position: relative;
   margin-left: 50px;
@@ -3025,7 +3025,6 @@ h2.nj-section-header-title-episodes {
 .episodes-parallax{
   background: transparent;
   background-image: url(../img/Background.png);
-  opacity:
 }
 
 .nj-portfolio-item{
