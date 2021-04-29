@@ -3211,3 +3211,11 @@ h1#animated-txt span {
 .blog-title {
   margin: 70px 0 30px;
 }
+
+.pt-120px {
+  padding-top: 120px;
+}
+
+.pb-120px {
+  padding-bottom: 120px;
+}
