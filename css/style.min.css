@@ -2311,11 +2311,14 @@ only screen and (max-device-width: 740px) {
 }
 
 /* line 1317, src/sass/style.sass */
-.nj-read-also-left:hover .nj-read-also-left-arrow,
-.nj-read-also-left:hover .nj-read-also-right-arrow,
+
 .nj-read-also-right:hover .nj-read-also-left-arrow,
 .nj-read-also-right:hover .nj-read-also-right-arrow {
   transform: translateX(10px);
+}
+.nj-read-also-left:hover .nj-read-also-left-arrow,
+.nj-read-also-left:hover .nj-read-also-right-arrow {
+  transform: translateX(-10px);
 }
 
 /* line 1320, src/sass/style.sass */
