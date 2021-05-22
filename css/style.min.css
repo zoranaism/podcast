@@ -3228,3 +3228,7 @@ h1#animated-txt span {
 .pb-120px {
   padding-bottom: 120px;
 }
+.nj-single-project-title-wrapper img{
+  height: 50px;
+  width: 70px;
+}
