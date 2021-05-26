@@ -3232,3 +3232,7 @@ h1#animated-txt span {
 .link-style {
   
 }
+
+.img-max-width-50 {
+  max-width: 50px;
+}
