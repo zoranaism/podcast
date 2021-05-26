@@ -3229,8 +3229,12 @@ h1#animated-txt span {
   padding-bottom: 120px;
 }
 
-.link-style {
-  
+a.link-style:link,
+a.link-style:visited,
+a.link-style:hover,
+a.link-style:active,
+a.link-style:focus {
+  color:#164c5a;
 }
 
 .img-max-width-50 {
