@@ -2454,7 +2454,7 @@ only screen and (max-device-width: 740px) {
 /* */
 /* line 1403, src/sass/style.sass */
 .nj-portfolio-filters {
-  padding-top: 60px;
+  /* padding-top: 60px; */
   padding-bottom: 60px;
 }
 
