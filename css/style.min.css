@@ -3238,7 +3238,11 @@ h1#animated-txt span {
 }
 .team-text-wrapper{
   margin-top: 70px;
-  margin-bottom: 200px;
+  margin-bottom: 170px;
+  margin-left: 50px;
+}
+.button-wrapper{
+  margin-left: 50px;
 }
 .team-wrapper{
   margin-top: -50px;
