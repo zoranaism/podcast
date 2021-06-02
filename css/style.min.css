@@ -3232,3 +3232,15 @@ h1#animated-txt span {
   height: 60px;
   width: 70px;
 }
+.team-img-wrapper img{
+  height: 500px;
+  width: 700px;
+}
+.team-text-wrapper{
+  margin-top: 70px;
+  margin-bottom: 200px;
+}
+.team-wrapper{
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
