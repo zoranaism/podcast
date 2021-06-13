@@ -2454,7 +2454,7 @@ only screen and (max-device-width: 740px) {
 /* */
 /* line 1403, src/sass/style.sass */
 .nj-portfolio-filters {
-  padding-top: 60px;
+  /* padding-top: 60px; */
   padding-bottom: 60px;
 }
 
@@ -3079,14 +3079,14 @@ button[type="submit"]:hover{
 .contact{
 display: flex;
 }
-.form{
+/* .contact.form{
 flex-basis: 50%;
 padding: 40px 60px;
-}
-.newsletter{
+} */
+/* .newsletter{
 flex-basis: 50%;
 padding: 40px;
-}
+} */
 .title-contact{
   margin-bottom: 20px;
 }
@@ -3228,7 +3228,19 @@ h1#animated-txt span {
 .pb-120px {
   padding-bottom: 120px;
 }
-.nj-single-project-title-wrapper img{
+.nj-single-project-title-wrapper img {
   height: 60px;
   width: 70px;
+}
+
+a.link-style:link,
+a.link-style:visited,
+a.link-style:hover,
+a.link-style:active,
+a.link-style:focus {
+  color:#164c5a;
+}
+
+.img-max-width-50 {
+  max-width: 50px;
 }
