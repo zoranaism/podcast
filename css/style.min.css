@@ -551,8 +551,8 @@ only screen and (max-device-width: 1024px) {
   height: 100%;
   background-image: url("../img/background/background8.png");
   opacity: 0.4;
-  background-position: center inherit;
-  background-repeat: repeat-x;
+  background-position: center center;
+  background-repeat: repeat;
   background-size: contain;
 }
 
