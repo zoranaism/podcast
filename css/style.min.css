@@ -549,11 +549,11 @@ only screen and (max-device-width: 1024px) {
   z-index: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../img/Background.png");
+  background-image: url("../img/background/background8.png");
   opacity: 0.4;
   background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
+  background-size: contain;
 }
 
 /* line 337, src/sass/style.sass */
@@ -931,14 +931,15 @@ only screen and (max-device-width: 1024px) {
 
 /* line 571, src/sass/style.sass */
 .nj-navbar .nj-navbar-logo {
-  font-size: 48px;
+  /* font-size: 48px; */
   line-height: 65px;
   color: white;
   font-weight: 900;
 }
 
 .nj-navbar .nj-navbar-logo>img {
-  height: 75px;
+  /* height: 75px; */
+  width: 300px;
 }
 
 /* line 576, src/sass/style.sass */
@@ -3041,12 +3042,11 @@ h2.nj-section-header-title-episodes {
 }
 .blue-button {
   padding: 11px 40px;
-  background-color: #077d90;
-  color: white;
-  border-radius: 2px;
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
   text-transform: uppercase;
   font-weight: 700;
-  border-radius: 20px;
 }
 .form-group{
   width: 100%;
