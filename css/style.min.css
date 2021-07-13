@@ -2383,7 +2383,6 @@ only screen and (max-device-width: 740px) {
   position: relative;
   display: inline-block;
   vertical-align: middle;
-  float: left;
   border-radius: 100%;
   overflow: hidden;
   width: 140px;
@@ -3243,4 +3242,21 @@ a.link-style:focus {
 
 .img-max-width-50 {
   max-width: 50px;
+}
+
+.team-img-wrapper img {
+  height: 500px;
+  width: 700px;
+}
+.team-text-wrapper{
+  margin-top: 70px;
+  margin-bottom: 170px;
+  margin-left: 50px;
+}
+.button-wrapper{
+  margin-left: 50px;
+}
+.team-wrapper{
+  margin-top: -50px;
+  margin-bottom: -50px;
 }
