@@ -93,6 +93,7 @@
               <a class="navbar-item" href="index.html" data-cursor-effect="hover">home</a>
               <a class="navbar-item" href="about.html" data-cursor-effect="hover">about</a>
               <a class="navbar-item" href="episodes.html" data-cursor-effect="hover">episodes</a>
+              <a class="navbar-item" href="contact.html" data-cursor-effect="hover">contact</a>
 
             </div>
 
@@ -131,6 +132,7 @@
         <a class="nj-mobile-menu-item is-active" href="index.html">home</a>
         <a class="nj-mobile-menu-item" href="about.html">about</a>
         <a class="nj-mobile-menu-item" href="episodes.html">episodes</a>
+        <a class="nj-mobile-menu-item" href="contact.html">contact</a>
 
         </a>
       </div>
@@ -169,31 +171,34 @@
         <div class="section nj-light-section nj-pdt-60" id="nj-single-project-section" data-scroll-to-top-style="dark"
             data-cursor-style="dark">
             <div class="container">
+
+            <h1 class="title-contact">Contact Us</h1>
+            <h3 class="title-contact">Have any questions or comment? We'd love to hear you.</h3>
                 <div class="row">
-    
-    
+  
                 <div class="contact col-12 col-lg-6">
+
                     <div class="form w-100">
-                        <h2 class="title-contact">Contact us</h2>
-                        <form action="" method="POST" class="contact-form">
+                        <form action="mailto:miloskocicmiske@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm"id="contact-form" class="contact-form">
                             <div class="form-group">
-                                <label for="firstName">First Name *</label>
-                                <input type="text" id="firstName" name="firstName" size="50">
+                                <label for="firstName">First Name<span style="color: red;">*</span></label>
+                                <input class="contact-form-text" type="text" id="firstName" name="firstName" size="50" placeholder="First Name...">
+                                <div id="error"></div>
                             </div>
 
                             <div class="form-group">
-                                <label for="firstName">Last Name *</label>
-                                <input type="text" id="lastName" name="lastName">
+                                <label for="lastName">Last Name<span style="color: red;">*</span></label>
+                                <input class="contact-form-text" type="text" id="lastName" name="lastName" placeholder="Last Name...">
                             </div>
 
                             <div class="form-group">
-                                <label for="firstName">Email *</label>
-                                <input type="text" id="email" name="email">
+                                <label for="email">Email<span style="color: red;">*</span></label>
+                                <input class="contact-form-text" type="text" id="email" name="email" placeholder="Email...">
                             </div>
 
                             <div class="form-group">
-                                <label for="firstName">Message *</label>
-                                <textarea name="message" id="message" rows="4" cols="40"></textarea>
+                                <label for="message">Message<span style="color: red;">*</span></label>
+                                <textarea class="contact-form-text" name="message" id="message" rows="4" cols="40" placeholder="Message..."></textarea>
                             </div>
 
                             <button type="submit">Send</button>
@@ -204,8 +209,21 @@
 
 
                 <div class="newsletter col-lg-6 col-12">
-                    
-                    <!-- <iframe width="540" height="600" src="https://765ab965.sibforms.com/serve/MUIEAIhJqOoM3tVWOIMVVExn2HTyZmdwjb2tgt39E30cq6nB6dFqNitaEOqrhI8Zul1a1G5tv5VfEQEtP8diDU87BlO6_j5wHRBdtMwCHlS-QfS3fZl80YhT8qz9jrzZY5yrYQg6baSV6ecYSFnOnnvjUkvVoJij1FG5fT6F98-oy9N3VSRT418Qj2iMKqzmEek6O99tVCjJ9Lc3" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>         -->
+                       <table style="margin-top: 15px; margin-bottom: 20px;">
+                                <tr data-anim-queue="1" data-anim-type="fade_in_up">
+                                    <td><i class="fa fa-phone-alt"></i></td>
+                                    <td>+31684359770</td>
+                                </tr>
+                                <tr data-anim-queue="2" data-anim-type="fade_in_up">
+                                    <td><i class="fa fa-envelope"></i></td>
+                                    <td>stellarsoundpodcast@gmail.com</td>
+                                </tr>
+                                <tr data-anim-queue="3" data-anim-type="fade_in_up">
+                                    <td><i class="fa fa-location-arrow"></i></td>
+                                    <td>Het Klokkediep 119, 5231WZ Den Bosch, Netherlands</td>
+                                </tr>
+                            </table>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2471.9857736330127!2d5.300432315216408!3d51.71500280332457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6ee3e307553a7%3A0xefd0fdfd8fe11569!2zSGV0IEtsb2trZWRpZXAgMTE5LCA1MjMxIFdYICdzLUhlcnRvZ2VuYm9zY2gsINCl0L7Qu9Cw0L3QtNC40ZjQsA!5e0!3m2!1ssr!2srs!4v1626198683088!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
  </div>
                 </div>
@@ -375,7 +393,6 @@
 <!-- Include Js Files-->
 <script src="js/assets.min.js"></script>
 <script src="js/app.min.js"></script>
-
  <script>
    window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
    window.LOCALE = 'en';
@@ -396,9 +413,11 @@
    };
  
    var AUTOHIDE = Boolean(0);
+
+
  </script>
  <script src="https://sibforms.com/forms/end-form/build/main.js"></script>
-
+ <script src="https://smtpjs.com/v3/smtp.js"></script>
 
 </body>
 
