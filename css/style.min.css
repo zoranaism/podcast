@@ -3107,6 +3107,19 @@ padding: 40px;
 #author-social-icons > li {
   margin-right: 10px;
 }
+/*****
+fontawesome icons
+*****/
+.socials-icons a:nth-child(1) {
+  color:#10BC4C;
+}
+.socials-icons a:nth-child(2) {
+  color:#ED1F24;
+}
+.socials-icons a i:hover {
+  transform: scale(1.1);
+  transition: .3s ease;
+}
 
 
 h1#animated-txt {
