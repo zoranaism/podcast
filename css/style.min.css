@@ -3116,6 +3116,9 @@ fontawesome icons
 .socials-icons a:nth-child(2) {
   color:#ED1F24;
 }
+.socials-icons a:nth-child(3) {
+  color:#C05FEB;
+}
 .socials-icons a i:hover {
   transform: scale(1.1);
   transition: .3s ease;
