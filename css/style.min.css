@@ -3047,6 +3047,15 @@ h2.nj-section-header-title-episodes {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+.black-button {
+  padding: 11px 40px;
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 .form-group{
   width: 100%;
   margin-top: 20px;
@@ -3245,8 +3254,7 @@ a.link-style:focus {
 }
 
 .team-img-wrapper img {
-  height: 500px;
-  width: 700px;
+  width: 100%;
 }
 .team-text-wrapper{
   margin-top: 70px;
