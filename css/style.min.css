@@ -2383,7 +2383,6 @@ only screen and (max-device-width: 740px) {
   position: relative;
   display: inline-block;
   vertical-align: middle;
-  float: left;
   border-radius: 100%;
   overflow: hidden;
   width: 140px;
@@ -3067,6 +3066,15 @@ h2.nj-section-header-title-episodes {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+.black-button {
+  padding: 11px 40px;
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 .form-group{
   width: 100%;
   margin-top: 20px;
@@ -3264,6 +3272,10 @@ h1#animated-txt span {
 .pb-120px {
   padding-bottom: 120px;
 }
+.nj-single-project-title-wrapper img {
+  height: 60px;
+  width: 70px;
+}
 
 a.link-style:link,
 a.link-style:visited,
@@ -3275,4 +3287,37 @@ a.link-style:focus {
 
 .img-max-width-50 {
   max-width: 50px;
+}
+
+.team-img-wrapper img {
+  width: 100%;
+}
+.team-text-wrapper{
+  margin-top: 70px;
+  margin-bottom: 170px;
+  margin-left: 50px;
+}
+.button-wrapper{
+  margin-left: 50px;
+}
+.team-wrapper{
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+/*
+team responsive
+*/
+@media (max-width:767px) {
+  .team-text-wrapper{
+    margin: 0; 
+  }
+  .team-img-wrapper img {
+    width: 100%;
+    height: 100%;
+  }
+ .team {
+   padding-bottom: 75px;
+ }
+  
 }
