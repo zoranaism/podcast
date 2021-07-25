@@ -162,6 +162,10 @@ only screen and (max-device-width: 1024px) {
   margin-top: 60px !important;
 }
 
+#nj-single-project-section {
+  padding-top: 0px !important;
+}
+
 /* line 110, src/sass/style.sass */
 .nj-mt-80 {
   margin-top: 80px !important;
@@ -1188,7 +1192,7 @@ main {
 
 /* line 718, src/sass/style.sass */
 .section:not(.nj-hero) {
-  padding-top: 120px;
+  padding-top: 100px;
   padding-bottom: 120px;
 }
 
@@ -1302,6 +1306,10 @@ main {
 /* line 778, src/sass/style.sass */
 .section#nj-what-we-do .nj-section-header>h1 {
   color: white;
+}
+
+.contact-title {
+  padding-top: 120px !important;
 }
 
 /* */
@@ -3139,11 +3147,13 @@ padding: 40px 60px;
 flex-basis: 50%;
 padding: 40px;
 } */
-.title-contact{
+
+.title-contact {
   font-family: "montserrat", sans-serif;
-  text-align:center;
-  margin-bottom: 20px;
+  /* text-align:center; */
+  margin-bottom: 60px;
 }
+
 .title-newsletter{
   margin-bottom: 40px;
 }
