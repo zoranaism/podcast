@@ -3357,3 +3357,30 @@ team responsive
  }
   
 }
+
+
+.tab {
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.tab button {
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #aaa;
+
+}
+.tab button:hover {
+  background-color: #bbb;
+}
+.tab button.active {
+  background-color: #aaa;
+}
+.tabcontent {
+    display: none;
+    padding: 5px 15px 5px 15px;
+    border-top: none;
+}
