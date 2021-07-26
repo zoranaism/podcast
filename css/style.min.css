@@ -942,8 +942,8 @@ only screen and (max-device-width: 1024px) {
 }
 
 .nj-navbar .nj-navbar-logo>img {
-  /* height: 75px; */
-  width: 300px;
+  height: 45px;
+  /* width: 300px; */
 }
 
 /* line 576, src/sass/style.sass */
