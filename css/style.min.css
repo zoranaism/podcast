@@ -2767,7 +2767,7 @@ only screen and (max-device-width: 740px) {
 
 .socials-icons>ul>li {
   display: inline-block;
-  padding: 0 15px;
+  padding: 0 5px;
 }
 
 .socials-icons>ul>li:first-child {
@@ -3174,6 +3174,10 @@ padding: 40px;
 /*****
 fontawesome icons
 *****/
+.socials-icons a > i {
+  padding: 0;
+  margin: 0 5px;
+}
 .socials-icons a:nth-child(1) {
   color:#10BC4C;
 }
