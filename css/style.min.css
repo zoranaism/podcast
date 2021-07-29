@@ -3362,6 +3362,7 @@ team responsive
 .tab {
   overflow: hidden;
   background-color: #f1f1f1;
+  margin: 0 auto;
 }
 .tab button {
   float: left;
@@ -3371,7 +3372,15 @@ team responsive
   padding: 15px;
   font-size: 16px;
   border: 1px solid #aaa;
-
+  margin-right: 10px;
+  text-transform: uppercase;
+  padding: 11px 40px;
+  background-color: transparent;
+  color: #070f17;
+  border: 2px solid #070f17;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 10px
 }
 .tab button:hover {
   background-color: #bbb;
@@ -3383,4 +3392,8 @@ team responsive
     display: none;
     padding: 5px 15px 5px 15px;
     border-top: none;
+}
+
+.tablinks {
+ 
 }
