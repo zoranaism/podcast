@@ -162,10 +162,6 @@ only screen and (max-device-width: 1024px) {
   margin-top: 60px !important;
 }
 
-#nj-single-project-section {
-  padding-top: 0px !important;
-}
-
 /* line 110, src/sass/style.sass */
 .nj-mt-80 {
   margin-top: 80px !important;
@@ -1729,7 +1725,7 @@ only screen and (max-device-width: 740px) {
   position: relative;
   border-left: 3px solid black;
   padding-left: 60px;
-  min-height: 350px;
+  min-height: 250px;
 }
 
 /* line 996, src/sass/style.sass */
@@ -3064,7 +3060,7 @@ h2.nj-section-header-title-episodes {
 }
 
 .nj-portfolio-item{
-  padding: 0 8px 0 8px;
+  padding: 0;
 }
 .blue-button {
   padding: 11px 40px;
@@ -3398,6 +3394,11 @@ team responsive
     border-top: none;
 }
 
-.tablinks {
- 
+.mb-section {
+ margin-bottom: 150px;
+}
+
+.card-text-host {
+  font-size: 18px;
+  font-style: italic;
 }
