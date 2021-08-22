@@ -1574,6 +1574,7 @@ only screen and (max-device-width: 740px) {
   .nj-crew-slider-wrapper .nj-crew-slider:before {
     display: none;
   }
+  
 }
 
 /* line 923, src/sass/style.sass */
@@ -3398,4 +3399,19 @@ team responsive
 .card-text-host {
   font-size: 18px;
   font-style: italic;
+}
+
+.video-container {
+  text-align: center; 
+  padding-bottom: 60px; 
+  width: 60%; 
+  margin:0 auto;
+}
+
+@media only screen and (max-width: 740px),
+only screen and (max-device-width: 740px) {
+
+  .video-container {
+    width: 100%; 
+  }
 }
