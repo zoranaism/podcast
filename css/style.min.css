@@ -1726,6 +1726,15 @@ only screen and (max-device-width: 740px) {
   min-height: 250px;
 }
 
+.nj-testimonials-wrapper .nj-testimonial-quote {
+  position: relative;
+  border-left: 3px solid black;
+  padding-left: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+
 /* line 996, src/sass/style.sass */
 .nj-testimonials-wrapper .nj-testimonials .nj-testimonial {
   padding-top: 10px;
@@ -3356,11 +3365,32 @@ team responsive
   
 }
 
-
+.tab-holder {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
 .tab {
   overflow: hidden;
   background-color: #f1f1f1;
   margin-bottom: 40px;
+  text-align: center;
+}
+.donate-button-style {
+  padding: 15px;
+  font: 900;
+  font-size: 25px;
+  border: 1px solid black;
+  min-width: 150px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 10px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(../img/background/backgroundButton2.png);
+  background-position: center center;
+  background-repeat:round;
+  background-size: contain;
+  color: white;
 }
 .tab button {
   float: left;
@@ -3370,21 +3400,31 @@ team responsive
   padding: 15px;
   font-size: 16px;
   border: 1px solid #aaa;
-  margin-right: 10px;
   text-transform: uppercase;
   padding: 11px 40px;
   background-color: transparent;
   color: #070f17;
-  border: 2px solid #070f17;
+  border-left: 1px solid gray;
   text-transform: uppercase;
   font-weight: 700;
-  margin-bottom: 10px
+  margin-bottom: 10px;
+  border-top: 1px solid gray;
+  border-right: none;
+}
+.tab button:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.tab button:last-child {
+  border-right: 1px solid gray;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .tab button:hover {
-  background-color: #bbb;
+  background-color: lightgrey;
 }
 .tab button.active {
-  background-color: #aaa;
+  background-color: lightsteelblue;
 }
 .tabcontent {
     display: none;
@@ -3414,4 +3454,10 @@ only screen and (max-device-width: 740px) {
   .video-container {
     width: 100%; 
   }
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.italic {
+  font-style: italic;
 }
