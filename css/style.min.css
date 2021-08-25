@@ -162,10 +162,6 @@ only screen and (max-device-width: 1024px) {
   margin-top: 60px !important;
 }
 
-#nj-single-project-section {
-  padding-top: 0px !important;
-}
-
 /* line 110, src/sass/style.sass */
 .nj-mt-80 {
   margin-top: 80px !important;
@@ -1308,9 +1304,6 @@ main {
   color: white;
 }
 
-.contact-title {
-  padding-top: 120px !important;
-}
 
 /* */
 /* ---------------------------
@@ -1581,6 +1574,7 @@ only screen and (max-device-width: 740px) {
   .nj-crew-slider-wrapper .nj-crew-slider:before {
     display: none;
   }
+  
 }
 
 /* line 923, src/sass/style.sass */
@@ -1729,7 +1723,7 @@ only screen and (max-device-width: 740px) {
   position: relative;
   border-left: 3px solid black;
   padding-left: 60px;
-  min-height: 350px;
+  min-height: 250px;
 }
 
 /* line 996, src/sass/style.sass */
@@ -2767,7 +2761,7 @@ only screen and (max-device-width: 740px) {
 
 .socials-icons>ul>li {
   display: inline-block;
-  padding: 0 15px;
+  padding: 0 5px;
 }
 
 .socials-icons>ul>li:first-child {
@@ -3064,7 +3058,7 @@ h2.nj-section-header-title-episodes {
 }
 
 .nj-portfolio-item{
-  padding: 0 8px 0 8px;
+  padding: 0;
 }
 .blue-button {
   padding: 11px 40px;
@@ -3174,6 +3168,10 @@ padding: 40px;
 /*****
 fontawesome icons
 *****/
+.socials-icons a > i {
+  padding: 0;
+  margin: 0 5px;
+}
 .socials-icons a:nth-child(1) {
   color:#10BC4C;
 }
@@ -3394,6 +3392,26 @@ team responsive
     border-top: none;
 }
 
-.tablinks {
- 
+.mb-section {
+ margin-bottom: 150px;
+}
+
+.card-text-host {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.video-container {
+  text-align: center; 
+  padding-bottom: 60px; 
+  width: 60%; 
+  margin:0 auto;
+}
+
+@media only screen and (max-width: 740px),
+only screen and (max-device-width: 740px) {
+
+  .video-container {
+    width: 100%; 
+  }
 }
