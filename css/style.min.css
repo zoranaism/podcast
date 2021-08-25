@@ -3362,7 +3362,7 @@ team responsive
 .tab {
   overflow: hidden;
   background-color: #f1f1f1;
-  margin: 0 auto;
+  margin-bottom: 40px;
 }
 .tab button {
   float: left;
