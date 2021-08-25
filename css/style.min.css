@@ -3376,21 +3376,9 @@ team responsive
   margin-bottom: 40px;
   text-align: center;
 }
-.donate-button-style {
-  padding: 15px;
-  font: 900;
-  font-size: 25px;
-  border: 1px solid black;
-  min-width: 150px;
+.donate-button{
   float: left;
   margin-right: 20px;
-  border-radius: 10px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-image: url(../img/background/backgroundButton2.png);
-  background-position: center center;
-  background-repeat:round;
-  background-size: contain;
-  color: white;
 }
 .tab button {
   float: left;
