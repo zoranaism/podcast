@@ -3415,3 +3415,30 @@ only screen and (max-device-width: 740px) {
     width: 100%; 
   }
 }
+
+
+/* SPONSOR */
+@media only screen and (max-width: 1200px),
+only screen and (max-device-width: 1200px) {
+
+  .sponsor-container .sponsor-title {
+    width: 100%;
+  }
+
+  .sponsor-container .sponsor-sponsor {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 550px),
+only screen and (max-device-width: 550px) {
+
+  .sponsor-container .d-flex {
+    display: block !important;
+  }
+
+  .sponsor-container .sponsor-sponsor {
+    text-align: unset !important;
+  }
+}
+
