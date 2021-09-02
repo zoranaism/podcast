@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://www.stellarsoundpodcast.com</loc>
+    <lastmod>2021-07-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.stellarsoundpodcast.com/about</loc>
+    <lastmod>2021-07-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.stellarsoundpodcast.com/episodes</loc>
+    <lastmod>2021-07-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.stellarsoundpodcast.com/episode-1-leo-from-justleo</loc>
+    <lastmod>2021-07-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.stellarsoundpodcast.com/episode-2-hunbjorn</loc>
+    <lastmod>2021-07-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.stellarsoundpodcast.com/episode-3-aleksandra-denda</loc>
+    <lastmod>2021-07-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.stellarsoundpodcast.com/episode-4-zsolt-argyelan</loc>
+    <lastmod>2021-07-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.stellarsoundpodcast.com/live-streaming-episode-gamma</loc>
+    <lastmod>2021-07-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.stellarsoundpodcast.com/live-streaming-episode2-anne-van-damme</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.stellarsoundpodcast.com/live-streaming-episode3-milan-miric</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- those are not active -->
+  <!-- <url>
+    <loc>https://www.stellarsoundpodcast.com/donate</loc>
+    <lastmod>2021-04-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.stellarsoundpodcast.com/blog</loc>
+    <lastmod>2021-04-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url> -->
+</urlset>
