@@ -2,7 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import warning from "tiny-warning";
 
-import RouterContext from "./RouterContext";
+import HistoryContext from "./HistoryContext.js";
+import RouterContext from "./RouterContext.js";
 
 /**
  * The public API for putting history on context.
@@ -47,20 +48,28 @@ class Router extends React.Component {
   }
 
   componentWillUnmount() {
-    if (this.unlisten) this.unlisten();
+    if (this.unlisten) {
+      this.unlisten();
+      this._isMounted = false;
+      this._pendingLocation = null;
+    }
   }
 
   render() {
     return (
       <RouterContext.Provider
-        children={this.props.children || null}
         value={{
           history: this.props.history,
           location: this.state.location,
           match: Router.computeRootMatch(this.state.location.pathname),
           staticContext: this.props.staticContext
         }}
-      />
+      >
+        <HistoryContext.Provider
+          children={this.props.children || null}
+          value={this.props.history}
+        />
+      </RouterContext.Provider>
     );
   }
 }
