@@ -9,7 +9,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Donate from "./pages/Donate";
 import Layout from "./components/Layout/Layout";
-import AllEpisodes from "./pages/AllEpisodes";
+import Episodes from "./pages/Episodes";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         <Route path="/contact" component={ContactUs} />
         <Route path="/donate" component={Donate} />
         <Route path="/about" component={About} />
-        <Route path="/episodes" component={AllEpisodes} />
+        <Route path="/episodes" component={Episodes} />
         </Layout>
       </Switch>
     </div>
