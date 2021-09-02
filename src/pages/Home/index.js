@@ -339,7 +339,8 @@ export default function Home(props) {
         </div>
       </section>
 
-      <TestimonialsSlider />
+      
+
     </div>
   );
 }

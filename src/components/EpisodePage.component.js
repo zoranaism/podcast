@@ -1,8 +1,5 @@
 import React from "react";
 
 export default function EpisodePage() {
-  return 
-  (
-      
-  )
+  return <div></div>;
 }
