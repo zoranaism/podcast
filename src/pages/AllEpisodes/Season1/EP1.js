@@ -21,9 +21,9 @@ export default function Episode1() {
       guestsImagePath="img/episodes/guests/JustLeo.webp"
       prevEpisodePath=""
       prevEpisodeImgPath=""
-      nextEpisodePath=""
-      nextEpisodeImgPath=""
-      nextEpisode=""
+      nextEpisodePath="episode-2-hunbjorn.html"
+      nextEpisodeImgPath="img/episodes/episodes-cover/pilot/episode-2-cover.webp"
+      nextEpisode='Episode 2: HunBjørn'
     />
   );
 }
