@@ -43,10 +43,17 @@ export default function EpisodeComponent({
                     href="https://www.youtube.com/user/kukundrela"
                     target="blank"
                   >
-                    {host}{" "}
+                    Radina Dimcheva
                   </a>
                 ) : (
-                  <div>update justins link here</div>
+                  <a
+                    data-cursor-effect="exclusion"
+                    target="_blank"
+                    class="link-style"
+                    href="https://twitter.com/jus10williams"
+                  >
+                    Justen Williams
+                  </a>
                 )}
                 | Guest:
                 <a
@@ -83,7 +90,7 @@ export default function EpisodeComponent({
               >
                 Sponsor of this episode:
               </h3>
-              {sponsor === "fae-games" && (
+              {sponsor === "fae-games" ? (
                 <a className="ep-sponsor" href="https://www.faegames.com/">
                   <img
                     src="img/sponsors/fae-games.webp"
@@ -91,7 +98,7 @@ export default function EpisodeComponent({
                     data-cursor-effect="exclusion"
                   />
                 </a>
-              )}
+              ) : }
             </div>
           </div>
 
