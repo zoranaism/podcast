@@ -10,6 +10,7 @@ import About from "./pages/About";
 import Donate from "./pages/Donate";
 import Layout from "./components/Layout/Layout";
 import Episodes from "./pages/Episodes";
+import Episode1 from "./pages/AllEpisodes/Season1/EP1";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
         <Route path="/donate" component={Donate} />
         <Route path="/about" component={About} />
         <Route path="/episodes" component={Episodes} />
+        <Route path="/episode-1" component={Episode1} />
+
         </Layout>
       </Switch>
     </div>
