@@ -98,7 +98,15 @@ export default function EpisodeComponent({
                     data-cursor-effect="exclusion"
                   />
                 </a>
-              ) : }
+              ) : (
+                <a class="ep-sponsor" href="https://ketz.rs/">
+                  <img
+                    src="img/sponsors/ketz.webp"
+                    alt="sponsor"
+                    data-cursor-effect="exclusion"
+                  />
+                </a>
+              )}
             </div>
           </div>
 
