@@ -197,14 +197,14 @@ export default function EpisodeComponent({
 
                     <div class="col-md-6">
                       <a
-                        href="episode-2-hunbjorn.html"
+                        href={prevEpisodePath}
                         data-cursor-effect="exclusion"
                       >
                         <div class="nj-read-also-left-image-wrapper">
                           <img
                             class="nj-read-also-left-image"
                             src={prevEpisodeImgPath}
-                            alt="Episode 2: HunBjørn"
+                            alt="Previous episode"
                             data-cursor-style="blend"
                           />
                         </div>
@@ -227,7 +227,7 @@ export default function EpisodeComponent({
                           <img
                             className="mb-4 nj-read-also-right-image"
                             src={nextEpisodeImgPath}
-                            alt="Previous episode"
+                            alt="Next episode"
                             data-cursor-style="blend"
                           />
                         </div>
