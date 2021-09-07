@@ -17,6 +17,14 @@ import Episode3 from "./pages/AllEpisodes/Season1/EP3";
 import Episode4 from "./pages/AllEpisodes/Season1/EP4";
 import Episode5 from "./pages/AllEpisodes/Season1/EP5";
 
+
+
+
+import Episode6 from "./pages/AllEpisodes/Season1/EP6";
+import Episode7 from "./pages/AllEpisodes/Season1/EP7";
+import Episode8 from "./pages/AllEpisodes/Season1/EP8";
+import Episode9 from "./pages/AllEpisodes/Season1/EP9";
+
 function App() {
   return (
    <Router>
@@ -34,6 +42,12 @@ function App() {
         <Route path="/episode-4" component={Episode4} />
         <Route path="/episode-5" component={Episode5} />
 
+
+
+        <Route path="/episode-6" component={Episode6} />
+        <Route path="/episode-7" component={Episode7} />
+        <Route path="/episode-8" component={Episode8} />
+        <Route path="/episode-9" component={Episode9} />
         </Layout>
       </Switch>
     </div>
