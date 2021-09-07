@@ -6,7 +6,7 @@ export default function Episode3() {
   return (
     <EpisodeComponent
     episodeName='Pilot Episodes | Episode 3'
-    host="megan dalen"
+    host="megan"
     guest="Aleksandra Denda"
     guestLink="https://www.aleksandradenda.com/"
     spotifyLink="https://open.spotify.com/episode/2Ai9cl6ubhXmUi08MR8zYk"

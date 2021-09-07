@@ -45,7 +45,7 @@ export default function EpisodeComponent({
                   >
                     Radina Dimcheva
                   </a>
-                ) : (
+                ) : host === "justen" ? (
                   <a
                     data-cursor-effect="exclusion"
                     target="_blank"
@@ -54,7 +54,16 @@ export default function EpisodeComponent({
                   >
                     Justen Williams
                   </a>
-                )}
+                ) : host === "megan" ? (
+                    <a
+                    data-cursor-effect="exclusion"
+                    target="_blank"
+                    class="link-style"
+                    href="https://www.linkedin.com/in/megan-dalen-1965ba1bb/"
+                  >
+                    Megan Dalen
+                  </a>
+                ) : 'no host'}
                 | Guest:
                 <a
                   data-cursor-effect="exclusion"
