@@ -13,6 +13,11 @@ import Layout from "./components/Layout/Layout";
 import Episodes from "./pages/Episodes";
 import Episode1 from "./pages/AllEpisodes/Season1/EP1";
 import Episode2 from "./pages/AllEpisodes/Season1/EP2";
+import Episode6 from "./pages/AllEpisodes/Season1/EP6";
+import Episode7 from "./pages/AllEpisodes/Season1/EP7";
+import Episode8 from "./pages/AllEpisodes/Season1/EP8";
+import Episode9 from "./pages/AllEpisodes/Season1/EP9";
+
 
 function App() {
   return (
@@ -27,7 +32,10 @@ function App() {
         <Route path="/episodes" component={Episodes} />
         <Route path="/episode-1" component={Episode1} />
         <Route path="/episode-2" component={Episode2} />
-
+        <Route path="/episode-6" component={Episode6} />
+        <Route path="/episode-7" component={Episode7} />
+        <Route path="/episode-8" component={Episode8} />
+        <Route path="/episode-9" component={Episode9} />
         </Layout>
       </Switch>
     </div>
