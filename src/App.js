@@ -13,6 +13,8 @@ import Layout from "./components/Layout/Layout";
 import Episodes from "./pages/Episodes";
 import Episode1 from "./pages/AllEpisodes/Season1/EP1";
 import Episode2 from "./pages/AllEpisodes/Season1/EP2";
+import Episode3 from "./pages/AllEpisodes/Season1/EP3";
+import Episode4 from "./pages/AllEpisodes/Season1/EP4";
 
 
 
@@ -35,6 +37,8 @@ function App() {
         <Route path="/episodes" component={Episodes} />
         <Route path="/episode-1" component={Episode1} />
         <Route path="/episode-2" component={Episode2} />
+        <Route path="/episode-3" component={Episode3} />
+        <Route path="/episode-4" component={Episode4} />
 
 
 

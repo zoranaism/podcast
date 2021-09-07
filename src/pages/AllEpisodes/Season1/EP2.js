@@ -20,11 +20,11 @@ export default function Episode2() {
       description4=""
       guestsImagePath="img/episodes/guests/HunBjørn.webp"
       prevEpisode='Episode 1: Leo from "Just Leo"'
-      prevEpisodePath="episode-1-leo-from-justleo"
+      prevEpisodePath="episode-1-leo-from-justleo.html"
       prevEpisodeImgPath="img/episodes/episodes-cover/pilot/episode-1-cover.webp"
-      nextEpisodePath="episode-3-aleksandra-denda"
+      nextEpisodePath="episode-3-aleksandra-denda.html"
       nextEpisodeImgPath="img/episodes/episodes-cover/pilot/Episode-3-cover-aleksandra-denda.webp"
-      nextEpisode='Episode 3: ALEKSANDRA DENDA'
+      nextEpisode='Episode 3: Aleksandra Denda'
     
     /> 
   );
