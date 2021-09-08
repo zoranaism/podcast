@@ -5,26 +5,26 @@ import EpisodeComponent from "../../../components/EpisodePage.component";
 export default function Episode4() {
   return (
     <EpisodeComponent
-    episodeName='Pilot Episodes | Episode 4'
-    host="radina"
-    guest="Zsolt Argyelan"
-    guestLink="https://www.youtube.com/watch?v=y3GKavuTrRk"
-    spotifyLink="https://open.spotify.com/episode/2LRMrXjomKiuIE6VcCEH34"
-    youtubeLink="https://www.youtube.com/watch?v=XKd36gUUrOQ&t=2975s"
-    applePodcastsLink="https://podcasts.apple.com/rs/podcast/pilot-episode-4-guest-zsolt-argyelan-host-radina-dimcheva/id1556200413?i=1000527570484"
-    sponsor="ketz"
-    spotifyPlayerLink="https://open.spotify.com/embed/episode/2LRMrXjomKiuIE6VcCEH34"
-    description1="In our 4th episode, you will get to know our guest Zsolt Argyelan, an extremely talented jazz trumpet player and music producer who shared with us his thoughts on many different topics, such as music through time, his creative process & inspiration, how he chose his favorite instrument, etc."
-    description2="There are many fun details he went through, which nicely spiced up the conversation. Make yourself comfortable, put this episode on and explore another musical galaxy from Zsolt’s perspective."
-    description3=''
+    episodeName='Live Episodes | Episode 4'
+    host="justen"
+    guest="GAMMA"
+    guestLink="https://www.youtube.com/channel/UCJptamZVcxwhGWpUWBRDd6w"
+    spotifyLink="https://open.spotify.com/episode/19L05Xw2iHO7B2ts4Iofky"
+    youtubeLink="https://www.youtube.com/watch?v=e2N2xYJbfTo&t=326s"
+    applePodcastsLink="https://podcasts.apple.com/rs/podcast/live-episode-1-guest-gamma-host-justen-williams/id1556200413?i=1000525299171"
+    sponsor="fae-games"
+    spotifyPlayerLink="https://open.spotify.com/embed/episode/19L05Xw2iHO7B2ts4Iofky"
+    description1="Gloriya a.k.a GAMMA is a musician from Bulgaria. Creativity and art in many forms are an output for her spirituality and phillosophy."
+    description2="In her country she is known for jazzy melancholic covers of underground hip hop songs. Out of many songs she is constantly creating, GAMMA releases a very minimal part of the music saying 'I believe this has something to do with my understanding of intimacy between the live performer and the listener.'"
+    description3='The most intimate way to connect with the people is through live performances. This is something you cannot hear or see or feel online.'
     description4=""
-    guestsImagePath="img/episodes/guests/zsolt-image.webp"
+    guestsImagePath="img/episodes/guests/GAMMA.webp"
     prevEpisode='Episode 3: Aleksandra Denda'
-    prevEpisodePath="episode-3-aleksandra-denda.html"
+    prevEpisodePath="episode-3"
     prevEpisodeImgPath="img/episodes/episodes-cover/pilot/Episode-3-cover-aleksandra-denda.webp"
-    nextEpisodePath="episode-5-ania-anahata.html"
-    nextEpisodeImgPath="img/episodes/episodes-cover/pilot/episode-5-cover.webp"
-    nextEpisode='Episode 5: Ania Anahata'
+    nextEpisodePath="episode-5"
+    nextEpisodeImgPath="img/episodes/episodes-cover/live/live-streaming-episode2-cover-anne-van-damme.webp"
+    nextEpisode='Episode 5: Anne Van Damme'
   
   /> 
   );

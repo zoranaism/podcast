@@ -21,7 +21,7 @@ export default function Episode1() {
       guestsImagePath="img/episodes/guests/JustLeo.webp"
       prevEpisodePath=""
       prevEpisodeImgPath=""
-      nextEpisodePath="episode-2-hunbjorn.html"
+      nextEpisodePath="episode-2"
       nextEpisodeImgPath="img/episodes/episodes-cover/pilot/episode-2-cover.webp"
       nextEpisode='Episode 2: HunBjørn'
     />

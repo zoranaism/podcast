@@ -20,11 +20,11 @@ export default function Episode3() {
     description4=""
     guestsImagePath="img/episodes/guests/aleksandra-denda.webp"
     prevEpisode='Episode 2: HunBjørn'
-    prevEpisodePath="episode-2-hunbjorn.html"
+    prevEpisodePath="episode-2"
     prevEpisodeImgPath="img/episodes/episodes-cover/pilot/episode-2-cover.webp"
-    nextEpisodePath="episode-4-zsolt-argyelan.html"
-    nextEpisodeImgPath="img/episodes/episodes-cover/pilot/episode-4-cover.webp"
-    nextEpisode='Episode 4: Zsolt Argyelan'
+    nextEpisodePath="episode-4"
+    nextEpisodeImgPath="img/episodes/episodes-cover/live/live-streaming-episode-cover-gamma.webp"
+    nextEpisode='Episode 4: GAMMA'
   
   /> 
   );

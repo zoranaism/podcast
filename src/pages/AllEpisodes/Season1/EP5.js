@@ -5,7 +5,7 @@ import EpisodeComponent from "../../../components/EpisodePage.component";
 export default function Episode5() {
   return (
     <EpisodeComponent
-    episodeName='Live Episodes | Episode 2'
+    episodeName='Live Episodes | Episode 5'
     host="justen"
     guest="Anne Van Damme"
     guestLink="https://www.annevandammemusic.com/"
@@ -19,12 +19,12 @@ export default function Episode5() {
     description3='Today she is a full-time musician and entrepreneur based in the Netherlands, and we are delighted to announce that she is also the second guest of our Live Stellar Sessions.'
     description4=""
     guestsImagePath="img/episodes/guests/anne-van-damme.webp"
-    prevEpisode='Episode 1: GAMMA'
-    prevEpisodePath="live-streaming-episode-gamma.html"
+    prevEpisode='Episode 4: GAMMA'
+    prevEpisodePath="episode-4"
     prevEpisodeImgPath="img/episodes/episodes-cover/live/live-streaming-episode-cover-gamma.webp"
-    nextEpisodePath="live-streaming-episode3-milan-miric"
+    nextEpisodePath="episode-6"
     nextEpisodeImgPath="img/episodes/episodes-cover/live/live-streaming-episode3-cover-milan-miric.webp"
-    nextEpisode="Episode 3: Milan Miric"
+    nextEpisode="Episode 6: Milan Miric"
   
   /> 
   );
