@@ -21,6 +21,7 @@ import Episode6 from "./pages/AllEpisodes/Season1/EP6";
 import Episode7 from "./pages/AllEpisodes/Season1/EP7";
 import Episode8 from "./pages/AllEpisodes/Season1/EP8";
 import Episode9 from "./pages/AllEpisodes/Season1/EP9";
+import SingleEpisode from "./components/EpisodesPage.component";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
             <Route path="/donate" component={Donate} />
             <Route path="/about" component={About} />
             <Route path="/episodes" component={Episodes} />
+            <SingleEpisode />
             <Route path="/episode-1" component={Episode1} />
             <Route path="/episode-2" component={Episode2} />
             <Route path="/episode-3" component={Episode3} />
