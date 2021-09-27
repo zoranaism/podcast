@@ -5,7 +5,7 @@ export default function About() {
     <>
       <div id="nj-tropical-image"></div>
       <div class="section parallax" id="#nj-tropical-image">
-        <div class="container nj-mt-120" style={{marginTop: '60px'}}>
+        <div class="container nj-mt-120" style={{ marginTop: "60px" }}>
           <div class="video-container">
             <iframe
               width="100%"
@@ -68,7 +68,7 @@ export default function About() {
                     class="nj-simple-card-wrapper nj_animated fade_in_up"
                     data-anim-queue="1"
                     data-anim-type="fade_in_up"
-                    style={{opacity: '0'}}
+                    style={{ opacity: "0" }}
                   >
                     <div class="nj-simple-card">
                       <div class="nj-simple-card-icon-wrapper">
@@ -93,7 +93,7 @@ export default function About() {
                     class="nj-simple-card-wrapper nj_animated fade_in_up"
                     data-anim-queue="2"
                     data-anim-type="fade_in_up"
-                    style={{opacity: '0'}}
+                    style={{ opacity: "0" }}
                   >
                     <div class="nj-simple-card">
                       <div class="nj-simple-card-icon-wrapper">
@@ -117,7 +117,7 @@ export default function About() {
                     class="nj-simple-card-wrapper nj_animated fade_in_up"
                     data-anim-queue="3"
                     data-anim-type="fade_in_up"
-                    style={{opacity: '0'}}
+                    style={{ opacity: "0" }}
                   >
                     <div class="nj-simple-card">
                       <div class="nj-simple-card-icon-wrapper">
@@ -147,7 +147,7 @@ export default function About() {
         id="nj-testimonials"
         data-scroll-to-top-style="dark"
         data-cursor-style="dark"
-        style={{paddingTop: '60px!important', height: 'fit-content'}}
+        style={{ paddingTop: "60px!important", height: "fit-content" }}
       >
         <div class="container">
           <div class="nj-testimonials-wrapper">
@@ -176,14 +176,14 @@ export default function About() {
                 </div>
                 <div
                   class="nj-client-name-wrapper"
-                  style={{display: 'flex', alignItems: 'baseline'}}
+                  style={{ display: "flex", alignItems: "baseline" }}
                 >
                   <img
                     src="img/episodes/guests/zsolt-image.webp"
                     alt="Zsolt Argyelan"
                     width="50px"
                   />
-                  <p class="nj-client-name" style={{paddingLeft: '15px'}}>
+                  <p class="nj-client-name" style={{ paddingLeft: "15px" }}>
                     <b>Zsolt Argyelan,</b>&nbsp;guest
                   </p>
                 </div>
@@ -240,14 +240,14 @@ export default function About() {
                 </div>
                 <div
                   class="nj-client-name-wrapper"
-                  style={{display: 'flex', alignItems: 'baseline'}}
+                  style={{ display: "flex", alignItems: "baseline" }}
                 >
                   <img
                     src="img/episodes/guests/milan-miric.webp"
                     alt="Milan Miric"
                     width="50px"
                   />
-                  <p class="nj-client-name" style={{paddingLeft: '15px'}}>
+                  <p class="nj-client-name" style={{ paddingLeft: "15px" }}>
                     <b>Milan Miric,</b>&nbsp;guest
                   </p>
                 </div>
@@ -292,7 +292,7 @@ export default function About() {
           </div>
         </div>
 
-        <div class="container">
+        {/* <div class="container">
           <div class="row fourth">
             <h3 class="mt-5 col-12" style={{marginBottom: '25px'}}>
               Stellar Hosts:
@@ -410,7 +410,7 @@ export default function About() {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div
           class="section nj-light-section nj-pdt-60"
