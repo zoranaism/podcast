@@ -34,13 +34,6 @@ export default function Header() {
                   </a>
                   <a
                     class="navbar-item"
-                    href="hosts"
-                    data-cursor-effect="hover"
-                  >
-                    hosts
-                  </a>
-                  <a
-                    class="navbar-item"
                     href="episodes"
                     data-cursor-effect="hover"
                   >

@@ -292,14 +292,17 @@ export default function About() {
           </div>
         </div>
 
-        {/* <div class="container">
+        <div class="container">
           <div class="row fourth">
-            <h3 class="mt-5 col-12" style={{marginBottom: '25px'}}>
+            <h3 class="mt-5 col-12" style={{ marginBottom: "25px" }}>
               Stellar Hosts:
             </h3>
 
-            <div class="card mb-3 col-lg-4 col-12" style={{marginTop: '0px'}}>
-              <div class="img-box" style={{width: '18rem'}}>
+            <div
+              class="card mb-3 col-lg-4 col-12"
+              style={{ marginTop: "0px", border: "none" }}
+            >
+              <div class="img-box" style={{ width: "18rem" }}>
                 <img
                   class="card-img-top"
                   src="img/hosts/Radina-Dimcheva.webp"
@@ -339,7 +342,7 @@ export default function About() {
 
             <div class="card-body col-lg-8 col-12 p-3">
               <h5 class="card-title">RADINA DIMCHEVA</h5>
-              <p class="card-text card-text-host" style={{fontWeight: '400'}}>
+              <p class="card-text card-text-host" style={{ fontWeight: "400" }}>
                 "I call myself an artsy chameleon; everything creative would
                 spark my interest. What brings me joy and meaning is being able
                 to connect with people in a deep way over a certain topic; if
@@ -352,10 +355,23 @@ export default function About() {
                 - a creative, vocalist, and overall artistic and empathetic
                 person."
               </p>
+
+              <div className="nj-read-more-button-wrapper">
+                <a
+                  className="nj-button nj-button-black"
+                  href="radina"
+                  data-cursor-effect="exclusion"
+                >
+                  Find out more
+                </a>
+              </div>
             </div>
 
-            <div class="card mb-3 col-lg-4 col-12" style={{marginTop: '0px'}}>
-              <div class="img-box" style={{width: '18rem'}}>
+            <div
+              class="card mb-3 col-lg-4 col-12"
+              style={{ marginTop: "0px", border: "none" }}
+            >
+              <div class="img-box" style={{ width: "18rem" }}>
                 <img
                   class="card-img-top"
                   src="img/hosts/Justen-Williams.webp"
@@ -395,7 +411,7 @@ export default function About() {
 
             <div class="card-body col-lg-8 col-12 p-3 mb-section">
               <h5 class="card-title">JUSTEN WILLIAMS</h5>
-              <p class="card-text card-text-host" style={{fontWeight: '400'}}>
+              <p class="card-text card-text-host" style={{ fontWeight: "400" }}>
                 "Hi there! My name is Justen Williams. I am a comedian, actor
                 and podcaster from Toronto, Ontario Canada. I used to operate a
                 solo podcast called “The gift of gab” where I would interview a
@@ -408,9 +424,19 @@ export default function About() {
                 passion), I have performed in various cities across North
                 America, and Germany. I look forward to e-meeting all of you!"
               </p>
+
+              <div className="nj-read-more-button-wrapper">
+                <a
+                  className="nj-button nj-button-black"
+                  href="justen"
+                  data-cursor-effect="exclusion"
+                >
+                  Find out more
+                </a>
+              </div>
             </div>
           </div>
-        </div> */}
+        </div>
 
         <div
           class="section nj-light-section nj-pdt-60"

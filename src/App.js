@@ -21,7 +21,8 @@ import Episode7 from "./pages/AllEpisodes/Season1/EP7";
 import Episode8 from "./pages/AllEpisodes/Season1/EP8";
 import Episode9 from "./pages/AllEpisodes/Season1/EP9";
 import SingleEpisode from "./components/EpisodesPage.component";
-import Hosts from "./pages/Hosts";
+import Justen from "./pages/Justen";
+import Radina from "./pages/Radina";
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
             <Route path="/contact" component={ContactUs} />
             <Route path="/donate" component={Donate} />
             <Route path="/about" component={About} />
-            <Route path="/hosts" component={Hosts} />
+            <Route path="/justen" component={Justen} />
+            <Route path="/radina" component={Radina} />
             <Route path="/episodes" component={Episodes} />
             <SingleEpisode />
             <Route path="/episode-1" component={Episode1} />
