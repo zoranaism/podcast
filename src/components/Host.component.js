@@ -90,7 +90,7 @@ export default function HostComponent({
       <div class="video-container">
         <br />
         <iframe
-          width="600"
+          width="100%"
           height="350"
           src={embedYT}
           title="YouTube video player"
