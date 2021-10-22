@@ -4,45 +4,47 @@ export default function Donate() {
   return (
     <main>
       <div
-        class="section nj-light-section nj-pdt-60"
+        className="section nj-light-section nj-pdt-60"
         id="nj-single-project-section"
         data-scroll-to-top-style="dark"
         data-cursor-style="dark"
       >
-        <div class="container">
-          <div class="nj-single-project-title-wrapper">
-            <h1 class="nj-single-project-header">Donate</h1>
+        <div className="container">
+          <div className="nj-single-project-title-wrapper">
+            <h1 className="nj-single-project-header">Donate</h1>
           </div>
-          <div class="row">
+          <div className="row">
             <div>
-              <div class="nj-single-project-wrapper">
-                <div class="nj-single-project-description-wrapper">
-                  <div class="row">
-                    <div class="col-6 pt-5 text-center">
+              <div className="nj-single-project-wrapper">
+                <div className="nj-single-project-description-wrapper">
+                  <div className="row">
+                    <div className="col-6 pt-5 text-center">
                       <p>
                         You’ll have the opportunity to be part of our ongoing
                         mission. Every euro or item you donate to Stellar Sound
                         Podcast will be used to build more space for the
                         creative and unique music artists.
                       </p>
-                      <p class="text-center">Watch WHY you should donate...</p>
+                      <p className="text-center">
+                        Watch WHY you should donate...
+                      </p>
                     </div>
-                    <div class="col-6">
+                    <div className="col-6">
                       <iframe
-                        class="shadow p-3 mb-5 rounded"
+                        className="shadow p-3 mb-5 rounded"
                         width="560"
                         height="315"
                         src="https://www.youtube.com/embed/WFE0qOuZ1Ng"
                         title="YouTube video player"
-                        frameborder="0"
+                        frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen
+                        allowFullScreen
                       ></iframe>
                     </div>
                   </div>
 
                   <div
-                    class="section nj-light-section nj-pdt-0"
+                    className="section nj-light-section nj-pdt-0"
                     id="nj-testimonials"
                     data-scroll-to-top-style="dark"
                     data-cursor-style="dark"
@@ -51,16 +53,16 @@ export default function Donate() {
                       height: "fit-content",
                     }}
                   >
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-6">
-                          <div class="nj-testimonials-wrapper">
+                    <div className="container">
+                      <div className="row">
+                        <div className="col-6">
+                          <div className="nj-testimonials-wrapper">
                             <div
-                              class="nj-testimonial-quote"
+                              className="nj-testimonial-quote"
                               id="nj-testimonials-slick"
                             >
-                              <div class="nj-testimonial">
-                                <div class="nj-quote">
+                              <div className="nj-testimonial">
+                                <div className="nj-quote">
                                   <svg
                                     width="45"
                                     height="40"
@@ -74,37 +76,37 @@ export default function Donate() {
                                     ></path>
                                   </svg>
                                 </div>
-                                <div class="nj-client-testimonial pt-3">
-                                  <p class="nj-client-testimonial-text">
+                                <div className="nj-client-testimonial pt-3">
+                                  <p className="nj-client-testimonial-text">
                                     United to collaborate, create, be bold and
                                     free.
                                   </p>
-                                  <p class="text-center">
+                                  <p className="text-center">
                                     ... Watch HOW to donate
                                   </p>
                                 </div>
                               </div>
                             </div>
-                            <div class="nj-testimonials-slider-arrows">
-                              <div class="nj-testimonials-slider-next-arrow">
+                            <div className="nj-testimonials-slider-arrows">
+                              <div className="nj-testimonials-slider-next-arrow">
                                 <span
-                                  class="lnr lnr-arrow-right"
+                                  className="lnr lnr-arrow-right"
                                   data-cursor-effect="hover"
                                 ></span>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <div class="col-6">
+                        <div className="col-6">
                           <iframe
-                            class="shadow p-3 mb-5 rounded"
+                            className="shadow p-3 mb-5 rounded"
                             width="560"
                             height="315"
                             src="https://www.youtube.com/embed/_QPmeRGvdpc"
                             title="YouTube video player"
-                            frameborder="0"
+                            frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
+                            allowFullScreen
                           ></iframe>
                         </div>
                       </div>
@@ -112,25 +114,25 @@ export default function Donate() {
                   </div>
                 </div>
 
-                <div class="tab-holder">
-                  <div class="tab">
-                    <button class="tablinks active" id="One">
+                <div className="tab-holder">
+                  <div className="tab">
+                    <button className="tablinks active" id="One">
                       Donate Once
                     </button>
-                    <button class="tablinks" id="Two">
+                    <button className="tablinks" id="Two">
                       Donate Monthly
                     </button>
-                    <button class="tablinks" id="Three">
+                    <button className="tablinks" id="Three">
                       More ways to give
                     </button>
                   </div>
                 </div>
 
-                <div id="One" class="tabcontent">
-                  <div class="text-center">
+                <div id="One" className="tabcontent">
+                  <div className="text-center">
                     <p>Pay via our Stellar PayPal any amount.</p>
 
-                    <div class="donate-button">
+                    <div className="donate-button">
                       <form
                         action="https://www.paypal.com/donate"
                         method="post"
@@ -159,7 +161,7 @@ export default function Donate() {
                       </form>
                     </div>
 
-                    <div class="donate-button">
+                    <div className="donate-button">
                       <form
                         action="https://www.paypal.com/donate"
                         method="post"
@@ -188,7 +190,7 @@ export default function Donate() {
                       </form>
                     </div>
 
-                    <div class="donate-button">
+                    <div className="donate-button">
                       <form
                         action="https://www.paypal.com/donate"
                         method="post"
@@ -217,7 +219,7 @@ export default function Donate() {
                       </form>
                     </div>
 
-                    <div class="donate-button">
+                    <div className="donate-button">
                       <form
                         action="https://www.paypal.com/donate"
                         method="post"
@@ -246,7 +248,7 @@ export default function Donate() {
                       </form>
                     </div>
 
-                    <div class="donate-button">
+                    <div className="donate-button">
                       <form
                         action="https://www.paypal.com/donate"
                         method="post"
@@ -277,13 +279,13 @@ export default function Donate() {
                   </div>
                 </div>
 
-                <div id="Two" class="tabcontent">
+                <div id="Two" className="tabcontent">
                   <p>
                     By joining us, you’ll not only support a bunch of incredibly
                     talented musicians; you’ll also become part of the exclusive
                     Patreon Discord community.
                   </p>
-                  <div class="text-center">
+                  <div className="text-center">
                     <a
                       target="blank"
                       href="https://www.patreon.com/bePatron?u=53632649"
@@ -293,68 +295,68 @@ export default function Donate() {
                   </div>
                 </div>
 
-                <div id="Three" class="tabcontent">
+                <div id="Three" className="tabcontent">
                   <p>
                     Are your musical instruments collecting dust? Or are you
                     maybe a good willed artist wanting to give away some of your
                     old recording devices?
                   </p>
-                  <div class="text-left row mb-3 mt-5">
-                    <div class="col-12 col-md-4">
-                      <h5 class="uppercase">Space-inspired art</h5>
+                  <div className="text-left row mb-3 mt-5">
+                    <div className="col-12 col-md-4">
+                      <h5 className="uppercase">Space-inspired art</h5>
                       <img
-                        class="w-100"
+                        className="w-100"
                         alt="Instruments"
                         src="./img/DonateButtons/Space-art.jpg"
                       />
                     </div>
-                    <div class="col-12 col-md-4">
-                      <h5 class="uppercase">Audio Recording equipment</h5>
+                    <div className="col-12 col-md-4">
+                      <h5 className="uppercase">Audio Recording equipment</h5>
                       <img
-                        class="w-100"
+                        className="w-100"
                         alt="Instruments"
                         src="./img/DonateButtons/Studio.webp"
                       />
                     </div>
-                    <div class="col-12 col-md-4">
-                      <h5 class="uppercase">Musical Instruments</h5>
+                    <div className="col-12 col-md-4">
+                      <h5 className="uppercase">Musical Instruments</h5>
                       <img
-                        class="w-100"
+                        className="w-100"
                         alt="Instruments"
                         src="./img/DonateButtons/Instruments.jpg"
                       />
                     </div>
                   </div>
-                  <div class="text-left row mb-5">
-                    <div class="col-12 col-md-4">
-                      <h5 class="uppercase">Synthesizers</h5>
+                  <div className="text-left row mb-5">
+                    <div className="col-12 col-md-4">
+                      <h5 className="uppercase">Synthesizers</h5>
                       <img
-                        class="w-100"
+                        className="w-100"
                         alt="Instruments"
                         src="./img/DonateButtons/synths.png"
                       />
                     </div>
-                    <div class="col-12 col-md-4">
-                      <h5 class="uppercase">Odd instruments</h5>
+                    <div className="col-12 col-md-4">
+                      <h5 className="uppercase">Odd instruments</h5>
                       <img
-                        class="w-100"
+                        className="w-100"
                         alt="Instruments"
                         src="./img/DonateButtons/odd-instruments.jpg"
                       />
                     </div>
-                    {/* <div class="col-12 col-md-4">
-                              <h5 class="uppercase">Used musical Instruments</h5>
-                              <img class="w-100" alt="Instruments" src="./img/DonateButtons/Instruments.jpg" />
+                    {/* <div className="col-12 col-md-4">
+                              <h5 className="uppercase">Used musical Instruments</h5>
+                              <img className="w-100" alt="Instruments" src="./img/DonateButtons/Instruments.jpg" />
                             </div>  */}
                   </div>
-                  <p class="text-center mt-5">
+                  <p className="text-center mt-5">
                     Send us a mail via{" "}
                     <a href="mailto:stellarsoundfunds@gmail.com">
                       stellarsoundfunds@gmail.com
                     </a>{" "}
                     to plan with us your donation.
                   </p>
-                  <p class="italic text-center">
+                  <p className="italic text-center">
                     *We are accepting old and used instruments as well as new
                     ones.
                   </p>

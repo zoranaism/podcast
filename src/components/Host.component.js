@@ -87,32 +87,32 @@ export default function HostComponent({
         </div>
       </div>
 
-      <div class="video-container">
+      <div className="video-container">
         <br />
         <iframe
           width="100%"
           height="350"
           src={embedYT}
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
 
-      <div class="row mb-5" style={{ textAlign: "justify" }}>
-        <div class="col-12">
-          <p class="nj-section-content">{description3}</p>
+      <div className="row mb-5" style={{ textAlign: "justify" }}>
+        <div className="col-12">
+          <p className="nj-section-content">{description3}</p>
         </div>
 
-        <div class="col-12">
-          <p class="nj-section-content">{description4}</p>
+        <div className="col-12">
+          <p className="nj-section-content">{description4}</p>
         </div>
-        <div class="col-12">
-          <p class="nj-section-content">{description5}</p>
+        <div className="col-12">
+          <p className="nj-section-content">{description5}</p>
         </div>
-        <div class="col-12">
-          <p class="nj-section-content">{description6}</p>
+        <div className="col-12">
+          <p className="nj-section-content">{description6}</p>
         </div>
       </div>
     </div>
