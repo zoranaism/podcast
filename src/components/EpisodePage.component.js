@@ -49,21 +49,23 @@ export default function EpisodeComponent({
                   <a
                     data-cursor-effect="exclusion"
                     target="_blank"
-                    class="link-style"
+                    className="link-style"
                     href="https://twitter.com/jus10williams"
                   >
                     Justen Williams
                   </a>
                 ) : host === "megan" ? (
-                    <a
+                  <a
                     data-cursor-effect="exclusion"
                     target="_blank"
-                    class="link-style"
+                    className="link-style"
                     href="https://www.linkedin.com/in/megan-dalen-1965ba1bb/"
                   >
                     Megan Dalen
                   </a>
-                ) : 'no host'}
+                ) : (
+                  "no host"
+                )}
                 | Guest:
                 <a
                   data-cursor-effect="exclusion"
@@ -108,7 +110,7 @@ export default function EpisodeComponent({
                   />
                 </a>
               ) : (
-                <a class="ep-sponsor" href="https://ketz.rs/">
+                <a className="ep-sponsor" href="https://ketz.rs/">
                   <img
                     src="img/sponsors/ketz.webp"
                     alt="sponsor"
@@ -129,13 +131,12 @@ export default function EpisodeComponent({
                     src={spotifyPlayerLink}
                     width="100%"
                     height="232"
-                    frameborder="0"
+                    frameBorder="0"
                     allowtransparency="true"
                     allow="encrypted-media"
                   ></iframe>
                 </div>
                 {/* SPOTIFY EMBBED - END */}
-
 
                 {/* EPISODE DESCRIPTION */}
                 <div className="nj-single-project-description-wrapper mt-4">
@@ -173,20 +174,20 @@ export default function EpisodeComponent({
             {/* PREVIOUS EPISODE */}
             <div className="col-md-6">
               {prevEpisode && (
-                <div class="nj-read-also-left">
-                  <div class="row">
-                    <div class="col-md-6 text-left">
-                      <div class="nj-read-also-left-text-wrapper ml-3">
+                <div className="nj-read-also-left">
+                  <div className="row">
+                    <div className="col-md-6 text-left">
+                      <div className="nj-read-also-left-text-wrapper ml-3">
                         <a href={prevEpisodePath} data-cursor-effect="hover">
-                          <div class="nj-read-also-holder">
-                            <h4 class="nj-read-also-header">
+                          <div className="nj-read-also-holder">
+                            <h4 className="nj-read-also-header">
                               Previous episode
                             </h4>
                           </div>
                           <h5 className="nj-read-also-right-text-header mb-4">
                             {prevEpisode}
                           </h5>
-                          <div class="nj-read-also-left-arrow mb-4">
+                          <div className="nj-read-also-left-arrow mb-4">
                             <svg
                               width="46"
                               transform="rotate(180)"
@@ -205,14 +206,11 @@ export default function EpisodeComponent({
                       </div>
                     </div>
 
-                    <div class="col-md-6">
-                      <a
-                        href={prevEpisodePath}
-                        data-cursor-effect="exclusion"
-                      >
-                        <div class="nj-read-also-left-image-wrapper">
+                    <div className="col-md-6">
+                      <a href={prevEpisodePath} data-cursor-effect="exclusion">
+                        <div className="nj-read-also-left-image-wrapper">
                           <img
-                            class="nj-read-also-left-image"
+                            className="nj-read-also-left-image"
                             src={prevEpisodeImgPath}
                             alt="Previous episode"
                             data-cursor-style="blend"

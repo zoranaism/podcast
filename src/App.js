@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import "./assets/css/assets.min.css";
 import "./assets/css/style.min.css";
 
-import { Switch, Route } from "react-router-dom";
-import { BrowserRouter as Router } from "react-router-dom";
+import {
+  Switch,
+  Route,
+  useLocation,
+  BrowserRouter as Router,
+} from "react-router-dom";
 import ContactUs from "./pages/ContactUs";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -24,9 +28,31 @@ import SingleEpisode from "./components/EpisodesPage.component";
 import Justen from "./pages/Justen";
 import Radina from "./pages/Radina";
 
+const injectAppScript = () => {
+  // Remove old script, redundant (╯°□°）╯︵ ┻━┻
+  const prevScript = document.querySelector('script[src="/js/app.min.js"]');
+  if (prevScript) {
+    prevScript.remove();
+  }
+
+  // Re-inject script so new elements can be found ┬─┬ノ( º _ ºノ)
+  const script = document.createElement("script");
+  script.type = "text/javascript";
+  script.src = "/js/app.min.js";
+
+  document.querySelector("head").appendChild(script);
+};
+
 function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+    injectAppScript();
+  }, [location]);
+
   return (
     <Router>
+      <div id="nj-cursor-follower"></div>
       <div className="App">
         <Switch>
           <Layout>
