@@ -1,3 +1,5 @@
 # Stellar Sound Podcast
 
-www.stellarsoundpodcast.com
+Production: www.stellarsoundpodcast.com
+
+Development: https://stellarsoundpodcast-dev.netlify.app/

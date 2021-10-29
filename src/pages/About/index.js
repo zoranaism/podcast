@@ -4,38 +4,38 @@ export default function About() {
   return (
     <>
       <div id="nj-tropical-image"></div>
-      <div class="section parallax" id="#nj-tropical-image">
-        <div class="container nj-mt-120" style={{ marginTop: "60px" }}>
-          <div class="video-container">
+      <div className="section parallax" id="#nj-tropical-image">
+        <div className="container nj-mt-120" style={{ marginTop: "60px" }}>
+          <div className="video-container">
             <iframe
               width="100%"
               height="400px"
               src="https://www.youtube.com/embed/5vP6h_tH8Qw"
               title="YouTube video player"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
 
-          <div class="nj-section-header">
-            <h1 class="nj-section-header-title">about</h1>
+          <div className="nj-section-header">
+            <h1 className="nj-section-header-title">about</h1>
           </div>
 
-          <div class="row mb-5">
-            <div class="col-12">
-              <h3 class="mb-3">What is Stellar Sound Podcast?</h3>
-              <p class="nj-section-content">
+          <div className="row mb-5">
+            <div className="col-12">
+              <h3 className="mb-3">What is Stellar Sound Podcast?</h3>
+              <p className="nj-section-content">
                 The Stellar Sound Podcast brings you inspiration by interviewing
                 the most creative, innovative, unique, eccentric, and
                 ground-breaking musicians from Europe.
               </p>
             </div>
           </div>
-          <div class="row">
-            <div class="col-12">
-              <h3 class="mb-3">Vision</h3>
-              <p class="nj-section-content">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="mb-3">Vision</h3>
+              <p className="nj-section-content">
                 Our vision is a world that appreciates quality music, supports
                 good musicians, and industry that encourages exploration,
                 creativity, and collaboration.
@@ -46,39 +46,39 @@ export default function About() {
       </div>
 
       <div
-        class="section nj-dark-section nj-animated-section nj_animated"
+        className="section nj-dark-section nj-animated-section nj_animated"
         id="nj-what-we-do"
         data-scroll-to-top-style="dark"
       >
-        <div class="container">
-          <div class="nj-section-header">
-            <h1 class="nj-section-header-title">what we do</h1>
+        <div className="container">
+          <div className="nj-section-header">
+            <h1 className="nj-section-header-title">what we do</h1>
           </div>
         </div>
-        <div class="nj-half-light-section-wrapper">
+        <div className="nj-half-light-section-wrapper">
           <div
-            class="nj-half-light-section-wrapper-before"
+            className="nj-half-light-section-wrapper-before"
             data-cursor-style="dark"
           ></div>
-          <div class="nj-half-light-section-content">
-            <div class="container">
-              <div class="row" data-cursor-style="dark">
-                <div class="col-12 col-lg-4">
+          <div className="nj-half-light-section-content">
+            <div className="container">
+              <div className="row" data-cursor-style="dark">
+                <div className="col-12 col-lg-4">
                   <div
-                    class="nj-simple-card-wrapper nj_animated fade_in_up"
+                    className="nj-simple-card-wrapper nj_animated fade_in_up"
                     data-anim-queue="1"
                     data-anim-type="fade_in_up"
                     style={{ opacity: "0" }}
                   >
-                    <div class="nj-simple-card">
-                      <div class="nj-simple-card-icon-wrapper">
-                        <div class="nj-simple-card-icon">
+                    <div className="nj-simple-card">
+                      <div className="nj-simple-card-icon-wrapper">
+                        <div className="nj-simple-card-icon">
                           {/* <img src="img/serious.png" alt="Serious">  */}
                         </div>
                       </div>
-                      <div class="nj-simple-card-text-wrapper">
-                        <h4 class="vision-header">Promote</h4>
-                        <p class="nj-simple-card-text">
+                      <div className="nj-simple-card-text-wrapper">
+                        <h4 className="vision-header">Promote</h4>
+                        <p className="nj-simple-card-text">
                           There are many unknown and outstanding music artists.
                           By putting the spotlight on their craft in our
                           Podcast, we are promoting their work.
@@ -88,22 +88,22 @@ export default function About() {
                   </div>
                 </div>
 
-                <div class="col-12 col-lg-4">
+                <div className="col-12 col-lg-4">
                   <div
-                    class="nj-simple-card-wrapper nj_animated fade_in_up"
+                    className="nj-simple-card-wrapper nj_animated fade_in_up"
                     data-anim-queue="2"
                     data-anim-type="fade_in_up"
                     style={{ opacity: "0" }}
                   >
-                    <div class="nj-simple-card">
-                      <div class="nj-simple-card-icon-wrapper">
-                        <div class="nj-simple-card-icon">
+                    <div className="nj-simple-card">
+                      <div className="nj-simple-card-icon-wrapper">
+                        <div className="nj-simple-card-icon">
                           {/* <img src="img/silly.png" alt="Silly"> */}
                         </div>
                       </div>
-                      <div class="nj-simple-card-text-wrapper">
-                        <h4 class="vision-header">Connect</h4>
-                        <p class="nj-simple-card-text">
+                      <div className="nj-simple-card-text-wrapper">
+                        <h4 className="vision-header">Connect</h4>
+                        <p className="nj-simple-card-text">
                           If you are a music enthusiast, join our Stellar Music
                           Community Discord server.
                         </p>
@@ -112,22 +112,22 @@ export default function About() {
                   </div>
                 </div>
 
-                <div class="col-12 col-lg-4">
+                <div className="col-12 col-lg-4">
                   <div
-                    class="nj-simple-card-wrapper nj_animated fade_in_up"
+                    className="nj-simple-card-wrapper nj_animated fade_in_up"
                     data-anim-queue="3"
                     data-anim-type="fade_in_up"
                     style={{ opacity: "0" }}
                   >
-                    <div class="nj-simple-card">
-                      <div class="nj-simple-card-icon-wrapper">
-                        <div class="nj-simple-card-icon">
+                    <div className="nj-simple-card">
+                      <div className="nj-simple-card-icon-wrapper">
+                        <div className="nj-simple-card-icon">
                           {/* <img src="img/shinny.png" alt="Shinny">  */}
                         </div>
                       </div>
-                      <div class="nj-simple-card-text-wrapper">
-                        <h4 class="vision-header">Support</h4>
-                        <p class="nj-simple-card-text">
+                      <div className="nj-simple-card-text-wrapper">
+                        <h4 className="vision-header">Support</h4>
+                        <p className="nj-simple-card-text">
                           In these times it's not easy to keep up as a full time
                           musician. In that sense, we are organizing a support
                           for the most vulnerable.
@@ -143,17 +143,17 @@ export default function About() {
       </div>
 
       <div
-        class="section nj-light-section nj-pdt-0"
+        className="section nj-light-section nj-pdt-0"
         id="nj-testimonials"
         data-scroll-to-top-style="dark"
         data-cursor-style="dark"
         style={{ paddingTop: "60px!important", height: "fit-content" }}
       >
-        <div class="container">
-          <div class="nj-testimonials-wrapper">
-            <div class="nj-testimonials" id="nj-testimonials-slick">
-              <div class="nj-testimonial">
-                <div class="nj-quote">
+        <div className="container">
+          <div className="nj-testimonials-wrapper">
+            <div className="nj-testimonials" id="nj-testimonials-slick">
+              <div className="nj-testimonial">
+                <div className="nj-quote">
                   <svg
                     width="45"
                     height="40"
@@ -167,15 +167,15 @@ export default function About() {
                     ></path>
                   </svg>
                 </div>
-                <div class="nj-client-testimonial">
-                  <p class="nj-client-testimonial-text">
+                <div className="nj-client-testimonial">
+                  <p className="nj-client-testimonial-text">
                     The concept is great, the duration of the podcast is
                     perfect, also the preparation work of the hosts, as well how
                     they lead the interviews.
                   </p>
                 </div>
                 <div
-                  class="nj-client-name-wrapper"
+                  className="nj-client-name-wrapper"
                   style={{ display: "flex", alignItems: "baseline" }}
                 >
                   <img
@@ -183,13 +183,13 @@ export default function About() {
                     alt="Zsolt Argyelan"
                     width="50px"
                   />
-                  <p class="nj-client-name" style={{ paddingLeft: "15px" }}>
+                  <p className="nj-client-name" style={{ paddingLeft: "15px" }}>
                     <b>Zsolt Argyelan,</b>&nbsp;guest
                   </p>
                 </div>
               </div>
-              <div class="nj-testimonial">
-                <div class="nj-quote">
+              <div className="nj-testimonial">
+                <div className="nj-quote">
                   <svg
                     width="45"
                     height="40"
@@ -203,21 +203,21 @@ export default function About() {
                     ></path>
                   </svg>
                 </div>
-                <div class="nj-client-testimonial">
-                  <p class="nj-client-testimonial-text">
+                <div className="nj-client-testimonial">
+                  <p className="nj-client-testimonial-text">
                     I liked the voice of the interviewer very much. I also liked
                     when they were talking about real serious topics in a so
                     easy and relaxed manner.
                   </p>
                 </div>
-                <div class="nj-client-name-wrapper">
-                  <p class="nj-client-name">
+                <div className="nj-client-name-wrapper">
+                  <p className="nj-client-name">
                     <b>Anonimus survey participant</b>&nbsp;
                   </p>
                 </div>
               </div>
-              <div class="nj-testimonial">
-                <div class="nj-quote">
+              <div className="nj-testimonial">
+                <div className="nj-quote">
                   <svg
                     width="45"
                     height="40"
@@ -231,15 +231,15 @@ export default function About() {
                     ></path>
                   </svg>
                 </div>
-                <div class="nj-client-testimonial">
-                  <p class="nj-client-testimonial-text">
+                <div className="nj-client-testimonial">
+                  <p className="nj-client-testimonial-text">
                     You guys are awesome and I love what you do. Great team of
                     people, incredibly fun and welcoming host and I hope that
                     you will only grow more and more. Keep it up!
                   </p>
                 </div>
                 <div
-                  class="nj-client-name-wrapper"
+                  className="nj-client-name-wrapper"
                   style={{ display: "flex", alignItems: "baseline" }}
                 >
                   <img
@@ -247,16 +247,16 @@ export default function About() {
                     alt="Milan Miric"
                     width="50px"
                   />
-                  <p class="nj-client-name" style={{ paddingLeft: "15px" }}>
+                  <p className="nj-client-name" style={{ paddingLeft: "15px" }}>
                     <b>Milan Miric,</b>&nbsp;guest
                   </p>
                 </div>
               </div>
             </div>
-            <div class="nj-testimonials-slider-arrows">
-              <div class="nj-testimonials-slider-next-arrow">
+            <div className="nj-testimonials-slider-arrows">
+              <div className="nj-testimonials-slider-next-arrow">
                 <span
-                  class="lnr lnr-arrow-right"
+                  className="lnr lnr-arrow-right"
                   data-cursor-effect="hover"
                 ></span>
               </div>
@@ -266,24 +266,26 @@ export default function About() {
       </div>
 
       <div
-        class="section nj-hero"
+        className="section nj-hero"
         id="nj-our-crew"
         data-scroll-to-top-style="dark"
       >
-        <div class="container nj-mt-120">
-          <div class="nj-section-header">
-            <h1 class="nj-section-header-title-team nj-mt-60">who we are</h1>
+        <div className="container nj-mt-120">
+          <div className="nj-section-header">
+            <h1 className="nj-section-header-title-team nj-mt-60">
+              who we are
+            </h1>
           </div>
         </div>
 
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <p class="nj-section-content">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <p className="nj-section-content">
                 The magic we find in other people's originality is the spark
                 that is driving our team.
               </p>
-              <p class="nj-section-content">
+              <p className="nj-section-content">
                 We are based in Den Bosch, Utrecht, Niš, San Juan, Amsterdam,
                 Paris, Toronto, Hague and Belgrade; working from home, connected
                 by a universal mind.
@@ -292,16 +294,19 @@ export default function About() {
           </div>
         </div>
 
-        {/* <div class="container">
-          <div class="row fourth">
-            <h3 class="mt-5 col-12" style={{marginBottom: '25px'}}>
+        <div className="container">
+          <div className="row fourth">
+            <h3 className="mt-5 col-12" style={{ marginBottom: "25px" }}>
               Stellar Hosts:
             </h3>
 
-            <div class="card mb-3 col-lg-4 col-12" style={{marginTop: '0px'}}>
-              <div class="img-box" style={{width: '18rem'}}>
+            <div
+              className="card mb-3 col-lg-4 col-12"
+              style={{ marginTop: "0px", border: "none" }}
+            >
+              <div className="img-box" style={{ width: "18rem" }}>
                 <img
-                  class="card-img-top"
+                  className="card-img-top"
                   src="img/hosts/Radina-Dimcheva.webp"
                   alt="Radina"
                 />
@@ -312,7 +317,7 @@ export default function About() {
                     data-cursor-effect="hover"
                   >
                     <li>
-                      <i class="fab fa-facebook"></i>
+                      <i className="fab fa-facebook"></i>
                     </li>
                   </a>
                   <a
@@ -321,7 +326,7 @@ export default function About() {
                     data-cursor-effect="hover"
                   >
                     <li>
-                      <i class="fab fa-youtube"></i>
+                      <i className="fab fa-youtube"></i>
                     </li>
                   </a>
                   <a
@@ -330,16 +335,19 @@ export default function About() {
                     data-cursor-effect="hover"
                   >
                     <li>
-                      <i class="fab fa-instagram"></i>
+                      <i className="fab fa-instagram"></i>
                     </li>
                   </a>
                 </ul>
               </div>
             </div>
 
-            <div class="card-body col-lg-8 col-12 p-3">
-              <h5 class="card-title">RADINA DIMCHEVA</h5>
-              <p class="card-text card-text-host" style={{fontWeight: '400'}}>
+            <div className="card-body col-lg-8 col-12 p-3">
+              <h5 className="card-title">RADINA DIMCHEVA</h5>
+              <p
+                className="card-text card-text-host"
+                style={{ fontWeight: "400" }}
+              >
                 "I call myself an artsy chameleon; everything creative would
                 spark my interest. What brings me joy and meaning is being able
                 to connect with people in a deep way over a certain topic; if
@@ -352,12 +360,25 @@ export default function About() {
                 - a creative, vocalist, and overall artistic and empathetic
                 person."
               </p>
+
+              <div className="nj-read-more-button-wrapper">
+                <a
+                  className="nj-button nj-button-black"
+                  href="radina"
+                  data-cursor-effect="exclusion"
+                >
+                  Find out more
+                </a>
+              </div>
             </div>
 
-            <div class="card mb-3 col-lg-4 col-12" style={{marginTop: '0px'}}>
-              <div class="img-box" style={{width: '18rem'}}>
+            <div
+              className="card mb-3 col-lg-4 col-12"
+              style={{ marginTop: "0px", border: "none" }}
+            >
+              <div className="img-box" style={{ width: "18rem" }}>
                 <img
-                  class="card-img-top"
+                  className="card-img-top"
                   src="img/hosts/Justen-Williams.webp"
                   alt="Justen"
                 />
@@ -368,7 +389,7 @@ export default function About() {
                     data-cursor-effect="hover"
                   >
                     <li>
-                      <i class="fab fa-twitter"></i>
+                      <i className="fab fa-twitter"></i>
                     </li>
                   </a>
                   <a
@@ -377,7 +398,7 @@ export default function About() {
                     data-cursor-effect="hover"
                   >
                     <li>
-                      <i class="fab fa-youtube"></i>
+                      <i className="fab fa-youtube"></i>
                     </li>
                   </a>
                   <a
@@ -386,16 +407,19 @@ export default function About() {
                     data-cursor-effect="hover"
                   >
                     <li>
-                      <i class="fab fa-instagram"></i>
+                      <i className="fab fa-instagram"></i>
                     </li>
                   </a>
                 </ul>
               </div>
             </div>
 
-            <div class="card-body col-lg-8 col-12 p-3 mb-section">
-              <h5 class="card-title">JUSTEN WILLIAMS</h5>
-              <p class="card-text card-text-host" style={{fontWeight: '400'}}>
+            <div className="card-body col-lg-8 col-12 p-3 mb-section">
+              <h5 className="card-title">JUSTEN WILLIAMS</h5>
+              <p
+                className="card-text card-text-host"
+                style={{ fontWeight: "400" }}
+              >
                 "Hi there! My name is Justen Williams. I am a comedian, actor
                 and podcaster from Toronto, Ontario Canada. I used to operate a
                 solo podcast called “The gift of gab” where I would interview a
@@ -408,33 +432,43 @@ export default function About() {
                 passion), I have performed in various cities across North
                 America, and Germany. I look forward to e-meeting all of you!"
               </p>
+
+              <div className="nj-read-more-button-wrapper">
+                <a
+                  className="nj-button nj-button-black"
+                  href="justen"
+                  data-cursor-effect="exclusion"
+                >
+                  Find out more
+                </a>
+              </div>
             </div>
           </div>
-        </div> */}
+        </div>
 
         <div
-          class="section nj-light-section nj-pdt-60"
+          className="section nj-light-section nj-pdt-60"
           id="nj-single-project-section"
           data-scroll-to-top-style="dark"
           data-cursor-style="dark"
         >
-          <div class="container">
-            <div class="nj-section-header">
-              <h2 class="nj-section-header-title">join us</h2>
+          <div className="container">
+            <div className="nj-section-header">
+              <h2 className="nj-section-header-title">join us</h2>
             </div>
-            <div class="row">
-              <div class="col-12">
-                <p class="nj-section-content">
+            <div className="row">
+              <div className="col-12">
+                <p className="nj-section-content">
                   We are always open for new volunteers. All passionate,
                   like-minded pips should take the opportunity of joining the
                   Stellar Team and contribute to the better music world.
                 </p>
               </div>
             </div>
-            <div class="row justify-content-md-center mt-5">
+            <div className="row justify-content-md-center mt-5">
               <a
                 target="blank"
-                class="black-button"
+                className="black-button"
                 href="mailto:stellarsoundpodcast@gmail.com"
                 data-cursor-effect="exclusion"
               >

@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import "./assets/css/assets.min.css";
 import "./assets/css/style.min.css";
 
-import { Switch, Route } from "react-router-dom";
-import { BrowserRouter as Router } from "react-router-dom";
+import {
+  Switch,
+  Route,
+  useLocation,
+  BrowserRouter as Router,
+} from "react-router-dom";
 import ContactUs from "./pages/ContactUs";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -21,11 +25,34 @@ import Episode7 from "./pages/AllEpisodes/Season1/EP7";
 import Episode8 from "./pages/AllEpisodes/Season1/EP8";
 import Episode9 from "./pages/AllEpisodes/Season1/EP9";
 import SingleEpisode from "./components/EpisodesPage.component";
-import Hosts from "./pages/Hosts";
+import Justen from "./pages/Justen";
+import Radina from "./pages/Radina";
+
+const injectAppScript = () => {
+  // Remove old script, redundant (╯°□°）╯︵ ┻━┻
+  const prevScript = document.querySelector('script[src="/js/app.min.js"]');
+  if (prevScript) {
+    prevScript.remove();
+  }
+
+  // Re-inject script so new elements can be found ┬─┬ノ( º _ ºノ)
+  const script = document.createElement("script");
+  script.type = "text/javascript";
+  script.src = "/js/app.min.js";
+
+  document.querySelector("head").appendChild(script);
+};
 
 function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+    injectAppScript();
+  }, [location]);
+
   return (
     <Router>
+      <div id="nj-cursor-follower"></div>
       <div className="App">
         <Switch>
           <Layout>
@@ -33,7 +60,8 @@ function App() {
             <Route path="/contact" component={ContactUs} />
             <Route path="/donate" component={Donate} />
             <Route path="/about" component={About} />
-            <Route path="/hosts" component={Hosts} />
+            <Route path="/justen" component={Justen} />
+            <Route path="/radina" component={Radina} />
             <Route path="/episodes" component={Episodes} />
             <SingleEpisode />
             <Route path="/episode-1" component={Episode1} />

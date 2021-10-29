@@ -337,17 +337,17 @@ export default function Home(props) {
       </section>
 
       <div
-        class="section nj-light-section nj-pdt-0"
+        className="section nj-light-section nj-pdt-0"
         id="nj-testimonials"
         data-scroll-to-top-style="dark"
         data-cursor-style="dark"
         style={{ paddingTop: "60px!important" }}
       >
-        <div class="container">
-          <div class="nj-testimonials-wrapper">
-            <div class="nj-testimonials" id="nj-testimonials-slick">
-              <div class="nj-testimonial">
-                <div class="nj-quote">
+        <div className="container">
+          <div className="nj-testimonials-wrapper">
+            <div className="nj-testimonials" id="nj-testimonials-slick">
+              <div className="nj-testimonial">
+                <div className="nj-quote">
                   <svg
                     width="45"
                     height="40"
@@ -361,14 +361,14 @@ export default function Home(props) {
                     ></path>
                   </svg>
                 </div>
-                <div class="nj-client-testimonial">
-                  <p class="nj-client-testimonial-text">
+                <div className="nj-client-testimonial">
+                  <p className="nj-client-testimonial-text">
                     Great, dedicated professional crew of people. It was my
                     utmost pleasure to take part in the podcast.
                   </p>
                 </div>
                 <div
-                  class="nj-client-name-wrapper"
+                  className="nj-client-name-wrapper"
                   style={{ display: "flex", alignItems: "baseline" }}
                 >
                   <img
@@ -376,13 +376,13 @@ export default function Home(props) {
                     alt="Aleksandra Denda"
                     width="50px"
                   />
-                  <p class="nj-client-name" style={{ paddingLeft: "15px" }}>
+                  <p className="nj-client-name" style={{ paddingLeft: "15px" }}>
                     <b>Aleksandra Denda,</b>&nbsp;guest
                   </p>
                 </div>
               </div>
-              <div class="nj-testimonial">
-                <div class="nj-quote">
+              <div className="nj-testimonial">
+                <div className="nj-quote">
                   <svg
                     width="45"
                     height="40"
@@ -396,22 +396,22 @@ export default function Home(props) {
                     ></path>
                   </svg>
                 </div>
-                <div class="nj-client-testimonial">
-                  <p class="nj-client-testimonial-text">
+                <div className="nj-client-testimonial">
+                  <p className="nj-client-testimonial-text">
                     I don't listen to a lot of podcasts but in the past I've
                     listened to some music podcasts where big bands were guests.
                     What I like about this podcast is that it gives attention to
                     smaller musicians.
                   </p>
                 </div>
-                <div class="nj-client-name-wrapper">
-                  <p class="nj-client-name">
+                <div className="nj-client-name-wrapper">
+                  <p className="nj-client-name">
                     <b>Anonimus survey participant</b>&nbsp;
                   </p>
                 </div>
               </div>
-              <div class="nj-testimonial">
-                <div class="nj-quote">
+              <div className="nj-testimonial">
+                <div className="nj-quote">
                   <svg
                     width="45"
                     height="40"
@@ -425,8 +425,8 @@ export default function Home(props) {
                     ></path>
                   </svg>
                 </div>
-                <div class="nj-client-testimonial">
-                  <p class="nj-client-testimonial-text">
+                <div className="nj-client-testimonial">
+                  <p className="nj-client-testimonial-text">
                     Thank you to Stellar Sound Podcast for creating such a
                     wonderful space for independent musicians and giving us the
                     chance to speak up and share what we do. High quality crew
@@ -434,7 +434,7 @@ export default function Home(props) {
                   </p>
                 </div>
                 <div
-                  class="nj-client-name-wrapper"
+                  className="nj-client-name-wrapper"
                   style={{ display: "flex", alignItems: "baseline" }}
                 >
                   <img
@@ -442,13 +442,13 @@ export default function Home(props) {
                     alt="Orlando Dees"
                     width="50px"
                   />
-                  <p class="nj-client-name" style={{ paddingLeft: "15px" }}>
+                  <p className="nj-client-name" style={{ paddingLeft: "15px" }}>
                     <b>Orlando Dees,</b>&nbsp;guest
                   </p>
                 </div>
               </div>
-              <div class="nj-testimonial">
-                <div class="nj-quote">
+              <div className="nj-testimonial">
+                <div className="nj-quote">
                   <svg
                     width="45"
                     height="40"
@@ -462,24 +462,24 @@ export default function Home(props) {
                     ></path>
                   </svg>
                 </div>
-                <div class="nj-client-testimonial">
-                  <p class="nj-client-testimonial-text">
+                <div className="nj-client-testimonial">
+                  <p className="nj-client-testimonial-text">
                     It was great how the interviewers were actually interested
                     in what guest had to say and asked great follow up
                     questions.
                   </p>
                 </div>
-                <div class="nj-client-name-wrapper">
-                  <p class="nj-client-name">
+                <div className="nj-client-name-wrapper">
+                  <p className="nj-client-name">
                     <b>Anonimus survey participant</b>&nbsp;
                   </p>
                 </div>
               </div>
             </div>
-            <div class="nj-testimonials-slider-arrows">
-              <div class="nj-testimonials-slider-next-arrow">
+            <div className="nj-testimonials-slider-arrows">
+              <div className="nj-testimonials-slider-next-arrow">
                 <span
-                  class="lnr lnr-arrow-right"
+                  className="lnr lnr-arrow-right"
                   data-cursor-effect="hover"
                 ></span>
               </div>

@@ -5,56 +5,49 @@ export default function Header() {
     <>
       <nav
         style={{ height: "90px" }}
-        class="navbar nj-navbar fixed-top"
+        className="navbar nj-navbar fixed-top"
         aria-label="main navigation"
       >
-        <div class="container">
-          <div class="nj-navbar-flex-wrapper" style={{ height: "20px" }}>
-            <div class="nj-navbar-flex-item">
-              <div class="navbar-brand">
-                <a class="navbar-item nj-navbar-logo-wrapper" href="/">
-                  <div class="nj-navbar-logo">
+        <div className="container">
+          <div className="nj-navbar-flex-wrapper" style={{ height: "20px" }}>
+            <div className="nj-navbar-flex-item">
+              <div className="navbar-brand">
+                <a className="navbar-item nj-navbar-logo-wrapper" href="/">
+                  <div className="nj-navbar-logo">
                     <img src="img/logo/onlyLogo.webp" alt="Logo" />
                   </div>
                 </a>
               </div>
             </div>
 
-            <div class="nj-navbar-flex-item"></div>
+            <div className="nj-navbar-flex-item"></div>
 
-            <div class="nj-navbar-flex-item">
-              <div class="navbar-menu" id="nj-navbar_basic">
-                <div class="navbar-start">
+            <div className="nj-navbar-flex-item">
+              <div className="navbar-menu" id="nj-navbar_basic">
+                <div className="navbar-start">
                   <a
-                    class="navbar-item"
+                    className="navbar-item"
                     href="about"
                     data-cursor-effect="hover"
                   >
                     about
                   </a>
                   <a
-                    class="navbar-item"
-                    href="hosts"
-                    data-cursor-effect="hover"
-                  >
-                    hosts
-                  </a>
-                  <a
-                    class="navbar-item"
+                    className="navbar-item"
                     href="episodes"
                     data-cursor-effect="hover"
                   >
                     episodes
                   </a>
                   <a
-                    class="navbar-item"
+                    className="navbar-item"
                     href="contact"
                     data-cursor-effect="hover"
                   >
                     contact
                   </a>
                   <a
-                    class="navbar-item"
+                    className="navbar-item"
                     href="donate"
                     data-cursor-effect="hover"
                   >
@@ -62,29 +55,29 @@ export default function Header() {
                   </a>
                 </div>
               </div>
-              <div class="nj-show-menu-button" id="nj-show-menu-button">
-                <div class="nj-lines"></div>
+              <div className="nj-show-menu-button" id="nj-show-menu-button">
+                <div className="nj-lines"></div>
               </div>
             </div>
           </div>
         </div>
       </nav>
       <div id="nj-mobile-menu">
-        <div class="nj-mobile-menu-content">
-          <div class="nj-mobile-menu-item-wrapper">
-            <a class="nj-mobile-menu-item" href="about">
+        <div className="nj-mobile-menu-content">
+          <div className="nj-mobile-menu-item-wrapper">
+            <a className="nj-mobile-menu-item" href="about">
               about
             </a>
-            <a class="nj-mobile-menu-item" href="hosts">
+            <a className="nj-mobile-menu-item" href="hosts">
               hosts
             </a>
-            <a class="nj-mobile-menu-item" href="episodes">
+            <a className="nj-mobile-menu-item" href="episodes">
               episodes
             </a>
-            <a class="nj-mobile-menu-item" href="contact">
+            <a className="nj-mobile-menu-item" href="contact">
               contact
             </a>
-            <a class="nj-mobile-menu-item" href="donate">
+            <a className="nj-mobile-menu-item" href="donate">
               donate
             </a>
           </div>
