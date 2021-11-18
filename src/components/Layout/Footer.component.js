@@ -1,7 +1,37 @@
 import React from "react";
+import ReactDOM from "react-dom"
+import BackToTop from "../BackToTop";
+
+
+
 
 export default function Footer() {
+  
+  
+    window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
+    window.LOCALE = 'en';
+    window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
+  
+    window.REQUIRED_ERROR_MESSAGE = "This field cannot be left blank. ";
+  
+    window.GENERIC_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
+  
+  
+  
+  
+    window.translation = {
+      common: {
+        selectedList: '{quantity} list selected',
+        selectedLists: '{quantity} lists selected'
+      }
+    };
+  
+    var AUTOHIDE = Boolean(0);
+  
+ 
+
   return (
+  <div>
     <footer
       className="footer nj-footer nj-animated-section"
       id="nj-contact"
@@ -165,10 +195,10 @@ export default function Footer() {
                   <input
                     type="text"
                     name="email_address_check"
-                    value=""
+                    defaultValue=""
                     className="input--hidden"
                   />
-                  <input type="hidden" name="locale" value="en" />
+                  <input type="hidden" name="locale" defaultValue="en" />
                 </form>
               </div>
             </div>
@@ -339,5 +369,8 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+
+    <BackToTop />
+  </div>
   );
 }

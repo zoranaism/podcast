@@ -1,7 +1,17 @@
 import React from "react";
 
+
+
+
+
+
+
+
 export default function Donate() {
+
+
   return (
+  
     <main>
       <div
         className="section nj-light-section nj-pdt-60"
@@ -127,8 +137,8 @@ export default function Donate() {
                     </button>
                   </div>
                 </div>
-
-                <div id="One" className="tabcontent">
+              
+                <div id="One" className="tabcontent" label="Donate Once">
                   <div className="text-center">
                     <p>Pay via our Stellar PayPal any amount.</p>
 
@@ -349,6 +359,7 @@ export default function Donate() {
                               <img className="w-100" alt="Instruments" src="./img/DonateButtons/Instruments.jpg" />
                             </div>  */}
                   </div>
+                  
                   <p className="text-center mt-5">
                     Send us a mail via{" "}
                     <a href="mailto:stellarsoundfunds@gmail.com">
@@ -361,6 +372,7 @@ export default function Donate() {
                     ones.
                   </p>
                 </div>
+                
               </div>
             </div>
           </div>
