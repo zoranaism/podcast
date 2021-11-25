@@ -1,7 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom"
 import BackToTop from "../BackToTop";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faPhoneAlt,faEnvelope,faLocationArrow,faCopyright } from "@fortawesome/free-solid-svg-icons";
+import { library } from "@fortawesome/fontawesome-svg-core";
 
+library.add(fab);
 
 
 
@@ -285,7 +290,7 @@ export default function Footer() {
                       style={{ opacity: "0" }}
                     >
                       <td>
-                        <i className="fa fa-phone-alt"></i>
+                        <FontAwesomeIcon icon={faPhoneAlt}/>
                       </td>
                       <td>+31684359770</td>
                     </tr>
@@ -295,7 +300,7 @@ export default function Footer() {
                       style={{ opacity: "0" }}
                     >
                       <td>
-                        <i className="fa fa-envelope"></i>
+                        <FontAwesomeIcon icon={faEnvelope}/>
                       </td>
                       <td>stellarsoundpodcast@gmail.com</td>
                     </tr>
@@ -305,7 +310,7 @@ export default function Footer() {
                       style={{ opacity: "0" }}
                     >
                       <td>
-                        <i className="fa fa-location-arrow"></i>
+                        <FontAwesomeIcon icon={faLocationArrow}/>
                       </td>
                       <td>Den Bosch, Netherlands</td>
                     </tr>
@@ -325,7 +330,7 @@ export default function Footer() {
                       href="https://www.instagram.com/stellarsoundpodcast/"
                       data-cursor-effect="hover"
                     >
-                      <i className="fab fa-instagram"></i>
+                      <FontAwesomeIcon icon={['fab', 'instagram']}/>
                     </a>
                     <a
                       target="blank"
@@ -333,7 +338,7 @@ export default function Footer() {
                       href="https://www.facebook.com/Stellar-Sound-Podcast-119521773289334"
                       data-cursor-effect="hover"
                     >
-                      <i className="fab fa-facebook"></i>
+                      <FontAwesomeIcon icon={['fab','facebook']}/>
                     </a>
                     <a
                       target="blank"
@@ -341,7 +346,7 @@ export default function Footer() {
                       href="https://www.linkedin.com/company/72044553/"
                       data-cursor-effect="hover"
                     >
-                      <i className="fab fa-linkedin"></i>
+                      <FontAwesomeIcon icon={['fab','linkedin']}/>
                     </a>
                     {/* <a className="" href="https://discord.gg/9qE3FhVw" data-cursor-effect="hover"><i className="fab fa-discord"></i></a>  */}
                     <a
@@ -350,7 +355,7 @@ export default function Footer() {
                       href="https://twitter.com/SoundStellar"
                       data-cursor-effect="hover"
                     >
-                      <i className="fab fa-twitter"></i>
+                      <FontAwesomeIcon icon={['fab','twitter']}/>
                     </a>
                     {/* <a className="episodes-link blue-button" href="episodes.html" data-cursor-effect="exclusion">Episodes</a> */}
                   </div>
@@ -363,7 +368,7 @@ export default function Footer() {
         <div className="nj-footer-socials-wrapper">
           <div className="nj-footer-socials">
             <span className="text-center d-flex justify-content-center align-items-center mt-2">
-              <i className="fa fa-copyright mr-1"></i>2021 Stellar Sound Podcast
+              <FontAwesomeIcon icon={faCopyright}/>2021 Stellar Sound Podcast
             </span>
           </div>
         </div>
