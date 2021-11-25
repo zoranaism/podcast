@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhoneAlt,faEnvelope,faLocationArrow,faCopyright } from "@fortawesome/free-solid-svg-icons";
 
 export default function ContactUs(props) {
   return (
@@ -102,19 +104,19 @@ export default function ContactUs(props) {
                   <td className="py-2 pr-4">
                     <i className="fa fa-phone-alt"></i>
                   </td>
-                  <td className="py-2">+31684359770</td>
+                  <td className="py-2"><FontAwesomeIcon icon={faPhoneAlt}/> +31684359770</td>
                 </tr>
                 <tr data-anim-queue="2" data-anim-type="fade_in_up">
                   <td className="py-2">
                     <i className="fa fa-envelope"></i>
                   </td>
-                  <td className="py-2">stellarsoundpodcast@gmail.com</td>
+                  <td className="py-2"><FontAwesomeIcon icon={faEnvelope}/> stellarsoundpodcast@gmail.com</td>
                 </tr>
                 <tr data-anim-queue="3" data-anim-type="fade_in_up">
                   <td className="py-2">
                     <i className="fa fa-location-arrow"></i>
                   </td>
-                  <td className="py-2">Den Bosch, Netherlands</td>
+                  <td className="py-2"><FontAwesomeIcon icon={faLocationArrow}/> Den Bosch, Netherlands</td>
                 </tr>
               </table>
               {/* <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2939.703374469683!2d5.300589056159852!3d51.71499812220804!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6ee3e307553a7%3A0xefd0fdfd8fe11569!2sHet%20Klokkediep%20119%2C%205231%20WX%20&#39;s-Hertogenbosch%2C%20Netherlands!5e0!3m2!1sen!2srs!4v1626951770718!5m2!1sen!2srs" width="600" height="450" style="border:0;" allowFullScreen="" loading="lazy"></iframe>  */}
