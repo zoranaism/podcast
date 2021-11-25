@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import "./App.css";
 import "./assets/css/assets.min.css";
 import "./assets/css/style.min.css";
-
 import {
   Switch,
   Route,
