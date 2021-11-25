@@ -2971,6 +2971,8 @@
   .socials-link {
     align-self: center;
     color: white;
+    font-size: 1.3rem;
+    padding-right: 20px;
   }
   
   .socials-link:hover,
