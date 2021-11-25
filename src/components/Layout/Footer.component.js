@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom"
 import BackToTop from "../BackToTop";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fontawesome/react-fontawesome";
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faPhoneAlt,faEnvelope,faLocationArrow,faCopyright } from "@fortawesome/free-solid-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
