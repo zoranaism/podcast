@@ -30,7 +30,7 @@ export default function Header() {
                     href="about"
                     data-cursor-effect="hover"
                   >
-                    about
+                    Pedja
                   </a>
                   <a
                     className="navbar-item"
