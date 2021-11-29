@@ -1,17 +1,22 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import BackToTop from "../BackToTop";
-// import { FontAwesomeIcon } from "@fontawesome/react-fontawesome";
-// import { fab } from "@fontawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import {
 //   faPhoneAlt,
 //   faEnvelope,
 //   faLocationArrow,
-//   faCopyright,
-// } from "fontawesome/free-solid-svg-icons";
-// import { library } from "@fontawesome/fontawesome-svg-core";
+// } from "@fortawesome/free-solid-svg-icons";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import {
+  faPhoneAlt,
+  faEnvelope,
+  faLocationArrow,
+  faCopyright,
+} from "@fortawesome/free-solid-svg-icons";
+import { library } from "@fortawesome/fontawesome-svg-core";
 
-// library.add(fab);
+library.add(fab);
 
 export default function Footer() {
   window.REQUIRED_CODE_ERROR_MESSAGE = "Please choose a country code";
@@ -288,7 +293,7 @@ export default function Footer() {
                         style={{ opacity: "0" }}
                       >
                         <td>
-                          {/* <FontAwesomeIcon icon={faPhoneAlt} /> */}
+                          <FontAwesomeIcon icon={faPhoneAlt} />
                         </td>
                         <td>+31684359770</td>
                       </tr>
@@ -298,7 +303,7 @@ export default function Footer() {
                         style={{ opacity: "0" }}
                       >
                         <td>
-                          {/* <FontAwesomeIcon icon={faEnvelope} /> */}
+                          <FontAwesomeIcon icon={faEnvelope} />
                         </td>
                         <td>stellarsoundpodcast@gmail.com</td>
                       </tr>
@@ -308,7 +313,7 @@ export default function Footer() {
                         style={{ opacity: "0" }}
                       >
                         <td>
-                          {/* <FontAwesomeIcon icon={faLocationArrow} /> */}
+                          <FontAwesomeIcon icon={faLocationArrow} />
                         </td>
                         <td>Den Bosch, Netherlands</td>
                       </tr>
@@ -328,7 +333,7 @@ export default function Footer() {
                         href="https://www.instagram.com/stellarsoundpodcast/"
                         data-cursor-effect="hover"
                       >
-                        {/* <FontAwesomeIcon icon={["fab", "instagram"]} /> */}
+                        <FontAwesomeIcon icon={["fab", "instagram"]} />
                       </a>
                       <a
                         target="blank"
@@ -336,7 +341,7 @@ export default function Footer() {
                         href="https://www.facebook.com/Stellar-Sound-Podcast-119521773289334"
                         data-cursor-effect="hover"
                       >
-                        {/* <FontAwesomeIcon icon={["fab", "facebook"]} /> */}
+                        <FontAwesomeIcon icon={["fab", "facebook"]} />
                       </a>
                       <a
                         target="blank"
@@ -344,7 +349,7 @@ export default function Footer() {
                         href="https://www.linkedin.com/company/72044553/"
                         data-cursor-effect="hover"
                       >
-                        {/* <FontAwesomeIcon icon={["fab", "linkedin"]} /> */}
+                        <FontAwesomeIcon icon={["fab", "linkedin"]} />
                       </a>
                       {/* <a className="" href="https://discord.gg/9qE3FhVw" data-cursor-effect="hover"><i className="fab fa-discord"></i></a>  */}
                       <a
@@ -353,7 +358,7 @@ export default function Footer() {
                         href="https://twitter.com/SoundStellar"
                         data-cursor-effect="hover"
                       >
-                        {/* <FontAwesomeIcon icon={["fab", "twitter"]} /> */}
+                        <FontAwesomeIcon icon={["fab", "twitter"]} />
                       </a>
                       {/* <a className="episodes-link blue-button" href="episodes.html" data-cursor-effect="exclusion">Episodes</a> */}
                     </div>
@@ -366,7 +371,7 @@ export default function Footer() {
           <div className="nj-footer-socials-wrapper">
             <div className="nj-footer-socials">
               <span className="text-center d-flex justify-content-center align-items-center mt-2">
-                {/* <FontAwesomeIcon icon={faCopyright} /> */}
+                <FontAwesomeIcon icon={faCopyright} />
                 2021 Stellar Sound Podcast
               </span>
             </div>

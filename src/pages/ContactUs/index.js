@@ -1,6 +1,10 @@
 import React from "react";
-// import { FontAwesomeIcon } from "@fontawesome/react-fontawesome";
-// import { faPhoneAlt,faEnvelope,faLocationArrow,faCopyright } from "@fontawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faPhoneAlt,
+  faEnvelope,
+  faLocationArrow,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function ContactUs(props) {
   return (
@@ -105,7 +109,7 @@ export default function ContactUs(props) {
                     <i className="fa fa-phone-alt"></i>
                   </td>
                   <td className="py-2">
-                    {/* <FontAwesomeIcon icon={faPhoneAlt} /> +31684359770 */}
+                    <FontAwesomeIcon icon={faPhoneAlt} /> +31684359770
                   </td>
                 </tr>
                 <tr data-anim-queue="2" data-anim-type="fade_in_up">
@@ -113,7 +117,7 @@ export default function ContactUs(props) {
                     <i className="fa fa-envelope"></i>
                   </td>
                   <td className="py-2">
-                    {/* <FontAwesomeIcon icon={faEnvelope} />{" "} */}
+                    <FontAwesomeIcon icon={faEnvelope} />{" "}
                     stellarsoundpodcast@gmail.com
                   </td>
                 </tr>
@@ -122,7 +126,7 @@ export default function ContactUs(props) {
                     <i className="fa fa-location-arrow"></i>
                   </td>
                   <td className="py-2">
-                    {/* <FontAwesomeIcon icon={faLocationArrow} /> Den Bosch, */}
+                    <FontAwesomeIcon icon={faLocationArrow} /> Den Bosch,
                     Netherlands
                   </td>
                 </tr>
