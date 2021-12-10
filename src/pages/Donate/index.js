@@ -1,17 +1,25 @@
 import React from "react";
 
 
-
-
-
-
-
+function AddClass (e) {
+  const tabs = document.getElementsByClassName('tablinks');
+  const pages = document.getElementsByClassName('tabcontent')
+  for (let i = 0; i < tabs.length; i++) {
+    if(tabs[i].id == e.target.id){
+      tabs[i].classList.add('active');
+      pages[i].style.display = 'block';
+    }
+    else{
+      tabs[i].classList.remove('active'); 
+      pages[i].style.display = 'none'
+    }
+  }
+  console.log(pages);
+}
 
 export default function Donate() {
 
-
   return (
-  
     <main>
       <div
         className="section nj-light-section nj-pdt-60"
@@ -126,19 +134,20 @@ export default function Donate() {
 
                 <div className="tab-holder">
                   <div className="tab">
-                    <button className="tablinks active" id="One">
+                    <button onClick={AddClass} className="tablinks" id="One">
                       Donate Once
                     </button>
-                    <button className="tablinks" id="Two">
+                    <button onClick={AddClass} className="tablinks" id="Two">
                       Donate Monthly
                     </button>
-                    <button className="tablinks" id="Three">
+                    <button onClick={AddClass} className="tablinks" id="Three">
                       More ways to give
                     </button>
                   </div>
                 </div>
-              
-                <div id="One" className="tabcontent" label="Donate Once">
+                    
+                <div>
+        <div id="One" className="tabcontent" label="Donate Once">
                   <div className="text-center">
                     <p>Pay via our Stellar PayPal any amount.</p>
 
@@ -288,8 +297,10 @@ export default function Donate() {
                     </div>
                   </div>
                 </div>
+    </div>
 
-                <div id="Two" className="tabcontent">
+
+    <div id="Two" className="tabcontent">
                   <p>
                     By joining us, you’ll not only support a bunch of incredibly
                     talented musicians; you’ll also become part of the exclusive
@@ -302,10 +313,10 @@ export default function Donate() {
                     >
                       <img alt="Patreon" src="./img/DonateButtons/Patron.png" />
                     </a>
-                  </div>
                 </div>
+        </div>
 
-                <div id="Three" className="tabcontent">
+        <div id="Three" className="tabcontent">
                   <p>
                     Are your musical instruments collecting dust? Or are you
                     maybe a good willed artist wanting to give away some of your
@@ -372,6 +383,10 @@ export default function Donate() {
                     ones.
                   </p>
                 </div>
+
+
+
+
                 
               </div>
             </div>
