@@ -26,6 +26,7 @@ import Episode9 from "./pages/AllEpisodes/Season1/EP9";
 import SingleEpisode from "./components/EpisodesPage.component";
 import Justen from "./pages/Justen";
 import Radina from "./pages/Radina";
+import ScrollToTop from "./components/ScrollToTop";
 
 const injectAppScript = () => {
   // Remove old script, redundant (╯°□°）╯︵ ┻━┻
@@ -53,6 +54,7 @@ function App() {
     <Router>
       <div id="nj-cursor-follower"></div>
       <div className="App">
+        <ScrollToTop />
         <Switch>
           <Layout>
             <Route exact path="/" component={Home} />

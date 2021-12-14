@@ -9,6 +9,7 @@ import {
 export default function ContactUs(props) {
   return (
     <div>
+    <div>
       <div
         className="section nj-light-section nj-pt-120"
         id="nj-single-project-section"
@@ -133,9 +134,13 @@ export default function ContactUs(props) {
               </table>
               {/* <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2939.703374469683!2d5.300589056159852!3d51.71499812220804!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6ee3e307553a7%3A0xefd0fdfd8fe11569!2sHet%20Klokkediep%20119%2C%205231%20WX%20&#39;s-Hertogenbosch%2C%20Netherlands!5e0!3m2!1sen!2srs!4v1626951770718!5m2!1sen!2srs" width="600" height="450" style="border:0;" allowFullScreen="" loading="lazy"></iframe>  */}
             </div>
+            
           </div>
         </div>
       </div>
     </div>
+    <div class="nj-scroll-to-top-holder" data-cursor-style="dark"><a href="#" data-cursor-effect="hover"
+            id="nj-scroll-to-top">Scroll to top</a></div>
+    </div> 
   );
 }
