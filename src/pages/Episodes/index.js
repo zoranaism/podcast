@@ -1,5 +1,6 @@
 import React from "react";
 import SingleEpisode from "../../components/EpisodesPage.component";
+import { Link} from "react-router-dom";
 
 const episodes = [
   {
@@ -183,13 +184,13 @@ export default function Episodes() {
       >
         <div className="row text-center">
           <div className="nj-button-wrapper nj-pdt-60 nj-pdb-60">
-            <a
+            <Link
               className="nj-button nj-button-black"
-              href="index.html"
+              to="/"
               data-cursor-effect="hover"
             >
               GO HOME
-            </a>
+            </Link>
           </div>
         </div>
       </div>
