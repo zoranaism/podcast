@@ -6,7 +6,7 @@ const episodes = [
   {
     typeOfEpisode: "pilot",
     episodePath: "episode-9",
-    imgPath: "img/episodes/episodes-cover/pilot/episode-5-cover.webp",
+    imgPath: "https://d33wubrfki0l68.cloudfront.net/9bb2260ebb387d082cce11464e30adefc3345639/bd957/img/newcoverimg/9.jpg",
     altText: "Stellar Sound Podcast Pilot: Episode 5",
     guest: "Ania Anahata",
     description: "Ethno multi-dimensional Leo music artist",
@@ -15,7 +15,7 @@ const episodes = [
     typeOfEpisode: "pilot",
     episodePath: "episode-8",
     imgPath:
-      "img/episodes/episodes-cover/live/live-streaming-episode4-cover-orlando-dees.webp",
+      "https://d33wubrfki0l68.cloudfront.net/650154161c5687270ef9ed0467d799f2d5d303d2/3e1a8/img/newcoverimg/8.jpg",
     altText: "Stellar Sound Podcast Pilot: Episode 5",
     guest: "Orlando Dees",
     description: `Orlando is a singer-songwriter originally from Galicia,
@@ -24,9 +24,19 @@ const episodes = [
     accompanied by synthesizers.`,
   },
   {
-    typeOfEpisode: "pilot",
+    typeOfEpisode: "live",
     episodePath: "episode-7",
-    imgPath: "img/episodes/episodes-cover/pilot/episode-4-cover.webp",
+    imgPath:
+    "https://d33wubrfki0l68.cloudfront.net/1fe94c1cf438cb55a650295ebe243cc5b6d4ca72/f0688/img/newcoverimg/7.jpg",
+    altText: "Stellar Sound Podcast Live: Episode 2",
+    guest: "Anne van Damme",
+    description: `A pure, passionate professional musician, songwriter,
+    entrepreneur, and music educator.`,
+  },
+  {
+    typeOfEpisode: "pilot",
+    episodePath: "episode-6",
+    imgPath: "https://d33wubrfki0l68.cloudfront.net/f4acbe7dd99bc4d3a806187b1837261481df7e89/58141/img/newcoverimg/6.jpg",
     altText: "Stellar Sound Podcast Pilot: Episode 4",
     guest: "Zsolt Argyelan",
     description: `Traveling jazz trumpet player and music producer in the
@@ -34,28 +44,18 @@ const episodes = [
   },
   {
     typeOfEpisode: "live",
-    episodePath: "episode-6",
+    episodePath: "episode-5",
     imgPath:
-      "img/episodes/episodes-cover/live/live-streaming-episode3-cover-milan-miric.webp",
+      "https://d33wubrfki0l68.cloudfront.net/35eca5afe78538560dc82ee9d1cdad38b36206b4/80736/img/newcoverimg/5.jpg",
     altText: "Stellar Sound Podcast Live: Episode 3",
     guest: "Milan Mirić",
     description: `Alternative rock band from Nis, Serbia.`,
   },
   {
     typeOfEpisode: "live",
-    episodePath: "episode-5",
-    imgPath:
-      "img/episodes/episodes-cover/live/live-streaming-episode2-cover-anne-van-damme.webp",
-    altText: "Stellar Sound Podcast Live: Episode 2",
-    guest: "Anne van Damme",
-    description: `A pure, passionate professional musician, songwriter,
-    entrepreneur, and music educator.`,
-  },
-  {
-    typeOfEpisode: "live",
     episodePath: "episode-4",
     imgPath:
-      "img/episodes/episodes-cover/live/live-streaming-episode-cover-gamma.webp",
+      "https://d33wubrfki0l68.cloudfront.net/b20c28fd5d6217710a92e5417106e71444d0bb92/27d79/img/newcoverimg/4.jpg",
     altText: "Stellar Sound Podcast Live: Episode 1",
     guest: "GAMMA",
     description: `Creative process, autism and mental health of a musician,
@@ -66,7 +66,7 @@ const episodes = [
     typeOfEpisode: "pilot",
     episodePath: "episode-3",
     imgPath:
-      "img/episodes/episodes-cover/pilot/Episode-3-cover-aleksandra-denda.webp",
+      "https://d33wubrfki0l68.cloudfront.net/eebfe64e9ef4fc8d495578aa09b2a7ce0f66a493/951f4/img/newcoverimg/3.jpg",
     altText: "Stellar Sound Podcast Pilot: Episode 3",
     guest: "Aleksandra Denda",
     description: `Living in New York and moving back to Serbia amidst the
@@ -80,7 +80,7 @@ const episodes = [
     typeOfEpisode: "pilot",
     episodePath: "episode-2",
     imgPath:
-      "img/episodes/episodes-cover/pilot/episode-cover-without-logo.webp",
+      "https://d33wubrfki0l68.cloudfront.net/be54bad07c87635e123f9f48c2429c492e035d9f/6202a/img/newcoverimg/2.jpg",
     altText: "Stellar Sound Podcast Pilot: Episode 2",
     guest: "HunBjørn",
     description: `Music education and what skills serve once done, autotune,
@@ -91,7 +91,7 @@ const episodes = [
   {
     typeOfEpisode: "pilot",
     episodePath: "episode-1",
-    imgPath: "img/episodes/episodes-cover/pilot/episode-1-cover.webp",
+    imgPath: "https://d33wubrfki0l68.cloudfront.net/39b63f5e866eb049091ec303d305c2c95fe17d6a/c8c6a/img/newcoverimg/1.jpg",
     altText: "Stellar Sound Podcast Pilot: Episode 1",
     guest: `Leo from "Just Leo"`,
     description: `Creative process, autism and mental health of a musician,
