@@ -1,6 +1,18 @@
-import React from "react";
+import React, {useState} from "react";
+import ReactDOM from "react-dom";
+import SingleEpisode from "../../components/EpisodePage.component";
+import { separateMessageFromStack } from "jest-message-util";
+import LastEpisode from "../../components/lastEpisode/lastEpisode";
+import episodesData from "../../allEpisodesData";
+
 
 export default function Home(props) {
+  //data array
+  const epizode = episodesData();
+
+
+
+
   return (
     <div className="section nj-hero" id="nj-hero">
       <div className="nj-hero-body">
@@ -195,52 +207,18 @@ export default function Home(props) {
           <div className="nj-section-header">
             <h1 className="nj-section-header-title">new episodes</h1>
           </div>
-          <div className="nj-news-wrapper">
-            <div className="row">
-              <div className="col-lg-6">
-                <div className="nj-news-image-wrapper">
-                  <a href="episode-5-ania-anahata.html">
-                    <img
-                      src="img/episodes/episodes-cover/pilot/episode-5-cover.webp"
-                      data-cursor-effect="blend"
-                      alt="Episode 5: Ania Anahata"
-                    />
-                  </a>
-                  <div className="nj-month-wrapper">
-                    <span className="nj-month">Stellar Pilot</span>
-                  </div>
-                  <div className="nj-date-wrapper">
-                    <span className="nj-date">5</span>
-                  </div>
-                  <div className="nj-author-wrapper">
-                    <span className="nj-author">EPISODE</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-6">
-                <div className="nj-news-body-wrapper">
-                  <div className="nj-news-body">
-                    <h3 className="nj-news-header">Ania Anahata</h3>
-                    <h5>08/17/2021</h5>
-                    <p className="nj-news-body-text">
-                      Talented Ania Anahata is a multi-instrumental and vocal
-                      artist. She is a violinist, violist, vocalist, music
-                      therapist, EFT coach and a meditation teacher.
-                    </p>
-                  </div>
-                  <div className="nj-read-more-button-wrapper">
-                    <a
-                      className="nj-button nj-button-black"
-                      href="episode-5-ania-anahata.html"
-                      data-cursor-effect="exclusion"
-                    >
-                      Find out more
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div>
+            <LastEpisode 
+            type={epizode[0].typeOfEpisode} 
+            path={epizode[0].episodePath}
+            imgPath={epizode[0].imgPath}
+            altText={epizode[0].altText}
+            guest={epizode[0].guest}
+            description={epizode[0].description}
+            episode={epizode[0].episode}
+            />
           </div>
+
         </div>
       </div>
 
@@ -322,7 +300,7 @@ export default function Home(props) {
                     <div className="nj-read-more-button-wrapper">
                       <a
                         className="nj-button nj-button-black"
-                        href="about.html"
+                        href="about"
                         data-cursor-effect="exclusion"
                       >
                         Find out about Stellar story

@@ -1192,7 +1192,7 @@
   
   /* line 718, src/sass/style.sass */
   .section:not(.nj-hero) {
-    padding-top: 100px;
+    margin-top: 90px;
     padding-bottom: 120px;
   }
   
