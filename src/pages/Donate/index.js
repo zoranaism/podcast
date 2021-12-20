@@ -382,12 +382,7 @@ export default function Donate() {
                     *We are accepting old and used instruments as well as new
                     ones.
                   </p>
-                </div>
-
-
-
-
-                
+                </div> 
               </div>
             </div>
           </div>
