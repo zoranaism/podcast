@@ -22,7 +22,7 @@ export default function Episode1() {
       prevEpisodePath=""
       prevEpisodeImgPath=""
       nextEpisodePath="episode-2"
-      nextEpisodeImgPath="img/episodes/episodes-cover/pilot/episode-2-cover.webp"
+      nextEpisodeImgPath="https://d33wubrfki0l68.cloudfront.net/be54bad07c87635e123f9f48c2429c492e035d9f/6202a/img/newcoverimg/2.jpg"
       nextEpisode='Episode 2: HunBjørn'
     />
   );
