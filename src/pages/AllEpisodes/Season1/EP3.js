@@ -21,9 +21,9 @@ export default function Episode3() {
     guestsImagePath="img/episodes/guests/aleksandra-denda.webp"
     prevEpisode='Episode 2: HunBjørn'
     prevEpisodePath="episode-2"
-    prevEpisodeImgPath="img/episodes/episodes-cover/pilot/episode-2-cover.webp"
+    prevEpisodeImgPath="https://d33wubrfki0l68.cloudfront.net/be54bad07c87635e123f9f48c2429c492e035d9f/6202a/img/newcoverimg/2.jpg"
     nextEpisodePath="episode-4"
-    nextEpisodeImgPath="img/episodes/episodes-cover/live/live-streaming-episode-cover-gamma.webp"
+    nextEpisodeImgPath="https://d33wubrfki0l68.cloudfront.net/b20c28fd5d6217710a92e5417106e71444d0bb92/27d79/img/newcoverimg/4.jpg"
     nextEpisode='Episode 4: GAMMA'
   
   /> 

@@ -4,26 +4,26 @@ import EpisodeComponent from "../../../components/EpisodePage.component";
 export default function Episode7() {
   return (
     <EpisodeComponent
-      episodeName='Pilot Episodes | Episode 7'
-      host="radina"
-      guest="Zsolt Argyelan"
-      guestLink="https://www.youtube.com/watch?v=y3GKavuTrRk"
-      spotifyLink="https://open.spotify.com/episode/2LRMrXjomKiuIE6VcCEH34"
-      youtubeLink="https://www.youtube.com/watch?v=XKd36gUUrOQ&t=2975s"
-      applePodcastsLink="https://podcasts.apple.com/rs/podcast/pilot-episode-4-guest-zsolt-argyelan-host-radina-dimcheva/id1556200413?i=1000527570484"
-      sponsor="ketz"
-      spotifyPlayerLink="https://open.spotify.com/embed/episode/2LRMrXjomKiuIE6VcCEH34"
-      description1='In our 4th episode, you will get to know our guest Zsolt Argyelan, an extremely talented jazz trumpet player and music producer who shared with us his thoughts on many different topics, such as music through time, his creative process & inspiration, how he chose his favorite instrument, etc.'
-      description2='There are many fun details he went through, which nicely spiced up the conversation. Make yourself comfortable, put this episode on and explore another musical galaxy from Zsolt’s perspective.'
-      description3=''
-      description4=''
-      guestsImagePath="img/episodes/guests/zsolt-image.webp"
-      prevEpisode='Episode 6: Milan Mirić'
+      episodeName="Live Episodes | Episode 7"
+      host="justen"
+      guest="Anne Van Damme"
+      guestLink="https://www.annevandammemusic.com/"
+      spotifyLink="https://open.spotify.com/episode/3aHFrVAETb5o27oxJ8QpfU"
+      youtubeLink="https://www.youtube.com/watch?v=PsY9GL5S9CA"
+      applePodcastsLink="https://podcasts.apple.com/rs/podcast/live-episode-2-guest-anne-van-damme-host-justen-williams/id1556200413?i=1000532518273"
+      sponsor="fae-games"
+      spotifyPlayerLink="https://open.spotify.com/embed/episode/3aHFrVAETb5o27oxJ8QpfU"
+      description1="She got her first guitar on her thirteenth birthday. She immediately fell in love with music but didn’t dare to play outside the walls of her attic room."
+      description2="When she finally realized that her mission was to share her art with other people, she started performing on a real stage and put her heart into it every single time."
+      description3="Today she is a full-time musician and entrepreneur based in the Netherlands, and we are delighted to announce that she is also the second guest of our Live Stellar Sessions."
+      description4=""
+      guestsImagePath="img/episodes/guests/anne-van-damme.webp"
+      prevEpisode="Episode 6: Zsolt Argyelan"
       prevEpisodePath="episode-6"
-      prevEpisodeImgPath="img/episodes/episodes-cover/live/live-streaming-episode3-cover-milan-miric.webp"
+      prevEpisodeImgPath="https://d33wubrfki0l68.cloudfront.net/f4acbe7dd99bc4d3a806187b1837261481df7e89/58141/img/newcoverimg/6.jpg"
       nextEpisodePath="episode-8"
-      nextEpisodeImgPath="img/episodes/episodes-cover/live/live-streaming-episode4-cover-orlando-dees.webp"
-      nextEpisode='Episode 8: Orlando Dees'
+      nextEpisodeImgPath="https://d33wubrfki0l68.cloudfront.net/650154161c5687270ef9ed0467d799f2d5d303d2/3e1a8/img/newcoverimg/8.jpg"
+      nextEpisode="Episode 8: Orlando Dees"
     />
   );
 }

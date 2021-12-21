@@ -21,9 +21,9 @@ export default function Episode4() {
     guestsImagePath="img/episodes/guests/GAMMA.webp"
     prevEpisode='Episode 3: Aleksandra Denda'
     prevEpisodePath="episode-3"
-    prevEpisodeImgPath="img/episodes/episodes-cover/pilot/Episode-3-cover-aleksandra-denda.webp"
+    prevEpisodeImgPath="https://d33wubrfki0l68.cloudfront.net/eebfe64e9ef4fc8d495578aa09b2a7ce0f66a493/951f4/img/newcoverimg/3.jpg"
     nextEpisodePath="episode-5"
-    nextEpisodeImgPath="img/episodes/episodes-cover/live/live-streaming-episode2-cover-anne-van-damme.webp"
+    nextEpisodeImgPath="https://d33wubrfki0l68.cloudfront.net/35eca5afe78538560dc82ee9d1cdad38b36206b4/80736/img/newcoverimg/5.jpg"
     nextEpisode='Episode 5: Anne Van Damme'
   
   /> 
