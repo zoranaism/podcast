@@ -13,7 +13,7 @@ function episodesData() {
   return(
     [
       {
-        typeOfEpisode: "Stelar Season 1",
+        typeOfEpisode: "Stellar Season 1",
         episodePath: "episode-9",
         episode: "9",
         imgPath: ep9,
@@ -22,7 +22,7 @@ function episodesData() {
         description: "Ethno multi-dimensional Leo music artist",
       },
       {
-        typeOfEpisode: "Stelar Season 1",
+        typeOfEpisode: "Stellar Season 1",
         episodePath: "episode-8",
         episode: "8",
         imgPath: ep8,
@@ -34,7 +34,7 @@ function episodesData() {
         accompanied by synthesizers.`,
       },
       {
-        typeOfEpisode: "Stelar Season 1",
+        typeOfEpisode: "Stellar Season 1",
         episodePath: "episode-7",
         episode: "7",
         imgPath: ep7,
@@ -44,7 +44,7 @@ function episodesData() {
         middle of his debut EP creation.`,
       },
       {
-        typeOfEpisode: "Stelar Season 1",
+        typeOfEpisode: "Stellar Season 1",
         episodePath: "episode-6",
         episode: "6",
         imgPath: ep6,
@@ -53,7 +53,7 @@ function episodesData() {
         description: `Alternative rock band from Nis, Serbia.`,
       },
       {
-        typeOfEpisode: "Stelar Season 1",
+        typeOfEpisode: "Stellar Season 1",
         episodePath: "episode-5",
         episode: "5",
         imgPath: ep5,
@@ -63,7 +63,7 @@ function episodesData() {
         entrepreneur, and music educator.`,
       },
       {
-        typeOfEpisode: "Stelar Season 1",
+        typeOfEpisode: "Stellar Season 1",
         episodePath: "episode-4",
         episode: "4",
         imgPath: ep4,
@@ -74,7 +74,7 @@ function episodesData() {
         many more!`,
       },
       {
-        typeOfEpisode: "Stelar Season 1",
+        typeOfEpisode: "Stellar Season 1",
         episodePath: "episode-3",
         episode: "3",
         imgPath: ep3,
@@ -88,7 +88,7 @@ function episodesData() {
         release for international jazz day...`,
       },
       {
-        typeOfEpisode: "Stelar Season 1",
+        typeOfEpisode: "Stellar Season 1",
         episodePath: "episode-2",
         episode: "2",
         imgPath: ep2,
@@ -100,7 +100,7 @@ function episodesData() {
         improve creativity, Harry Potter...`,
       },
       {
-        typeOfEpisode: "Stelar Season 1",
+        typeOfEpisode: "Stellar Season 1",
         episodePath: "episode-1",
         episode: "1",
         imgPath: ep1,
