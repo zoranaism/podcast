@@ -1,5 +1,8 @@
 import React from "react";
 import SingleEpisode from "../../components/EpisodesPage.component";
+
+import episodesData from "../../allEpisodesData";
+
 import { Link} from "react-router-dom";
 
 const episodes = [
@@ -101,6 +104,11 @@ const episodes = [
 ];
 
 export default function Episodes() {
+
+//Episode data
+const episodes = episodesData();
+
+
   return (
     <main>
       <div
