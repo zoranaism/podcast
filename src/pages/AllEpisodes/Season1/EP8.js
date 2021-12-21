@@ -18,11 +18,11 @@ export default function Episode8() {
       description3='The identity of his music project begins with a flamenco guitar and airy and soft voices, occasionally accompanied by synthesizers. He is currently working on his first LP "Arcadia", which is expected to be recorded this 2021.'
       description4=''
       guestsImagePath="img/episodes/guests/orlando-dees.webp"
-      prevEpisode='Episode 7: Zsolt Argyelan'
+      prevEpisode='Episode 7: Anne Van Damme'
       prevEpisodePath="episode-7"
-      prevEpisodeImgPath="img/episodes/episodes-cover/pilot/episode-4-cover.webp"
+      prevEpisodeImgPath="https://d33wubrfki0l68.cloudfront.net/1fe94c1cf438cb55a650295ebe243cc5b6d4ca72/f0688/img/newcoverimg/7.jpg"
       nextEpisodePath="episode-9"
-      nextEpisodeImgPath="img/episodes/episodes-cover/pilot/episode-5-cover.webp"
+      nextEpisodeImgPath="https://d33wubrfki0l68.cloudfront.net/9bb2260ebb387d082cce11464e30adefc3345639/bd957/img/newcoverimg/9.jpg"
       nextEpisode='Episode 9: Ania Anahata'
     />
   );

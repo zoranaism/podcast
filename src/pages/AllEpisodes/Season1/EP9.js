@@ -20,7 +20,7 @@ export default function Episode9() {
       guestsImagePath="img/episodes/guests/ania-anahata.webp"
       prevEpisode='Episode 8: Orlando Dees'
       prevEpisodePath="episode-8"
-      prevEpisodeImgPath="img/episodes/episodes-cover/live/live-streaming-episode4-cover-orlando-dees.webp"
+      prevEpisodeImgPath="https://d33wubrfki0l68.cloudfront.net/650154161c5687270ef9ed0467d799f2d5d303d2/3e1a8/img/newcoverimg/8.jpg"
       nextEpisodePath=""
       nextEpisodeImgPath=""
       nextEpisode=''
