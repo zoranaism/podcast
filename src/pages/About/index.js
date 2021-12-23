@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function About() {
   return (
@@ -255,10 +257,7 @@ export default function About() {
             </div>
             <div className="nj-testimonials-slider-arrows">
               <div className="nj-testimonials-slider-next-arrow">
-                <span
-                  className="lnr lnr-arrow-right"
-                  data-cursor-effect="hover"
-                ></span>
+                <FontAwesomeIcon icon={faArrowRight} />
               </div>
             </div>
           </div>

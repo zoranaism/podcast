@@ -4,6 +4,8 @@ import SingleEpisode from "../../components/EpisodePage.component";
 import { separateMessageFromStack } from "jest-message-util";
 import LastEpisode from "../../components/lastEpisode/lastEpisode";
 import episodesData from "../../allEpisodesData";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 
 export default function Home(props) {
@@ -456,10 +458,7 @@ export default function Home(props) {
             </div>
             <div className="nj-testimonials-slider-arrows">
               <div className="nj-testimonials-slider-next-arrow">
-                <span
-                  className="lnr lnr-arrow-right"
-                  data-cursor-effect="hover"
-                ></span>
+                  <FontAwesomeIcon icon={faArrowRight} fontWeight={200}/>
               </div>
             </div>
           </div>

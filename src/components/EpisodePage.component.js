@@ -1,4 +1,10 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faPodcast } from "@fortawesome/free-solid-svg-icons";
+
+library.add(fab);
 
 export default function EpisodeComponent({
   episodeName,
@@ -82,13 +88,13 @@ export default function EpisodeComponent({
 
                 <div className="d-inline align-middle mb-4">
                   <a href={spotifyLink} target="blank">
-                    <i className="fab fa-spotify fa-2x"></i>
+                    <FontAwesomeIcon icon={["fab", "spotify"]}/>
                   </a>
                   <a href={youtubeLink} target="blank">
-                    <i className="fab fa-youtube fa-2x"></i>
+                    <FontAwesomeIcon icon={["fab", "youtube"]} />
                   </a>
                   <a href={applePodcastsLink} target="blank">
-                    <i className="fas fa-podcast fa-2x"></i>
+                    <FontAwesomeIcon icon={faPodcast} />
                   </a>
                 </div>
               </div>
