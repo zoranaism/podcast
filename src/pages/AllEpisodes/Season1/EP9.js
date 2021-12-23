@@ -21,9 +21,9 @@ export default function Episode9() {
       prevEpisode='Episode 8: Orlando Dees'
       prevEpisodePath="episode-8"
       prevEpisodeImgPath="https://d33wubrfki0l68.cloudfront.net/650154161c5687270ef9ed0467d799f2d5d303d2/3e1a8/img/newcoverimg/8.jpg"
-      nextEpisodePath=""
-      nextEpisodeImgPath=""
-      nextEpisode=''
+      nextEpisodePath="episode-1"
+      nextEpisodeImgPath="https://d33wubrfki0l68.cloudfront.net/39b63f5e866eb049091ec303d305c2c95fe17d6a/c8c6a/img/newcoverimg/1.jpg"
+      nextEpisode='Episode 1: Leo from "Just Leo'
     />
   );
 }

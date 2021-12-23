@@ -4,6 +4,7 @@ import SingleEpisode from "../../components/EpisodePage.component";
 import { separateMessageFromStack } from "jest-message-util";
 import LastEpisode from "../../components/lastEpisode/lastEpisode";
 import episodesData from "../../allEpisodesData";
+import { Link} from "react-router-dom";
 
 
 export default function Home(props) {
@@ -281,9 +282,9 @@ export default function Home(props) {
               <div className="row">
                 <div className="col-lg-6">
                   <div className="team-img-wrapper py-5">
-                    <a href="about.html">
+                    <Link to="/About">
                       <img src="img/team/team.webp" alt="Stellar Team" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="col-lg-6 team">
