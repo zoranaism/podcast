@@ -5,7 +5,7 @@ import EpisodeComponent from "../../../components/EpisodePage.component";
 export default function Episode4() {
   return (
     <EpisodeComponent
-    episodeName='Live Episodes | Episode 4'
+    episodeName='Season 1 | Episode 4'
     host="justen"
     guest="GAMMA"
     guestLink="https://www.youtube.com/channel/UCJptamZVcxwhGWpUWBRDd6w"
