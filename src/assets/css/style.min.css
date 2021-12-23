@@ -1714,6 +1714,7 @@
     right: 0;
     cursor: pointer;
     margin-top: -24px;
+    font-size: 3rem;
   }
   
   /* line 987, src/sass/style.sass */
@@ -3191,12 +3192,18 @@
   }
   .socials-icons a:nth-child(1) {
     color:#10BC4C;
+    font-size: 2rem;
+    margin-right: 10px;
   }
   .socials-icons a:nth-child(2) {
     color:#ED1F24;
+    font-size: 2rem;
+    margin-right: 10px;
   }
   .socials-icons a:nth-child(3) {
     color:#C05FEB;
+    font-size: 2rem;
+    margin-right: 10px;
   }
   .socials-icons a i:hover {
     transform: scale(1.1);

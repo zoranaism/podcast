@@ -2,11 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import BackToTop from "../BackToTop";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import {
-//   faPhoneAlt,
-//   faEnvelope,
-//   faLocationArrow,
-// } from "@fortawesome/free-solid-svg-icons";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import {
   faPhoneAlt,
