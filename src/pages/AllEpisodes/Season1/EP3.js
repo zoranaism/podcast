@@ -5,7 +5,7 @@ import EpisodeComponent from "../../../components/EpisodePage.component";
 export default function Episode3() {
   return (
     <EpisodeComponent
-    episodeName='Pilot Episodes | Episode 3'
+    episodeName='Season 1 | Episode 3'
     host="megan"
     guest="Aleksandra Denda"
     guestLink="https://www.aleksandradenda.com/"

@@ -1211,6 +1211,7 @@
   .section .container {
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 60px;
   }
   
   /* line 729, src/sass/style.sass */

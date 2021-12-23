@@ -4,7 +4,7 @@ import EpisodeComponent from "../../../components/EpisodePage.component";
 export default function Episode1() {
   return (
     <EpisodeComponent
-      episodeName='Pilot Episodes | Episode 1'
+      episodeName='Season 1 | Episode 1'
       host="radina"
       guest="Leo from Just Leo"
       guestLink="https://www.youtube.com/c/JustLeoMusic"

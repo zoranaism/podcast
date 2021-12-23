@@ -4,7 +4,7 @@ import EpisodeComponent from "../../../components/EpisodePage.component";
 export default function Episode8() {
   return (
     <EpisodeComponent
-      episodeName='Stellar Live | Episode 8'
+      episodeName='Season 1 | Episode 8'
       host="justen"
       guest="Orlando Dees"
       guestLink="https://www.youtube.com/watch?v=gIrjLIFRPj4"
