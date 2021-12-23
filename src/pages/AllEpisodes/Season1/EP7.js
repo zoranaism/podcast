@@ -4,7 +4,7 @@ import EpisodeComponent from "../../../components/EpisodePage.component";
 export default function Episode7() {
   return (
     <EpisodeComponent
-      episodeName="Live Episodes | Episode 7"
+      episodeName="Season 1 | Episode 7"
       host="justen"
       guest="Anne Van Damme"
       guestLink="https://www.annevandammemusic.com/"
