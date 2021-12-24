@@ -4,7 +4,7 @@ import EpisodeComponent from "../../../components/EpisodePage.component";
 export default function Episode9() {
   return (
     <EpisodeComponent
-      episodeName='Pilot Episodes | Episode 9'
+      episodeName='Season 1 | Episode 9'
       host="justen"
       guest="Ania Anahata"
       guestLink="https://www.youtube.com/user/88anahata"

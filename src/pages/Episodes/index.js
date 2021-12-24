@@ -42,7 +42,7 @@ const episodes = episodesData();
                   href="pilot"
                   data-cursor-effect="hover"
                 >
-                  Pilot Episodes
+                  Season 1
                 </a>
               </li>
               <li>
@@ -51,7 +51,7 @@ const episodes = episodesData();
                   href="live"
                   data-cursor-effect="hover"
                 >
-                  Stellar Live
+                  Season 2
                 </a>
               </li>
             </ul>

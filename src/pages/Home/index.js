@@ -5,6 +5,8 @@ import { separateMessageFromStack } from "jest-message-util";
 import LastEpisode from "../../components/lastEpisode/lastEpisode";
 import episodesData from "../../allEpisodesData";
 import { Link} from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 
 export default function Home(props) {
@@ -59,7 +61,7 @@ export default function Home(props) {
                     className="text-center"
                     style={{ fontFamily: "sans-serif" }}
                   >
-                    become part of the Stellar community
+                    Become a part of the Stellar community
                   </h3>
                 </div>
 
@@ -70,7 +72,7 @@ export default function Home(props) {
                     data-anim-type="fade_in_up"
                   >
                     <a
-                      className="blue-button"
+                      className="blue-button btn-1"
                       href="https://765ab965.sibforms.com/serve/MUIEAL031bWkCrplJxCjZYMMIwnAOpuKETfNT7m7V2C7ubL4Repj-w_blUhmF54xnLfvIUx8UrcW3REamB1wFdxfwkjPipmYKI40qLaszy1BUcUdcBkJjYov8EHPSISP5oPd9VXWTb0WGg1pNzDovcK0P5kaTT-D0eTGKrDRaLx2el4znB8Ranou6P17amm7eTbc6JIHuVKluOrp
              "
                       data-cursor-effect="exclusion"
@@ -217,6 +219,7 @@ export default function Home(props) {
             guest={epizode[0].guest}
             description={epizode[0].description}
             episode={epizode[0].episode}
+            date={epizode[0].date}
             />
           </div>
 
@@ -457,10 +460,7 @@ export default function Home(props) {
             </div>
             <div className="nj-testimonials-slider-arrows">
               <div className="nj-testimonials-slider-next-arrow">
-                <span
-                  className="lnr lnr-arrow-right"
-                  data-cursor-effect="hover"
-                ></span>
+                  <FontAwesomeIcon icon={faArrowRight} fontWeight={200}/>
               </div>
             </div>
           </div>
