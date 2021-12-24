@@ -19,7 +19,8 @@ function episodesData() {
         imgPath: ep9,
         altText: "Stellar Sound Season 1: Episode 9",
         guest: "Ania Anahata",
-        description: "Ethno multi-dimensional Leo music artist",
+        date: "08/17/2021",
+        description: "Emerging from Poland, talented Ania Anahata is a multi-instrumental and vocal artist. She is a violinist, violist, vocalist, music therapist, EFT coach and a meditation teacher.",
       },
       {
         typeOfEpisode: "Stellar Season 1",
