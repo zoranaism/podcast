@@ -13,7 +13,7 @@ export default function Episode8() {
       applePodcastsLink="https://podcasts.apple.com/rs/podcast/stellar-sound-podcast/id1556200413"
       sponsor="fae-games"
       spotifyPlayerLink="https://open.spotify.com/embed/track/6NZIIySmh7JfINapXqmsQB"
-      description1='The fourth episode of the Stellar Live Series is dedicated to Orlando Dees.'
+      description1='The eighth episode of the Stellar 1 Season is dedicated to Orlando Dees.'
       description2='Orlando is a singer-songwriter originally from Galicia, Spain. After living and working in Bavaria, playing drums with various bands, he moved to Berlin for two years to develop his own music.'
       description3='The identity of his music project begins with a flamenco guitar and airy and soft voices, occasionally accompanied by synthesizers. He is currently working on his first LP "Arcadia", which is expected to be recorded this 2021.'
       description4=''
