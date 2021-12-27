@@ -40,9 +40,9 @@ function episodesData() {
         episode: "7",
         imgPath: ep7,
         altText: "Stellar Sound Podcast Pilot: Episode 4",
-        guest: "Zsolt Argyelan",
-        description: `Traveling jazz trumpet player and music producer in the
-        middle of his debut EP creation.`,
+        guest: "Anne van Damme",
+        description: `A pure, passionate professional musician, songwriter,
+        entrepreneur, and music educator.`,
       },
       {
         typeOfEpisode: "Stellar Season 1",
@@ -50,8 +50,9 @@ function episodesData() {
         episode: "6",
         imgPath: ep6,
         altText: "Stellar Sound Podcast Live: Episode 3",
-        guest: "Milan Mirić",
-        description: `Alternative rock band from Nis, Serbia.`,
+        guest: "Zsolt Argyelan",
+        description: `Traveling jazz trumpet player and music producer in the
+        middle of his debut EP creation.`,
       },
       {
         typeOfEpisode: "Stellar Season 1",
@@ -59,9 +60,8 @@ function episodesData() {
         episode: "5",
         imgPath: ep5,
         altText: "Stellar Sound Podcast Live: Episode 2",
-        guest: "Anne van Damme",
-        description: `A pure, passionate professional musician, songwriter,
-        entrepreneur, and music educator.`,
+        guest: "Milan Miric",
+        description: `Alternative rock band from Nis, Serbia.`,
       },
       {
         typeOfEpisode: "Stellar Season 1",
