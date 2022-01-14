@@ -6,7 +6,7 @@ export default function Episode1() {
     <EpisodeComponent
       episodeName='Season 1 | Episode 1'
       host="radina"
-      guest="Leo from Just Leo"
+      guest=" Leo from Just Leo"
       guestLink="https://www.youtube.com/c/JustLeoMusic"
       spotifyLink="https://open.spotify.com/episode/5fzmLikjxvphHwHvFK3tZp"
       youtubeLink="https://www.youtube.com/watch?v=TGnHphK3LGU&t=993s"

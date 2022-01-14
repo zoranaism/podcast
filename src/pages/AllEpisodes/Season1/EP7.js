@@ -6,7 +6,7 @@ export default function Episode7() {
     <EpisodeComponent
       episodeName="Season 1 | Episode 7"
       host="justen"
-      guest="Anne Van Damme"
+      guest=" Anne Van Damme"
       guestLink="https://www.annevandammemusic.com/"
       spotifyLink="https://open.spotify.com/episode/3aHFrVAETb5o27oxJ8QpfU"
       youtubeLink="https://www.youtube.com/watch?v=PsY9GL5S9CA"

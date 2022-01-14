@@ -49,7 +49,7 @@ export default function EpisodeComponent({
                     href="https://www.youtube.com/user/kukundrela"
                     target="blank"
                   >
-                    Radina Dimcheva
+                  &nbsp; Radina Dimcheva
                   </a>
                 ) : host === "justen" ? (
                   <a
@@ -58,7 +58,7 @@ export default function EpisodeComponent({
                     className="link-style"
                     href="https://twitter.com/jus10williams"
                   >
-                    Justen Williams
+                  &nbsp; Justen Williams
                   </a>
                 ) : host === "megan" ? (
                   <a
@@ -67,12 +67,12 @@ export default function EpisodeComponent({
                     className="link-style"
                     href="https://www.linkedin.com/in/megan-dalen-1965ba1bb/"
                   >
-                    Megan Dalen
+                  &nbsp; Megan Dalen
                   </a>
                 ) : (
                   "no host"
                 )}
-                | Guest:
+                &nbsp; | Guest:
                 <a
                   data-cursor-effect="exclusion"
                   className="link-style"

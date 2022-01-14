@@ -7,7 +7,7 @@ export default function Episode2() {
     <EpisodeComponent
       episodeName='Season 1 | Episode 2'
       host="radina"
-      guest="HUNBJØRN"
+      guest=" HUNBJØRN"
       guestLink="https://hunbjorn.dk/"
       spotifyLink="https://open.spotify.com/episode/0ArrAebmwgzHxXN0R0Zodo"
       youtubeLink="https://www.youtube.com/watch?v=myOV2t7wlaY&t=1061s"

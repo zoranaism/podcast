@@ -6,7 +6,7 @@ export default function Episode9() {
     <EpisodeComponent
       episodeName='Season 1 | Episode 9'
       host="justen"
-      guest="Ania Anahata"
+      guest=" Ania Anahata"
       guestLink="https://www.youtube.com/user/88anahata"
       spotifyLink="https://open.spotify.com/show/4b4Nokn6zf9wWcZkDikazp"
       youtubeLink="https://www.youtube.com/channel/UCXnT7Ih32dLtFhGAtYtsR2g/videos"

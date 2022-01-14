@@ -6,7 +6,7 @@ export default function Episode5() {
     <EpisodeComponent
       episodeName='Season 1 | Episode 5'
       host="justen"
-      guest="Milan Mirić"
+      guest=" Milan Mirić"
       guestLink="https://www.youtube.com/channel/UCahOzb6W2pgelfaNri4MiIA/featured"
       spotifyLink="https://open.spotify.com/episode/2U9Q1Djhl6AG1DxgBno4mu"
       youtubeLink="https://www.youtube.com/watch?v=fGdILeNQ1-o&t=580s"
