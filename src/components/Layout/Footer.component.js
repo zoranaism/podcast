@@ -47,7 +47,7 @@ export default function Footer() {
                 className="nj-single-project-header"
                 style={{ textAlign: "center" }}
               >
-                Become a part of the Stellar community!
+                Stay up-to-date with our Stellar Story
               </h3>
             </div>
             <div className="sib-form" style={{ textAlign: "center" }}>

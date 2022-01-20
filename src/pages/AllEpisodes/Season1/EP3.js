@@ -7,7 +7,7 @@ export default function Episode3() {
     <EpisodeComponent
     episodeName='Season 1 | Episode 3'
     host="megan"
-    guest="Aleksandra Denda"
+    guest=" Aleksandra Denda"
     guestLink="https://www.aleksandradenda.com/"
     spotifyLink="https://open.spotify.com/episode/2Ai9cl6ubhXmUi08MR8zYk"
     youtubeLink="https://www.youtube.com/watch?v=U0xxGTtXtdk&t=1616s"

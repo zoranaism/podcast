@@ -7,7 +7,7 @@ export default function Episode4() {
     <EpisodeComponent
     episodeName='Season 1 | Episode 4'
     host="justen"
-    guest="GAMMA"
+    guest=" GAMMA"
     guestLink="https://www.youtube.com/channel/UCJptamZVcxwhGWpUWBRDd6w"
     spotifyLink="https://open.spotify.com/episode/19L05Xw2iHO7B2ts4Iofky"
     youtubeLink="https://www.youtube.com/watch?v=e2N2xYJbfTo&t=326s"

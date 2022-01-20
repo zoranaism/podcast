@@ -6,7 +6,7 @@ export default function Episode8() {
     <EpisodeComponent
       episodeName='Season 1 | Episode 8'
       host="justen"
-      guest="Orlando Dees"
+      guest=" Orlando Dees"
       guestLink="https://www.youtube.com/watch?v=gIrjLIFRPj4"
       spotifyLink="https://open.spotify.com/show/4b4Nokn6zf9wWcZkDikazp"
       youtubeLink="https://www.youtube.com/watch?v=fGdILeNQ1-o&t=580s"

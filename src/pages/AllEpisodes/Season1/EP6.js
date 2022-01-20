@@ -6,7 +6,7 @@ export default function Episode6() {
     <EpisodeComponent
       episodeName='Season 1 | Episode 6'
       host="radina"
-      guest="Zsolt Argyelan"
+      guest=" Zsolt Argyelan"
       guestLink="https://www.youtube.com/watch?v=y3GKavuTrRk"
       spotifyLink="https://open.spotify.com/episode/2LRMrXjomKiuIE6VcCEH34"
       youtubeLink="https://www.youtube.com/watch?v=XKd36gUUrOQ&t=2975s"
