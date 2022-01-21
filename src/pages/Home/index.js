@@ -17,6 +17,15 @@ export default function Home(props) {
 
 
   return (
+    <div>
+    <div id="nj-preloader-wrapper">
+    <div class="nj-preloader-inner">
+      <div class="nj-preloader-percentage">0</div>
+    </div>
+    </div>
+  
+
+
     <div className="section nj-hero" id="nj-hero">
       <div className="nj-hero-body">
         <div className="container">
@@ -466,6 +475,7 @@ export default function Home(props) {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

@@ -4,6 +4,12 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function About() {
   return (
+  <div>
+    <div id="nj-preloader-wrapper">
+    <div class="nj-preloader-inner">
+      <div class="nj-preloader-percentage">0</div>
+    </div>
+    </div>
     <>
       <div id="nj-tropical-image"></div>
       <div className="section parallax" id="#nj-tropical-image">
@@ -478,5 +484,6 @@ export default function About() {
         </div>
       </div>
     </>
+    </div>
   );
 }

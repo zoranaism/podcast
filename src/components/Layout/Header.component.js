@@ -46,13 +46,16 @@ export default function Header() {
                   >
                     contact
                   </a>
-                  <a
+                  {/*}
+                   <a
                     className="navbar-item"
                     href="donate"
                     data-cursor-effect="hover"
-                  >
+                  > 
                     donate
                   </a>
+                  {*/}
+                    
                 </div>
               </div>
               <div className="nj-show-menu-button" id="nj-show-menu-button">
