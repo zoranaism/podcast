@@ -102,13 +102,10 @@ const episodes = episodesData();
       >
         <div className="row text-center">
           <div className="nj-button-wrapper nj-pdt-60 nj-pdb-60">
-            <Link
+            <a href="/"
               className="nj-button nj-button-black"
-              to="/"
               data-cursor-effect="hover"
-            >
-              GO HOME
-            </Link>
+            >GO HOME</a>
           </div>
         </div>
       </div>
