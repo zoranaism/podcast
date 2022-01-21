@@ -8,7 +8,12 @@ import {
 
 export default function ContactUs(props) {
   return (
-    <div>
+  <div>
+    <div id="nj-preloader-wrapper">
+    <div class="nj-preloader-inner">
+      <div class="nj-preloader-percentage">0</div>
+    </div>
+    </div>
     <div>
       <div
         className="section nj-light-section nj-pt-120"
@@ -139,8 +144,8 @@ export default function ContactUs(props) {
         </div>
       </div>
     </div>
-    <div class="nj-scroll-to-top-holder" data-cursor-style="dark"><a href="#" data-cursor-effect="hover"
-            id="nj-scroll-to-top">Scroll to top</a></div>
-    </div> 
+    </div>
+    
+    
   );
 }

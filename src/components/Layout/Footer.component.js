@@ -31,6 +31,9 @@ export default function Footer() {
     },
   };
 
+  const date = new Date();
+  const currentYear = date.getFullYear();
+
   var AUTOHIDE = Boolean(0);
 
   return (
@@ -367,7 +370,7 @@ export default function Footer() {
             <div className="nj-footer-socials">
               <span className="text-center d-flex justify-content-center align-items-center mt-2">
                 <FontAwesomeIcon icon={faCopyright} />
-                2021 Stellar Sound Podcast
+                {currentYear} Stellar Sound Podcast
               </span>
             </div>
           </div>

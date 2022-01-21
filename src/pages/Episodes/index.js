@@ -14,6 +14,13 @@ const episodes = episodesData();
 
   return (
     <main>
+      <div id="nj-preloader-wrapper">
+    <div class="nj-preloader-inner">
+      <div class="nj-preloader-percentage">0</div>
+    </div>
+    </div>
+
+
       <div
         className="section nj-light-section nj-portfolio-section nj-pdt-0 nj-pdb-0"
         data-scroll-to-top-style="dark"
