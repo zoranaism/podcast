@@ -238,7 +238,7 @@ export default function Home(props) {
       <div className="section nj-dark-section" id="nj-sponsors">
         <div className="container">
           <div className="nj-section-header">
-            <h1 className="nj-section-header-title">stellar sponsors</h1>
+            <h1 className="nj-section-header-title">stellar partners</h1>
           </div>
           <div className="row">
             <div className="col-12 col-lg-3 mb-4">
@@ -271,6 +271,44 @@ export default function Home(props) {
                     className="px-4"
                     src="img/sponsors/ketz.webp"
                     alt="Ketz Accessories"
+                  />
+                </a>
+              </div>
+            </div>
+            <div className="col-12 col-lg-3 mb-4">
+              <div
+                className="sponsor-img"
+                data-anim-queue="3"
+                data-anim-type="fade_in_up"
+              >
+                <a
+                  target="blank"
+                  href="https://www.facebook.com/sc.krov/"
+                  data-cursor-effect="hover"
+                >
+                  <img
+                    className="px-4"
+                    src="img/sponsors/dcKrov.png"
+                    alt="Društveni centar KROV"
+                  />
+                </a>
+              </div>
+            </div>
+            <div className="col-12 col-lg-3 mb-4">
+              <div
+                className="sponsor-img"
+                data-anim-queue="4"
+                data-anim-type="fade_in_up"
+              >
+                <a
+                  target="blank"
+                  href="https://brainfactory.rs/"
+                  data-cursor-effect="hover"
+                >
+                  <img
+                    className="px-4"
+                    src="img/sponsors/brainFactory.png"
+                    alt="Brain Factory"
                   />
                 </a>
               </div>
