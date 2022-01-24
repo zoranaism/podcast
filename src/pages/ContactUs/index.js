@@ -16,10 +16,10 @@ export default function ContactUs(props) {
     </div>
     <div>
       <div
-        className="section nj-light-section nj-pt-120"
+        className="section nj-light-section nj-pt-120 contact"
         id="nj-single-project-section"
-        data-scroll-to-top-style="dark"
-        data-cursor-style="dark"
+        data-scroll-to-top-style="light"
+        data-cursor-style="light"
       >
         <div className="container">
           <div className="nj-section-header mb-5">
