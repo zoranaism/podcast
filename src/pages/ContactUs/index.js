@@ -5,6 +5,9 @@ import {
   faEnvelope,
   faLocationArrow,
 } from "@fortawesome/free-solid-svg-icons";
+import {fab} from "@fortawesome/free-brands-svg-icons";
+import { library } from "@fortawesome/fontawesome-svg-core";
+library.add(fab);
 
 export default function ContactUs(props) {
   return (
@@ -28,10 +31,10 @@ export default function ContactUs(props) {
             </h1>
           </div>
           {/* <h1 className="title-contact">Contact Us</h1>  */}
-          <h3 className="title-contact">
-            Have any questions or comment? We'd love to hear from you.
-          </h3>
           <div className="row">
+          <h3 className="title-contact">
+                Have any questions or comment? We'd love to hear from you.
+              </h3>
             <div className="contact col-12 col-lg-6">
               <div className="form w-100 mb-3">
                 <form
@@ -110,18 +113,12 @@ export default function ContactUs(props) {
 
             <div className="newsletter col-lg-6 col-12">
               <table style={{ marginTop: "15px", marginBottom: "20px" }}>
-                <tr data-anim-queue="1" data-anim-type="fade_in_up">
-                  <td className="py-2 pr-4">
-                    <i className="fa fa-phone-alt"></i>
-                  </td>
+                {/* <tr data-anim-queue="1" data-anim-type="fade_in_up">
                   <td className="py-2">
                     <FontAwesomeIcon icon={faPhoneAlt} /> +31684359770
                   </td>
                 </tr>
                 <tr data-anim-queue="2" data-anim-type="fade_in_up">
-                  <td className="py-2">
-                    <i className="fa fa-envelope"></i>
-                  </td>
                   <td className="py-2">
                     <FontAwesomeIcon icon={faEnvelope} />{" "}
                     stellarsoundpodcast@gmail.com
@@ -129,17 +126,33 @@ export default function ContactUs(props) {
                 </tr>
                 <tr data-anim-queue="3" data-anim-type="fade_in_up">
                   <td className="py-2">
-                    <i className="fa fa-location-arrow"></i>
-                  </td>
-                  <td className="py-2">
                     <FontAwesomeIcon icon={faLocationArrow} /> Den Bosch,
                     Netherlands
                   </td>
+                </tr> */}
+                <tr data-anim-queue="3" data-anim-type="fade_in_up">
+                  <td className="py-2">
+                   <a href="https://www.facebook.com/Stellar-Sound-Podcast-119521773289334"> <FontAwesomeIcon icon={["fab", "facebook-square"]} className="ContactFontAwsome"/> </a> Stellar Sound Podcast , Facebook
+                  </td>
+                </tr>
+                <tr data-anim-queue="3" data-anim-type="fade_in_up">
+                  <td className="py-2">
+                  <a href="https://www.instagram.com/stellarsoundpodcast/"> <FontAwesomeIcon icon={["fab", "instagram-square"]} className="ContactFontAwsome"/> </a> stellarsoundpodcast, Instagram
+                  </td>
+                </tr>
+                <tr data-anim-queue="3" data-anim-type="fade_in_up">
+                  <td className="py-2">
+                  <a href="https://www.linkedin.com/company/72044553/"> <FontAwesomeIcon icon={["fab", "linkedin"]} className="ContactFontAwsome"/> </a> Stellar Sound Podcast, Linkedin
+                  </td>
+                </tr>
+                <tr data-anim-queue="3" data-anim-type="fade_in_up">
+                  <td className="py-2">
+                    <a href="https://twitter.com/SoundStellar"> <FontAwesomeIcon icon={['fab', "twitter-square"]} className="ContactFontAwsome" /> </a>Stellar Sound Podcast, Twitter
+                  </td>
                 </tr>
               </table>
-              {/* <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2939.703374469683!2d5.300589056159852!3d51.71499812220804!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6ee3e307553a7%3A0xefd0fdfd8fe11569!2sHet%20Klokkediep%20119%2C%205231%20WX%20&#39;s-Hertogenbosch%2C%20Netherlands!5e0!3m2!1sen!2srs!4v1626951770718!5m2!1sen!2srs" width="600" height="450" style="border:0;" allowFullScreen="" loading="lazy"></iframe>  */}
             </div>
-            
+
           </div>
         </div>
       </div>

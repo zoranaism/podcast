@@ -3517,3 +3517,16 @@
     font-style: italic;
   }
   
+
+  /* CONTACT US  */
+  .newsletter .ContactFontAwsome{
+    color: white;
+    font-size: 7rem;
+    margin: 0px 20px 0px 30px;
+    transition: .3s ease-in-out;
+  }
+  .newsletter .ContactFontAwsome:hover{
+    transform: scale(1.1);
+    transform: rotateZ(360deg);
+    transition: .5s ease-in-out;
+  }
