@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import {fab} from "@fortawesome/free-brands-svg-icons";
 
 export default function About() {
   return (
@@ -322,7 +323,7 @@ export default function About() {
                     data-cursor-effect="hover"
                   >
                     <li>
-                      <i className="fab fa-facebook"></i>
+                    <FontAwesomeIcon icon={["fab", "facebook"]} ></FontAwesomeIcon>
                     </li>
                   </a>
                   <a
@@ -331,7 +332,7 @@ export default function About() {
                     data-cursor-effect="hover"
                   >
                     <li>
-                      <i className="fab fa-youtube"></i>
+                    <FontAwesomeIcon icon={["fab", "youtube"] } ></FontAwesomeIcon>
                     </li>
                   </a>
                   <a
@@ -340,7 +341,7 @@ export default function About() {
                     data-cursor-effect="hover"
                   >
                     <li>
-                      <i className="fab fa-instagram"></i>
+                    <FontAwesomeIcon icon={["fab", "instagram"]} ></FontAwesomeIcon>
                     </li>
                   </a>
                 </ul>
@@ -368,7 +369,7 @@ export default function About() {
 
               <div className="nj-read-more-button-wrapper">
                 <a
-                  className="nj-button nj-button-black"
+                  className="nj-button nj-button-white"
                   href="radina"
                   data-cursor-effect="exclusion"
                 >
@@ -394,7 +395,7 @@ export default function About() {
                     data-cursor-effect="hover"
                   >
                     <li>
-                      <i className="fab fa-twitter"></i>
+                    <FontAwesomeIcon icon={["fab", "twitter"]} ></FontAwesomeIcon>
                     </li>
                   </a>
                   <a
@@ -403,7 +404,7 @@ export default function About() {
                     data-cursor-effect="hover"
                   >
                     <li>
-                      <i className="fab fa-youtube"></i>
+                    <FontAwesomeIcon icon={["fab", "youtube"]} ></FontAwesomeIcon>
                     </li>
                   </a>
                   <a
@@ -412,7 +413,7 @@ export default function About() {
                     data-cursor-effect="hover"
                   >
                     <li>
-                      <i className="fab fa-instagram"></i>
+                    <FontAwesomeIcon icon={["fab", "instagram"]} ></FontAwesomeIcon>
                     </li>
                   </a>
                 </ul>
@@ -440,7 +441,7 @@ export default function About() {
 
               <div className="nj-read-more-button-wrapper">
                 <a
-                  className="nj-button nj-button-black"
+                  className="nj-button nj-button-white"
                   href="justen"
                   data-cursor-effect="exclusion"
                 >
@@ -465,7 +466,7 @@ export default function About() {
               <div className="col-12">
                 <p className="nj-section-content">
                   We are always open for new volunteers. All passionate,
-                  like-minded pips should take the opportunity of joining the
+                  like-minded people should take the opportunity of joining the
                   Stellar Team and contribute to the better music world.
                 </p>
               </div>

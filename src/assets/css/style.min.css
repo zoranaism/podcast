@@ -311,8 +311,9 @@
     font-weight: 900;
     text-transform: lowercase;
     font-size: 3rem;
-    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 5px 5px rgba(253, 252, 252, 0.1);
     margin-top: 80px;
+    color: rgb(26, 25, 25);
   }
   
   .nj-section-header-crew {
@@ -3530,3 +3531,5 @@
     transform: rotateZ(360deg);
     transition: .5s ease-in-out;
   }
+
+ 

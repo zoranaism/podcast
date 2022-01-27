@@ -332,9 +332,9 @@ export default function Home(props) {
               <div className="row">
                 <div className="col-lg-6">
                   <div className="team-img-wrapper py-5">
-                    <Link to="/About">
+                    <a href="/About">
                       <img src="img/team/team.webp" alt="Stellar Team" />
-                    </Link>
+                    </a>
                   </div>
                 </div>
                 <div className="col-lg-6 team">
