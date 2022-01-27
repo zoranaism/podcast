@@ -309,6 +309,7 @@
   /* line 189, src/sass/style.sass */
   h2.nj-section-header-title {
     font-weight: 900;
+    
     text-transform: lowercase;
     font-size: 3rem;
     text-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
@@ -1078,12 +1079,12 @@
   
   /* line 650, src/sass/style.sass */
   .nj-button.nj-button-black {
-    color: black;
+    color: #f3f3f3;
   }
   
   /* line 652, src/sass/style.sass */
   .nj-button.nj-button-black:before {
-    background-color: black;
+    background-color: #f3f3f3;
   }
   
   /* line 655, src/sass/style.sass */
@@ -1211,7 +1212,7 @@
   
   /* line 723, src/sass/style.sass */
   .section.nj-light-section{
-    background: white;
+    background: #f3f3f3;
     color: black;
   }
   .section.nj-light-section.contact{
