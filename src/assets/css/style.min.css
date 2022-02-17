@@ -311,12 +311,11 @@ h1.nj-section-header-title {
 /* line 189, src/sass/style.sass */
 h2.nj-section-header-title {
   font-weight: 900;
-  color: #002;
-  text-transform: capitalize;
+  color: rgb(26, 25, 25);
+  text-transform: lowercase;
   font-size: 3rem;
-  text-shadow: 0 5px 5px rgba(0, 0, 20, 0.3);
+  text-shadow: 0 5px 5px rgba(253, 252, 252, 0.1);
   margin-top: 80px;
-  margin-bottom: 50px;
 }
 
 .nj-section-header-crew {
