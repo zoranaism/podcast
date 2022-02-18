@@ -304,7 +304,13 @@
   }
   h1.nj-section-header-title {
     font-size:3.1rem;
-    font-weight: 900;
+    font-weight: 900; 
+  }
+  .new-episodes {
+    color: #000;
+  }
+  .our-team {
+    color: #000;
   }
   /* line 189, src/sass/style.sass */
   h2.nj-section-header-title {

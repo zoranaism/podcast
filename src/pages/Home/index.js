@@ -217,7 +217,7 @@ export default function Home(props) {
       >
         <div className="container">
           <div className="nj-section-header">
-            <h1 className="nj-section-header-title">new episodes</h1>
+            <h1 className="nj-section-header-title new-episodes">new episodes</h1>
           </div>
           <div>
             <LastEpisode 
@@ -326,7 +326,7 @@ export default function Home(props) {
         >
           <div className="container">
             <div className="nj-section-header">
-              <h1 className="nj-section-header-title">Our team</h1>
+              <h1 className="nj-section-header-title our-team">Our team</h1>
             </div>
             <div className="team-wrapper">
               <div className="row">
