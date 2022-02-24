@@ -233,7 +233,7 @@ export default function EpisodeComponent({
             {/* NEXT EPISODE */}
             <div className="col-md-6">
               {nextEpisode !== " " && (
-                <div className="nj-read-also-right">
+                <div className="nj-read-also-right" id="episode-nine">
                   <div className="row">
                     <div className="col-md-6">
                       <a href={nextEpisodePath} data-cursor-effect="exclusion">
