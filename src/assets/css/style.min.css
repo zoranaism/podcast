@@ -303,7 +303,7 @@
     font-size: 1.25rem;
   }
   h1.nj-section-header-title {
-    font-size:3.1rem;
+    font-size:3rem;
     font-weight: 900; 
   }
   .new-episodes {
@@ -1208,7 +1208,6 @@
   
   /* line 718, src/sass/style.sass */
   .section:not(.nj-hero) {
-    margin-top: 90px;
     padding-bottom: 120px;
   }
   
