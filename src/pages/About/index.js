@@ -278,7 +278,7 @@ export default function About() {
       >
         <div className="container nj-mt-120">
           <div className="nj-section-header">
-            <h1 className="nj-section-header-title-team nj-mt-60">
+            <h1 className="nj-section-header-title-team nj-mt-60 who-we-are">
               who we are
             </h1>
           </div>
