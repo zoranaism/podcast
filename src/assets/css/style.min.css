@@ -258,7 +258,10 @@
     font-size: 3rem;
     font-weight: 900;
   }
-  
+  h1.who-we-are {
+    font-size: 3rem;
+    font-weight: 900;
+  }
   /* line 165, src/sass/style.sass */
   h2 {
     font-size: 2.5rem;
@@ -1233,7 +1236,6 @@
   .section .container {
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 60px;
   }
 
 
