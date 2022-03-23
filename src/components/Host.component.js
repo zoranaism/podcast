@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function HostComponent({
   name,
   imagePath,
@@ -29,25 +30,29 @@ export default function HostComponent({
         <h1 className="nj-section-header-title-episodes pt-120px">{name}</h1>
 
         <ul style={{ display: "flex" }}>
-          <a target="_blank" href={facebook} data-cursor-effect="hover">
+          <a target="_blank" rel='noopener noreferrer' href={facebook} data-cursor-effect="hover">
             <li>
-              <i className="fab fa-facebook" />
+              {/* <i className="fab fa-facebook" /> */}
+              <img src="" alt="" />
             </li>
           </a>
-          <a target="_blank" href={youtubeLink} data-cursor-effect="hover">
+          <a target="_blank" rel='noopener noreferrer' href={youtubeLink} data-cursor-effect="hover">
             <li>
-              <i className="fab fa-youtube"></i>
+              {/* <i className="fab fa-youtube"></i> */}
+              <img src="" alt="" />
             </li>
           </a>
-          <a target="_blank" href={instagram} data-cursor-effect="hover">
+          <a target="_blank" rel='noopener noreferrer' href={instagram} data-cursor-effect="hover">
             <li>
-              <i className="fab fa-instagram"></i>
+              {/* <i className="fab fa-instagram"></i> */}
+              <img src="" alt="" />
             </li>
           </a>
 
-          <a target="_blank" href={otherSocial} data-cursor-effect="hover">
+          <a target="_blank" rel='noopener noreferrer' href={otherSocial} data-cursor-effect="hover">
             <li>
-              <i className="fab fa-twitter"></i>
+              {/* <i className="fab fa-twitter"></i> */}
+              <img src='/src/assets/img/social-icons/twitter_logo_icon.png' alt="" />
             </li>
           </a>
         </ul>
