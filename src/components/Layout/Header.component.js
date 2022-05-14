@@ -32,13 +32,13 @@ export default function Header() {
                   >
                     about
                   </a>
-                  <a
+{/*                   <a
                     className="navbar-item"
                     href="episodes"
                     data-cursor-effect="hover"
                   >
                     episodes
-                  </a>
+                  </a> */}
                   <a
                     className="navbar-item"
                     href="contact"

@@ -7,8 +7,8 @@ export default function About() {
   return (
   <div>
     <div id="nj-preloader-wrapper">
-    <div class="nj-preloader-inner">
-      <div class="nj-preloader-percentage">0</div>
+    <div className="nj-preloader-inner">
+      <div className="nj-preloader-percentage">0</div>
     </div>
     </div>
     <>

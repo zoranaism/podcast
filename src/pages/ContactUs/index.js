@@ -13,8 +13,8 @@ export default function ContactUs(props) {
   return (
   <div>
     <div id="nj-preloader-wrapper">
-    <div class="nj-preloader-inner">
-      <div class="nj-preloader-percentage">0</div>
+    <div className="nj-preloader-inner">
+      <div className="nj-preloader-percentage">0</div>
     </div>
     </div>
     <div>
@@ -26,7 +26,7 @@ export default function ContactUs(props) {
       >
         <div className="container">
           <div className="nj-section-header mb-5">
-            <h1 className="nj-section-header-title contact-title">
+            <h1 className="nj-section-header-title contact-title mt-5">
               contact us
             </h1>
           </div>
@@ -44,7 +44,7 @@ export default function ContactUs(props) {
                   method="POST"
                 >
                   <div className="form-group">
-                    <label for="firstName">
+                    <label htmlFor="firstName">
                       First Name<span style={{ color: "red" }}>*</span>
                     </label>
                     <input
@@ -60,7 +60,7 @@ export default function ContactUs(props) {
                   </div>
 
                   <div className="form-group">
-                    <label for="lastName">
+                    <label htmlFor="lastName">
                       Last Name<span style={{ color: "red" }}>*</span>
                     </label>
                     <input
@@ -74,7 +74,7 @@ export default function ContactUs(props) {
                   </div>
 
                   <div className="form-group">
-                    <label for="email">
+                    <label htmlFor="email">
                       Email<span style={{ color: "red" }}>*</span>
                     </label>
                     <input
@@ -88,7 +88,7 @@ export default function ContactUs(props) {
                   </div>
 
                   <div className="form-group">
-                    <label for="message">
+                    <label htmlFor="message">
                       Message<span style={{ color: "red" }}>*</span>
                     </label>
                     <textarea
@@ -130,26 +130,28 @@ export default function ContactUs(props) {
                     Netherlands
                   </td>
                 </tr> */}
-                <tr data-anim-queue="3" data-anim-type="fade_in_up">
-                  <td className="py-2">
-                   <a href="https://www.facebook.com/Stellar-Sound-Podcast-119521773289334"> <FontAwesomeIcon icon={["fab", "facebook-square"]} className="ContactFontAwsome"/> </a> Stellar Sound Podcast , Facebook
-                  </td>
-                </tr>
-                <tr data-anim-queue="3" data-anim-type="fade_in_up">
-                  <td className="py-2">
-                  <a href="https://www.instagram.com/stellarsoundpodcast/"> <FontAwesomeIcon icon={["fab", "instagram-square"]} className="ContactFontAwsome"/> </a> stellarsoundpodcast, Instagram
-                  </td>
-                </tr>
-                <tr data-anim-queue="3" data-anim-type="fade_in_up">
-                  <td className="py-2">
-                  <a href="https://www.linkedin.com/company/72044553/"> <FontAwesomeIcon icon={["fab", "linkedin"]} className="ContactFontAwsome"/> </a> Stellar Sound Podcast, Linkedin
-                  </td>
-                </tr>
-                <tr data-anim-queue="3" data-anim-type="fade_in_up">
-                  <td className="py-2">
-                    <a href="https://twitter.com/SoundStellar"> <FontAwesomeIcon icon={['fab', "twitter-square"]} className="ContactFontAwsome" /> </a>Stellar Sound Podcast, Twitter
-                  </td>
-                </tr>
+                <tbody>
+                  <tr data-anim-queue="3" data-anim-type="fade_in_up">
+                    <td className="py-2">
+                    <a href="https://www.facebook.com/Stellar-Sound-Podcast-119521773289334"> <FontAwesomeIcon icon={["fab", "facebook-square"]} className="ContactFontAwsome"/> </a> Stellar Sound Podcast , Facebook
+                    </td>
+                  </tr>
+                  <tr data-anim-queue="3" data-anim-type="fade_in_up">
+                    <td className="py-2">
+                    <a href="https://www.instagram.com/stellarsoundpodcast/"> <FontAwesomeIcon icon={["fab", "instagram-square"]} className="ContactFontAwsome"/> </a> stellarsoundpodcast, Instagram
+                    </td>
+                  </tr>
+                  <tr data-anim-queue="3" data-anim-type="fade_in_up">
+                    <td className="py-2">
+                    <a href="https://www.linkedin.com/company/72044553/"> <FontAwesomeIcon icon={["fab", "linkedin"]} className="ContactFontAwsome"/> </a> Stellar Sound Podcast, Linkedin
+                    </td>
+                  </tr>
+                  <tr data-anim-queue="3" data-anim-type="fade_in_up">
+                    <td className="py-2">
+                      <a href="https://twitter.com/SoundStellar"> <FontAwesomeIcon icon={['fab', "twitter-square"]} className="ContactFontAwsome" /> </a>Stellar Sound Podcast, Twitter
+                    </td>
+                  </tr>
+                </tbody>
               </table>
             </div>
 

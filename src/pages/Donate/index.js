@@ -148,9 +148,10 @@ export default function Donate() {
                     
                 <div>
         <div id="One" className="tabcontent" label="Donate Once">
-                  <div className="text-center">
+                  <div className="text-center tabcontent-one">
                     <p>Pay via our Stellar PayPal any amount.</p>
 
+                    <div className="donate-buttons">
                     <div className="donate-button">
                       <form
                         action="https://www.paypal.com/donate"
@@ -164,7 +165,7 @@ export default function Donate() {
                         />
                         <input
                           type="image"
-                          src="https://www.stellarsoundpodcast.com/img/DonateButtons/donate-botton-100.png"
+                          src="img/DonateButtons/donate-botton-100.webp"
                           border="0"
                           name="submit"
                           title="PayPal - The safer, easier way to pay online!"
@@ -193,7 +194,7 @@ export default function Donate() {
                         />
                         <input
                           type="image"
-                          src="https://www.stellarsoundpodcast.com/img/DonateButtons/donate-botton-25.png"
+                          src="img/DonateButtons/donate-botton-25.webp"
                           border="0"
                           name="submit"
                           title="PayPal - The safer, easier way to pay online!"
@@ -222,7 +223,7 @@ export default function Donate() {
                         />
                         <input
                           type="image"
-                          src="https://www.stellarsoundpodcast.com/img/DonateButtons/donate-botton-10.png"
+                          src="img/DonateButtons/donate-botton-10.webp"
                           border="0"
                           name="submit"
                           title="PayPal - The safer, easier way to pay online!"
@@ -251,7 +252,7 @@ export default function Donate() {
                         />
                         <input
                           type="image"
-                          src="https://www.stellarsoundpodcast.com/img/DonateButtons/donate-botton-5.png"
+                          src="img/DonateButtons/donate-botton-5.webp"
                           border="0"
                           name="submit"
                           title="PayPal - The safer, easier way to pay online!"
@@ -280,7 +281,7 @@ export default function Donate() {
                         />
                         <input
                           type="image"
-                          src="https://www.stellarsoundpodcast.com/img/DonateButtons/donate-botton-other.png"
+                          src="img/DonateButtons/donate-botton-other.webp"
                           border="0"
                           name="submit"
                           title="PayPal - The safer, easier way to pay online!"
@@ -294,6 +295,7 @@ export default function Donate() {
                           height="1"
                         />
                       </form>
+                    </div>
                     </div>
                   </div>
                 </div>
@@ -311,7 +313,7 @@ export default function Donate() {
                       target="blank"
                       href="https://www.patreon.com/bePatron?u=53632649"
                     >
-                      <img alt="Patreon" src="./img/DonateButtons/Patron.png" />
+                      <img alt="Patreon" src="./img/DonateButtons/Patron.webp" />
                     </a>
                 </div>
         </div>
@@ -328,7 +330,7 @@ export default function Donate() {
                       <img
                         className="w-100"
                         alt="Instruments"
-                        src="./img/DonateButtons/Space-art.jpg"
+                        src="./img/DonateButtons/Space-art.webp"
                       />
                     </div>
                     <div className="col-12 col-md-4">
@@ -344,7 +346,7 @@ export default function Donate() {
                       <img
                         className="w-100"
                         alt="Instruments"
-                        src="./img/DonateButtons/Instruments.jpg"
+                        src="./img/DonateButtons/Instruments.webp"
                       />
                     </div>
                   </div>
@@ -354,7 +356,7 @@ export default function Donate() {
                       <img
                         className="w-100"
                         alt="Instruments"
-                        src="./img/DonateButtons/synths.png"
+                        src="./img/DonateButtons/synths.webp"
                       />
                     </div>
                     <div className="col-12 col-md-4">
@@ -362,12 +364,12 @@ export default function Donate() {
                       <img
                         className="w-100"
                         alt="Instruments"
-                        src="./img/DonateButtons/odd-instruments.jpg"
+                        src="./img/DonateButtons/odd-instruments.webp"
                       />
                     </div>
                     {/* <div className="col-12 col-md-4">
                               <h5 className="uppercase">Used musical Instruments</h5>
-                              <img className="w-100" alt="Instruments" src="./img/DonateButtons/Instruments.jpg" />
+                              <img className="w-100" alt="Instruments" src="./img/DonateButtons/Instruments.webp" />
                             </div>  */}
                   </div>
                   

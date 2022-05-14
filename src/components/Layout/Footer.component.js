@@ -236,10 +236,10 @@ export default function Footer() {
               >
                 <a
                   target="_blank"
-                  href="https://pod.link/stellarsoundpodcast"
+                  href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy82YmUzOTRlNC9wb2RjYXN0L3Jzcw"
                   data-cursor-effect="exclusion"
                 >
-                  <img src="img/icons/Group-3.webp" alt="podlink" />
+                  <img src="img/icons/google1.webp" alt="google podcast" />
                 </a>
               </div>
               <div
@@ -257,7 +257,6 @@ export default function Footer() {
                 </a>
               </div>
             </div>
-
             <div className="col-10 col-md-3">
               <div
                 className="col-12 footer-podcasts"

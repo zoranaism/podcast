@@ -19,8 +19,8 @@ export default function Home(props) {
   return (
     <div>
     <div id="nj-preloader-wrapper">
-    <div class="nj-preloader-inner">
-      <div class="nj-preloader-percentage">0</div>
+    <div className="nj-preloader-inner">
+      <div className="nj-preloader-percentage">0</div>
     </div>
     </div>
   
@@ -59,13 +59,13 @@ export default function Home(props) {
 
                   <h4
                     className="text-center mb-3 font-italic"
-                    style={{ fontFamily: "sans-serif" }}
+                    style={{ fontFamily: "sans-serif", fontWeight: "400" }}
                   >
-                    Discover exceptional European musicians
+                    Empowering creative musicians
                   </h4>
                 </div>
 
-                <div className="row discort-icon justify-content-center">
+{/*                 <div className="row discort-icon justify-content-center">
                   <h3
                     className="text-center"
                     style={{ fontFamily: "sans-serif" }}
@@ -86,11 +86,11 @@ export default function Home(props) {
              "
                       data-cursor-effect="exclusion"
                     >
-                      Go Stellar!
+                      Listen to our podcast
                     </a>
                   </div>
-                </div>
-                <div className="row discort-icon justify-content-center">
+                </div> */}
+{/*                 <div className="row discort-icon justify-content-center">
                   <div
                     className="col-3 col-sm-2"
                     data-anim-queue="1"
@@ -159,6 +159,39 @@ export default function Home(props) {
                       />
                     </a>
                   </div>
+                </div>  */}
+                <div className="row discort-icon justify-content-center mb-5">
+                <div
+                    className=""
+                    data-anim-queue="6"
+                    data-anim-type="fade_in_up"
+                  >
+                    <a
+                      className="blue-button btn-1"
+                      target="_blank"
+                      href="https://anchor.fm/stellar-sound-podcast"
+                      data-cursor-effect="exclusion"
+                    >
+                      Listen to our podcast
+                    </a>
+                  </div>
+                  <div
+                    className="col-3 col-sm-2"
+                    data-anim-queue="2"
+                    data-anim-type="fade_in_up"
+                  >
+                    <a
+                      target="blank"
+                      href="https://discord.gg/aRQF7G4H"
+                      data-cursor-effect="exclusion"
+                    >
+                      <img
+                        className="img-max-width-50"
+                        src="img/icons/discord.webp"
+                        alt="Google Podcasts"
+                      />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -209,7 +242,7 @@ export default function Home(props) {
         </div>
       </div>
 
-      <div
+{/*       <div
         className="section nj-light-section nj-animated-section"
         id="nj-news"
         data-scroll-to-top-style="dark"
@@ -233,89 +266,7 @@ export default function Home(props) {
           </div>
 
         </div>
-      </div>
-
-      <div className="section nj-dark-section" id="nj-sponsors">
-        <div className="container">
-          <div className="nj-section-header">
-            <h1 className="nj-section-header-title">stellar partners</h1>
-          </div>
-          <div className="row">
-            <div className="col-12 col-lg-3 mb-4">
-              <div
-                className="sponsor-img"
-                data-anim-queue="1"
-                data-anim-type="fade_in_up"
-              >
-                <a
-                  target="blank"
-                  href="https://www.faegames.com/"
-                  data-cursor-effect="hover"
-                >
-                  <img src="img/sponsors/fae-games.webp" alt="FAE Games" />
-                </a>
-              </div>
-            </div>
-            <div className="col-12 col-lg-3 mb-4">
-              <div
-                className="sponsor-img"
-                data-anim-queue="2"
-                data-anim-type="fade_in_up"
-              >
-                <a
-                  target="blank"
-                  href="https://ketz.rs/"
-                  data-cursor-effect="hover"
-                >
-                  <img
-                    className="px-4"
-                    src="img/sponsors/ketz.webp"
-                    alt="Ketz Accessories"
-                  />
-                </a>
-              </div>
-            </div>
-            <div className="col-12 col-lg-3 mb-4">
-              <div
-                className="sponsor-img"
-                data-anim-queue="3"
-                data-anim-type="fade_in_up"
-              >
-                <a
-                  target="blank"
-                  href="https://www.facebook.com/sc.krov/"
-                  data-cursor-effect="hover"
-                >
-                  <img
-                    className="px-4"
-                    src="img/sponsors/dcKrov.png"
-                    alt="Društveni centar KROV"
-                  />
-                </a>
-              </div>
-            </div>
-            <div className="col-12 col-lg-3 mb-4">
-              <div
-                className="sponsor-img"
-                data-anim-queue="4"
-                data-anim-type="fade_in_up"
-              >
-                <a
-                  target="blank"
-                  href="https://brainfactory.rs/"
-                  data-cursor-effect="hover"
-                >
-                  <img
-                    className="px-4"
-                    src="img/sponsors/brainFactory.png"
-                    alt="Brain Factory"
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      </div> */}
 
       <section id="team">
         <div
@@ -364,6 +315,107 @@ export default function Home(props) {
           </div>
         </div>
       </section>
+
+      <div className="section nj-dark-section" id="nj-sponsors">
+        <div className="container">
+          <div className="nj-section-header">
+            <h1 className="nj-section-header-title">stellar partners</h1>
+          </div>
+          <div className="row row-cols-1 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-5">
+            <div className="col mb-4">
+              <div
+                className="sponsor-img"
+                data-anim-queue="1"
+                data-anim-type="fade_in_up"
+              >
+                <a
+                  target="blank"
+                  href="https://www.faegames.com/"
+                  data-cursor-effect="hover"
+                >
+                  <img src="img/sponsors/fae-games.webp" alt="FAE Games" />
+                </a>
+              </div>
+            </div>
+            <div className="col mb-4">
+              <div
+                className="sponsor-img"
+                data-anim-queue="2"
+                data-anim-type="fade_in_up"
+              >
+                <a
+                  target="blank"
+                  href="https://ketz.rs/"
+                  data-cursor-effect="hover"
+                >
+                  <img
+                    className="px-4"
+                    src="img/sponsors/ketz.webp"
+                    alt="Ketz Accessories"
+                  />
+                </a>
+              </div>
+            </div>
+            <div className="col mb-4">
+              <div
+                className="sponsor-img"
+                data-anim-queue="3"
+                data-anim-type="fade_in_up"
+              >
+                <a
+                  target="blank"
+                  href="https://www.facebook.com/sc.krov/"
+                  data-cursor-effect="hover"
+                >
+                  <img
+                    className="px-4"
+                    src="img/sponsors/dcKrov.webp"
+                    alt="Društveni centar KROV"
+                  />
+                </a>
+              </div>
+            </div>
+            <div className="col mb-4">
+              <div
+                className="sponsor-img"
+                data-anim-queue="4"
+                data-anim-type="fade_in_up"
+              >
+                <a
+                  target="blank"
+                  href="https://brainfactory.rs/"
+                  data-cursor-effect="hover"
+                >
+                  <img
+                    className="px-4"
+                    src="img/sponsors/brainFactory.webp"
+                    alt="Brain Factory"
+                  />
+                </a>
+              </div>
+            </div>
+            <div className="col mb-4">
+              <div
+                className="sponsor-img"
+                data-anim-queue="5"
+                data-anim-type="fade_in_up"
+              >
+                <a
+                  target="blank"
+                  href="https://birdcageradio.bandcamp.com/"
+                  data-cursor-effect="hover"
+                >
+                  <img
+                    className="px-4"
+                    src="img/sponsors/birdcageRadio.webp"
+                    alt="Birdcage Radio"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div
         className="section nj-light-section nj-pdt-0"

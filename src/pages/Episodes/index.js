@@ -15,8 +15,8 @@ const episodes = episodesData();
   return (
     <main>
       <div id="nj-preloader-wrapper">
-    <div class="nj-preloader-inner">
-      <div class="nj-preloader-percentage">0</div>
+    <div className="nj-preloader-inner">
+      <div className="nj-preloader-percentage">0</div>
     </div>
     </div>
 
@@ -69,7 +69,7 @@ const episodes = episodesData();
 
           {/* SingleEpisode component */}
 
-          {episodes.map((episode) => {
+          {episodes.map((episode, index) => {
             const {
               typeOfEpisode,
               episodePath,
@@ -86,6 +86,7 @@ const episodes = episodesData();
                 altText={altText}
                 guest={guest}
                 description={description}
+                key={new Date().getTime()+index}
               />
             );
           })}
