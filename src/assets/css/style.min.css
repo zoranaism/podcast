@@ -3554,10 +3554,29 @@
   /* CONTACT US  */
   .newsletter .ContactFontAwsome{
     color: white;
-    font-size: 7rem;
-    margin: 0px 20px 0px 30px;
+    font-size: 4rem;
+    margin: 0px 8px 0px 8px;
     transition: .3s ease-in-out;
   }
+
+  .newsletter .ContactFontAwsome.xdxd {
+    width: 3.5rem;
+    position: relative;
+    top: 5px;
+  }
+  
+  @media(max-width: 500px) {
+    .newsletter .ContactFontAwsome{
+      font-size: 3rem;
+      margin: 0px 8px 0px 8px;
+    }
+    
+  .newsletter .ContactFontAwsome.xdxd {
+    width: 2.6rem;
+    top: 3px;
+  }
+  }
+
   .newsletter .ContactFontAwsome:hover{
     transform: scale(1.1);
     transform: rotateZ(360deg);

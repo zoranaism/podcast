@@ -31,7 +31,7 @@ export default function ContactUs(props) {
             </h1>
           </div>
           {/* <h1 className="title-contact">Contact Us</h1>  */}
-          <div className="row">
+          <div>
           <h3 className="title-contact">
                 Have any questions or comment? We'd love to hear from you.
               </h3>
@@ -130,25 +130,35 @@ export default function ContactUs(props) {
                     Netherlands
                   </td>
                 </tr> */}
-                <tbody>
+                <tbody className="row">
                   <tr data-anim-queue="3" data-anim-type="fade_in_up">
                     <td className="py-2">
-                    <a href="https://www.facebook.com/Stellar-Sound-Podcast-119521773289334"> <FontAwesomeIcon icon={["fab", "facebook-square"]} className="ContactFontAwsome"/> </a> Stellar Sound Podcast , Facebook
+                    <a href="https://www.facebook.com/Stellar-Sound-Podcast-119521773289334"> <FontAwesomeIcon icon={["fab", "facebook-square"]} className="ContactFontAwsome"/> </a>
                     </td>
                   </tr>
                   <tr data-anim-queue="3" data-anim-type="fade_in_up">
                     <td className="py-2">
-                    <a href="https://www.instagram.com/stellarsoundpodcast/"> <FontAwesomeIcon icon={["fab", "instagram-square"]} className="ContactFontAwsome"/> </a> stellarsoundpodcast, Instagram
+                    <a href="https://www.instagram.com/stellarsoundpodcast/"> <FontAwesomeIcon icon={["fab", "instagram-square"]} className="ContactFontAwsome"/> </a>
                     </td>
                   </tr>
                   <tr data-anim-queue="3" data-anim-type="fade_in_up">
                     <td className="py-2">
-                    <a href="https://www.linkedin.com/company/72044553/"> <FontAwesomeIcon icon={["fab", "linkedin"]} className="ContactFontAwsome"/> </a> Stellar Sound Podcast, Linkedin
+                    <a href="https://www.linkedin.com/company/72044553/"> <FontAwesomeIcon icon={["fab", "linkedin"]} className="ContactFontAwsome"/> </a>
                     </td>
                   </tr>
                   <tr data-anim-queue="3" data-anim-type="fade_in_up">
                     <td className="py-2">
-                      <a href="https://twitter.com/SoundStellar"> <FontAwesomeIcon icon={['fab', "twitter-square"]} className="ContactFontAwsome" /> </a>Stellar Sound Podcast, Twitter
+                      <a href="https://twitter.com/SoundStellar"> <FontAwesomeIcon icon={['fab', "twitter-square"]} className="ContactFontAwsome" /> </a>
+                    </td>
+                  </tr>
+                  <tr data-anim-queue="3" data-anim-type="fade_in_up">
+                    <td className="py-2">
+                      <a href="https://twitter.com/SoundStellar"> <FontAwesomeIcon icon={['fab', "pinterest-square"]} className="ContactFontAwsome" /> </a>
+                    </td>
+                  </tr>
+                  <tr data-anim-queue="3" data-anim-type="fade_in_up">
+                    <td className="py-2">
+                      <a href="https://twitter.com/SoundStellar"> <img className="ContactFontAwsome xdxd" src="img/icons/tiktok.png" alt="Tiktok icon"/> </a>
                     </td>
                   </tr>
                 </tbody>
