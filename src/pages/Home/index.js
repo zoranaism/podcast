@@ -321,8 +321,8 @@ export default function Home(props) {
           <div className="nj-section-header">
             <h1 className="nj-section-header-title">stellar partners</h1>
           </div>
-          <div className="row row-cols-1 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-5">
-            <div className="col mb-4">
+          <div className="k-row">
+            <div className="mb-4">
               <div
                 className="sponsor-img"
                 data-anim-queue="1"
@@ -337,7 +337,7 @@ export default function Home(props) {
                 </a>
               </div>
             </div>
-            <div className="col mb-4">
+            <div className="mb-4">
               <div
                 className="sponsor-img"
                 data-anim-queue="2"
@@ -356,7 +356,7 @@ export default function Home(props) {
                 </a>
               </div>
             </div>
-            <div className="col mb-4">
+            <div className="mb-4">
               <div
                 className="sponsor-img"
                 data-anim-queue="3"
@@ -375,7 +375,7 @@ export default function Home(props) {
                 </a>
               </div>
             </div>
-            <div className="col mb-4">
+            <div className="mb-4">
               <div
                 className="sponsor-img"
                 data-anim-queue="4"
@@ -394,7 +394,7 @@ export default function Home(props) {
                 </a>
               </div>
             </div>
-            <div className="col mb-4">
+            <div className="mb-4">
               <div
                 className="sponsor-img"
                 data-anim-queue="5"
