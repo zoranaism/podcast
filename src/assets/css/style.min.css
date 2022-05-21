@@ -48,9 +48,9 @@
   
   /* line 46, src/sass/style.sass */
   body {
-    background-color: black;
+    background-color: #fff;
     font-family: 'Open Sans', sans-serif;
-    color: white;
+    color: #212529;
   }
   
   * {
@@ -3087,6 +3087,7 @@
     margin-bottom: 80px;
     margin-top: -40px;
   }
+
   h1.nj-section-header-title-episodes {
     font-weight:900;
     font-size:3.1rem;
@@ -3414,7 +3415,7 @@
     margin-top: -50px;
     margin-bottom: -50px;
   }
-
+  
   .host-component__list {
     list-style: none;
     gap: 1rem;
@@ -3424,6 +3425,18 @@
     color: #000;
     font-size: 1.25rem;
   }
+  
+    @media(max-width: 768px) {
+      .host-header {
+        flex-direction: column;
+        margin-top: 1rem !important;
+      }
+  
+      .host-component__list {
+        padding: 0;
+        gap: 10px;
+      }
+    }
   
   /*
   team responsive

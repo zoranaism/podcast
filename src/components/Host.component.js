@@ -20,7 +20,7 @@ export default function HostComponent({
   return (
     <div>
       <div
-        className="nj-section-header-episodes"
+        className="nj-section-header-episodes host-header"
         style={{
           marginTop: "80px",
           display: "flex",
