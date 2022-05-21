@@ -26,6 +26,7 @@ import Episode9 from "./pages/AllEpisodes/Season1/EP9";
 import SingleEpisode from "./components/EpisodesPage.component";
 import Justen from "./pages/Justen";
 import Radina from "./pages/Radina";
+import Leanri from "./pages/Leanri";
 import ScrollToTop from "./components/ScrollToTop";
 
 const injectAppScript = () => {
@@ -63,6 +64,7 @@ function App() {
             <Route path="/about" component={About} />
             <Route path="/justen" component={Justen} />
             <Route path="/radina" component={Radina} />
+            <Route path="/leanri" component={Leanri} />
             <Route path="/episodes" component={Episodes} />
             <SingleEpisode />
             <Route path="/episode-1" component={Episode1} />

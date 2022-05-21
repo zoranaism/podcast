@@ -378,7 +378,7 @@ export default function About() {
               </div>
             </div>
 
-            <div
+{/*             <div
               className="card mb-3 col-lg-4 col-12"
               style={{ marginTop: "0px", border: "none" }}
             >
@@ -443,6 +443,73 @@ export default function About() {
                 <a
                   className="nj-button nj-button-white"
                   href="justen"
+                  data-cursor-effect="exclusion"
+                >
+                  Find out more
+                </a>
+              </div>
+            </div> */}
+            <div
+              className="card mb-3 col-lg-4 col-12"
+              style={{ marginTop: "0px", border: "none" }}
+            >
+              <div className="img-box" style={{ width: "18rem" }}>
+                <img
+                  className="card-img-top"
+                  src="img/hosts/Leanri-Paulsen.webp"
+                  alt="Leanri"
+                />
+                <ul>
+                  <a
+                    target="blank"
+                    href="https://www.twitch.tv/vaakriin"
+                    data-cursor-effect="hover"
+                  >
+                    <li>
+                    <FontAwesomeIcon icon={["fab", "twitch"]} ></FontAwesomeIcon>
+                    </li>
+                  </a>
+                  <a
+                    target="blank"
+                    href="https://www.youtube.com/channel/UCtaUa59vPbUIp_Y38f2Ca4w?app=desktop"
+                    data-cursor-effect="hover"
+                  >
+                    <li>
+                    <FontAwesomeIcon icon={["fab", "youtube"] } ></FontAwesomeIcon>
+                    </li>
+                  </a>
+                  <a
+                    target="blank"
+                    href="https://www.instagram.com/davidp4141/"
+                    data-cursor-effect="hover"
+                  >
+                    <li>
+                    <FontAwesomeIcon icon={["fab", "instagram"]} ></FontAwesomeIcon>
+                    </li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+
+            <div className="card-body col-lg-8 col-12 p-3">
+              <h5 className="card-title">LEANRI PAULSEN</h5>
+              <p
+                className="card-text card-text-host"
+                style={{ fontWeight: "400" }}
+              >
+                "Hey all, I am Leanri Paulsen. On my social platforms, I describe myself as a music teacher, book geek, occasional hermit, 
+                and an unobstructed unconventional non-traditional utilitarian.  Music has always been a part of my existence, from early 
+                piano lessons to sponging up whichever 8-Track tape my parents would stuff into the stereo.  This addiction fueled a passion
+                 that drove me to finish a postgraduate degree in music and continue on as a music teacher in my native Namibia.  
+                 Music and the creative arts have opened many doors for me and have even led me to indulge in other outlets such as writing 
+                 and video editing (see my socials).  These days, however, you can find me streaming from my home in The Netherlands, 
+                 chilling with the furkids and lapping up interesting YouTube finds. "
+              </p>
+
+              <div className="nj-read-more-button-wrapper">
+                <a
+                  className="nj-button nj-button-white"
+                  href="leanri"
                   data-cursor-effect="exclusion"
                 >
                   Find out more

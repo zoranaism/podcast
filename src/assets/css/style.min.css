@@ -3414,6 +3414,16 @@
     margin-top: -50px;
     margin-bottom: -50px;
   }
+
+  .host-component__list {
+    list-style: none;
+    gap: 1rem;
+  }
+
+  .host-component__list li svg {
+    color: #000;
+    font-size: 1.25rem;
+  }
   
   /*
   team responsive

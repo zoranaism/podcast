@@ -1,10 +1,12 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function HostComponent({
   name,
   imagePath,
   facebook,
   instagram,
+  twitch,
   otherSocial,
   youtubeLink,
   embedYT,
@@ -28,28 +30,28 @@ export default function HostComponent({
       >
         <h1 className="nj-section-header-title-episodes pt-120px">{name}</h1>
 
-        <ul style={{ display: "flex" }}>
-          <a target="_blank" href={facebook} data-cursor-effect="hover">
+        <ul className="host-component__list" style={{ display: "flex" }}>
+          <a target="_blank" href={facebook.length !== 0 ? facebook : twitch} data-cursor-effect="hover">
             <li>
-              <i className="fab fa-facebook" />
+              <FontAwesomeIcon icon={["fab", `${facebook.length !== 0 ? "facebook" : "twitch"}`] } ></FontAwesomeIcon>
             </li>
           </a>
           <a target="_blank" href={youtubeLink} data-cursor-effect="hover">
             <li>
-              <i className="fab fa-youtube"></i>
+              <FontAwesomeIcon icon={["fab", "youtube"] } ></FontAwesomeIcon>
             </li>
           </a>
           <a target="_blank" href={instagram} data-cursor-effect="hover">
             <li>
-              <i className="fab fa-instagram"></i>
+              <FontAwesomeIcon icon={["fab", "instagram"] } ></FontAwesomeIcon>
             </li>
           </a>
 
-          <a target="_blank" href={otherSocial} data-cursor-effect="hover">
-            <li>
-              <i className="fab fa-twitter"></i>
+          {otherSocial.length !== 0 && <a target="_blank" href={otherSocial} data-cursor-effect="hover">
+          <li>
+              <FontAwesomeIcon icon={["fab", "soundcloud"] } ></FontAwesomeIcon>
             </li>
-          </a>
+          </a>}
         </ul>
       </div>
 
