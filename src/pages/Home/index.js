@@ -6,7 +6,7 @@ import LastEpisode from "../../components/lastEpisode/lastEpisode";
 import episodesData from "../../allEpisodesData";
 import { Link} from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight, faBookOpen, faMusic, faPodcast } from "@fortawesome/free-solid-svg-icons";
 
 
 export default function Home(props) {
@@ -168,12 +168,19 @@ export default function Home(props) {
                   >
                     <a
                       className="blue-button btn-1"
+                      href="become-a-volunteer"
+                      data-cursor-effect="exclusion"
+                    >
+                      Become a volunteer
+                    </a>
+                    {/* <a
+                      className="blue-button btn-1"
                       target="_blank"
                       href="https://anchor.fm/stellar-sound-podcast"
                       data-cursor-effect="exclusion"
                     >
                       Listen to our podcast
-                    </a>
+                    </a> */}
                   </div>
                   <div
                     className="col-3 col-sm-2"
@@ -267,6 +274,79 @@ export default function Home(props) {
 
         </div>
       </div> */}
+
+      <section>
+        <div
+            className="section nj-light-section nj-animated-section"
+            id="nj-embeded"
+            data-scroll-to-top-style="dark"
+            data-cursor-style="dark"
+          >
+            <div className="container">
+              <div className="nj-section-header">
+                <h1 className="nj-section-header-title our-team">Listen to our podcast</h1>
+              </div>
+              <div className="team-wrapper">
+                <div className="row">
+                  <div className="col">
+                    <iframe style={{borderRadius:"12px"}} src="https://open.spotify.com/embed/show/4b4Nokn6zf9wWcZkDikazp?utm_source=generator" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                  </div>
+                </div>
+              <a
+                      className="black-button"
+                      href="https://anchor.fm/stellar-sound-podcast"
+                      data-cursor-effect="exclusion"
+                      target="_blank"
+                    >
+                      Other platforms
+                    </a>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <div className="section nj-dark-section" id="nj-community">
+        <div className="container">
+          <div className="nj-section-header">
+            <h1 className="nj-section-header-title">Stellar Sound Community</h1>
+          </div>
+            <p>Our Discord Server gathers all music enthusiasts and music lovers to learn, share joy and love for creative music.</p>
+            <br/>
+            <p>Join our server if you want to have:</p>
+            <div className="row">
+              <div className="icon-holder">
+              <span>
+                <FontAwesomeIcon icon={faBookOpen} fontWeight={200}/>
+              </span>
+                <h3>Exclusive educative content</h3>
+              </div>
+              <div className="icon-holder">
+              <span>
+                <FontAwesomeIcon icon={faMusic} fontWeight={200}/>
+              </span>
+                <h3>Access to the connections in music industry</h3>
+              </div>
+              <div className="icon-holder">
+              <span>
+                <FontAwesomeIcon icon={faPodcast} fontWeight={200}/>
+              </span>
+                <h3>Fun and joy</h3>
+              </div>
+            </div>
+            <a
+                      className="blue-button"
+                      href="https://discord.gg/rzg9GmYJ"
+                      data-cursor-effect="exclusion"
+                      target="_blank"
+                    >
+                      Join us now<img
+                        className="img-max-width-50"
+                        src="img/icons/discord.webp"
+                        alt="Google Podcasts"
+                      />
+                    </a>
+        </div>
+      </div>
 
       <section id="team">
         <div
@@ -409,6 +489,25 @@ export default function Home(props) {
                     className="px-4"
                     src="img/sponsors/birdcageRadio.webp"
                     alt="Birdcage Radio"
+                  />
+                </a>
+              </div>
+            </div>
+            <div className="mb-4">
+              <div
+                className="sponsor-img"
+                data-anim-queue="6"
+                data-anim-type="fade_in_up"
+              >
+                <a
+                  target="blank"
+                  href="https://www.facebook.com/erasmusmusicassociation/"
+                  data-cursor-effect="hover"
+                >
+                  <img
+                    className="px-4"
+                    src="img/sponsors/erasmus.webp"
+                    alt="Erasmus Music Association"
                   />
                 </a>
               </div>

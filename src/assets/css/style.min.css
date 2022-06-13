@@ -1315,7 +1315,7 @@
     background-color: black;
   }
   
-  .section#nj-sponsors {
+  .section#nj-sponsors, .section#nj-community {
     background-color: transparent;
   }
   
@@ -2796,7 +2796,8 @@
   }
   .sponsor-img > a > img {
     width: 100%;
-    align-self: center
+    height: 100%;
+    object-fit: contain;
   }
   
   .socials-icons {
@@ -3590,7 +3591,8 @@
 
   #nj-sponsors .k-row {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-auto-rows: 1fr;
     gap: 1rem;
   }
   
@@ -3615,4 +3617,100 @@
   @media(max-width:650px) {
   }
 
- 
+ /* Kosserin from here */
+
+ #nj-embeded iframe{
+  width: 100%;
+  height: auto;
+  min-height: 250px;
+ }
+
+ #nj-embeded h1 {
+   text-align: center;
+ }
+
+ #nj-embeded .black-button {
+   display: flex;
+   justify-content: center;
+   width: fit-content;
+   margin: 0rem auto 0 auto;
+ }
+
+ #nj-embeded .row .col {
+  width: 100%;
+  max-width: 600px; 
+  margin: 0 auto;
+ }
+
+ #nj-community h1 {
+  text-align: center;
+ }
+
+ #nj-community p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+  font-size: 1.125rem;
+ }
+
+ #nj-community .row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 1fr;
+  gap: 1rem;
+ }
+
+ #nj-community .row div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem;
+  gap: 10px;
+  border-radius: 5px;
+ }
+
+ #nj-community .row div span {
+  position: relative;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.02);
+}
+
+#nj-community .row div span svg {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2.25rem;
+  height: 2.25rem;
+ }
+
+ #nj-community .row div h3 {
+  font-size: 1.05rem;
+  text-align: center;
+ }
+
+ #nj-community .nj-section-header {
+  margin-bottom: 0;
+ }
+
+ #nj-community .blue-button {
+  width: fit-content;
+  margin: 1.5rem auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem 1rem;
+ }
+
+ #nj-community .blue-button img {
+  margin-left: 10px;
+  width: 2.25rem;
+ }
