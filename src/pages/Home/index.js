@@ -64,142 +64,6 @@ export default function Home(props) {
                     Empowering creative musicians
                   </h4>
                 </div>
-
-{/*                 <div className="row discort-icon justify-content-center">
-                  <h3
-                    className="text-center"
-                    style={{ fontFamily: "sans-serif" }}
-                  >
-                    Become a part of the Stellar community
-                  </h3>
-                </div>
-
-                <div className="row discort-icon justify-content-center mb-5">
-                  <div
-                    className=""
-                    data-anim-queue="6"
-                    data-anim-type="fade_in_up"
-                  >
-                    <a
-                      className="blue-button btn-1"
-                      href="https://765ab965.sibforms.com/serve/MUIEAL031bWkCrplJxCjZYMMIwnAOpuKETfNT7m7V2C7ubL4Repj-w_blUhmF54xnLfvIUx8UrcW3REamB1wFdxfwkjPipmYKI40qLaszy1BUcUdcBkJjYov8EHPSISP5oPd9VXWTb0WGg1pNzDovcK0P5kaTT-D0eTGKrDRaLx2el4znB8Ranou6P17amm7eTbc6JIHuVKluOrp
-             "
-                      data-cursor-effect="exclusion"
-                    >
-                      Listen to our podcast
-                    </a>
-                  </div>
-                </div> */}
-{/*                 <div className="row discort-icon justify-content-center">
-                  <div
-                    className="col-3 col-sm-2"
-                    data-anim-queue="1"
-                    data-anim-type="fade_in_up"
-                  >
-                    <a
-                      target="blank"
-                      href="https://open.spotify.com/show/4b4Nokn6zf9wWcZkDikazp"
-                      data-cursor-effect="exclusion"
-                    >
-                      <img
-                        className="img-max-width-50"
-                        src="img/icons/spotify.webp"
-                        alt="Spotify"
-                      />
-                    </a>
-                  </div>
-                  <div
-                    className="col-3 col-sm-2"
-                    data-anim-queue="2"
-                    data-anim-type="fade_in_up"
-                  >
-                    <a
-                      target="blank"
-                      href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3N0ZWxsYXJzb3VuZHBvZGNhc3QvZmVlZC54bWw"
-                      data-cursor-effect="exclusion"
-                    >
-                      <img
-                        className="img-max-width-50"
-                        src="img/icons/googlepodcast.webp"
-                        alt="Google Podcasts"
-                      />
-                    </a>
-                  </div>
-                  <div
-                    className="col-3 col-sm-2"
-                    data-anim-queue="3"
-                    data-anim-type="fade_in_up"
-                  >
-                    <a
-                      target="blank"
-                      href="https://podcasts.apple.com/rs/podcast/stellar-sound-podcast/id1556200413"
-                      data-cursor-effect="exclusion"
-                    >
-                      <img
-                        className="img-max-width-50"
-                        src="img/icons/apple-icon.webp"
-                        alt="apple"
-                      />
-                    </a>
-                  </div>
-                  <div
-                    className="col-3 col-sm-2"
-                    data-anim-queue="4"
-                    data-anim-type="fade_in_up"
-                  >
-                    <a
-                      target="blank"
-                      href="https://www.youtube.com/channel/UCXnT7Ih32dLtFhGAtYtsR2g"
-                      data-cursor-effect="exclusion"
-                    >
-                      <img
-                        className="img-max-width-50"
-                        src="img/icons/youtube.webp"
-                        alt="YouTube"
-                      />
-                    </a>
-                  </div>
-                </div>  */}
-                <div className="row discort-icon justify-content-center mb-5">
-                <div
-                    className=""
-                    data-anim-queue="6"
-                    data-anim-type="fade_in_up"
-                  >
-                    <a
-                      className="blue-button btn-1"
-                      href="become-a-volunteer"
-                      data-cursor-effect="exclusion"
-                    >
-                      Become a volunteer
-                    </a>
-                    {/* <a
-                      className="blue-button btn-1"
-                      target="_blank"
-                      href="https://anchor.fm/stellar-sound-podcast"
-                      data-cursor-effect="exclusion"
-                    >
-                      Listen to our podcast
-                    </a> */}
-                  </div>
-                  <div
-                    className="col-3 col-sm-2"
-                    data-anim-queue="2"
-                    data-anim-type="fade_in_up"
-                  >
-                    <a
-                      target="blank"
-                      href="https://discord.gg/aRQF7G4H"
-                      data-cursor-effect="exclusion"
-                    >
-                      <img
-                        className="img-max-width-50"
-                        src="img/icons/discord.webp"
-                        alt="Google Podcasts"
-                      />
-                    </a>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -249,32 +113,6 @@ export default function Home(props) {
         </div>
       </div>
 
-{/*       <div
-        className="section nj-light-section nj-animated-section"
-        id="nj-news"
-        data-scroll-to-top-style="dark"
-        data-cursor-style="dark"
-      >
-        <div className="container">
-          <div className="nj-section-header">
-            <h1 className="nj-section-header-title new-episodes">new episodes</h1>
-          </div>
-          <div>
-            <LastEpisode 
-            type={epizode[0].typeOfEpisode} 
-            path={epizode[0].episodePath}
-            imgPath={epizode[0].imgPath}
-            altText={epizode[0].altText}
-            guest={epizode[0].guest}
-            description={epizode[0].description}
-            episode={epizode[0].episode}
-            date={epizode[0].date}
-            />
-          </div>
-
-        </div>
-      </div> */}
-
       <section>
         <div
             className="section nj-light-section nj-animated-section"
@@ -288,8 +126,11 @@ export default function Home(props) {
               </div>
               <div className="team-wrapper">
                 <div className="row">
-                  <div className="col">
+                  <div className="col-md-12">
                     <iframe style={{borderRadius:"12px"}} src="https://open.spotify.com/embed/show/4b4Nokn6zf9wWcZkDikazp?utm_source=generator" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                  </div>
+                  <div className="col-md-12">
+                    <iframe style={{borderRadius:"5px"}} src="https://www.youtube.com/embed/rHxZhYLL85I" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                   </div>
                 </div>
               <a
@@ -315,21 +156,21 @@ export default function Home(props) {
             <p>Join our server if you want to have:</p>
             <div className="row">
               <div className="icon-holder">
-              <span>
-                <FontAwesomeIcon icon={faBookOpen} fontWeight={200}/>
-              </span>
+                <span>
+                  <img src="img/icons/idea.webp" alt="Education" />
+                </span>
                 <h3>Exclusive educative content</h3>
               </div>
               <div className="icon-holder">
-              <span>
-                <FontAwesomeIcon icon={faMusic} fontWeight={200}/>
-              </span>
+                <span>
+                  <img src="img/icons/live-music.webp" alt="Music Industry" />
+                </span>
                 <h3>Access to the connections in music industry</h3>
               </div>
               <div className="icon-holder">
-              <span>
-                <FontAwesomeIcon icon={faPodcast} fontWeight={200}/>
-              </span>
+                <span>
+                  <img src="img/icons/celebrating.webp" alt="Fun and Joy" />
+                </span>
                 <h3>Fun and joy</h3>
               </div>
             </div>

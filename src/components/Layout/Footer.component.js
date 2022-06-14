@@ -162,10 +162,9 @@ export default function Footer() {
                                 marginLeft: "1px",
                                 textAlign: "left",
                                 fontFamily: '"Helvetica", sans-serif',
-                                color: "#FFFFFF",
-                                backgroundColor: "#black",
-                                borderRadius: "3px",
-                                border: "2px white",
+                                color: "#000",
+                                backgroundColor: "white",
+                                borderRadius: "0",
                                 display: "flex",
                                 alignContent: "center",
                                 justifyContent: "center",
@@ -269,7 +268,7 @@ export default function Footer() {
                   href="https://www.youtube.com/channel/UCXnT7Ih32dLtFhGAtYtsR2g"
                   data-cursor-effect="exclusion"
                 >
-                  <img src="img/icons/YouTube2.webp" alt="YouTube" />
+                  <img src="img/icons/yt.webp" alt="YouTube" />
                 </a>
               </div>
               {/* <div className="col-12 footer-podcasts" data-anim-queue="2" data-anim-type="fade_in_up" style={{"opacity":"0"}}>

@@ -158,7 +158,7 @@ export default function ContactUs(props) {
                   </tr>
                   <tr data-anim-queue="3" data-anim-type="fade_in_up">
                     <td className="py-2">
-                      <a href="https://twitter.com/SoundStellar"> <img className="ContactFontAwsome xdxd" src="img/icons/tiktok.png" alt="Tiktok icon"/> </a>
+                      <a href="https://twitter.com/SoundStellar"> <img className="ContactFontAwsome xdxd" src="img/icons/tiktok.webp" alt="Tiktok icon"/> </a>
                     </td>
                   </tr>
                 </tbody>

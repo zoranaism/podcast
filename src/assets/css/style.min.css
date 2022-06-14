@@ -305,6 +305,7 @@
   h1.nj-section-header-title {
     font-size:3.1rem;
     font-weight: 900; 
+    text-align: center;
   }
   .new-episodes {
     color: #000;
@@ -548,7 +549,7 @@
     display: flex;
     flex-grow: 1;
     flex-shrink: 0;
-    padding: 3rem 1.5rem;
+    padding: 3rem 1.5rem 4.5rem 1.5rem;
     margin-top: 91px;
   }
   
@@ -2793,7 +2794,9 @@
     display: flex;
     background-color: #fff;
     height: 100%;
+    transition: 250ms ease-out;
   }
+
   .sponsor-img > a > img {
     width: 100%;
     height: 100%;
@@ -3165,12 +3168,8 @@
     height: 120px;
   }
   
-  .contact-form-text:focus {
-    transform: scale(1.1);
-  }
-  
   .contact-form-text:hover {
-      transform: scale(1.1);
+      background-color: white;
   }
   
   .contact-form-text {
@@ -3195,10 +3194,6 @@
     color: #fff;
     background-color: transparent;
     border-radius: 5px;
-  }
-  button[type="submit"]:hover{
-    background-color: rgb(0, 0, 0);
-    transform: scale(1.1);
   }
   
   .contact{
@@ -3606,41 +3601,44 @@
     width: 2.6rem;
     top: 3px;
   }
-  }
+}
 
-  .newsletter .ContactFontAwsome:hover{
-    transform: scale(1.1);
-    transform: rotateZ(360deg);
+.newsletter .ContactFontAwsome:hover{
+  transform: scale(1.1);
+  transform: rotateZ(360deg);
     transition: .5s ease-in-out;
   }
-
+  
   @media(max-width:650px) {
   }
-
- /* Kosserin from here */
-
+  
+  /* Kosserin from here */
+  
+  /* NJ EMBEDED SPOTIFY YOUTUBE PART */
+  
  #nj-embeded iframe{
   width: 100%;
+  max-width: 600px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
   height: auto;
-  min-height: 250px;
+  min-height: 300px;
  }
 
- #nj-embeded h1 {
-   text-align: center;
+ #nj-embeded .row .col-md-12:last-of-type {
+  transform: translateY(-4rem);
+}
+
+#nj-embeded .black-button {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  margin: 1rem auto 0 auto;
+  transform: translateY(-4rem);
  }
 
- #nj-embeded .black-button {
-   display: flex;
-   justify-content: center;
-   width: fit-content;
-   margin: 0rem auto 0 auto;
- }
-
- #nj-embeded .row .col {
-  width: 100%;
-  max-width: 600px; 
-  margin: 0 auto;
- }
+ /* NJ COMMUNITY DISCORD PART */
 
  #nj-community h1 {
   text-align: center;
@@ -3652,14 +3650,14 @@
   font-size: 1.125rem;
  }
 
- #nj-community .row {
+ #nj-community .row, #nj-volunteer .icons-row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-auto-rows: 1fr;
   gap: 1rem;
  }
 
- #nj-community .row div {
+ #nj-community .row div, #nj-volunteer .icons-row div {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -3670,29 +3668,45 @@
   border-radius: 5px;
  }
 
- #nj-community .row div span {
+ #nj-community .row div span, #nj-volunteer .icons-row div span {
   position: relative;
-  border-radius: 50%;
   width: 5rem;
   height: 5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.6);
-  box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.02);
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, .4);
+  border-radius: 50%;
 }
 
-#nj-community .row div span svg {
+#nj-community .row div:first-of-type span, #nj-volunteer .icons-row div:first-of-type span {
+  border-radius: 27% 73% 20% 80% / 63% 22% 78% 37% ;
+}
+
+#nj-community .row div:nth-of-type(2) span, #nj-volunteer .icons-row div:nth-of-type(2) span {
+  border-radius: 26% 74% 36% 64% / 75% 31% 69% 25%;
+}
+
+#nj-volunteer .icons-row div:nth-of-type(3) span {
+  border-radius: 80% 20% 72% 28% / 17% 64% 36% 83% ;
+}
+
+#nj-community .row div:last-of-type span, #nj-volunteer .icons-row div:last-of-type span {
+  border-radius: 14% 86% 33% 67% / 83% 8% 92% 17% ;
+}
+
+#nj-community .row div span img, #nj-volunteer .icons-row div span img {
   position: absolute;
   color: white;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 2.25rem;
-  height: 2.25rem;
+  width: 2.9rem;
+  height: 2.9rem;
  }
 
- #nj-community .row div h3 {
+ #nj-community .row div h3, #nj-volunteer .icons-row div h3 {
   font-size: 1.05rem;
   text-align: center;
  }
@@ -3713,4 +3727,40 @@
  #nj-community .blue-button img {
   margin-left: 10px;
   width: 2.25rem;
+ }
+
+
+ /* ABOUT PAGE */
+
+ #nj-volunteer {
+  margin-top: 5rem;
+  justify-content: flex-start;
+ }
+
+ #nj-volunteer .nj-section-header {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+ }
+
+ #nj-volunteer h2 {
+  text-align: center;
+ }
+ 
+  #nj-volunteer .nj-hero {
+   min-height: auto;
+   margin-bottom: 5rem;
+   margin-top: 4rem;
+  }
+
+ #nj-volunteer .nj-hero h2 {
+  margin-top: 5rem;
+ }
+
+ #nj-volunteer .section.nj-light-section .row div span {
+  background-color: rgba(0, 0, 0, 1);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, .1);
+ }
+
+ #nj-volunteer .black-button {
+  margin: 0 auto;
  }
