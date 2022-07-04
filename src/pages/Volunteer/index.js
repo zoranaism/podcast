@@ -1,9 +1,60 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Modal from '../../components/Modal';
+import ReactDOM, { createPortal } from 'react-dom';
 
 const Volunteer = () => {
+
+  const [galleryImages] = useState([
+    "https://images.unsplash.com/photo-1655485641792-3ca06d397569?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY1NjkyMTAxOQ&ixlib=rb-1.2.1&q=80&w=1080",
+    "https://images.unsplash.com/photo-1646912082729-97c8d15bd103?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY1NjkyMTAzNQ&ixlib=rb-1.2.1&q=80&w=1080",
+    "https://source.unsplash.com/random",
+    "https://images.unsplash.com/photo-1655750025998-e01240b5e568?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY1NjkyMTA0NA&ixlib=rb-1.2.1&q=80&w=1080",
+    "https://source.unsplash.com/random",
+    "https://source.unsplash.com/random",
+    "https://source.unsplash.com/random",
+    "https://images.unsplash.com/photo-1655750025998-e01240b5e568?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY1NjkyMTA0NA&ixlib=rb-1.2.1&q=80&w=1080",
+    "https://source.unsplash.com/random",
+    "https://source.unsplash.com/random",
+    "https://source.unsplash.com/random",
+    "https://source.unsplash.com/random",
+    "https://source.unsplash.com/random",
+  ]);
+  const [isModalShown, setIsModalShown] = useState(false);
+  const [index, setIndex] = useState(0);
+
+  const closeModalHandler = () => {
+    setIsModalShown(false);
+  }
+
+  const imageClickHandler = (index) => {
+    setIsModalShown(true)
+    setIndex(index);
+  }
+
+  const prevHandler = () => {
+    setIndex(prev => {
+      if(prev === 0) {
+        return galleryImages.length-1;
+      } else {
+        return prev - 1;
+      }
+    })
+  }
+
+  const nextHandler = () => {
+    setIndex(prev => {
+      if(prev === galleryImages.length-1) {
+        return 0;
+      } else {
+        return prev + 1;
+      }
+    })
+  }
+
   return (
     <React.Fragment>
+    {isModalShown && createPortal(<Modal prev={prevHandler} next={nextHandler} closeModal={closeModalHandler} image={galleryImages[index]}  />, document.getElementById('modal-root'))}
         <div id="nj-preloader-wrapper">
             <div className="nj-preloader-inner">
                 <div className="nj-preloader-percentage">0</div>
@@ -11,10 +62,10 @@ const Volunteer = () => {
     </div>
     <div className="section nj-hero" id="nj-volunteer">
       <div className="nj-section-header">
-        <h1 className="nj-section-header-title">Become a volunteer</h1>
+        <h1 className="nj-section-header-title mt-5">Become a volunteer</h1>
       </div>
       {/* WHY JOIN US SECTION */}
-      <div className="section nj-hero">
+      <div className="section nj-hero mt-3">
       <div className="container">
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
       <h2>Why would you join?</h2>
@@ -76,13 +127,18 @@ const Volunteer = () => {
         </div>
       </div>
       {/* TEAM SECTION */}
-      <div className="section nj-dark-section">
-      <div className="nj-section-header">
+      <div className="section nj-dark-section" id="team-section">
+      <div className="nj-section-header mb-5">
         <h1 className="nj-section-header-title">The team</h1>
+      </div>
+      <div className="container team-images">
+        {galleryImages.map((image, index) => {
+          return <img onClick={() => imageClickHandler(index)} src={image} key={index} alt="gallery image" />
+        })}
       </div>
       </div>
       {/* WHO WE ARE SECTION */}
-      <div className="container nj-mt-120">
+      <div className="container mt-0">
           <div className="nj-section-header">
             <h1 className="nj-section-header-title-team nj-mt-60 who-we-are">
               who we are
@@ -314,6 +370,72 @@ const Volunteer = () => {
                 <a
                   className="nj-button nj-button-white"
                   href="leanri"
+                  data-cursor-effect="exclusion"
+                >
+                  Find out more
+                </a>
+              </div>
+            </div>
+            <div
+              className="card mb-3 col-lg-4 col-12"
+              style={{ marginTop: "0px", border: "none" }}
+            >
+              <div className="img-box" style={{ width: "18rem" }}>
+                <img
+                  className="card-img-top"
+                  src="img/hosts/Roland.webp"
+                  alt="Roland"
+                />
+                <ul>
+                  <a
+                    target="blank"
+                    href="https://musicscribble.bandcamp.com/"
+                    data-cursor-effect="hover"
+                  >
+                    <li>
+                    <FontAwesomeIcon icon={["fab", "bandcamp"]} ></FontAwesomeIcon>
+                    </li>
+                  </a>
+                  <a
+                    target="blank"
+                    href="http://bit.ly/3HbRk29"
+                    data-cursor-effect="hover"
+                  >
+                    <li>
+                    <FontAwesomeIcon icon={["fab", "youtube"] } ></FontAwesomeIcon>
+                    </li>
+                  </a>
+                  <a
+                    target="blank"
+                    href="https://www.instagram.com/music.scribble/"
+                    data-cursor-effect="hover"
+                  >
+                    <li>
+                    <FontAwesomeIcon icon={["fab", "instagram"]} ></FontAwesomeIcon>
+                    </li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+
+            <div className="card-body col-lg-8 col-12 p-3">
+              <h5 className="card-title">ROLAND STOLK</h5>
+              <p
+                className="card-text card-text-host"
+                style={{ fontWeight: "400" }}
+              >
+                "Roland Stolk began playing piano at the age of eight and drums at ten. He studied drums at the
+Elementary School for Ballet and Music in Rotterdam, where he discovered the vibraphone. At
+sixteen, he began studying vibraphone and drums at the Rotterdam Conservatory in Rotterdam
+during which time he followed workshops by Milt Jackson and Dave Samuels. Roland graduated with
+honers from the Rotterdam Conservatory in 1987. In 1989, Roland continued his study at the Berklee
+College of Music in Boston, Massachusetts, USA, he studied under Ed Saindon and Gary Burton."
+              </p>
+
+              <div className="nj-read-more-button-wrapper">
+                <a
+                  className="nj-button nj-button-white"
+                  href="roland"
                   data-cursor-effect="exclusion"
                 >
                   Find out more

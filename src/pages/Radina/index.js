@@ -9,7 +9,10 @@ export default function Radina() {
         imagePath="img/hosts/radina.webp"
         facebook="https://www.facebook.com/RadinaTheTheaterEquation"
         instagram="https://www.instagram.com/radina_artsy_chameleon/"
-        otherSocial=""
+        soundCloud=""
+        twitch=""
+        twitter=""
+        bandcamp=""
         youtubeLink="https://www.youtube.com/user/kukundrela"
         embedYT="https://www.youtube.com/embed/Ii6q6Nn4xUk"
         description1='"I’ve always been a rather self-reflective and artistically-inclined person. I remember growing up surrounded by music in different shapes & forms. My mom used to place a headset on her tummy while I was still in the womb, playing the likes of Michael Jackson, Whitney Houston, Simply Red and MC Hammer. My dad has always been a connoisseur of classic rock giants, such as Deep Purple, Whitesnake, Foreigner and Black Sabbath. No wonder my taste in music developed into what I like to call “an eclectic mess”. Once my kindergarten music teacher noticed I could hold a straight tone without deviation, I was invited to perform the main roles in kid’s plays. Shortly after, I joined a children’s choir in my hometown of Varna, Bulgaria, until about the age of 10, parallel to playing the piano and studying English."'

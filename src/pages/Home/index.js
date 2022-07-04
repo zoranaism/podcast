@@ -130,7 +130,7 @@ export default function Home(props) {
                     <iframe style={{borderRadius:"12px"}} src="https://open.spotify.com/embed/show/4b4Nokn6zf9wWcZkDikazp?utm_source=generator" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                   </div>
                   <div className="col-md-12">
-                    <iframe style={{borderRadius:"5px"}} src="https://www.youtube.com/embed/rHxZhYLL85I" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    <iframe style={{borderRadius:"5px"}} src="https://www.youtube.com/embed/7k3zeX0eytE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                   </div>
                 </div>
               <a

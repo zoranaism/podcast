@@ -8,9 +8,11 @@ export default function Leanri() {
         name="LEANRI PAULSEN"
         imagePath="img/hosts/leanri.webp"
         facebook=""
+        twitter=""
+        bandcamp=""
         twitch="https://www.twitch.tv/vaakriin"
         instagram="https://www.instagram.com/davidp4141/"
-        otherSocial="https://soundcloud.com/davidp4141"
+        soundCloud="https://soundcloud.com/davidp4141"
         youtubeLink="https://www.youtube.com/channel/UCtaUa59vPbUIp_Y38f2Ca4w?app=desktop"
         embedYT="https://www.youtube.com/embed/IRLaO9j-sN0"
         description1='"The love of music can be compared to really good, expensive coffee.  As children, we do not need it.  Something adults need to get through the day.  Somewhere in between growing up and puberty, on a forgotten day, you drink your first sip.  Not long after, you start having daily cups and before you realize it, you can barely function without a couple of caffeinated fixes.  Music lovers will tell you the same thing.  Neither knows when or how but now music is their daily fix and trying to function without it is a pointless endeavor."'

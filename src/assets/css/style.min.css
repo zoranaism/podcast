@@ -306,6 +306,7 @@
     font-size:3.1rem;
     font-weight: 900; 
     text-align: center;
+    text-transform: lowercase;
   }
   .new-episodes {
     color: #000;
@@ -2151,7 +2152,7 @@
   /* line 1206, src/sass/style.sass */
   #nj-preloader-wrapper {
     position: fixed;
-    z-index: 1031;
+    z-index: 1033;
     top: 0;
     left: 0;
     width: 100%;
@@ -3764,3 +3765,71 @@
  #nj-volunteer .black-button {
   margin: 0 auto;
  }
+
+ /* TEAM FROM HERE */
+
+ #team-section .team-images {
+  display: grid;
+  gap: .5rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-auto-rows: 1fr;
+ }
+
+ #team-section .team-images img {
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  object-fit: cover;
+  height: 100%;
+ }
+
+ .modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .7);
+  z-index: 1031;
+ }
+
+ .inner-modal {
+  position: fixed;
+  z-index: 1032;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+ }
+
+ .inner-modal img {
+    max-height: 80vh;
+    max-width: 90vw;
+    border-radius: 3px;
+ }
+
+ .inner-modal button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 3rem;
+}
+
+@media(max-width: 768px) {
+  .inner-modal button {
+    position: fixed;
+    bottom: -10vh;
+  }
+
+  .inner-modal .prev-btn {
+    transform: translateX(-3rem);
+  }
+
+  .inner-modal .next-btn {
+    transform: translateX(3rem);
+  }
+}

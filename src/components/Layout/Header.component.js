@@ -32,13 +32,13 @@ export default function Header() {
                   >
                     about
                   </a>
-{/*                   <a
+                  <a
                     className="navbar-item"
-                    href="episodes"
+                    href="become-a-volunteer"
                     data-cursor-effect="hover"
                   >
-                    episodes
-                  </a> */}
+                    become a volunteer
+                  </a>
                   <a
                     className="navbar-item"
                     href="contact"
@@ -74,8 +74,8 @@ export default function Header() {
             {/* <a className="nj-mobile-menu-item" href="hosts">
               hosts
             </a> */}
-            <a className="nj-mobile-menu-item" href="episodes">
-              episodes
+            <a className="nj-mobile-menu-item" href="become-a-volunteer">
+              become a volunteer
             </a>
             <a className="nj-mobile-menu-item" href="contact">
               contact

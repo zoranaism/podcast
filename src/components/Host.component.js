@@ -7,7 +7,9 @@ export default function HostComponent({
   facebook,
   instagram,
   twitch,
-  otherSocial,
+  twitter,
+  bandcamp,
+  soundCloud,
   youtubeLink,
   embedYT,
   description1,
@@ -31,25 +33,39 @@ export default function HostComponent({
         <h1 className="nj-section-header-title-episodes pt-120px">{name}</h1>
 
         <ul className="host-component__list" style={{ display: "flex" }}>
-          <a target="_blank" href={facebook.length !== 0 ? facebook : twitch} data-cursor-effect="hover">
+          {facebook.length !== 0 && <a target="_blank" href={facebook} data-cursor-effect="hover">
             <li>
-              <FontAwesomeIcon icon={["fab", `${facebook.length !== 0 ? "facebook" : "twitch"}`] } ></FontAwesomeIcon>
+              <FontAwesomeIcon icon={["fab", "facebook"] } ></FontAwesomeIcon>
             </li>
-          </a>
-          <a target="_blank" href={youtubeLink} data-cursor-effect="hover">
+          </a>}
+          {twitch.length !== 0 && <a target="_blank" href={twitch} data-cursor-effect="hover">
+            <li>
+              <FontAwesomeIcon icon={["fab", "twitch"] } ></FontAwesomeIcon>
+            </li>
+          </a>}
+          {youtubeLink.length !== 0 && <a target="_blank" href={youtubeLink} data-cursor-effect="hover">
             <li>
               <FontAwesomeIcon icon={["fab", "youtube"] } ></FontAwesomeIcon>
             </li>
-          </a>
-          <a target="_blank" href={instagram} data-cursor-effect="hover">
+          </a>}
+          {instagram.length !== 0 && <a target="_blank" href={instagram} data-cursor-effect="hover">
             <li>
               <FontAwesomeIcon icon={["fab", "instagram"] } ></FontAwesomeIcon>
             </li>
-          </a>
-
-          {otherSocial.length !== 0 && <a target="_blank" href={otherSocial} data-cursor-effect="hover">
+          </a>}
+          {soundCloud.length !== 0 && <a target="_blank" href={soundCloud} data-cursor-effect="hover">
           <li>
               <FontAwesomeIcon icon={["fab", "soundcloud"] } ></FontAwesomeIcon>
+            </li>
+          </a>}
+          {twitter.length !== 0 && <a target="_blank" href={twitter} data-cursor-effect="hover">
+          <li>
+              <FontAwesomeIcon icon={["fab", "twitter"] } ></FontAwesomeIcon>
+            </li>
+          </a>}
+          {bandcamp.length !== 0 && <a target="_blank" href={bandcamp} data-cursor-effect="hover">
+          <li>
+              <FontAwesomeIcon icon={["fab", "bandcamp"] } ></FontAwesomeIcon>
             </li>
           </a>}
         </ul>
