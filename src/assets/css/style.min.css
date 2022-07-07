@@ -56,9 +56,6 @@
   * {
     box-sizing: border-box;
   }
-  .svg-inline--fa{
-    margin-right: 10px;
-  }
   
   /* */
   /* ---------------------------
@@ -399,6 +396,12 @@
   p.nj-section-content,
   p.nj-news-body-text {
     font-size: 1.25rem;
+    max-width: 600px;
+  }
+
+  #nj-single-project-section p.nj-section-content {
+    margin: 0 auto;
+    text-align: center;
   }
   
   @media only screen and (max-width: 740px),
@@ -1790,7 +1793,7 @@
   .nj-testimonials-wrapper .nj-testimonials .nj-testimonial .nj-client-testimonial {
     margin-top: 35px;
     margin-bottom: 35px;
-    max-width: 900px;
+    max-width: 500px;
   }
   
   /* line 1004, src/sass/style.sass */
@@ -2013,15 +2016,22 @@
     font-family: 'Inconsolata', monospace;
     text-transform: capitalize;
   }
+
+  .nj-footer .nj-footer-contacts-wrapper .nj-footer-contacts table tr {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
   
   /* line 1118, src/sass/style.sass */
   .nj-footer .nj-footer-contacts-wrapper .nj-footer-contacts table tr td {
-    padding-right: 20px;
-    padding-bottom: 20px;
     max-width: 260px;
-    min-width: 45px;
-    font-size: 1rem;
-    text-align: left;
+    margin-bottom: .5rem;
+  }
+
+  .nj-footer .nj-footer-contacts-wrapper .nj-footer-contacts table tr td:last-of-type {
+    position: relative;
+    transform: translateY(-3px);
   }
   
   /* line 1124, src/sass/style.sass */
@@ -3128,6 +3138,11 @@
       justify-content: center;
       align-items: center;
     }
+
+    .border.border-white.sib-form-block__button.sib-form-block__button-with-loader {
+      width: 100% !important;
+      border-radius: 0 0 3px 3px !important;
+    }
   }
   
   .nj-portfolio-item{
@@ -3157,20 +3172,33 @@
     width: 100%;
     margin-top: 20px;
   }
+
+  .form-group label {
+    margin-bottom: 2px;
+    font-size: .875rem;
+  }
   
   .form-group input,
   .form-group textarea{
+    border-radius: 3px 3px 0 0;
+    background-color: rgba(0, 0, 0, .5);
     width: 100%;
     padding: 5px;
-    border-bottom: 2px solid #8f8c8c;
+    border-bottom: 2px solid transparent;
+    transition: 250ms ease-out;
   }
+
+  .form-group input:hover, .form-group textarea:hover {
+    background-color: rgba(0, 0, 0, .7);
+  }
+
+  .form-group input:focus, .form-group textarea:focus {
+    background-color: rgba(0, 0, 0, 1);
+  }
+
   textarea{
     resize: none;
     height: 120px;
-  }
-  
-  .contact-form-text:hover {
-      background-color: white;
   }
   
   .contact-form-text {
@@ -3184,7 +3212,7 @@
       outline: none;
       color: white;
       transition: 0.5s;
-  } 
+    }
   
   button[type="submit"]{
     width: 30%;
@@ -3197,8 +3225,10 @@
     border-radius: 5px;
   }
   
-  .contact{
+  .contact {
   display: flex;
+  background-color: rgba(253, 252, 252, 0.1);
+  border-radius: 5px;
   }
   /* .contact.form{
   flex-basis: 50%;
@@ -3209,11 +3239,35 @@
   padding: 40px;
   } */
 
+  .contact button[type="submit"] {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0;
+    max-width: 100%;
+    width: 200px;
+    height: 2.5rem;
+    background-color: #fff;
+    border: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border-radius: 0;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: 250ms ease-out;
+  }
+
   .title-contact {
     font-family: "montserrat", sans-serif;
     /* text-align:center; */
     margin-bottom: 60px;
-    margin-left: 15px;
+    margin-inline: auto;
+    width: fit-content;
+    text-align: center;
   }
   
   .title-newsletter{
@@ -3574,13 +3628,13 @@
   /* CONTACT US  */
   .newsletter .ContactFontAwsome{
     color: white;
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 0px 8px 0px 8px;
     transition: .3s ease-in-out;
   }
 
-  .newsletter .ContactFontAwsome.xdxd {
-    width: 3.5rem;
+  .newsletter .ContactFontAwsome.tiktok-icon {
+    width: 2.5rem;
     position: relative;
     top: 5px;
   }
@@ -3594,21 +3648,15 @@
   
   @media(max-width: 500px) {
     .newsletter .ContactFontAwsome{
-      font-size: 3rem;
-      margin: 0px 8px 0px 8px;
+      font-size: 2.5rem;
+      margin: 0px 4px 0px 4px;
     }
     
-  .newsletter .ContactFontAwsome.xdxd {
-    width: 2.6rem;
+  .newsletter .ContactFontAwsome.tiktok-icon {
+    width: 2.15rem;
     top: 3px;
   }
 }
-
-.newsletter .ContactFontAwsome:hover{
-  transform: scale(1.1);
-  transform: rotateZ(360deg);
-    transition: .5s ease-in-out;
-  }
   
   @media(max-width:650px) {
   }

@@ -31,11 +31,11 @@ export default function ContactUs(props) {
             </h1>
           </div>
           {/* <h1 className="title-contact">Contact Us</h1>  */}
-          <div>
+          <div className="container" style={{maxWidth: "700px"}}> 
           <h3 className="title-contact">
                 Have any questions or comment? We'd love to hear from you.
               </h3>
-            <div className="contact col-12 col-lg-6">
+            <div className="contact col-12">
               <div className="form w-100 mb-3">
                 <form
                   id="contact-form"
@@ -53,7 +53,6 @@ export default function ContactUs(props) {
                       id="firstName"
                       name="firstName"
                       size="50"
-                      placeholder="First Name..."
                       required
                     />
                     <div id="error"></div>
@@ -68,7 +67,6 @@ export default function ContactUs(props) {
                       type="text"
                       id="lastName"
                       name="lastName"
-                      placeholder="Last Name..."
                       required
                     />
                   </div>
@@ -79,10 +77,9 @@ export default function ContactUs(props) {
                     </label>
                     <input
                       className="contact-form-text"
-                      type="text"
+                      type="email"
                       id="email"
                       name="email"
-                      placeholder="Email..."
                       required
                     />
                   </div>
@@ -97,12 +94,11 @@ export default function ContactUs(props) {
                       id="message"
                       rows="4"
                       cols="40"
-                      placeholder="Message..."
                       required
                     ></textarea>
                   </div>
 
-                  <button type="submit">Send</button>
+                  <button type="submit" data-cursor-effect="exclusion">Send</button>
                   <div
                     id="status"
                     style={{ display: "initial", padding: "30px" }}
@@ -111,8 +107,8 @@ export default function ContactUs(props) {
               </div>
             </div>
 
-            <div className="newsletter col-lg-6 col-12">
-              <table style={{ marginTop: "15px", marginBottom: "20px" }}>
+            <div className="newsletter col-12">
+              <table style={{ marginTop: "15px", marginBottom: "20px", marginInline: "auto" }}>
                 {/* <tr data-anim-queue="1" data-anim-type="fade_in_up">
                   <td className="py-2">
                     <FontAwesomeIcon icon={faPhoneAlt} /> +31684359770
@@ -133,32 +129,32 @@ export default function ContactUs(props) {
                 <tbody className="row">
                   <tr data-anim-queue="3" data-anim-type="fade_in_up">
                     <td className="py-2">
-                    <a href="https://www.facebook.com/Stellar-Sound-Podcast-119521773289334"> <FontAwesomeIcon icon={["fab", "facebook-square"]} className="ContactFontAwsome"/> </a>
+                    <a data-cursor-effect="exclusion" href="https://www.facebook.com/Stellar-Sound-Podcast-119521773289334"> <FontAwesomeIcon icon={["fab", "facebook-square"]} className="ContactFontAwsome"/> </a>
                     </td>
                   </tr>
                   <tr data-anim-queue="3" data-anim-type="fade_in_up">
                     <td className="py-2">
-                    <a href="https://www.instagram.com/stellarsoundpodcast/"> <FontAwesomeIcon icon={["fab", "instagram-square"]} className="ContactFontAwsome"/> </a>
+                    <a data-cursor-effect="exclusion" href="https://www.instagram.com/stellarsoundpodcast/"> <FontAwesomeIcon icon={["fab", "instagram-square"]} className="ContactFontAwsome"/> </a>
                     </td>
                   </tr>
                   <tr data-anim-queue="3" data-anim-type="fade_in_up">
                     <td className="py-2">
-                    <a href="https://www.linkedin.com/company/72044553/"> <FontAwesomeIcon icon={["fab", "linkedin"]} className="ContactFontAwsome"/> </a>
+                    <a data-cursor-effect="exclusion" href="https://www.linkedin.com/company/72044553/"> <FontAwesomeIcon icon={["fab", "linkedin"]} className="ContactFontAwsome"/> </a>
                     </td>
                   </tr>
                   <tr data-anim-queue="3" data-anim-type="fade_in_up">
                     <td className="py-2">
-                      <a href="https://twitter.com/SoundStellar"> <FontAwesomeIcon icon={['fab', "twitter-square"]} className="ContactFontAwsome" /> </a>
+                      <a data-cursor-effect="exclusion" href="https://twitter.com/SoundStellar"> <FontAwesomeIcon icon={['fab', "twitter-square"]} className="ContactFontAwsome" /> </a>
                     </td>
                   </tr>
                   <tr data-anim-queue="3" data-anim-type="fade_in_up">
                     <td className="py-2">
-                      <a href="https://twitter.com/SoundStellar"> <FontAwesomeIcon icon={['fab', "pinterest-square"]} className="ContactFontAwsome" /> </a>
+                      <a data-cursor-effect="exclusion" href="https://twitter.com/SoundStellar"> <FontAwesomeIcon icon={['fab', "pinterest-square"]} className="ContactFontAwsome" /> </a>
                     </td>
                   </tr>
                   <tr data-anim-queue="3" data-anim-type="fade_in_up">
                     <td className="py-2">
-                      <a href="https://twitter.com/SoundStellar"> <img className="ContactFontAwsome xdxd" src="img/icons/tiktok.webp" alt="Tiktok icon"/> </a>
+                      <a data-cursor-effect="exclusion" href="https://www.tiktok.com/@stellarsoundpodcast?is_from_webapp=1&sender_device=pc"> <img className="ContactFontAwsome tiktok-icon" src="img/icons/tiktok.webp" alt="Tiktok icon"/> </a>
                     </td>
                   </tr>
                 </tbody>

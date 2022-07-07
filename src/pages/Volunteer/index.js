@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Modal from '../../components/Modal';
-import ReactDOM, { createPortal } from 'react-dom';
+import { createPortal } from 'react-dom';
 
 const Volunteer = () => {
 
@@ -133,7 +133,7 @@ const Volunteer = () => {
       </div>
       <div className="container team-images">
         {galleryImages.map((image, index) => {
-          return <img onClick={() => imageClickHandler(index)} src={image} key={index} alt="gallery image" />
+          return <img onClick={() => imageClickHandler(index)} data-cursor-effect="hover" src={image} key={index} alt="gallery image" />
         })}
       </div>
       </div>

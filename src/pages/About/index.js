@@ -158,7 +158,7 @@ export default function About() {
         data-cursor-style="dark"
         style={{ paddingTop: "60px!important", height: "fit-content" }}
       >
-        <div className="container">
+        <div className="container" style={{maxWidth: "700px"}}>
           <div className="nj-testimonials-wrapper">
             <div className="nj-testimonials" id="nj-testimonials-slick">
               <div className="nj-testimonial">

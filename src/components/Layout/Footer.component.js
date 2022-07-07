@@ -116,7 +116,6 @@ export default function Footer() {
                     backgroundColor: "transparent",
                     textAlign: "center",
                     maxWidth: "540px",
-                    borderRadius: "3px",
                   }}
                 >
                   <form
@@ -131,43 +130,52 @@ export default function Footer() {
                         <div className="form__entry entry_block">
                           <div
                             className=""
-                            style={{ display: "flex", width: "100%" }}
+                            style={{ display: "flex", width: "100%", alignItems: "center", boxShadow: "-2px 2px 25px rgba(255, 255, 255, .05)" }}
                           >
                             <div
-                              className="entry__field"
                               style={{
                                 backgroundColor: "black",
-                                borderColor: "black black white",
+                                border: "none",
                                 width: "100%",
+                                margin: "0",
+                                height: "56.6px",
+                                borderRadius: "0",
+                                transition: "250ms ease-out",
                               }}
                             >
                               <input
                                 className="input"
                                 type="text"
-                                style={{ color: "white" }}
+                                style={{ 
+                                  color: "white", 
+                                  height: "100%", 
+                                  display: "flex",
+                                  borderRadius: "5px 0 0 5px",
+                                  textTransform: "none",
+                                  paddingLeft: "10px",
+                                }}
                                 id="EMAIL"
                                 name="EMAIL"
                                 autoComplete="off"
-                                placeholder="EMAIL"
+                                placeholder="example@gmail.com"
                                 data-required="true"
                                 required
                               />
                             </div>
 
                             <button
+                            data-cursor-effect="hover"
                               className="border border-white sib-form-block__button sib-form-block__button-with-loader"
                               style={{
-                                width: "50%",
-                                fontSize: "90%",
-                                marginLeft: "1px",
-                                textAlign: "left",
-                                fontFamily: '"Helvetica", sans-serif',
+                                fontSize: ".875rem",
+                                padding: "1rem 2rem",
                                 color: "#000",
+                                fontWeight: "400",
                                 backgroundColor: "white",
-                                borderRadius: "0",
+                                borderRadius: "0 5px 5px 0",
                                 display: "flex",
                                 alignContent: "center",
-                                justifyContent: "center",
+                                justifyContent: "center"
                               }}
                               form="sib-form"
                               type="submit"
@@ -367,8 +375,8 @@ export default function Footer() {
           <div className="nj-footer-socials-wrapper">
             <div className="nj-footer-socials">
               <span className="text-center d-flex justify-content-center align-items-center mt-2">
-                <FontAwesomeIcon icon={faCopyright} />
                 {currentYear} Stellar Sound Podcast
+                <FontAwesomeIcon icon={faCopyright} style={{fontSize: ".75rem", marginLeft: "4px"}} />
               </span>
             </div>
           </div>

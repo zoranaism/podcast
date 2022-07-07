@@ -362,9 +362,9 @@ export default function Home(props) {
         id="nj-testimonials"
         data-scroll-to-top-style="dark"
         data-cursor-style="dark"
-        style={{ paddingTop: "60px!important" }}
+        style={{ paddingTop: "60px !important" }}
       >
-        <div className="container">
+        <div className="container" style={{maxWidth: "700px"}}>
           <div className="nj-testimonials-wrapper">
             <div className="nj-testimonials" id="nj-testimonials-slick">
               <div className="nj-testimonial">
@@ -498,7 +498,7 @@ export default function Home(props) {
               </div>
             </div>
             <div className="nj-testimonials-slider-arrows">
-              <div className="nj-testimonials-slider-next-arrow">
+              <div className="nj-testimonials-slider-next-arrow" data-cursor-effect="hover">
                   <FontAwesomeIcon icon={faArrowRight} fontWeight={200}/>
               </div>
             </div>
