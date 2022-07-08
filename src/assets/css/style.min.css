@@ -2017,15 +2017,21 @@
     text-transform: capitalize;
   }
 
+  .nj-footer .nj-footer-contacts-wrapper .nj-footer-contacts table {
+    width: 100%;
+  }
+
   .nj-footer .nj-footer-contacts-wrapper .nj-footer-contacts table tr {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     gap: 8px;
+    width: 100%;
   }
   
   /* line 1118, src/sass/style.sass */
   .nj-footer .nj-footer-contacts-wrapper .nj-footer-contacts table tr td {
-    max-width: 260px;
+    max-width: 100%;
     margin-bottom: .5rem;
   }
 
@@ -3880,4 +3886,39 @@
   .inner-modal .next-btn {
     transform: translateX(3rem);
   }
+}
+
+/* FOOTER */
+
+#socials-navigation {
+  justify-content: flex-end !important;
+}
+
+@media(max-width: 768px) {
+  
+.footer-podcasts {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+#socials-navigation {
+  justify-content: center !important;
+}
+
+#socials-navigation {
+  justify-content: center !important;
+  gap: 8px;
+}
+
+#socials-navigation a.socials-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 0;
+}
+
+.nj-footer .nj-footer-contacts-wrapper .nj-footer-contacts table tr {
+  justify-content: center;
+}
 }

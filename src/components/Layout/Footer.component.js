@@ -218,9 +218,9 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container" id="footer-items">
           <div className="row">
-            <div className="col-10 col-md-3">
+            <div className="col-12 col-md-4">
               <div
                 className="col-12 footer-podcasts"
                 data-anim-queue="1"
@@ -264,7 +264,7 @@ export default function Footer() {
                 </a>
               </div>
             </div>
-            <div className="col-10 col-md-3">
+            <div className="col-12 col-md-4 justify-content-center">
               <div
                 className="col-12 footer-podcasts"
                 data-anim-queue="1"
@@ -273,6 +273,7 @@ export default function Footer() {
               >
                 <a
                   target="_blank"
+                  style={{display: "flex", justifyContent: "center", width: "fit-content", margin: "0 auto"}}
                   href="https://www.youtube.com/channel/UCXnT7Ih32dLtFhGAtYtsR2g"
                   data-cursor-effect="exclusion"
                 >
@@ -285,7 +286,6 @@ export default function Footer() {
                 </a>
               </div>  */}
             </div>
-            <div className="col-12 col-md-2"></div>
             <div className="col-12 col-md-4">
               <div className="nj-footer-contacts-wrapper">
                 <div className="nj-footer-contacts">
@@ -328,9 +328,8 @@ export default function Footer() {
                   <div
                     className="navbar-menu justify-content-end align-items-center"
                     id=""
-                    style={{ float: "left" }}
                   >
-                    <div className="socials-navigation justify-content-end align-items-center">
+                    <div className="socials-navigation justify-content-start align-items-center" id="socials-navigation">
                       <a
                         target="blank"
                         className="socials-link"
