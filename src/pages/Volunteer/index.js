@@ -2,8 +2,11 @@ import React, {useState} from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Modal from '../../components/Modal';
 import { createPortal } from 'react-dom';
+import useAnalyticsEventTracker from '../../useAnalyticsEventTracker';
 
 const Volunteer = () => {
+
+  const gaEventTracker = useAnalyticsEventTracker("Volunteer");
 
   const [galleryImages] = useState([
     "/img/team/i1.webp",
@@ -487,6 +490,7 @@ College of Music in Boston, Massachusetts, USA, he studied under Ed Saindon and 
                 className="black-button"
                 href="mailto:stellarsoundpodcast@gmail.com"
                 data-cursor-effect="exclusion"
+                onClick={() => gaEventTracker("become a volunteer volunteer page")}
               >
                 become a volunteer
               </a>

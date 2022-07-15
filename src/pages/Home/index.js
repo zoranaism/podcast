@@ -7,13 +7,13 @@ import episodesData from "../../allEpisodesData";
 import { Link} from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faBookOpen, faMusic, faPodcast } from "@fortawesome/free-solid-svg-icons";
+import useAnalyticsEventTracker from '../../useAnalyticsEventTracker';
 
 
 export default function Home(props) {
   //data array
   const epizode = episodesData();
-
-
+  const gaEventTracker = useAnalyticsEventTracker('Homepage');
 
 
   return (
@@ -138,6 +138,7 @@ export default function Home(props) {
                       href="https://anchor.fm/stellar-sound-podcast"
                       data-cursor-effect="exclusion"
                       target="_blank"
+                      onClick={() => gaEventTracker('Other platforms')}
                     >
                       Other platforms
                     </a>
@@ -179,6 +180,7 @@ export default function Home(props) {
                       href="https://discord.gg/rzg9GmYJ"
                       data-cursor-effect="exclusion"
                       target="_blank"
+                      onClick={() => gaEventTracker('Join us discord')}
                     >
                       Join us now<img
                         className="img-max-width-50"
@@ -225,6 +227,7 @@ export default function Home(props) {
                         className="nj-button nj-button-black"
                         href="about"
                         data-cursor-effect="exclusion"
+                        onClick={() => gaEventTracker('Find out')}
                       >
                         Find out about Stellar story
                       </a>

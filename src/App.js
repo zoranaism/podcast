@@ -30,6 +30,9 @@ import Leanri from "./pages/Leanri";
 import ScrollToTop from "./components/ScrollToTop";
 import Volunteer from "./pages/Volunteer";
 import Roland from "./pages/Roland";
+import ReactGA from 'react-ga';
+const TRACKING_ID = "UA-192929021-1"; // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 const injectAppScript = () => {
   // Remove old script, redundant (╯°□°）╯︵ ┻━┻
@@ -52,6 +55,10 @@ function App() {
   useEffect(() => {
     injectAppScript();
   }, [location]);
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
 
   return (
     <Router>

@@ -297,22 +297,12 @@ export default function Footer() {
                         style={{ opacity: "0" }}
                       >
                         <td>
-                          <FontAwesomeIcon icon={faPhoneAlt} />
-                        </td>
-                        <td>+31684359770</td>
-                      </tr>
-                      <tr
-                        data-anim-queue="2"
-                        data-anim-type="fade_in_up"
-                        style={{ opacity: "0" }}
-                      >
-                        <td>
                           <FontAwesomeIcon icon={faEnvelope} />
                         </td>
                         <td>stellarsoundpodcast@gmail.com</td>
                       </tr>
                       <tr
-                        data-anim-queue="3"
+                        data-anim-queue="2"
                         data-anim-type="fade_in_up"
                         style={{ opacity: "0" }}
                       >

@@ -6,10 +6,12 @@ import {
   faLocationArrow,
 } from "@fortawesome/free-solid-svg-icons";
 import {fab} from "@fortawesome/free-brands-svg-icons";
+import useAnalyticsEventTracker from '../../useAnalyticsEventTracker';
 import { library } from "@fortawesome/fontawesome-svg-core";
 library.add(fab);
 
 export default function ContactUs(props) {
+  const gaEventTracker = useAnalyticsEventTracker('Contact');
   return (
   <div>
     <div id="nj-preloader-wrapper">
@@ -98,7 +100,7 @@ export default function ContactUs(props) {
                     ></textarea>
                   </div>
 
-                  <button type="submit" data-cursor-effect="exclusion">Send</button>
+                  <button onClick={() => gaEventTracker("Send contact form")} type="submit" data-cursor-effect="exclusion">Send</button>
                   <div
                     id="status"
                     style={{ display: "initial", padding: "30px" }}
