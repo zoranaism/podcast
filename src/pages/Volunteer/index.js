@@ -6,19 +6,24 @@ import { createPortal } from 'react-dom';
 const Volunteer = () => {
 
   const [galleryImages] = useState([
-    "https://images.unsplash.com/photo-1655485641792-3ca06d397569?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY1NjkyMTAxOQ&ixlib=rb-1.2.1&q=80&w=1080",
-    "https://images.unsplash.com/photo-1646912082729-97c8d15bd103?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY1NjkyMTAzNQ&ixlib=rb-1.2.1&q=80&w=1080",
-    "https://source.unsplash.com/random",
-    "https://images.unsplash.com/photo-1655750025998-e01240b5e568?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY1NjkyMTA0NA&ixlib=rb-1.2.1&q=80&w=1080",
-    "https://source.unsplash.com/random",
-    "https://source.unsplash.com/random",
-    "https://source.unsplash.com/random",
-    "https://images.unsplash.com/photo-1655750025998-e01240b5e568?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY1NjkyMTA0NA&ixlib=rb-1.2.1&q=80&w=1080",
-    "https://source.unsplash.com/random",
-    "https://source.unsplash.com/random",
-    "https://source.unsplash.com/random",
-    "https://source.unsplash.com/random",
-    "https://source.unsplash.com/random",
+    "/img/team/i1.webp",
+    "/img/team/i2.webp",
+    "/img/team/i3.webp",
+    "/img/team/i4.webp",
+    "/img/team/i5.webp",
+    "/img/team/i6.webp",
+    "/img/team/i7.webp",
+    "/img/team/i8.webp",
+    "/img/team/i9.webp",
+    "/img/team/i10.webp",
+    "/img/team/i11.webp",
+    "/img/team/i12.webp",
+    "/img/team/i13.webp",
+    "/img/team/i14.webp",
+    "/img/team/i15.webp",
+    "/img/team/i16.webp",
+    "/img/team/i17.webp",
+    "/img/team/i18.webp",
   ]);
   const [isModalShown, setIsModalShown] = useState(false);
   const [index, setIndex] = useState(0);
@@ -68,7 +73,7 @@ const Volunteer = () => {
       <div className="section nj-hero mt-3">
       <div className="container">
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-      <h2>Why would you join?</h2>
+      <h2>why would you join?</h2>
       <div className="row icons-row">
               <div className="icon-holder">
                 <span>
@@ -102,27 +107,39 @@ const Volunteer = () => {
       <div className="section nj-light-section" 
       data-scroll-to-top-style="dark"
       data-cursor-style="dark">
-        <h2>What we do?</h2>
+        <h2>what we do?</h2>
         <div className="container">
         <div className="row icons-row">
         <div className="icon-holder">
-                <span>
-                  <img src="img/icons/idea.webp" alt="Education" />
-                </span>
-                <h3>Exclusive educative content</h3>
-              </div>
-              <div className="icon-holder">
-                <span>
-                  <img src="img/icons/live-music.webp" alt="Music Industry" />
-                </span>
-                <h3>Access to the connections in music industry</h3>
-              </div>
-              <div className="icon-holder">
-                <span>
-                  <img src="img/icons/celebrating.webp" alt="Fun and Joy" />
-                </span>
-                <h3>Fun and joy</h3>
-              </div>
+          <span>
+            <img src="img/icons/idea.webp" alt="Education" />
+          </span>
+          <h3>Exclusive educative content</h3>
+        </div>
+        <div className="icon-holder">
+          <span>
+            <img src="img/icons/live-music.webp" alt="Music Industry" />
+          </span>
+          <h3>Access to the connections in music industry</h3>
+        </div>
+        <div className="icon-holder">
+          <span>
+            <img src="img/icons/celebrating.webp" alt="Fun and Joy" />
+          </span>
+          <h3>Fun and joy</h3>
+        </div>
+        <div className="icon-holder">
+          <span>
+            <img src="img/icons/celebrating.webp" alt="Fun and Joy" />
+          </span>
+          <h3>Fun and joy</h3>
+        </div>
+        <div className="icon-holder">
+          <span>
+            <img src="img/icons/celebrating.webp" alt="Fun and Joy" />
+          </span>
+          <h3>Fun and joy</h3>
+        </div>
         </div>
         </div>
       </div>
@@ -133,7 +150,7 @@ const Volunteer = () => {
       </div>
       <div className="container team-images">
         {galleryImages.map((image, index) => {
-          return <img onClick={() => imageClickHandler(index)} data-cursor-effect="hover" src={image} key={index} alt="gallery image" />
+          return <img onClick={() => imageClickHandler(index)} data-cursor-effect="hover" src={process.env.PUBLIC_URL + image} key={index} alt="gallery image" />
         })}
       </div>
       </div>

@@ -259,6 +259,7 @@
   /* line 165, src/sass/style.sass */
   h2 {
     font-size: 2.5rem;
+    font-weight: 700 !important;
   }
   
   /* line 168, src/sass/style.sass */
@@ -396,7 +397,6 @@
   p.nj-section-content,
   p.nj-news-body-text {
     font-size: 1.25rem;
-    max-width: 600px;
   }
 
   #nj-single-project-section p.nj-section-content {
@@ -3176,30 +3176,40 @@
   }
   .form-group{
     width: 100%;
+    max-width: 300px;
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin: 20px auto 0 auto;
   }
 
   .form-group label {
     margin-bottom: 2px;
-    font-size: .875rem;
+    font-size: 1rem;
+    align-self: flex-start;
   }
   
   .form-group input,
   .form-group textarea{
     border-radius: 3px 3px 0 0;
-    background-color: rgba(0, 0, 0, .5);
-    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: 0px 2px 15px rgba(13, 62, 81, .2);
+    border-radius: 5px;
     padding: 5px;
     border-bottom: 2px solid transparent;
     transition: 250ms ease-out;
   }
 
   .form-group input:hover, .form-group textarea:hover {
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(13, 62, 81, .2);
+    box-shadow: 0 5px 35px rgba(0, 0, 0, .3);
   }
 
   .form-group input:focus, .form-group textarea:focus {
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(13, 62, 81, .4);
   }
 
   textarea{
@@ -3233,7 +3243,6 @@
   
   .contact {
   display: flex;
-  background-color: rgba(253, 252, 252, 0.1);
   border-radius: 5px;
   }
   /* .contact.form{
@@ -3707,12 +3716,13 @@
 
  #nj-community .row, #nj-volunteer .icons-row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
   grid-auto-rows: 1fr;
-  gap: 1rem;
- }
+  justify-content: center;
+  align-content: center;
+}
 
- #nj-community .row div, #nj-volunteer .icons-row div {
+#nj-community .row div, #nj-volunteer .icons-row div {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -3728,9 +3738,10 @@
   width: 5rem;
   height: 5rem;
   display: flex;
+  color: rgb(48, 11, 46);
   align-items: center;
   justify-content: center;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(243, 243, 243, 1);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, .4);
   border-radius: 50%;
 }
@@ -3812,7 +3823,7 @@
  }
 
  #nj-volunteer .section.nj-light-section .row div span {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: transparent;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, .1);
  }
 
@@ -3825,7 +3836,7 @@
  #team-section .team-images {
   display: grid;
   gap: .5rem;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-auto-rows: 1fr;
  }
 

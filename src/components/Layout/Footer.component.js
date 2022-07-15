@@ -53,7 +53,7 @@ export default function Footer() {
                 Stay up-to-date with our Stellar Story
               </h3>
             </div>
-            <div className="sib-form" style={{ textAlign: "center" }}>
+            <div className="sib-form" style={{ textAlign: "center", padding: 0 }}>
               <div id="sib-form-container" className="sib-form-container">
                 <div
                   id="error-message"
@@ -130,7 +130,7 @@ export default function Footer() {
                         <div className="form__entry entry_block">
                           <div
                             className=""
-                            style={{ display: "flex", width: "100%", alignItems: "center", boxShadow: "-2px 2px 25px rgba(255, 255, 255, .05)" }}
+                            style={{ display: "flex", width: "100%", alignItems: "center", boxShadow: "-2px 2px 25px rgba(255, 255, 255, .03)" }}
                           >
                             <div
                               style={{
@@ -319,7 +319,7 @@ export default function Footer() {
                         <td>
                           <FontAwesomeIcon icon={faLocationArrow} />
                         </td>
-                        <td>Den Bosch, Netherlands</td>
+                        <td>Netherlands</td>
                       </tr>
                     </tbody>
                   </table>

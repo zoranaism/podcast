@@ -34,7 +34,7 @@ export default function About() {
           <div className="row mb-5">
             <div className="col-12">
               <h3 className="mb-3">What is Stellar Sound Podcast?</h3>
-              <p className="nj-section-content">
+              <p className="nj-section-content" style={{maxWidth: "900px"}}>
                 The Stellar Sound Podcast brings you inspiration by interviewing
                 the most creative, innovative, unique, eccentric, and
                 ground-breaking musicians from Europe.
@@ -263,7 +263,7 @@ export default function About() {
               </div>
             </div>
             <div className="nj-testimonials-slider-arrows">
-              <div className="nj-testimonials-slider-next-arrow">
+              <div className="nj-testimonials-slider-next-arrow" data-cursor-effect="hover">
                 <FontAwesomeIcon icon={faArrowRight} />
               </div>
             </div>
