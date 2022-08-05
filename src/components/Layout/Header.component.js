@@ -14,7 +14,7 @@ export default function Header() {
               <div className="navbar-brand">
                 <a className="navbar-item nj-navbar-logo-wrapper" href="/">
                   <div className="nj-navbar-logo">
-                    <img src="img/logo/onlyLogo.webp" alt="Logo"/>
+                    <img src="img/logo/onlyLogo.webp" alt="Logo" />
                   </div>
                 </a>
               </div>
@@ -32,13 +32,13 @@ export default function Header() {
                   >
                     about
                   </a>
-{/*                   <a
+                  <a
                     className="navbar-item"
                     href="become-a-volunteer"
                     data-cursor-effect="hover"
                   >
                     become a volunteer
-                  </a> */}
+                  </a>
                   <a
                     className="navbar-item"
                     href="contact"
@@ -55,7 +55,6 @@ export default function Header() {
                     donate
                   </a>
                   {*/}
-                    
                 </div>
               </div>
               <div className="nj-show-menu-button" id="nj-show-menu-button">
@@ -74,9 +73,9 @@ export default function Header() {
             {/* <a className="nj-mobile-menu-item" href="hosts">
               hosts
             </a> */}
-{/*             <a className="nj-mobile-menu-item" href="become-a-volunteer">
+            <a className="nj-mobile-menu-item" href="become-a-volunteer">
               become a volunteer
-            </a> */}
+            </a>
             <a className="nj-mobile-menu-item" href="contact">
               contact
             </a>

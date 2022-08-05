@@ -84,16 +84,13 @@ const Volunteer = () => {
         <div className="section nj-hero mt-3">
           <div className="container">
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              Starting with each of us, the music industry can become more
+              diverse. You can redefine what is possible for the youth and
+              industry we serve by volunteering with Stellar Sound and inspiring
+              the future generation by sharing your professional experiences and
+              supporting the development of new skills. Start investigating the
+              many ways you can contribute to making the music industry more
+              inclusive and egalitarian.
             </p>
             <h2>why would you join?</h2>
             <div className="row icons-row">
@@ -101,26 +98,26 @@ const Volunteer = () => {
                 <span>
                   <img src="img/icons/idea.webp" alt="Education" />
                 </span>
-                <h3>Exclusive educative content</h3>
+                <h3>Develop new skills</h3>
               </div>
               <div className="icon-holder">
                 <span>
                   <img src="img/icons/live-music.webp" alt="Music Industry" />
                 </span>
-                <h3>Access to the connections in music industry</h3>
+                <h3>Grow your music network</h3>
               </div>
               <div className="icon-holder">
                 <span>
                   <img src="img/icons/celebrating.webp" alt="Fun and Joy" />
                 </span>
-                <h3>Fun and joy</h3>
+                <h3>Remote work</h3>
               </div>
-              <div className="icon-holder">
+              {/* <div className="icon-holder">
                 <span>
                   <img src="img/icons/celebrating.webp" alt="Fun and Joy" />
                 </span>
                 <h3>Fun and joy</h3>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -130,84 +127,46 @@ const Volunteer = () => {
           data-scroll-to-top-style="dark"
           data-cursor-style="dark"
         >
-          <h2>what we do?</h2>
+          <h2 className="mb-5">what we do?</h2>
           <div className="container">
-            <div className="row icons-row">
-              <div className="icon-holder">
-                <span>
-                  <img src="img/icons/idea.webp" alt="Education" />
-                </span>
-                <h3>Exclusive educative content</h3>
-              </div>
-              <div className="icon-holder">
-                <span>
-                  <img src="img/icons/live-music.webp" alt="Music Industry" />
-                </span>
-                <h3>Access to the connections in music industry</h3>
-              </div>
-              <div className="icon-holder">
-                <span>
-                  <img src="img/icons/celebrating.webp" alt="Fun and Joy" />
-                </span>
-                <h3>Fun and joy</h3>
-              </div>
-              <div className="icon-holder">
-                <span>
-                  <img src="img/icons/celebrating.webp" alt="Fun and Joy" />
-                </span>
-                <h3>Fun and joy</h3>
-              </div>
-              <div className="icon-holder">
-                <span>
-                  <img src="img/icons/celebrating.webp" alt="Fun and Joy" />
-                </span>
-                <h3>Fun and joy</h3>
-              </div>
-            </div>
+            <p>
+              We are dedicated and actively engaged in supporting and improving
+              content in the music industry by empowering musicians', supporting
+              racial and gender diversity, exploring, exhibiting, showcasing and
+              creating modern art that is combining latest technology and modern
+              media.
+            </p>
+            <p>
+              Our purpose is to promote the voice of artistic authenticity all
+              over the world. Through grassroots marketing, social media, and
+              word of mouth, we run an ongoing campaign to promote artists and
+              increase awareness of their work. For the purpose of linking
+              artists to a receptive, discerning audience, we put our attention
+              on initiatives to expand the general awareness of the arts and
+              culture community. These initiatives become projects that expand
+              our visibility.
+            </p>
           </div>
         </div>
-        {/* TEAM SECTION */}
-        <div className="section nj-dark-section" id="team-section">
-          <div className="nj-section-header mb-5">
-            <h1 className="nj-section-header-title">The team</h1>
-          </div>
-          <div className="container team-images">
-            {galleryImages.map((image, index) => {
-              return (
-                <img
-                  onClick={() => imageClickHandler(index)}
-                  data-cursor-effect="hover"
-                  src={process.env.PUBLIC_URL + image}
-                  key={index}
-                  alt="gallery image"
-                />
-              );
-            })}
-          </div>
-        </div>
+
         {/* WHO WE ARE SECTION */}
-        <div className="container mt-0">
-          <div className="nj-section-header">
-            <h1 className="nj-section-header-title-team nj-mt-60 who-we-are">
-              who we are
-            </h1>
+        <div className="container mt-5">
+          <div class="nj-section-header ">
+            <h1 class="nj-section-header-title mt-5"> who we are</h1>
           </div>
         </div>
         <div className="container">
           <div className="row">
             <div className="col-12">
               <p className="nj-section-content">
-                The magic we find in other people's originality is the spark
-                that is driving our team.
-              </p>
-              <p className="nj-section-content">
-                We are based in Den Bosch, Utrecht, Niš, San Juan, Amsterdam,
-                Paris, Toronto, Hague and Belgrade; working from home, connected
-                by a universal mind.
+                We are a group of professionals coming from various backgrounds
+                working on the organization and execution of projects. We are
+                based all over the world and working via our Discord channel
               </p>
             </div>
           </div>
         </div>
+
         <div className="container">
           <div className="row fourth">
             <h3 className="mt-5 col-12" style={{ marginBottom: "25px" }}>
@@ -215,10 +174,10 @@ const Volunteer = () => {
             </h3>
 
             <div
-              className="card mb-3 col-lg-4 col-12"
+              className="card mb-3 col-lg-3 col-12"
               style={{ marginTop: "0px", border: "none" }}
             >
-              <div className="img-box" style={{ width: "18rem" }}>
+              <div className="img-box" style={{ width: "16rem" }}>
                 <img
                   className="card-img-top"
                   src="img/hosts/Radina-Dimcheva.webp"
@@ -291,83 +250,11 @@ const Volunteer = () => {
                 </a>
               </div>
             </div>
-
-            {/*             <div
-              className="card mb-3 col-lg-4 col-12"
-              style={{ marginTop: "0px", border: "none" }}
-            >
-              <div className="img-box" style={{ width: "18rem" }}>
-                <img
-                  className="card-img-top"
-                  src="img/hosts/Justen-Williams.webp"
-                  alt="Justen"
-                />
-                <ul>
-                  <a
-                    target="blank"
-                    href="https://twitter.com/jus10williams "
-                    data-cursor-effect="hover"
-                  >
-                    <li>
-                    <FontAwesomeIcon icon={["fab", "twitter"]} ></FontAwesomeIcon>
-                    </li>
-                  </a>
-                  <a
-                    target="blank"
-                    href="https://www.youtube.com/channel/UCbeTpbH9rnJVrU4vahU-ZTA "
-                    data-cursor-effect="hover"
-                  >
-                    <li>
-                    <FontAwesomeIcon icon={["fab", "youtube"]} ></FontAwesomeIcon>
-                    </li>
-                  </a>
-                  <a
-                    target="blank"
-                    href="https://www.instagram.com/jus10williams/"
-                    data-cursor-effect="hover"
-                  >
-                    <li>
-                    <FontAwesomeIcon icon={["fab", "instagram"]} ></FontAwesomeIcon>
-                    </li>
-                  </a>
-                </ul>
-              </div>
-            </div>
-
-            <div className="card-body col-lg-8 col-12 p-3 mb-section">
-              <h5 className="card-title">JUSTEN WILLIAMS</h5>
-              <p
-                className="card-text card-text-host"
-                style={{ fontWeight: "400" }}
-              >
-                "Hi there! My name is Justen Williams. I am a comedian, actor
-                and podcaster from Toronto, Ontario Canada. I used to operate a
-                solo podcast called “The gift of gab” where I would interview a
-                wide range of local talent. As an actor, I have not done
-                anything too big; but my claim to fame is a commercial on
-                YouTube which has 1.2 Million views. I recently teamed-up with
-                two other gentlemen to form Pro Sports Podcasters, where we
-                interview athletes and where we shed light on sports which do
-                not get enough TV time. Finally, as a comic (which is my true
-                passion), I have performed in various cities across North
-                America, and Germany. I look forward to e-meeting all of you!"
-              </p>
-
-              <div className="nj-read-more-button-wrapper">
-                <a
-                  className="nj-button nj-button-white"
-                  href="justen"
-                  data-cursor-effect="exclusion"
-                >
-                  Find out more
-                </a>
-              </div>
-            </div> */}
             <div
-              className="card mb-3 col-lg-4 col-12"
+              className="card mb-3 col-lg-3 col-12"
               style={{ marginTop: "0px", border: "none" }}
             >
-              <div className="img-box" style={{ width: "18rem" }}>
+              <div className="img-box" style={{ width: "16rem" }}>
                 <img
                   className="card-img-top"
                   src="img/hosts/Leanri-Paulsen.webp"
@@ -443,10 +330,10 @@ const Volunteer = () => {
               </div>
             </div>
             <div
-              className="card mb-3 col-lg-4 col-12"
+              className="card mb-3 col-lg-3 col-12"
               style={{ marginTop: "0px", border: "none" }}
             >
-              <div className="img-box" style={{ width: "18rem" }}>
+              <div className="img-box" style={{ width: "16rem" }}>
                 <img
                   className="card-img-top"
                   src="img/hosts/Roland.webp"
@@ -534,9 +421,8 @@ const Volunteer = () => {
             <div className="row">
               <div className="col-12">
                 <p className="nj-section-content">
-                  We are always open for new volunteers. All passionate,
-                  like-minded people should take the opportunity of joining the
-                  Stellar Team and contribute to the better music world.
+                  Improve your skill set, grow your network and empower global
+                  arts and culture initiatives TODAY!
                 </p>
               </div>
             </div>
@@ -555,6 +441,26 @@ const Volunteer = () => {
             </div>
           </div>
         </div>
+
+        {/* TEAM SECTION */}
+        {/* <div className="section nj-dark-section" id="team-section">
+          <div className="nj-section-header mb-5">
+            <h1 className="nj-section-header-title">Gallery</h1>
+          </div>
+          <div className="container team-images">
+            {galleryImages.map((image, index) => {
+              return (
+                <img
+                  onClick={() => imageClickHandler(index)}
+                  data-cursor-effect="hover"
+                  src={process.env.PUBLIC_URL + image}
+                  key={index}
+                  alt="gallery"
+                />
+              );
+            })}
+          </div>
+        </div> */}
       </div>
     </React.Fragment>
   );

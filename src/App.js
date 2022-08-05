@@ -24,13 +24,12 @@ import Episode7 from "./pages/AllEpisodes/Season1/EP7";
 import Episode8 from "./pages/AllEpisodes/Season1/EP8";
 import Episode9 from "./pages/AllEpisodes/Season1/EP9";
 import SingleEpisode from "./components/EpisodesPage.component";
-import Justen from "./pages/Justen";
 import Radina from "./pages/Radina";
 import Leanri from "./pages/Leanri";
 import ScrollToTop from "./components/ScrollToTop";
 import Volunteer from "./pages/Volunteer";
 import Roland from "./pages/Roland";
-import ReactGA from 'react-ga';
+import ReactGA from "react-ga";
 const TRACKING_ID = "UA-192929021-1"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
@@ -71,7 +70,6 @@ function App() {
             <Route path="/contact" component={ContactUs} />
             <Route path="/donate" component={Donate} />
             <Route path="/about" component={About} />
-            <Route path="/justen" component={Justen} />
             <Route path="/radina" component={Radina} />
             <Route path="/leanri" component={Leanri} />
             <Route path="/roland" component={Roland} />
