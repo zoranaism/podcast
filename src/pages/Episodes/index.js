@@ -3,23 +3,19 @@ import SingleEpisode from "../../components/EpisodesPage.component";
 
 import episodesData from "../../allEpisodesData";
 
-import { Link} from "react-router-dom";
-
+import { Link } from "react-router-dom";
 
 export default function Episodes() {
-
-//Episode data
-const episodes = episodesData();
-
+  //Episode data
+  const episodes = episodesData();
 
   return (
     <main>
       <div id="nj-preloader-wrapper">
-    <div className="nj-preloader-inner">
-      <div className="nj-preloader-percentage">0</div>
-    </div>
-    </div>
-
+        <div className="nj-preloader-inner">
+          <div className="nj-preloader-percentage">0</div>
+        </div>
+      </div>
 
       <div
         className="section nj-light-section nj-portfolio-section nj-pdt-0 nj-pdb-0"
@@ -86,7 +82,7 @@ const episodes = episodesData();
                 altText={altText}
                 guest={guest}
                 description={description}
-                key={new Date().getTime()+index}
+                key={new Date().getTime() + index}
               />
             );
           })}
@@ -103,10 +99,13 @@ const episodes = episodesData();
       >
         <div className="row text-center">
           <div className="nj-button-wrapper nj-pdt-60 nj-pdb-60">
-            <a href="/"
+            <a
+              href="/"
               className="nj-button nj-button-black"
               data-cursor-effect="hover"
-            >GO HOME</a>
+            >
+              GO HOME
+            </a>
           </div>
         </div>
       </div>

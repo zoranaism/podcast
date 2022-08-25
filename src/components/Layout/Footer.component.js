@@ -53,7 +53,10 @@ export default function Footer() {
                 Stay up-to-date with our Stellar Story
               </h3>
             </div>
-            <div className="sib-form" style={{ textAlign: "center", padding: 0 }}>
+            <div
+              className="sib-form"
+              style={{ textAlign: "center", padding: 0 }}
+            >
               <div id="sib-form-container" className="sib-form-container">
                 <div
                   id="error-message"
@@ -130,7 +133,13 @@ export default function Footer() {
                         <div className="form__entry entry_block">
                           <div
                             className=""
-                            style={{ display: "flex", width: "100%", alignItems: "center", boxShadow: "-2px 2px 25px rgba(255, 255, 255, .03)" }}
+                            style={{
+                              display: "flex",
+                              width: "100%",
+                              alignItems: "center",
+                              boxShadow:
+                                "-2px 2px 25px rgba(255, 255, 255, .03)",
+                            }}
                           >
                             <div
                               style={{
@@ -146,9 +155,9 @@ export default function Footer() {
                               <input
                                 className="input"
                                 type="text"
-                                style={{ 
-                                  color: "white", 
-                                  height: "100%", 
+                                style={{
+                                  color: "white",
+                                  height: "100%",
                                   display: "flex",
                                   borderRadius: "5px 0 0 5px",
                                   textTransform: "none",
@@ -164,7 +173,7 @@ export default function Footer() {
                             </div>
 
                             <button
-                            data-cursor-effect="hover"
+                              data-cursor-effect="hover"
                               className="border border-white sib-form-block__button sib-form-block__button-with-loader"
                               style={{
                                 fontSize: ".875rem",
@@ -175,7 +184,7 @@ export default function Footer() {
                                 borderRadius: "0 5px 5px 0",
                                 display: "flex",
                                 alignContent: "center",
-                                justifyContent: "center"
+                                justifyContent: "center",
                               }}
                               form="sib-form"
                               type="submit"
@@ -273,7 +282,12 @@ export default function Footer() {
               >
                 <a
                   target="_blank"
-                  style={{display: "flex", justifyContent: "center", width: "fit-content", margin: "0 auto"}}
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    width: "fit-content",
+                    margin: "0 auto",
+                  }}
                   href="https://www.youtube.com/channel/UCXnT7Ih32dLtFhGAtYtsR2g"
                   data-cursor-effect="exclusion"
                 >
@@ -319,7 +333,10 @@ export default function Footer() {
                     className="navbar-menu justify-content-end align-items-center"
                     id=""
                   >
-                    <div className="socials-navigation justify-content-start align-items-center" id="socials-navigation">
+                    <div
+                      className="socials-navigation justify-content-start align-items-center"
+                      id="socials-navigation"
+                    >
                       <a
                         target="blank"
                         className="socials-link"
@@ -365,7 +382,10 @@ export default function Footer() {
             <div className="nj-footer-socials">
               <span className="text-center d-flex justify-content-center align-items-center mt-2">
                 {currentYear} Stellar Sound Podcast
-                <FontAwesomeIcon icon={faCopyright} style={{fontSize: ".75rem", marginLeft: "4px"}} />
+                <FontAwesomeIcon
+                  icon={faCopyright}
+                  style={{ fontSize: ".75rem", marginLeft: "4px" }}
+                />
               </span>
             </div>
           </div>

@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Modal from "../../components/Modal";
 import { createPortal } from "react-dom";
 import useAnalyticsEventTracker from "../../useAnalyticsEventTracker";
+import { Roles } from "./Roles/roles";
 
 const Volunteer = () => {
   const gaEventTracker = useAnalyticsEventTracker("Volunteer");
@@ -80,48 +81,21 @@ const Volunteer = () => {
         <div className="nj-section-header">
           <h1 className="nj-section-header-title mt-5">Become a volunteer</h1>
         </div>
-        {/* WHY JOIN US SECTION */}
-        <div className="section nj-hero mt-3">
-          <div className="container">
-            <p>
-              Starting with each of us, the music industry can become more
-              diverse. You can redefine what is possible for the youth and
-              industry we serve by volunteering with Stellar Sound and inspiring
-              the future generation by sharing your professional experiences and
-              supporting the development of new skills. Start investigating the
-              many ways you can contribute to making the music industry more
-              inclusive and egalitarian.
-            </p>
-            <h2>why would you join?</h2>
-            <div className="row icons-row">
-              <div className="icon-holder">
-                <span>
-                  <img src="img/icons/idea.webp" alt="Education" />
-                </span>
-                <h3>Develop new skills</h3>
-              </div>
-              <div className="icon-holder">
-                <span>
-                  <img src="img/icons/live-music.webp" alt="Music Industry" />
-                </span>
-                <h3>Grow your music network</h3>
-              </div>
-              <div className="icon-holder">
-                <span>
-                  <img src="img/icons/celebrating.webp" alt="Fun and Joy" />
-                </span>
-                <h3>Remote work</h3>
-              </div>
-              {/* <div className="icon-holder">
-                <span>
-                  <img src="img/icons/celebrating.webp" alt="Fun and Joy" />
-                </span>
-                <h3>Fun and joy</h3>
-              </div> */}
-            </div>
-          </div>
+        <p>
+          Starting with each of us, the music industry can become more diverse.
+          You can redefine what is possible for the youth and industry we serve
+          by volunteering with Stellar Sound and inspiring the future generation
+          by sharing your professional experiences and supporting the
+          development of new skills. Start investigating the many ways you can
+          contribute to making the music industry more inclusive and
+          egalitarian.
+        </p>
+
+        <div className="section nj-hero" id="nj-volunteer">
+
+        <Roles />
         </div>
-        {/* WHAT WE DO SECTION */}
+
         <div
           className="section nj-light-section"
           data-scroll-to-top-style="dark"
@@ -421,11 +395,57 @@ const Volunteer = () => {
             <div className="row">
               <div className="col-12">
                 <p className="nj-section-content">
-                  Improve your skill set, grow your network and empower global
-                  arts and culture initiatives TODAY!
+                  Apply by sending an email with the following to
+                  stellarsoundhr@gmail.com.
                 </p>
+                <ul>
+                  <li>Your Resume</li>
+                  <li>
+                    Please state the position you are applying for in the
+                    subject of the email
+                  </li>
+                  <li>
+                    Tell us why you want to be part of the Stellar Sound Team.
+                  </li>
+                </ul>
               </div>
             </div>
+            {/* WHY JOIN US SECTION */}
+
+            <div className="container">
+              <div className="row icons-row">
+                <div className="icon-holder">
+                  <span>
+                    <img src="img/icons/idea.webp" alt="Education" />
+                  </span>
+                  <h3>Develop new skills</h3>
+                </div>
+                <div className="icon-holder">
+                  <span>
+                    <img src="img/icons/live-music.webp" alt="Music Industry" />
+                  </span>
+                  <h3>Grow your music network</h3>
+                </div>
+                <div className="icon-holder">
+                  <span>
+                    <img src="img/icons/celebrating.webp" alt="Fun and Joy" />
+                  </span>
+                  <h3>Remote work</h3>
+                </div>
+                {/* <div className="icon-holder">
+                <span>
+                  <img src="img/icons/celebrating.webp" alt="Fun and Joy" />
+                </span>
+                <h3>Fun and joy</h3>
+              </div> */}
+              </div>
+              <div className="row justify-content-md-center">
+                Improve your skill set, grow your network and empower global
+                arts and culture initiatives TODAY!
+              </div>
+            </div>
+
+            {/* WHAT WE DO SECTION */}
             <div className="row justify-content-md-center mt-5">
               <a
                 target="blank"
