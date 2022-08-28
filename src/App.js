@@ -28,7 +28,6 @@ import Radina from "./pages/Radina";
 import Leanri from "./pages/Leanri";
 import ScrollToTop from "./components/ScrollToTop";
 import Volunteer from "./pages/Volunteer";
-import Roland from "./pages/Roland";
 import ReactGA from "react-ga";
 const TRACKING_ID = "UA-192929021-1"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
@@ -72,7 +71,6 @@ function App() {
             <Route path="/about" component={About} />
             <Route path="/radina" component={Radina} />
             <Route path="/leanri" component={Leanri} />
-            <Route path="/roland" component={Roland} />
             <Route path="/become-a-volunteer" component={Volunteer} />
             <Route path="/episodes" component={Episodes} />
             <SingleEpisode />
