@@ -79,21 +79,44 @@ const Volunteer = () => {
       </div>
       <div className="section nj-hero" id="nj-volunteer">
         <div className="nj-section-header">
-          <h1 className="nj-section-header-title mt-5">Become a volunteer</h1>
+          <h1 className="nj-section-header-title mb-5 mt-5">Become a volunteer</h1>
         </div>
-        <p>
-          Starting with each of us, the music industry can become more diverse.
-          You can redefine what is possible for the youth and industry we serve
-          by volunteering with Stellar Sound and inspiring the future generation
-          by sharing your professional experiences and supporting the
-          development of new skills. Start investigating the many ways you can
-          contribute to making the music industry more inclusive and
-          egalitarian.
-        </p>
+
+        <div className="container">
+          <p>
+            Starting with each of us, the music industry can become more
+            diverse. You can redefine what is possible for the youth and
+            industry we serve by volunteering with Stellar Sound and inspiring
+            the future generation by sharing your professional experiences and
+            supporting the development of new skills. Start investigating the
+            many ways you can contribute to making the music industry more
+            inclusive and egalitarian.
+          </p>
+        </div>
 
         <div className="section nj-hero" id="nj-volunteer">
+          <Roles />
+        </div>
 
-        <Roles />
+        <div className="mt-3 mb-5 container">
+          <h3 class="card-title">What we offer:</h3>
+          <div className="row">
+            <div className="col-12">
+              <ul>
+                <li>A flexibility working remote</li>
+                <li>
+                  Working with international teams in a multicultural
+                  environment
+                </li>
+                <li>Working in the entertainment industry</li>
+                <li>Space for out-of-the-box and fun content creation</li>
+                <li>Support and guidance in learning new skills</li>
+                <li>Working with a passionate team with a strong vision</li>
+                <li>Work few hours per week</li>
+                <li>Using modern tools and latest tech</li>
+              </ul>
+            </div>
+          </div>
         </div>
 
         <div
@@ -101,7 +124,8 @@ const Volunteer = () => {
           data-scroll-to-top-style="dark"
           data-cursor-style="dark"
         >
-          <h2 className="mb-5">what we do?</h2>
+          <h1 class="nj-section-header-title mb-5"> what we do?</h1>
+
           <div className="container">
             <p>
               We are dedicated and actively engaged in supporting and improving
@@ -120,6 +144,27 @@ const Volunteer = () => {
               culture community. These initiatives become projects that expand
               our visibility.
             </p>
+          </div>
+
+          <div className="row icons-row">
+            <div className="icon-holder">
+              <span>
+                <img src="img/icons/idea.webp" alt="Education" />
+              </span>
+              <h3>Independence</h3>
+            </div>
+            <div className="icon-holder">
+              <span>
+                <img src="img/icons/live-music.webp" alt="Music Industry" />
+              </span>
+              <h3>Proactiveness</h3>
+            </div>
+            <div className="icon-holder">
+              <span>
+                <img src="img/icons/celebrating.webp" alt="Fun and Joy" />
+              </span>
+              <h3>Good communication</h3>
+            </div>
           </div>
         </div>
 
@@ -141,10 +186,10 @@ const Volunteer = () => {
           </div>
         </div>
 
-        <div className="container">
+        <div className="container mb-5">
           <div className="row fourth">
             <h3 className="mt-5 col-12" style={{ marginBottom: "25px" }}>
-              Stellar Hosts:
+              Stellar Sound Podcast Hosts:
             </h3>
 
             <div
@@ -303,84 +348,9 @@ const Volunteer = () => {
                 </a>
               </div>
             </div>
-            <div
-              className="card mb-3 col-lg-3 col-12"
-              style={{ marginTop: "0px", border: "none" }}
-            >
-              <div className="img-box" style={{ width: "16rem" }}>
-                <img
-                  className="card-img-top"
-                  src="img/hosts/Roland.webp"
-                  alt="Roland"
-                />
-                <ul>
-                  <a
-                    target="blank"
-                    href="https://musicscribble.bandcamp.com/"
-                    data-cursor-effect="hover"
-                  >
-                    <li>
-                      <FontAwesomeIcon
-                        icon={["fab", "bandcamp"]}
-                      ></FontAwesomeIcon>
-                    </li>
-                  </a>
-                  <a
-                    target="blank"
-                    href="http://bit.ly/3HbRk29"
-                    data-cursor-effect="hover"
-                  >
-                    <li>
-                      <FontAwesomeIcon
-                        icon={["fab", "youtube"]}
-                      ></FontAwesomeIcon>
-                    </li>
-                  </a>
-                  <a
-                    target="blank"
-                    href="https://www.instagram.com/music.scribble/"
-                    data-cursor-effect="hover"
-                  >
-                    <li>
-                      <FontAwesomeIcon
-                        icon={["fab", "instagram"]}
-                      ></FontAwesomeIcon>
-                    </li>
-                  </a>
-                </ul>
-              </div>
-            </div>
-
-            <div className="card-body col-lg-8 col-12 p-3">
-              <h5 className="card-title">ROLAND STOLK</h5>
-              <p
-                className="card-text card-text-host"
-                style={{ fontWeight: "400" }}
-              >
-                "Roland Stolk began playing piano at the age of eight and drums
-                at ten. He studied drums at the Elementary School for Ballet and
-                Music in Rotterdam, where he discovered the vibraphone. At
-                sixteen, he began studying vibraphone and drums at the Rotterdam
-                Conservatory in Rotterdam during which time he followed
-                workshops by Milt Jackson and Dave Samuels. Roland graduated
-                with honers from the Rotterdam Conservatory in 1987. In 1989,
-                Roland continued his study at the Berklee College of Music in
-                Boston, Massachusetts, USA, he studied under Ed Saindon and Gary
-                Burton."
-              </p>
-
-              <div className="nj-read-more-button-wrapper">
-                <a
-                  className="nj-button nj-button-white"
-                  href="roland"
-                  data-cursor-effect="exclusion"
-                >
-                  Find out more
-                </a>
-              </div>
-            </div>
           </div>
         </div>
+
         {/* JOIN US SECTION */}
         <div
           className="section nj-light-section nj-pdt-60"
@@ -395,55 +365,15 @@ const Volunteer = () => {
             <div className="row">
               <div className="col-12">
                 <p className="nj-section-content">
-                  Apply by sending an email with the following to
-                  stellarsoundhr@gmail.com.
+                  Apply by sending mail to stellarsoundhr@gmail.com your Resume,
+                  position you are applying for, as well as the reason you want
+                  to be part of the team
                 </p>
-                <ul>
-                  <li>Your Resume</li>
-                  <li>
-                    Please state the position you are applying for in the
-                    subject of the email
-                  </li>
-                  <li>
-                    Tell us why you want to be part of the Stellar Sound Team.
-                  </li>
-                </ul>
               </div>
             </div>
+
             {/* WHY JOIN US SECTION */}
 
-            <div className="container">
-              <div className="row icons-row">
-                <div className="icon-holder">
-                  <span>
-                    <img src="img/icons/idea.webp" alt="Education" />
-                  </span>
-                  <h3>Develop new skills</h3>
-                </div>
-                <div className="icon-holder">
-                  <span>
-                    <img src="img/icons/live-music.webp" alt="Music Industry" />
-                  </span>
-                  <h3>Grow your music network</h3>
-                </div>
-                <div className="icon-holder">
-                  <span>
-                    <img src="img/icons/celebrating.webp" alt="Fun and Joy" />
-                  </span>
-                  <h3>Remote work</h3>
-                </div>
-                {/* <div className="icon-holder">
-                <span>
-                  <img src="img/icons/celebrating.webp" alt="Fun and Joy" />
-                </span>
-                <h3>Fun and joy</h3>
-              </div> */}
-              </div>
-              <div className="row justify-content-md-center">
-                Improve your skill set, grow your network and empower global
-                arts and culture initiatives TODAY!
-              </div>
-            </div>
 
             {/* WHAT WE DO SECTION */}
             <div className="row justify-content-md-center mt-5">
@@ -456,7 +386,7 @@ const Volunteer = () => {
                   gaEventTracker("become a volunteer volunteer page")
                 }
               >
-                become a volunteer
+                apply
               </a>
             </div>
           </div>

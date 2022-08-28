@@ -3914,6 +3914,7 @@ a.link-style:focus {
   align-items: center;
   justify-content: flex-start;
   padding: 2rem;
+  padding-bottom: 0;
   gap: 10px;
   border-radius: 5px;
 }
