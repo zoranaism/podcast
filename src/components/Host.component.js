@@ -33,41 +33,55 @@ export default function HostComponent({
         <h1 className="nj-section-header-title-episodes pt-120px">{name}</h1>
 
         <ul className="host-component__list" style={{ display: "flex" }}>
-          {facebook.length !== 0 && <a target="_blank" href={facebook} data-cursor-effect="hover">
-            <li>
-              <FontAwesomeIcon icon={["fab", "facebook"] } ></FontAwesomeIcon>
-            </li>
-          </a>}
-          {twitch.length !== 0 && <a target="_blank" href={twitch} data-cursor-effect="hover">
-            <li>
-              <FontAwesomeIcon icon={["fab", "twitch"] } ></FontAwesomeIcon>
-            </li>
-          </a>}
-          {youtubeLink.length !== 0 && <a target="_blank" href={youtubeLink} data-cursor-effect="hover">
-            <li>
-              <FontAwesomeIcon icon={["fab", "youtube"] } ></FontAwesomeIcon>
-            </li>
-          </a>}
-          {instagram.length !== 0 && <a target="_blank" href={instagram} data-cursor-effect="hover">
-            <li>
-              <FontAwesomeIcon icon={["fab", "instagram"] } ></FontAwesomeIcon>
-            </li>
-          </a>}
-          {soundCloud.length !== 0 && <a target="_blank" href={soundCloud} data-cursor-effect="hover">
-          <li>
-              <FontAwesomeIcon icon={["fab", "soundcloud"] } ></FontAwesomeIcon>
-            </li>
-          </a>}
-          {twitter.length !== 0 && <a target="_blank" href={twitter} data-cursor-effect="hover">
-          <li>
-              <FontAwesomeIcon icon={["fab", "twitter"] } ></FontAwesomeIcon>
-            </li>
-          </a>}
-          {bandcamp.length !== 0 && <a target="_blank" href={bandcamp} data-cursor-effect="hover">
-          <li>
-              <FontAwesomeIcon icon={["fab", "bandcamp"] } ></FontAwesomeIcon>
-            </li>
-          </a>}
+          {facebook.length !== 0 && (
+            <a target="_blank" href={facebook} data-cursor-effect="hover">
+              <li>
+                <FontAwesomeIcon icon={["fab", "facebook"]}></FontAwesomeIcon>
+              </li>
+            </a>
+          )}
+          {twitch.length !== 0 && (
+            <a target="_blank" href={twitch} data-cursor-effect="hover">
+              <li>
+                <FontAwesomeIcon icon={["fab", "twitch"]}></FontAwesomeIcon>
+              </li>
+            </a>
+          )}
+          {youtubeLink.length !== 0 && (
+            <a target="_blank" href={youtubeLink} data-cursor-effect="hover">
+              <li>
+                <FontAwesomeIcon icon={["fab", "youtube"]}></FontAwesomeIcon>
+              </li>
+            </a>
+          )}
+          {instagram.length !== 0 && (
+            <a target="_blank" href={instagram} data-cursor-effect="hover">
+              <li>
+                <FontAwesomeIcon icon={["fab", "instagram"]}></FontAwesomeIcon>
+              </li>
+            </a>
+          )}
+          {soundCloud.length !== 0 && (
+            <a target="_blank" href={soundCloud} data-cursor-effect="hover">
+              <li>
+                <FontAwesomeIcon icon={["fab", "soundcloud"]}></FontAwesomeIcon>
+              </li>
+            </a>
+          )}
+          {twitter.length !== 0 && (
+            <a target="_blank" href={twitter} data-cursor-effect="hover">
+              <li>
+                <FontAwesomeIcon icon={["fab", "twitter"]}></FontAwesomeIcon>
+              </li>
+            </a>
+          )}
+          {bandcamp.length !== 0 && (
+            <a target="_blank" href={bandcamp} data-cursor-effect="hover">
+              <li>
+                <FontAwesomeIcon icon={["fab", "bandcamp"]}></FontAwesomeIcon>
+              </li>
+            </a>
+          )}
         </ul>
       </div>
 

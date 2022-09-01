@@ -113,7 +113,7 @@ const Volunteer = () => {
                 <li>Support and guidance in learning new skills</li>
                 <li>Working with a passionate team with a strong vision</li>
                 <li>Work few hours per week</li>
-                <li>Using modern tools and latest tech</li>
+                <li>Usage of modern tools and latest tech</li>
               </ul>
             </div>
           </div>
