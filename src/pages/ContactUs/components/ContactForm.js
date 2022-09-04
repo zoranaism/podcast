@@ -70,7 +70,7 @@ export default function ContactForm(props) {
             ></textarea>
           </div>
 
-          <div className="container">
+          <div className="container mt-3">
            
             <div className="row center">
               <button
