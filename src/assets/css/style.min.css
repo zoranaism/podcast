@@ -3134,6 +3134,10 @@ section .nj-dark-section .nj-animated-section .container {
   background: transparent;
 }
 
+.card-body .card-title {
+  color: white;
+  font-weight: 700;
+}
 .card {
   border-style: none;
   margin-top: 25px;
