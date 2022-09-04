@@ -27,6 +27,13 @@ export default function Header() {
                 <div className="navbar-start">
                   <a
                     className="navbar-item"
+                    href="/"
+                    data-cursor-effect="hover"
+                  >
+                    home
+                  </a>
+                  <a
+                    className="navbar-item"
                     href="about"
                     data-cursor-effect="hover"
                   >
@@ -67,6 +74,9 @@ export default function Header() {
       <div id="nj-mobile-menu">
         <div className="nj-mobile-menu-content">
           <div className="nj-mobile-menu-item-wrapper">
+            <a className="nj-mobile-menu-item" href="/">
+              home
+            </a>
             <a className="nj-mobile-menu-item" href="about">
               about
             </a>

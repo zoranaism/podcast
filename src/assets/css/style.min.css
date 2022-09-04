@@ -419,6 +419,24 @@ p.nj-news-body-text {
   position: absolute;
 }
 
+.nj-quote {
+  font-size: large;
+}
+
+.nj-client-name-wrapper {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.nj-client-name-wrapper > img {
+  height: 90px;
+  width: 90px;
+  border-radius: 100%;
+}
+
+.nj-client-name {
+}
+
 /* line 237, src/sass/style.sass */
 .nj-blockquote span.nj-blockquote-quote {
   padding: 5px 20px 5px 60px;
@@ -781,6 +799,7 @@ footer {
   overflow-y: auto;
   overflow-x: hidden;
   transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* line 469, src/sass/style.sass */
@@ -2110,7 +2129,7 @@ main {
 /* */
 /* line 1100, src/sass/style.sass */
 footer {
-  padding: 3rem 1.5rem 1rem !important;
+  padding: 10px !important;
 }
 
 /* line 1102, src/sass/style.sass */
@@ -2182,8 +2201,6 @@ img.nj-footer-logo-text {
 
 /* line 1124, src/sass/style.sass */
 .nj-footer .nj-footer-socials-wrapper {
-  margin-top: 30px;
-  margin-bottom: 10px;
   border-top: 1px solid #c4c4c4;
 }
 
@@ -3363,7 +3380,6 @@ h2.nj-section-header-title-episodes {
 }
 .form-group {
   width: 100%;
-  max-width: 300px;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
@@ -3381,10 +3397,9 @@ h2.nj-section-header-title-episodes {
 
 .form-group input,
 .form-group textarea {
-  border-radius: 3px 3px 0 0;
-  background-color: rgba(0, 0, 0, 1);
+  background-color: #fff;
+  opacity: 0.9;
   box-shadow: 0px 2px 15px rgba(13, 62, 81, 0.2);
-  border-radius: 5px;
   padding: 5px;
   border-bottom: 2px solid transparent;
   transition: 250ms ease-out;
@@ -3392,13 +3407,13 @@ h2.nj-section-header-title-episodes {
 
 .form-group input:hover,
 .form-group textarea:hover {
-  background-color: rgba(13, 62, 81, 0.2);
+  /* background-color: white; */
   box-shadow: 0 5px 35px rgba(0, 0, 0, 0.3);
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
-  background-color: rgba(13, 62, 81, 0.4);
+  /* background-color: white; */
 }
 
 textarea {
@@ -3415,7 +3430,7 @@ textarea {
   background: transparent;
   padding: 20px 40px;
   outline: none;
-  color: white;
+  color: black;
   transition: 0.5s;
 }
 
@@ -3444,13 +3459,12 @@ button[type="submit"] {
   } */
 
 .contact button[type="submit"] {
+  margin: 0 auto;
   position: relative;
-  left: 50%;
-  transform: translateX(-50%);
   padding: 0;
   max-width: 100%;
   width: 200px;
-  height: 2.5rem;
+  height: 3.5rem;
   background-color: #fff;
   border: none;
   color: #000;
@@ -3657,11 +3671,12 @@ a.link-style:focus {
 
 .team-img-wrapper img {
   width: 100%;
+  max-width: 500px;
 }
 .team-text-wrapper {
   margin-top: 70px;
-  margin-bottom: 170px;
-  margin-left: 50px;
+  margin-bottom: 70px;
+  margin: 0 auto;
 }
 .button-wrapper {
   margin-left: 50px;
@@ -4129,12 +4144,18 @@ a.link-style:focus {
   border: 0;
   background: white;
   text-align: left;
-  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
   color: black;
   font-size: 16px;
-  padding: 8px 20px;
+  padding: 6px 20px;
 }
 
 .accordion-header {
   margin-top: 2px !important;
+}
+
+.center-socials {
+  margin: 0 auto;
 }
