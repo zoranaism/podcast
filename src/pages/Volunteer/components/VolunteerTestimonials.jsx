@@ -4,7 +4,7 @@ import React from "react";
 const testimonialsData = [
   {
     name: "Zsolt Argyelan",
-    text: "The concept is great, the duration of the podcast is perfect. Host's preparatory and well as interview was flawless.",
+    text: "The concept is great, the duration of the podcast is perfect. Host's preparation as well as interview was flawless.",
     role: "guest",
     img: "zsolt-image",
   },

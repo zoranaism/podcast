@@ -16,12 +16,12 @@ export const WhatWeOffer = () => {
             <ul>
               <li>Remote work</li>
               <li>
-                Working with international teams in a multicultural environment
+                Working in international envitonment
               </li>
               <li>Working in the entertainment industry</li>
-              <li>Space for out-of-the-box and fun content creation</li>
-              <li>Support and guidance in learning new skills</li>
-              <li>Working with a passionate team with a strong vision</li>
+              <li>Fun content creation</li>
+              <li>Guidance in learning new skills</li>
+              <li>Working in passionate team with a strong vision</li>
               <li>Work few hours per week</li>
               <li>Usage of modern tools and latest tech</li>
             </ul>

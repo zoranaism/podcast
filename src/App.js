@@ -13,6 +13,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 // import Donate from "./pages/Donate";
 import Layout from "./components/Layout/Layout";
+import Guests from "./pages/Guests/index";
 import Radina from "./pages/Radina";
 import Leanri from "./pages/Leanri";
 import ScrollToTop from "./components/ScrollToTop";
@@ -61,6 +62,7 @@ function App() {
             <Route path="/radina" component={Radina} />
             <Route path="/leanri" component={Leanri} />
             <Route path="/become-a-volunteer" component={Volunteer} />
+            <Route path="/guests" component={Guests} />
             {/* <Route path="/episodes" component={Episodes} /> */}
             {/* <SingleEpisode /> */}
           </Layout>

@@ -4163,3 +4163,9 @@ a.link-style:focus {
 .center-socials {
   margin: 0 auto;
 }
+
+.instructions {
+  font-size: 11px;
+  width: 100%;
+  font-style: italic;
+}

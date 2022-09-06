@@ -27,7 +27,7 @@ export const JoinUs = () => {
               inclusive and egalitarian.
             </p>
             <p className="nj-section-content">
-              Apply by sending to <b>stellarsoundhr@gmail.com</b> your:
+              Apply by sending email to <b>stellarsoundhr@gmail.com</b> including your:
             </p>
           </div>
         </div>
