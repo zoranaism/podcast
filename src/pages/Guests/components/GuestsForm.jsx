@@ -21,14 +21,14 @@ export default function GuestsForm() {
               method="POST"
             >
               <div className="form-group">
-                <label htmlFor="fullName">
+                <label htmlFor="Full Name">
                   Full Name<span style={{ color: "red" }}>*</span>
                 </label>
                 <input
                   className="contact-form-text"
                   type="text"
-                  id="fullName"
-                  name="fullName"
+                  id="Full Name"
+                  name="Full Name"
                   size="50"
                   required
                 />
@@ -36,14 +36,14 @@ export default function GuestsForm() {
               </div>
 
               <div className="form-group">
-                <label htmlFor="bandName">
+                <label htmlFor="Band Name">
                   Artistic/Band Name<span style={{ color: "red" }}>*</span>
                 </label>
                 <input
                   className="contact-form-text"
                   type="text"
-                  id="bandName"
-                  name="bandName"
+                  id="Band Name"
+                  name="Band Name"
                   required
                 />
               </div>
@@ -63,31 +63,30 @@ export default function GuestsForm() {
               </div>
 
               <div className="form-group">
-                <label htmlFor="email">
+                <label htmlFor="Email">
                   Your Email<span style={{ color: "red" }}>*</span>
                 </label>
                 <input
                   className="contact-form-text"
                   type="email"
-                  id="email"
-                  name="email"
+                  id="Email"
+                  name="Email"
                   required
                 />
               </div>
 
               <div className="form-group">
-                <label htmlFor="description">
+                <label htmlFor="One liner">
                   Describe yourself in one line
                   <span style={{ color: "red" }}>*</span>
                 </label>
-                <textarea
+                <input
                   className="contact-form-text"
-                  name="description"
-                  id="description"
-                  rows="4"
-                  cols="40"
+                  type="email"
+                  id="One liner"
+                  name="One liner"
                   required
-                ></textarea>
+                />
                 <span className="instructions">
                   This one-liner will be used as an Episode Cover Description.
                   For example: "One of the few female music producers, a
@@ -100,13 +99,13 @@ export default function GuestsForm() {
 
               <div className="form-group">
                 <label>
-                  Write about your music history
+                  Tell us about your music career
                   <span style={{ color: "red" }}>*</span>
                 </label>
                 <textarea
                   className="contact-form-text"
-                  name="history"
-                  id="history"
+                  name="Music career"
+                  id="Music career"
                   rows="4"
                   cols="40"
                   required
@@ -117,15 +116,15 @@ export default function GuestsForm() {
               </div>
 
               <div className="form-group">
-                <label htmlFor="avoid">
+                <label>
                   Any topics you would like to avoid
                   <span style={{ color: "red" }}>*</span>
                 </label>
                 <input
                   className="contact-form-text"
                   type="text"
-                  id="Avoid"
-                  name="Avoid"
+                  id="Avoid question"
+                  name="Avoid question"
                   required
                 />
               </div>
@@ -191,7 +190,7 @@ export default function GuestsForm() {
                 <label style={{ display: "flex" }}>
                   <input
                     type="radio"
-                    name="galactic-trinity"
+                    name="Galactic trinity"
                     value="Yes, I want to prepare 3 items for the Galactic Trinity"
                     required
                   />
@@ -203,7 +202,7 @@ export default function GuestsForm() {
                 <label style={{ display: "flex" }}>
                   <input
                     type="radio"
-                    name="galactic-trinity"
+                    name="Galactic trinity"
                     value="No I want to skip Galactic Trinity rubric"
                     required
                   />
@@ -278,9 +277,9 @@ export default function GuestsForm() {
 
                 <label style={{ display: "flex" }}>
                   <input
-                    type="checkbox"
-                    name="checkbox"
-                    value="I read and understood how the interview will go."
+                    type="Read text"
+                    name="Read text"
+                    value="I read and understood how interview functions."
                     required
                   />
                   <div className="ml-3">
