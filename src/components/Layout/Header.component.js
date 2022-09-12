@@ -53,13 +53,13 @@ export default function Header() {
                   >
                     contact
                   </a>
-                  <a
+                  {/* <a
                     className="navbar-item"
                     href="stellar-sound-magazine"
                     data-cursor-effect="hover"
                   >
                     magazine
-                  </a>
+                  </a> */}
                   {/*}
                    <a
                     className="navbar-item"
@@ -96,9 +96,9 @@ export default function Header() {
             <a className="nj-mobile-menu-item" href="contact">
               contact
             </a>
-            <a className="nj-mobile-menu-item" href="stellar-sound-magazine">
+            {/* <a className="nj-mobile-menu-item" href="stellar-sound-magazine">
               magazine
-            </a>
+            </a> */}
             {/* <a className="nj-mobile-menu-item" href="donate">
               donate
             </a> */}

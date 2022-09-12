@@ -82,7 +82,7 @@ export default function GuestsForm() {
                 </label>
                 <input
                   className="contact-form-text"
-                  type="email"
+                  type="text"
                   id="One liner"
                   name="One liner"
                   required
@@ -277,9 +277,9 @@ export default function GuestsForm() {
 
                 <label style={{ display: "flex" }}>
                   <input
-                    type="Read text"
+                    type="checkbox"
                     name="Read text"
-                    value="I read and understood how interview functions."
+                    value="I read and understood all"
                     required
                   />
                   <div className="ml-3">
