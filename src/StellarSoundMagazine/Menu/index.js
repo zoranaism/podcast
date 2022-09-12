@@ -1,25 +1,21 @@
 import React from "react";
-import SingleEpisode from "../../components/EpisodesPage.component";
+import SingleEpisode from "../../components/OldComponents/AllEpisodesPage.component";
 
-import episodesData from "../../allEpisodesData";
+import magazineData from "../magazineData";
 
-import { Link} from "react-router-dom";
-
+import { Link } from "react-router-dom";
 
 export default function Episodes() {
-
-//Episode data
-const episodes = episodesData();
-
+  //Episode data
+  const items = magazineData();
 
   return (
     <main>
       <div id="nj-preloader-wrapper">
-    <div className="nj-preloader-inner">
-      <div className="nj-preloader-percentage">0</div>
-    </div>
-    </div>
-
+        <div className="nj-preloader-inner">
+          <div className="nj-preloader-percentage">0</div>
+        </div>
+      </div>
 
       <div
         className="section nj-light-section nj-portfolio-section nj-pdt-0 nj-pdb-0"
@@ -67,9 +63,7 @@ const episodes = episodesData();
         <div className="nj-portfolio-wide" id="nj-portfolio-grid">
           <div className="nj-grid-sizer"></div>
 
-          {/* SingleEpisode component */}
-
-          {episodes.map((episode, index) => {
+          {items.map((item, index) => {
             const {
               typeOfEpisode,
               episodePath,
@@ -77,7 +71,8 @@ const episodes = episodesData();
               altText,
               guest,
               description,
-            } = episode;
+            } = item;
+
             return (
               <SingleEpisode
                 typeOfEpisode={typeOfEpisode}
@@ -86,12 +81,11 @@ const episodes = episodesData();
                 altText={altText}
                 guest={guest}
                 description={description}
-                key={new Date().getTime()+index}
+                key={new Date().getTime() + index}
               />
             );
           })}
 
-          {/* SingleEpisode component */}
         </div>
       </div>
 
@@ -103,10 +97,13 @@ const episodes = episodesData();
       >
         <div className="row text-center">
           <div className="nj-button-wrapper nj-pdt-60 nj-pdb-60">
-            <a href="/"
+            <a
+              href="/"
               className="nj-button nj-button-black"
               data-cursor-effect="hover"
-            >GO HOME</a>
+            >
+              GO HOME
+            </a>
           </div>
         </div>
       </div>

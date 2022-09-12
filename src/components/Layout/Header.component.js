@@ -53,6 +53,13 @@ export default function Header() {
                   >
                     contact
                   </a>
+                  <a
+                    className="navbar-item"
+                    href="stellar-sound-magazine"
+                    data-cursor-effect="hover"
+                  >
+                    magazine
+                  </a>
                   {/*}
                    <a
                     className="navbar-item"
@@ -88,6 +95,9 @@ export default function Header() {
             </a>
             <a className="nj-mobile-menu-item" href="contact">
               contact
+            </a>
+            <a className="nj-mobile-menu-item" href="stellar-sound-magazine">
+              magazine
             </a>
             {/* <a className="nj-mobile-menu-item" href="donate">
               donate

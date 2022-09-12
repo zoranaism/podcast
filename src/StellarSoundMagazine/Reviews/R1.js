@@ -1,10 +1,10 @@
 import React from "react";
-import EpisodeComponent from "../../../components/EpisodePage.component";
+import SingleReviewPage from "../components/SingleReviewPage";
 
-export default function Episode1() {
+export default function R1() {
   return (
-    <EpisodeComponent
-      episodeName='Season 1 | Episode 1'
+    <SingleReviewPage
+      episodeName="Season 1 | Episode 1"
       host="radina"
       guest=" Leo from Just Leo"
       guestLink="https://www.youtube.com/c/JustLeoMusic"
@@ -23,7 +23,7 @@ export default function Episode1() {
       prevEpisodeImgPath=""
       nextEpisodePath="episode-2"
       nextEpisodeImgPath="https://d33wubrfki0l68.cloudfront.net/be54bad07c87635e123f9f48c2429c492e035d9f/6202a/img/newcoverimg/2.jpg"
-      nextEpisode='Episode 2: HunBjørn'
+      nextEpisode="Episode 2: HunBjørn"
     />
   );
 }

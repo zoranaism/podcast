@@ -1,7 +1,7 @@
 import React from "react";
-import ep1 from "../src/assets/NewCoverIMG/1.jpg";
+import ep1 from "../assets/NewCoverIMG/1.jpg";
 
-function episodesData() {
+function magazineData() {
   return [
     {
       typeOfEpisode: "Stellar Season 1",
@@ -17,4 +17,4 @@ function episodesData() {
   ];
 }
 
-export default episodesData;
+export default magazineData;

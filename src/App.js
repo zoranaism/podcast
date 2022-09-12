@@ -19,6 +19,9 @@ import Leanri from "./pages/Leanri";
 import ScrollToTop from "./components/ScrollToTop";
 import Volunteer from "./pages/Volunteer";
 import ReactGA from "react-ga";
+import Menu from "./StellarSoundMagazine/Menu";
+import R1 from "./StellarSoundMagazine/Reviews/R1";
+
 const TRACKING_ID = "UA-192929021-1"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
@@ -63,8 +66,8 @@ function App() {
             <Route path="/leanri" component={Leanri} />
             <Route path="/become-a-volunteer" component={Volunteer} />
             <Route path="/guests" component={Guests} />
-            {/* <Route path="/episodes" component={Episodes} /> */}
-            {/* <SingleEpisode /> */}
+            <Route path="/episode-1" component={R1} />
+            <Route path="/stellar-sound-magazine" component={Menu} />
           </Layout>
         </Switch>
       </div>
