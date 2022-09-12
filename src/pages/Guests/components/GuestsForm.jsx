@@ -233,7 +233,9 @@ export default function GuestsForm() {
                   using any browser except Safari, as we have faced multiple
                   technical issues. Also, this platform requires fast internet.
                   Make sure you find a place with a good protocol. More on:{" "}
-                  <a href="https://riverside.fm/">Riverside Website</a>
+                  <a target="_blank" href="https://riverside.fm/">
+                    Riverside Website
+                  </a>
                 </label>
                 <h5 className="mt-5">Stellar Sound Foundation</h5>
                 <label>
@@ -241,7 +243,7 @@ export default function GuestsForm() {
                   non-profit organization operating by donations and
                   partnerships in order to create diverse projects in the field
                   of Music, Technology and Art. More on:{" "}
-                  <a href="www.stellarsoundfoundation.com">
+                  <a target="_blank" href="https://www.stellarsoundfoundation.com">
                     Stellar Sound Foundation Website
                   </a>
                 </label>
@@ -252,7 +254,10 @@ export default function GuestsForm() {
                   enthusiasts working online. We are always open for new
                   volunteers. Help us find new volunteers by promoting on our
                   social media. More on:{" "}
-                  <a href="https://www.stellarsoundpodcast.com/become-a-volunteer">
+                  <a
+                    target="_blank"
+                    href="https://www.stellarsoundpodcast.com/become-a-volunteer"
+                  >
                     Become a volunteer
                   </a>
                 </label>
@@ -263,14 +268,17 @@ export default function GuestsForm() {
                   podcast streaming services like Spotify, Apple Podcasts,
                   Google Podcasts, as well as on Youtube including video. Find
                   out more on our website:{" "}
-                  <a href="www.stellarsoundpodcast.com">
+                  <a target="_blank" href="https://www.stellarsoundpodcast.com/">
                     Stellar Sound Podcast Website
                   </a>
                 </label>
                 <h5 className="mt-5">Partnerships</h5>
                 <label>
                   To all organizations and potential partners contact us on:{" "}
-                  <a href="mailto:stellarsoundpartnerships@gmail.com">
+                  <a
+                    target="_blank"
+                    href="mailto:stellarsoundpartnerships@gmail.com"
+                  >
                     Partnerships contact
                   </a>
                 </label>
