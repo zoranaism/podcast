@@ -44,7 +44,7 @@ export default function Header() {
                     href="become-a-volunteer"
                     data-cursor-effect="hover"
                   >
-                    become a volunteer
+                    volunteers
                   </a>
                   <a
                     className="navbar-item"
@@ -69,6 +69,14 @@ export default function Header() {
                     donate
                   </a>
                   {*/}
+
+                  <a
+                    className="navbar-item"
+                    href="help-jana-beat-lyme"
+                    data-cursor-effect="hover"
+                  >
+                    help Jana
+                  </a>
                 </div>
               </div>
               <div className="nj-show-menu-button" id="nj-show-menu-button">
@@ -91,7 +99,7 @@ export default function Header() {
               hosts
             </a> */}
             <a className="nj-mobile-menu-item" href="become-a-volunteer">
-              become a volunteer
+              volunteers
             </a>
             <a className="nj-mobile-menu-item" href="contact">
               contact
@@ -102,6 +110,9 @@ export default function Header() {
             {/* <a className="nj-mobile-menu-item" href="donate">
               donate
             </a> */}
+            <a className="nj-mobile-menu-item" href="help-jana-beat-lyme">
+              help Jana
+            </a>
           </div>
         </div>
       </div>

@@ -21,6 +21,7 @@ import Volunteer from "./pages/Volunteer";
 import ReactGA from "react-ga";
 import Menu from "./StellarSoundMagazine/Menu";
 import R1 from "./StellarSoundMagazine/Reviews/R1";
+import JanaLyme from "./pages/JanaLyme";
 
 const TRACKING_ID = "UA-192929021-1"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
@@ -67,7 +68,8 @@ function App() {
             <Route path="/become-a-volunteer" component={Volunteer} />
             <Route path="/guests" component={Guests} />
             <Route path="/episode-1" component={R1} />
-            <Route path="/stellar-sound-magazine" component={Menu} />
+            {/* <Route path="/stellar-sound-magazine" component={Menu} /> */}
+            <Route path="/help-jana-beat-lyme" component={JanaLyme} />
           </Layout>
         </Switch>
       </div>
