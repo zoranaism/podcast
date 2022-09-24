@@ -22,9 +22,11 @@ export default function JanaLyme(props) {
       <div className="section nj-hero mt-xxl" id="nj-volunteer">
         <JanaBanner />
         <WhoIsJana />
+        <Payment />
         <JanasLyme />
         <AboutLymeDisease />
         <WhyWeAreHelpingJana />
+        <Payment />
         <AmountRequired />
         <Progressbar />
         <AboutSOTTherapy />
