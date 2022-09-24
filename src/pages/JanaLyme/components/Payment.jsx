@@ -9,7 +9,10 @@ export default function Payment(props) {
         </div>
 
         <div className="col-md-4"></div>
-        <div className="col-12 col-md-2 justify-content-center mb-3">
+        <div
+          className="col-12 col-md-2 justify-content-center mb-3"
+          style={{ textAlign: "center" }}
+        >
           <a
             href="https://www.ing.nl/particulier/betaalverzoek/index.html?trxid=9wSY80VE5bQiDmrVLAPM2OWPQsujWXED"
             style={{ display: "block" }}
