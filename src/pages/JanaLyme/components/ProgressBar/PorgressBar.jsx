@@ -32,29 +32,31 @@ export default function Progressbar(props) {
               </ol>
             </div>
           </section>
-
-          <div className="mb-5"
-            style={{ display: "flex", textAlign: "center", color: "#b9b8bb" }}
+        </div>
+        <div>
+          <div
+            className="mb-5 row"
+            style={{ textAlign: "center", color: "#b9b8bb" }}
           >
-            <div style={{ width: "25%" }}>
+            <div className="col-12 col-md-3 mb-3">
               <h5 style={{ color: "white" }}>Milestone 1</h5>
               <h6>580 - for hyperthermia</h6>
               <h6>Total = 580€</h6>
             </div>
-            <div style={{ width: "25%" }}>
+            <div className="col-12 col-md-3 mb-3">
               <h5 style={{ color: "white" }}>Milestone 2</h5>
               <h6>580 - for hyperthermia</h6>
               <h6>500 - for IV antibiotics</h6>
               <h6>Total = 1080€</h6>
             </div>
-            <div style={{ width: "25%" }}>
+            <div className="col-12 col-md-3 mb-3">
               <h5 style={{ color: "white" }}>Milestone 3</h5>
               <h6>580 - for hyperthermia</h6>
               <h6>500 - for IV antibiotics</h6>
               <h6>2000 - SOT therapy</h6>
               <h6>Total = 3080€</h6>
             </div>
-            <div style={{ width: "25%" }}>
+            <div className="col-12 col-md-3 mb-3">
               <h5 style={{ color: "white" }}>Milestone 4</h5>
               <h6>580 - for hyperthermia</h6>
               <h6>500 - for IV antibiotics</h6>

@@ -21,13 +21,16 @@ export default function VolunteerForJana(props) {
             collect the planned amount for Jana. This campaign will last till
             01st of January, 2023.
           </p>
-          <div className="mb-5 mt-5" style={{ textAlign: "center", margin: "0 auto" }}>
+          <div
+            className="mb-5 mt-5"
+            style={{ textAlign: "center", margin: "0 auto" }}
+          >
             <a
               className="blue-button mb-5 mt-5"
-              href="become-a-volunteer"
+              href="https://chat.whatsapp.com/DfnjK2fHmYYGxTOqZ2eEo2"
               data-cursor-effect="exclusion"
             >
-              Become a volunteer
+              Join out WhatsApp group
             </a>
           </div>
         </div>

@@ -4188,6 +4188,7 @@ a.link-style:focus {
   padding: 0;
   table-layout: fixed;
   margin: 0 auto;
+  width: 100%;
 }
 .progress-bar-steps li {
   display: table-cell;

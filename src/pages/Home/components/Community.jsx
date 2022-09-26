@@ -38,7 +38,7 @@ export default function Community() {
         </div>
         <a
           className="blue-button"
-          href="https://discord.gg/rzg9GmYJ"
+          href="https://discord.gg/KNsjm9K8HJ"
           data-cursor-effect="exclusion"
           target="_blank"
           onClick={() => gaEventTracker("Join us discord")}
