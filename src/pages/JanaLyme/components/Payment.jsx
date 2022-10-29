@@ -14,7 +14,7 @@ export default function Payment(props) {
           style={{ textAlign: "center" }}
         >
           <a
-            href="https://www.ing.nl/particulier/betaalverzoek/index.html?trxid=9wSY80VE5bQiDmrVLAPM2OWPQsujWXED"
+            href="https://www.ing.nl/particulier/betaalverzoek/index.html?trxid=HBqs0BNqwreqI6Wi8HNFXTIolsY4jv66"
             style={{ display: "block" }}
           >
             <img
