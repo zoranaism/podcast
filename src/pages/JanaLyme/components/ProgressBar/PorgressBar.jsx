@@ -9,7 +9,7 @@ export default function Progressbar(props) {
             <div class="row column">
               <ol class="progress-bar-steps" data-progressbar-steps="1">
                 {/* add classes when done "progress-done current" */}
-                <li class="progress-todo">
+                <li class="progress-done current">
                   <h6>580€</h6>
                   <span></span>
                   <span></span>
