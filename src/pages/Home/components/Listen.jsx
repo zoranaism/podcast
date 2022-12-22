@@ -34,11 +34,11 @@ export default function Listen() {
                 <iframe
                   width="560"
                   height="315"
-                  src="https://www.youtube.com/embed/videoseries?list=PLkuOGnkIt5FwOT2dOFcmVILhw0Do5HGZu"
+                  src="https://www.youtube.com/embed/videoseries?list=PLkuOGnkIt5FyfX3Ylrl-Qek7IaM6G6u6Y"
                   title="YouTube video player"
-                  frameBorder="0"
+                  frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen=""
+                  allowfullscreen
                 ></iframe>
               </div>
             </div>
