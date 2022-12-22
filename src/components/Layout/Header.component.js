@@ -70,13 +70,13 @@ export default function Header() {
                   </a>
                   {*/}
 
-                  <a
+                  {/* <a
                     className="navbar-item"
                     href="help-jana-beat-lyme"
                     data-cursor-effect="hover"
                   >
                     help Jana
-                  </a>
+                  </a> */}
                 </div>
               </div>
               <div className="nj-show-menu-button" id="nj-show-menu-button">
@@ -110,9 +110,9 @@ export default function Header() {
             {/* <a className="nj-mobile-menu-item" href="donate">
               donate
             </a> */}
-            <a className="nj-mobile-menu-item" href="help-jana-beat-lyme">
+            {/* <a className="nj-mobile-menu-item" href="help-jana-beat-lyme">
               help Jana
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

@@ -4,8 +4,8 @@ export const WhatWeOffer = () => {
   return (
     <div className="section nj-pdt-60">
       <div className="container mt-5">
-        <div class="nj-section-header ">
-          <h1 class="nj-section-header-title mt-5">What We Offer?</h1>
+        <div className="nj-section-header ">
+          <h1 className="nj-section-header-title mt-5">What We Offer?</h1>
         </div>
       </div>
       <div className="mt-3 mb-5 container">

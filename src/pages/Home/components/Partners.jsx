@@ -80,7 +80,7 @@ export default function Partners() {
               </a>
             </div>
           </div>
-          <div className="mb-4">
+          {/* <div className="mb-4">
             <div
               className="sponsor-img"
               data-anim-queue="5"
@@ -95,6 +95,44 @@ export default function Partners() {
                   className="px-4"
                   src="img/sponsors/birdcageRadio.webp"
                   alt="Birdcage Radio"
+                />
+              </a>
+            </div>
+          </div> */}
+          <div className="mb-4">
+            <div
+              className="sponsor-img"
+              data-anim-queue="5"
+              data-anim-type="fade_in_up"
+            >
+              <a
+                target="blank"
+                href="https://www.facebook.com/knoflookdb/"
+                data-cursor-effect="hover"
+              >
+                <img
+                  className="px-4"
+                  src="img/sponsors/knoflook.png"
+                  alt="Knoflook"
+                />
+              </a>
+            </div>
+          </div>
+          <div className="mb-4">
+            <div
+              className="sponsor-img"
+              data-anim-queue="5"
+              data-anim-type="fade_in_up"
+            >
+              <a
+                target="blank"
+                href="https://www.facebook.com/groups/394495830650867/"
+                data-cursor-effect="hover"
+              >
+                <img
+                  className="px-4"
+                  src="img/sponsors/osb.png"
+                  alt="Open Social Den Bosch"
                 />
               </a>
             </div>

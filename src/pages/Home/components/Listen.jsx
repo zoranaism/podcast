@@ -36,9 +36,9 @@ export default function Listen() {
                   height="315"
                   src="https://www.youtube.com/embed/videoseries?list=PLkuOGnkIt5FwOT2dOFcmVILhw0Do5HGZu"
                   title="YouTube video player"
-                  frameborder="0"
+                  frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
+                  allowFullScreen=""
                 ></iframe>
               </div>
             </div>

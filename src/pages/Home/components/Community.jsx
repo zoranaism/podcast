@@ -15,8 +15,9 @@ export default function Community() {
           learn, share joy and love for creative music.
         </p>
         <br />
-        <p>Join our server if you want to have:</p>
-        <div className="row">
+
+        {/* <p>Join our server if you want to have:</p> */}
+        {/* <div className="row">
           <div className="icon-holder">
             <span>
               <img src="img/icons/idea.webp" alt="Education" />
@@ -35,10 +36,18 @@ export default function Community() {
             </span>
             <h3>Joy of sharing love for music</h3>
           </div>
+        </div> */}
+
+        <div style={{ marginLeft: "15%", width: '70%' }}>
+          <img
+            style={{ width: "100%" }}
+            src="img/discord.png"
+            alt="Stellar Sound Community Discord Server"
+          />
         </div>
         <a
           className="blue-button"
-          href="https://discord.gg/KNsjm9K8HJ"
+          href="https://discord.gg/k6mE5dk2Gt"
           data-cursor-effect="exclusion"
           target="_blank"
           onClick={() => gaEventTracker("Join us discord")}

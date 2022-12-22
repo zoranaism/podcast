@@ -10,14 +10,13 @@ export default function Testimonials({ testimonialsData, HEADER }) {
       style={{ paddingTop: "60px!important", height: "fit-content" }}
     >
       <div className="container">
-        <div class="nj-section-header">
-          <h1 class="nj-section-header-title our-team">Testimonials</h1>
+        <div className="nj-section-header">
+          <h1 className="nj-section-header-title our-team">Testimonials</h1>
         </div>
         <div className="row">
           {testimonialsData.map((item, index) => (
-            <div className="col-12 col-md-4 mb-5">
+            <div key={index} className="col-12 col-md-4 mb-5">
               <OneTestimonial
-                key={index}
                 name={item.name}
                 text={item.text}
                 role={item.role}

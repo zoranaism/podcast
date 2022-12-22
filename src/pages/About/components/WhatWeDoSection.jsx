@@ -7,7 +7,7 @@ export const WhatWeDoSection = () => {
     //   data-scroll-to-top-style="dark"
     //   data-cursor-style="dark"
     // >
-    //   <h1 class="nj-section-header-title mb-5"> what we do?</h1>
+    //   <h1 className="nj-section-header-title mb-5"> what we do?</h1>
 
       <div className="container">
         <p>

@@ -5,10 +5,10 @@ import { RolesData } from "./rolesData";
 export const Roles = () => {
   return (
     <div className="container">
-      <h3 class="card-title">Available roles</h3>
+      <h3 className="card-title">Available roles</h3>
       <Accordion defaultActiveKey="0">
         {RolesData.map((role, index) => (
-          <Accordion.Item eventKey={`${index}`}>
+          <Accordion.Item key={index} eventKey={`${index}`}>
             <Accordion.Header>{role.role}</Accordion.Header>
             <Accordion.Body>
               <ul>
