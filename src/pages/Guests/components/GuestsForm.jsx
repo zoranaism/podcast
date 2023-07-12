@@ -130,7 +130,7 @@ export default function GuestsForm() {
               </div>
 
               {/* song breakdown section */}
-              <div className="form-group mt-5">
+              {/* <div className="form-group mt-5">
                 <h5>“Song breakdown” rubric</h5>
 
                 <label>
@@ -172,11 +172,11 @@ export default function GuestsForm() {
                     spot answer questions.
                   </div>
                 </label>
-              </div>
+              </div> */}
               {/* song breakdown section - end */}
 
               {/* galactic trinity section */}
-              <div className="form-group mt-5">
+              {/* <div className="form-group mt-5">
                 <h5>Consider “Galactic Trinity” rubric (optional)</h5>
 
                 <label>
@@ -210,21 +210,25 @@ export default function GuestsForm() {
                     I want to skip this rubric
                   </div>
                 </label>
-              </div>
+              </div> */}
               {/* galactic trinity section - end */}
 
               {/* the interview confirm terms */}
               <div className="form-group mt-5 mb-5">
                 <h5>The Interview</h5>
                 <label>
-                  The Interview is recorded via video call. It will be a
-                  relaxed, non-formal chat in a spontaneous discussion. The
-                  recording will last up to 2 hours and will be recorded in a
-                  video format. We suggest to use your best microphone, plan
+                  The Interview is held via our Stellar Sound Discord Server. It will be a spontaneous
+                  discussion about your music and your path. The
+                  recording will last up to 1,5 hours and will be released on our YouTube. 
+                  Some Discord members will join and will participate in a livestream in a chat by asking questions.
+                  We suggest to use your best microphone, plan
                   your room background (we love you showing off your music
-                  studio), plan the light source to be the opposite of you
+                  studio). Join our Discord:{" "}
+                  <a target="_blank" href="https://discord.gg/k6mE5dk2Gt">
+                    Join Stellar Sound Discord Server
+                  </a>
                 </label>
-                <h5 className="mt-5">Riverside</h5>
+                {/* <h5 className="mt-5">Riverside</h5>
                 <label>
                   For recording we are using an in-browser platform called
                   Riverside. This platform is recording your video & audio via
@@ -236,7 +240,7 @@ export default function GuestsForm() {
                   <a target="_blank" href="https://riverside.fm/">
                     Riverside Website
                   </a>
-                </label>
+                </label> */}
                 <h5 className="mt-5">Stellar Sound Foundation</h5>
                 <label>
                   Under the roof of the Stellar Sound Foundation, we are a
