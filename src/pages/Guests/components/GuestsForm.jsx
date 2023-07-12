@@ -246,7 +246,7 @@ export default function GuestsForm() {
                   Under the roof of the Stellar Sound Foundation, we are a
                   non-profit organization operating by donations and
                   partnerships in order to create diverse projects in the field
-                  of Music, Technology and Art. More on:{" "}
+                  of Music, Technology and Art. Consider donating on:{" "}
                   <a target="_blank" href="https://www.stellarsoundfoundation.com">
                     Stellar Sound Foundation Website
                   </a>
@@ -265,7 +265,7 @@ export default function GuestsForm() {
                     Become a volunteer
                   </a>
                 </label>
-                <h5 className="mt-5">Stellar Sound Podcast</h5>
+                {/* <h5 className="mt-5">Stellar Sound Podcast</h5>
                 <label>
                   Stellar Sound Podcast is a podcast here to empower, encourage
                   and promote creative musicians. We are available on all
@@ -275,7 +275,7 @@ export default function GuestsForm() {
                   <a target="_blank" href="https://www.stellarsoundpodcast.com/">
                     Stellar Sound Podcast Website
                   </a>
-                </label>
+                </label> */}
                 <h5 className="mt-5">Partnerships</h5>
                 <label>
                   To all organizations and potential partners contact us on:{" "}
