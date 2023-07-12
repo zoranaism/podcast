@@ -82,9 +82,9 @@ export default function About() {
         <div id="nj-tropical-image"></div>
 
         <WhatIsSSP />
-        <WhatWeDo />
+        {/* <WhatWeDo /> */}
         {/* <WhatWeDoSection /> */}
-        <Hosts />
+        {/* <Hosts /> */}
         <GuestsTestimonials />
         <Team
           imageClickHandler={imageClickHandler}
